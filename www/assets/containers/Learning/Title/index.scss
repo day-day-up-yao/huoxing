@@ -1,0 +1,22 @@
+.learning-title {
+    width: 100%;
+    height: 35px;
+
+    a {
+        font-size: 18px;
+        color: #222;
+        font-weight: 700;
+
+        &:hover {
+            color: #1482f1;
+        }
+    }
+
+    p {
+        display: inline-block;
+        font-size: 14px;
+        color: #999;
+        line-height: 35px;
+        margin-left: 20px;
+    }
+}

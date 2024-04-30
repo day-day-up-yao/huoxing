@@ -1,0 +1,112 @@
+@import "../../public/css/rem";
+
+.m-wx-share-box {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+
+    .m-wx-share-box-bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: -1;
+    }
+
+    .m-wx-share-box-content {
+        background: #fff;
+        width: 90%;
+        min-height: rem(500);
+        margin: 40% auto 0;
+        border-radius: rem(10);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 rem(34) rem(34) rem(34);
+
+        .m-wx-share-box-content-title {
+            color: #077ff3;
+            line-height: rem(41);
+            font-size: rem(29);
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: rem(75);
+            background: rgba(7, 127, 243, 0.04);
+
+            .m-wx-share-box-content-ok {
+                height: rem(31);
+                width: rem(31);
+                margin-right: rem(10);
+            }
+
+            .m-wx-share-box-content-clear {
+                height: rem(31);
+                width: rem(31);
+                position: absolute;
+                right: rem(34);
+                top: rem(22);
+            }
+        }
+
+        .m-wx-share-box-content-title2 {
+            width: 100%;
+            color: #999;
+            line-height: rem(41);
+            font-size: rem(29);
+            text-align: left;
+            padding-top: rem(95);
+        }
+
+        .m-wx-share-box-item {
+            position: relative;
+            width: 100%;
+        }
+
+        .m-wx-share-box-content-text {
+            width: 100%;
+            text-align: left;
+            overflow: hidden;
+            line-height: rem(41);
+            font-size: rem(29);
+            color: #333;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+
+        .m-wx-share-box-content-line {
+            background: #ececec;
+            height: rem(1);
+            width: 100%;
+            margin: rem(20) 0;
+        }
+
+        .m-wx-share-box-btn {
+            width: 100%;
+            height: rem(72);
+            background: #077ff3;
+            border-radius: rem(7);
+            line-height: rem(41);
+            font-size: rem(29);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: rem(12);
+        }
+    }
+}

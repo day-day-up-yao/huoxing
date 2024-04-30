@@ -1,0 +1,155 @@
+/**
+ * Author：quboshen
+ * Time：2020/11/3
+ * Description：顶部滚动交易推广
+ */
+
+@import 'swiper/swiper.scss';
+
+.top-ad-swiper-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    //margin: 0 auto;
+    padding-top: 10px;
+
+    .ad-text {
+        text-align: right;
+        color: #a8aeb5;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .top-ad-swiper-contain {
+        position: relative;
+        z-index: 1;
+
+        .top-ad-swiper {
+            height: 74px;
+
+            .swiper-slide {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .slide-item {
+                    width: 160px;
+                    height: 70px;
+                    margin: 2px 0;
+                    background-color: #fff;
+                    box-shadow: 0 0 14px 0 rgba(69, 70, 73, 0.06);
+                    border-radius: 5px;
+                    padding: 0 5px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+
+                    &:hover {
+                        .ad-info {
+                            h5 {
+                                color: #2961bf;
+                            }
+                        }
+                    }
+
+                    .ad-img {
+                        width: 33px;
+                        height: 33px;
+                        display: block;
+                        margin-right: 5px;
+                        border-radius: 50%;
+                    }
+
+                    .ad-info {
+                        height: 40px;
+                        font-size: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+
+                        h5 {
+                            float: left;
+                            font-size: 14px;
+                            color: #222;
+                            vertical-align: middle;
+                            line-height: 25px;
+                            height: 25px;
+                            width: 95px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+
+                            /*! autoprefixer: ignore next */
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                        }
+                    }
+
+                    .desc {
+                        font-size: 12px;
+                        color: #838a92;
+                        line-height: 14px;
+                        height: 14px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+
+                        /*! autoprefixer: ignore next */
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                    }
+                }
+            }
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            //width: 15px;
+            background: transparent;
+            height: 30px;
+            margin-top: -15px;
+
+            .iconfont {
+                font-size: 30px;
+                color: #d7e1ef;
+            }
+
+            &:hover {
+                .iconfont {
+                    color: #0c7ff2;
+                }
+            }
+        }
+
+        .swiper-button-prev {
+            left: -35px;
+        }
+
+        .swiper-button-next {
+            right: -35px;
+        }
+
+        .swiper-pagination {
+            left: 50%;
+            transform: translateX(-50%);
+
+            .swiper-pagination-bullet {
+                background: #c6d3e6;
+                width: 6px;
+                height: 6px;
+                margin-right: 10px;
+                opacity: 0.5;
+
+                &:nth-last-of-type(1) {
+                    margin-right: 0;
+                }
+
+                &.swiper-pagination-bullet-active {
+                    background: #c6d3e6;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import "../../public/css/normalize";
+@import "../../public/css/public";
+@import "../../public/css/rem";
+
+.error-container-m {
+    margin: 0 auto;
+    padding: 40px 0;
+    min-height: 500px;
+    width: rem(560);
+
+    h1 {
+        color: #3f3f3f;
+        font-size: rem(16);
+        line-height: rem(24);
+    }
+
+    pre {
+        display: none;
+    }
+}
+
+.error-component-did-catch-m {
+    .error-message {
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        z-index: 9999;
+
+        span {
+            padding: 0 rem(20);
+            background: rgba(160, 0, 0, 0.9);
+            display: inline-block;
+            height: rem(36);
+            color: #fff;
+            font-size: rem(14);
+            line-height: rem(14);
+        }
+    }
+
+    pre {
+        display: none;
+    }
+}
+
+.m-layout-content {
+    padding-top: rem(180);
+    overflow: hidden;
+    background-color: transparent;
+}

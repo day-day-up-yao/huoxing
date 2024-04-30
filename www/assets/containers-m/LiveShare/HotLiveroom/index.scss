@@ -1,0 +1,10 @@
+.hot-live {
+    padding-top: 15px;
+
+    .live-room-list {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+    }
+}

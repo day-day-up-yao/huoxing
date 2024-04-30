@@ -1,0 +1,173 @@
+.notice-cont-box {
+    width: 818px;
+    height: auto;
+    margin: 0 auto 50px;
+    border: 1px #eee solid;
+
+    .cont-type {
+        height: 32px;
+        margin: 20px;
+
+        .cont-option-type {
+            width: 95px;
+            height: 30px;
+            border: 1px #eee solid;
+            border-radius: 3px;
+            line-height: 30px;
+            padding: 0 5px;
+            font-size: 14px;
+            color: #666;
+            margin-right: 15px;
+        }
+
+        .notice-input-search {
+            position: relative;
+            float: right;
+            width: 200px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px #eee solid;
+            font-size: 14px;
+            color: #666;
+            border-radius: 3px;
+            padding: 0 10px;
+
+            input {
+                border: none;
+                width: 180px;
+                height: 100%;
+            }
+
+            span {
+                position: absolute;
+                right: 8px;
+                top: 7px;
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+                background: url("../images/search-icon.png") no-repeat;
+            }
+        }
+    }
+
+    .notice-cont-list {
+        width: 100%;
+
+        .list-header {
+            width: 778px;
+            height: 32px;
+            padding: 0 20px;
+            font-size: 14px;
+            color: #999;
+            line-height: 32px;
+            background: #f8f8f8;
+
+            span {
+                display: inline-block;
+
+                &:nth-child(1) {
+                    width: 120px;
+                    padding-right: 5px;
+                }
+
+                &:nth-child(2) {
+                    width: 70px;
+                    padding: 0 5px;
+                }
+
+                &:nth-child(3) {
+                    width: 360px;
+                    padding: 0 5px;
+                }
+
+                &:nth-child(4) {
+                    width: 120px;
+                    text-align: center;
+                    padding: 0 5px;
+                }
+
+                &:nth-child(5) {
+                    text-align: right;
+                    width: 60px;
+                }
+            }
+        }
+
+        .cont-tbody {
+            width: 100%;
+            height: auto;
+
+            .cont-item {
+                height: 60px;
+                line-height: 60px;
+                font-size: 14px;
+                padding: 0 20px;
+                border-bottom: 1px #eee solid;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                a,
+                p {
+                    float: left;
+                    color: #666;
+                    padding-right: 10px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                .bourse-name {
+                    width: 120px;
+                    padding-right: 5px;
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 100%;
+                        vertical-align: sub;
+                        padding-right: 5px;
+                    }
+                }
+
+                .item-type {
+                    width: 70px;
+                    padding: 0 5px;
+                }
+
+                .item-cont {
+                    width: 360px;
+                    padding: 0 5px;
+                }
+
+                .money-name {
+                    width: 70px;
+                    text-align: center;
+                    padding: 0 5px;
+                }
+
+                .item-time {
+                    width: 120px;
+                    text-align: center;
+                    padding: 0 5px;
+                }
+
+                .item-link {
+                    width: 60px;
+                    text-align: right;
+                    padding-right: 0;
+                }
+
+                &:hover {
+                    background: #fcfbfb;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .pagination {
+            margin: 50px auto;
+        }
+    }
+}

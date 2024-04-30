@@ -1,0 +1,90 @@
+.news-details-comment-content {
+    margin: 40px 0 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px #eee solid;
+
+    .has-login {
+        textarea {
+            background: none;
+            border: none;
+            height: 100px;
+            width: 100%;
+            outline: none;
+            resize: none;
+            color: #424242;
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .func {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .user-info {
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-right: 10px;
+                    border-radius: 50%;
+                    display: block;
+                    height: 40px;
+                    width: 40px;
+                    overflow: hidden;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+                em {
+                    color: #222;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+
+            .submit {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                span {
+                    color: #bdbdbd;
+                    font-size: 14px;
+                }
+
+                button {
+                    margin-left: 10px;
+                    background: #0c7ff2;
+                    border: 1px solid #0c7ff2;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    user-select: none;
+                    height: 40px;
+                    width: 100px;
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 40px;
+                    text-align: center;
+
+                    &:hover {
+                        background: #0c7ff2;
+                    }
+                }
+            }
+        }
+    }
+
+    .no-login {
+        color: #424242;
+
+        a {
+            margin: 0 5px;
+            color: #0c7ff2;
+        }
+    }
+}

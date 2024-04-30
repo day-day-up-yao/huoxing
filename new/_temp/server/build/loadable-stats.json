@@ -1,0 +1,1014 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.32.0",
+  "hash": "5562c3a2661a769b9fd8",
+  "publicPath": "/build/",
+  "outputPath": "/Users/admin/Desktop/HUOXING/hx/news.huoxing24.com/_temp/server/build",
+  "assetsByChunkName": {
+    "App": [
+      "App.js",
+      "App.js.map"
+    ],
+    "containers-Author": [
+      "containers-Author.js",
+      "containers-Author.js.map"
+    ],
+    "containers-AuthorDetails": [
+      "containers-AuthorDetails.js",
+      "containers-AuthorDetails.js.map"
+    ],
+    "containers-Details": [
+      "containers-Details.js",
+      "containers-Details.js.map"
+    ],
+    "containers-Feature": [
+      "containers-Feature.js",
+      "containers-Feature.js.map"
+    ],
+    "containers-FeatureDetailsAndTags": [
+      "containers-FeatureDetailsAndTags.js",
+      "containers-FeatureDetailsAndTags.js.map"
+    ],
+    "containers-Flash": [
+      "containers-Flash.js",
+      "containers-Flash.js.map"
+    ],
+    "containers-FlashDetails": [
+      "containers-FlashDetails.js",
+      "containers-FlashDetails.js.map"
+    ],
+    "containers-Home": [
+      "containers-Home.js",
+      "containers-Home.js.map"
+    ],
+    "containers-Notice": [
+      "containers-Notice.js",
+      "containers-Notice.js.map"
+    ],
+    "containers-NoticeDetail": [
+      "containers-NoticeDetail.js",
+      "containers-NoticeDetail.js.map"
+    ],
+    "containers-Tags": [
+      "containers-Tags.js",
+      "containers-Tags.js.map"
+    ],
+    "containers-m-DetailShare": [
+      "containers-m-DetailShare.js",
+      "containers-m-DetailShare.js.map"
+    ],
+    "containers-m-Feature": [
+      "containers-m-Feature.js",
+      "containers-m-Feature.js.map"
+    ],
+    "containers-m-FeatureDetail": [
+      "containers-m-FeatureDetail.js",
+      "containers-m-FeatureDetail.js.map"
+    ],
+    "containers-m-Flash": [
+      "containers-m-Flash.js",
+      "containers-m-Flash.js.map"
+    ],
+    "containers-m-FlashDetail": [
+      "containers-m-FlashDetail.js",
+      "containers-m-FlashDetail.js.map"
+    ],
+    "containers-m-FlashShareDetail": [
+      "containers-m-FlashShareDetail.js",
+      "containers-m-FlashShareDetail.js.map"
+    ],
+    "containers-m-News": [
+      "containers-m-News.js",
+      "containers-m-News.js.map"
+    ],
+    "containers-m-NoticeDetail": [
+      "containers-m-NoticeDetail.js",
+      "containers-m-NoticeDetail.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "App.js",
+      "size": 514614,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "App"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "App.js.map",
+      "size": 491369,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "App"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "aiicon-d797f22d.png",
+      "size": 1982,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "avatar-default-874a5ab4.jpg",
+      "size": 7916,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "bourse-icon-c07be9d1.png",
+      "size": 1942,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "cellphone-icon-524dafc5.png",
+      "size": 1115,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "containers-Author.js",
+      "size": 22804,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "containers-Author"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Author.js.map",
+      "size": 26543,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "containers-Author"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-AuthorDetails.js",
+      "size": 28120,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "containers-AuthorDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-AuthorDetails.js.map",
+      "size": 32027,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "containers-AuthorDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Details.js",
+      "size": 86514,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "containers-Details"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Details.js.map",
+      "size": 106325,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "containers-Details"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Feature.js",
+      "size": 12211,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "containers-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Feature.js.map",
+      "size": 16500,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "containers-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FeatureDetailsAndTags.js",
+      "size": 22181,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "containers-FeatureDetailsAndTags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FeatureDetailsAndTags.js.map",
+      "size": 27034,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "containers-FeatureDetailsAndTags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Flash.js",
+      "size": 43573,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "containers-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Flash.js.map",
+      "size": 53323,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "containers-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FlashDetails.js",
+      "size": 57528,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "containers-FlashDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FlashDetails.js.map",
+      "size": 60889,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "containers-FlashDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Home.js",
+      "size": 29067,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "containers-Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Home.js.map",
+      "size": 32678,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "containers-Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Notice.js",
+      "size": 23486,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "containers-Notice"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Notice.js.map",
+      "size": 28824,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "containers-Notice"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-NoticeDetail.js",
+      "size": 12884,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "containers-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-NoticeDetail.js.map",
+      "size": 9873,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "containers-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Tags.js",
+      "size": 29528,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "containers-Tags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Tags.js.map",
+      "size": 32564,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "containers-Tags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-DetailShare.js",
+      "size": 24675,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "containers-m-DetailShare"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-DetailShare.js.map",
+      "size": 25512,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "containers-m-DetailShare"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Feature.js",
+      "size": 7160,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "containers-m-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Feature.js.map",
+      "size": 7757,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "containers-m-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FeatureDetail.js",
+      "size": 9258,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "containers-m-FeatureDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FeatureDetail.js.map",
+      "size": 11430,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "containers-m-FeatureDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Flash.js",
+      "size": 18208,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "containers-m-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Flash.js.map",
+      "size": 21454,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "containers-m-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashDetail.js",
+      "size": 12217,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "containers-m-FlashDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashDetail.js.map",
+      "size": 13872,
+      "chunks": [
+        16
+      ],
+      "chunkNames": [
+        "containers-m-FlashDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashShareDetail.js",
+      "size": 32816,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "containers-m-FlashShareDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashShareDetail.js.map",
+      "size": 38868,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "containers-m-FlashShareDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-News.js",
+      "size": 9262,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [
+        "containers-m-News"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-News.js.map",
+      "size": 11620,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [
+        "containers-m-News"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-NoticeDetail.js",
+      "size": 16589,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "containers-m-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-NoticeDetail.js.map",
+      "size": 13420,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "containers-m-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "download_img-a72fa1d2.png",
+      "size": 10151,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "feature-backImg-d818821e.png",
+      "size": 10680,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "flash-share-icon-a26d5040.jpg",
+      "size": 32234,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "footer-logo-6d3787c4.png",
+      "size": 6531,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "header-logo-aedf116d.svg",
+      "size": 7161,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "huoxing-mark-bg-7009e2cf.jpg",
+      "size": 22793,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-account-17a5b9b1.png",
+      "size": 327,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-sms-3d57ba28.png",
+      "size": 488,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-wechat-3e74161b.png",
+      "size": 1162,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "languageicon-6b605a04.png",
+      "size": 1142,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "languageiconh5-6b605a04.png",
+      "size": 1142,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "littienaga-d545f904.png",
+      "size": 1389,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "liveshare-icon-afdfdc07.jpg",
+      "size": 54990,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-b-logo-cbe38d33.png",
+      "size": 6723,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-header-logo-blue-da1e4841.svg",
+      "size": 3552,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-header-logo-blue-f47ea14f.svg",
+      "size": 7189,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-search-007ea385.svg",
+      "size": 1020,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-share-logo-3e28eff7.png",
+      "size": 4891,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-wxShareBox-clear-6772f844.png",
+      "size": 625,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-wxShareBox-ok-114f2d64.png",
+      "size": 1604,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "nagalogobig-565d604b.png",
+      "size": 3000,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "newbi-icon-2a29217d.png",
+      "size": 2498,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-QRcode-e79e9b7e.jpg",
+      "size": 7985,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-android-e33868e0.png",
+      "size": 2245,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-ios-bfae97d1.png",
+      "size": 818,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "text-icon-2fa40eea.png",
+      "size": 1240,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "update-icon-4095d99b.png",
+      "size": 2333,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "v-blue-77c6a4e4.svg",
+      "size": 797,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "v-orange-ddf372b8.svg",
+      "size": 797,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "video-btn-417b2428.png",
+      "size": 1298,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "wechat-download-tips-fef770a1.png",
+      "size": 12332,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "App": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "App.js",
+        "App.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "App": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "App.js",
+        "App.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Home": {
+      "chunks": [
+        8
+      ],
+      "assets": [
+        "containers-Home.js",
+        "containers-Home.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Details": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "containers-Details.js",
+        "containers-Details.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Author": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "containers-Author.js",
+        "containers-Author.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-AuthorDetails": {
+      "chunks": [
+        2
+      ],
+      "assets": [
+        "containers-AuthorDetails.js",
+        "containers-AuthorDetails.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Feature": {
+      "chunks": [
+        4
+      ],
+      "assets": [
+        "containers-Feature.js",
+        "containers-Feature.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-FeatureDetailsAndTags": {
+      "chunks": [
+        5
+      ],
+      "assets": [
+        "containers-FeatureDetailsAndTags.js",
+        "containers-FeatureDetailsAndTags.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Tags": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "containers-Tags.js",
+        "containers-Tags.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Flash": {
+      "chunks": [
+        6
+      ],
+      "assets": [
+        "containers-Flash.js",
+        "containers-Flash.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-FlashDetails": {
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "containers-FlashDetails.js",
+        "containers-FlashDetails.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-NoticeDetail": {
+      "chunks": [
+        10
+      ],
+      "assets": [
+        "containers-NoticeDetail.js",
+        "containers-NoticeDetail.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Notice": {
+      "chunks": [
+        9
+      ],
+      "assets": [
+        "containers-Notice.js",
+        "containers-Notice.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FlashShareDetail": {
+      "chunks": [
+        17
+      ],
+      "assets": [
+        "containers-m-FlashShareDetail.js",
+        "containers-m-FlashShareDetail.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-News": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "containers-m-News.js",
+        "containers-m-News.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-DetailShare": {
+      "chunks": [
+        12
+      ],
+      "assets": [
+        "containers-m-DetailShare.js",
+        "containers-m-DetailShare.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-Feature": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "containers-m-Feature.js",
+        "containers-m-Feature.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FeatureDetail": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "containers-m-FeatureDetail.js",
+        "containers-m-FeatureDetail.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-Flash": {
+      "chunks": [
+        15
+      ],
+      "assets": [
+        "containers-m-Flash.js",
+        "containers-m-Flash.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FlashDetail": {
+      "chunks": [
+        16
+      ],
+      "assets": [
+        "containers-m-FlashDetail.js",
+        "containers-m-FlashDetail.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-NoticeDetail": {
+      "chunks": [
+        19
+      ],
+      "assets": [
+        "containers-m-NoticeDetail.js",
+        "containers-m-NoticeDetail.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}

@@ -1,0 +1,52 @@
+.search-author-item {
+    position: relative;
+    width: 148px;
+    height: 152px;
+    background: #fff;
+    box-shadow: 0 4px 24px 0 rgba(10, 21, 50, 0.05);
+    border-radius: 4px;
+    padding: 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    &:nth-child(5n) {
+        margin-right: 0;
+    }
+
+    .search-author-item-head {
+        width: 52px;
+        height: 52px;
+
+        .avatar-img {
+            box-shadow: 0 2px 8px 0 rgba(8, 16, 39, 0.1);
+        }
+    }
+
+    .search-author-item-name {
+        font-size: 16px;
+        font-weight: bold;
+        color: #2a2f37;
+        line-height: 22px;
+        margin-top: 8px;
+    }
+
+    .search-author-item-text {
+        font-size: 12px;
+        color: #838a91;
+        line-height: 18px;
+        margin-top: 2px;
+        word-break: break-all;
+        display: -webkit-box;
+
+        /*! autoprefixer: ignore next */
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+}

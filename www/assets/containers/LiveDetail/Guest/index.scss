@@ -1,0 +1,125 @@
+.guest-page-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    .wrapper-host,
+    .wrapper-guest {
+        height: 20px;
+        width: 100%;
+        position: relative;
+
+        img {
+            margin-top: -2px;
+            width: 20px;
+            height: 18px;
+        }
+
+        .guest-play {
+            font-size: 16px;
+            color: #444;
+            margin-left: 5px;
+            font-weight: 700;
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .wrapper-host img {
+        margin-top: -1px;
+    }
+
+    .hostandguestlist {
+        position: relative;
+        margin: 24px 0;
+        width: 100%;
+        display: flex;
+
+        .hostandguestlist-headimg {
+            flex: 56;
+            width: 56px;
+            height: 56px;
+            border-radius: 56px;
+            border: 1px solid #eee;
+        }
+
+        .hostandguestlist-text {
+            flex: 266;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .hostandguestlist-text-title {
+                flex: 27;
+                font-size: 16px;
+                color: #222;
+            }
+
+            .hostandguestlist-text-introduce {
+                flex: 40;
+                font-size: 14px;
+                color: #838a92;
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 18px;
+
+                /*! autoprefixer: ignore next */
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+        }
+
+        .hostandguestlist-text-follow {
+            margin-top: -5px;
+            position: absolute;
+            right: 0;
+            width: 64px;
+            height: 24px;
+            border-radius: 10px;
+            background-color: #eee;
+            font-size: 14px;
+            color: #666;
+            line-height: 25px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #0a7ff2;
+                color: #fff;
+            }
+        }
+
+        .avatar-mark {
+            display: block;
+            position: absolute;
+            height: 18px;
+            width: 18px;
+            bottom: 0;
+            left: 40px;
+        }
+    }
+
+    .wrapper-guest-addlist {
+        display: block;
+        margin: 0 auto;
+        width: 164px;
+        height: 40px;
+        border-radius: 6px;
+        color: #4586fe;
+        border: 1px solid #4586fe;
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: none;
+            color: #4586fe;
+        }
+    }
+}

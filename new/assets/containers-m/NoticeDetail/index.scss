@@ -1,0 +1,110 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+.m-notice-detail {
+    padding: rem(25) rem(25) rem(50);
+    background: #fff;
+
+    .m-header {
+        box-shadow: 0 rem(2) rem(5) rem(-3) #eee;
+        margin-bottom: rem(20);
+    }
+
+    h6 {
+        color: #212121;
+        font-size: rem(30);
+        line-height: rem(55);
+    }
+
+    .detail-logo {
+        position: relative;
+        width: 100%;
+        height: rem(68);
+        margin: rem(40) 0;
+
+        .cont-logo {
+            width: rem(68);
+            height: rem(68);
+            border-radius: rem(68);
+        }
+
+        .name {
+            position: absolute;
+            top: 0;
+            left: rem(80);
+            font-size: rem(28);
+            color: #212121;
+        }
+
+        p {
+            position: absolute;
+            left: rem(80);
+            bottom: 0;
+            font-size: rem(20);
+            color: #999;
+
+            .time {
+                padding-right: rem(20);
+                border-right: 1px #999 solid;
+            }
+
+            .type {
+                padding-left: rem(20);
+            }
+        }
+    }
+
+    .detail-cont {
+        width: 100%;
+        height: auto;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            color: #212121;
+            font-size: rem(26);
+            line-height: rem(46);
+            margin-bottom: rem(50);
+            word-wrap: break-word;
+
+            a {
+                color: #0a7ff2;
+            }
+        }
+    }
+
+    .orign-url {
+        font-size: rem(24);
+        color: #212121;
+        margin-bottom: rem(100);
+
+        a {
+            color: #666;
+        }
+    }
+
+    .bottom-down {
+        position: fixed;
+        bottom: rem(50);
+        width: 100%;
+        height: rem(60);
+        z-index: 100;
+        text-align: center;
+
+        .b-down {
+            padding: 0 rem(20);
+            display: inline-block;
+            line-height: rem(60);
+            background: #0084ff;
+            border-radius: 50px;
+            color: #fff;
+            margin: 0 auto;
+            font-size: rem(24);
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 rem(3) rem(7) rgba(26, 26, 26, 0.25);
+        }
+    }
+}

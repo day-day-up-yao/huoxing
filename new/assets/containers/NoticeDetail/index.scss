@@ -1,0 +1,126 @@
+.notice-detail-cont {
+    width: 100%;
+    height: auto;
+
+    .notice-detail-box {
+        width: 1200px;
+        margin: 20px auto;
+
+        .notice-detail-left {
+            width: 778px;
+            height: auto;
+            float: left;
+            border: 1px #eee solid;
+            padding: 20px;
+
+            .detail-nav {
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                padding-bottom: 10px;
+                border-bottom: 1px #eee solid;
+                font-size: 15px;
+                color: #333;
+                margin-bottom: 20px;
+
+                span {
+                    color: #999;
+                }
+            }
+
+            a {
+                color: #333;
+
+                &:hover {
+                    color: #999;
+                }
+            }
+
+            .title {
+                width: 100%;
+
+                h6 {
+                    font-size: 20px;
+                    color: #333;
+                    font-weight: 700;
+                    line-height: 25px;
+                    margin: 20px 0;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #666;
+                    display: inline-block;
+                    margin-right: 50px;
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        vertical-align: sub;
+                    }
+
+                    span {
+                        padding: 0 5px;
+                    }
+                }
+            }
+
+            .title-h5 {
+                font-size: 24px;
+                margin: 30px 0;
+                line-height: 30px;
+            }
+
+            .cont {
+                width: 100%;
+                margin: 30px 0;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #333;
+                    line-height: 24px;
+                    margin-bottom: 20px;
+                    text-align: justify;
+                }
+            }
+
+            .link {
+                font-size: 16px;
+                color: #666;
+
+                a {
+                    color: #1482f0;
+                }
+            }
+
+            .page-next {
+                font-size: 16px;
+                color: #333;
+                line-height: 35px;
+                margin: 40px 0 20px;
+
+                p {
+                    width: 100%;
+
+                    a {
+                        color: #333;
+
+                        &:hover {
+                            color: #1482f0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .notice-detail-right {
+            width: 360px;
+            float: right;
+        }
+    }
+}

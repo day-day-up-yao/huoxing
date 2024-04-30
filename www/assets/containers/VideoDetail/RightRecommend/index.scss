@@ -1,0 +1,29 @@
+.video-detail-right-recommend {
+    position: relative;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 16px;
+
+    .video-detail-right-recommend-title-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .video-detail-right-recommend-line {
+            width: 2px;
+            height: 14px;
+            background: #0a7ff2;
+            border-radius: 1px;
+            margin-right: 8px;
+        }
+
+        .video-detail-right-recommend-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            line-height: 32px;
+        }
+    }
+}

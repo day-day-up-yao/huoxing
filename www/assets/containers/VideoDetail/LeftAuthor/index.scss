@@ -1,0 +1,103 @@
+.video-detail-left-author {
+    position: relative;
+    width: 840px;
+    background: #fff;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .video-detail-left-author-title {
+        height: 32px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        line-height: 32px;
+    }
+
+    .video-detail-left-author-header-box {
+        height: 26px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 3px;
+
+        .video-detail-left-author-header-img {
+            height: 26px;
+            width: 26px;
+            border-radius: 50%;
+        }
+
+        .video-detail-left-author-header-text {
+            font-size: 14px;
+            color: #838a91;
+            line-height: 20px;
+            margin-left: 8px;
+        }
+
+        .video-detail-left-author-header-icon {
+            width: 15px;
+            height: 15px;
+            margin-left: 5px;
+        }
+    }
+
+    .video-detail-left-author-content-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 7px;
+
+        .video-detail-left-author-content-text {
+            width: 733px;
+            color: #838a91;
+            font-size: 14px;
+            line-height: 22px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+
+            /*! autoprefixer: ignore next */
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+        }
+
+        .video-detail-left-author-content-btn {
+            font-size: 14px;
+            color: #838a91;
+            line-height: 20px;
+            cursor: pointer;
+
+            .video-detail-left-author-content-btn-img {
+                width: 12px;
+                height: 12px;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .video-detail-left-author-tag-box {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .video-detail-left-author-tag-item {
+            background: rgba($color: #838a91, $alpha: 0.1);
+            border-radius: 2px;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 400;
+            color: #838a91;
+            line-height: 17px;
+            margin: 12px 12px 0 0;
+        }
+    }
+}

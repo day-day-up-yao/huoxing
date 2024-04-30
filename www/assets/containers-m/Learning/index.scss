@@ -1,0 +1,119 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+.m-learning-cont {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: rem(90);
+
+    .swiper-container {
+        width: 100%;
+        height: rem(205);
+
+        .swiper-wrapper {
+            width: 100%;
+            height: rem(205);
+
+            .swiper-slide {
+                width: 100%;
+                height: 100%;
+                background: url("./imgs/m-banner1.jpg") center no-repeat;
+                background-size: 100%;
+
+                .slide-cont {
+                    width: 1200px;
+                    padding: 60px 0;
+                    color: #fff;
+                    margin: 0 auto;
+                    text-align: center;
+
+                    h6 {
+                        font-weight: 700;
+                        font-size: 46px;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+
+        .swiper-pagination {
+            .swiper-pagination-bullet {
+                background: #5551a6;
+
+                &.swiper-pagination-bullet-active {
+                    width: 15px;
+                    height: 6px;
+                    border-radius: 8px 8px;
+                    background: #fff;
+                }
+            }
+        }
+    }
+
+    .lerning-cont-wrap {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        .wrap-item {
+            width: 100%;
+            height: auto;
+            margin-top: rem(20);
+
+            .list-type {
+                width: 100%;
+                height: rem(50);
+                border-bottom: 1px #f6f6f6 solid;
+
+                &.news-video {
+                    margin-bottom: rem(10);
+                }
+
+                p {
+                    cursor: pointer;
+                    float: left;
+                    line-height: rem(50);
+                    font-size: rem(24);
+                    color: #666;
+                    padding: 0 rem(10);
+
+                    &.active,
+                    &:hover {
+                        color: #1482f1;
+                        border-bottom: 1px #1482f1 solid;
+                    }
+                }
+            }
+
+            .list-tab {
+                width: rem(620);
+                height: rem(50);
+                line-height: rem(50);
+                color: #333;
+                font-size: rem(24);
+                margin: rem(5) 0 0 rem(20);
+                overflow-x: auto;
+
+                .tab-box {
+                    width: rem(1400);
+                    height: rem(50);
+
+                    p {
+                        cursor: pointer;
+                        float: left;
+                        margin-right: rem(20);
+
+                        &.active {
+                            color: #1482f1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

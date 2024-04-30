@@ -1,0 +1,204 @@
+.news-details-comment-show {
+    margin: 20px 0 40px;
+    padding: 20px;
+    background: #fff;
+    border: 1px #eee solid;
+    color: #424242;
+
+    .content {
+        .item {
+            padding: 20px 0;
+            border-bottom: 1px solid #ebebeb;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            &:last-child {
+                border: none;
+            }
+
+            .avatar {
+                border-radius: 50%;
+                display: block;
+                height: 40px;
+                width: 40px;
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .title-content {
+                width: 706px;
+                font-size: 14px;
+
+                button {
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                    color: #bdbdbd;
+
+                    &.reply-btn {
+                        padding-left: 20px;
+                        background: url("./images/comment-show-icon.png") no-repeat 0 -74px;
+
+                        &:hover {
+                            background-position: -64px -74px;
+                            color: #0c7ff2;
+                        }
+                    }
+
+                    &.delete-btn {
+                        padding-left: 20px;
+                        background: url("./images/comment-show-icon.png") no-repeat 0 -13px;
+
+                        &:hover {
+                            background-position: -64px -13px;
+                            color: #0c7ff2;
+                        }
+                    }
+                }
+
+                /* 第一级回复 */
+                .first-level {
+                    h5 {
+                        font-size: 16px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        margin-bottom: 20px;
+                        line-height: 24px;
+                    }
+
+                    /* 时间, 回复, 删除 */
+                    .func {
+                        margin-bottom: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        line-height: 24px;
+
+                        time {
+                            color: #bdbdbd;
+                        }
+
+                        .button-wapper {
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+
+                            button {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+
+                    /* 回复框, 按钮 */
+                    .reply-box {
+                        display: none;
+
+                        .textarea {
+                            margin-bottom: 10px;
+                            position: relative;
+                            padding: 20px;
+                            background: #f9f9f9;
+                            border: 1px solid #bdbdbd;
+                            border-radius: 4px;
+                            color: #333;
+
+                            &:after {
+                                content: "";
+                                position: absolute;
+                                right: 20px;
+                                top: -5px;
+                                height: 8px;
+                                width: 8px;
+                                border-top: 1px solid #bdbdbd;
+                                border-left: 1px solid #bdbdbd;
+                                background: #fff;
+                                transform: rotate(45deg);
+                            }
+
+                            textarea {
+                                background: none;
+                                border: none;
+                                height: 100%;
+                                width: 100%;
+                                outline: none;
+                                resize: none;
+                                font-size: 14px;
+                            }
+                        }
+
+                        .confirm-cancel {
+                            color: #bdbdbd;
+                            text-align: right;
+
+                            button {
+                                margin-left: 10px;
+
+                                &:hover {
+                                    color: #0c7ff2;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* 第二级回复 */
+                .second-level {
+                    .reply-item {
+                        margin-top: 10px;
+                        padding: 15px;
+                        position: relative;
+                        border-bottom: 1px #eee solid;
+                        background: #f5f7fa;
+                        width: calc(100% - 30px);
+
+                        .reply-content {
+                            width: 620px;
+
+                            a {
+                                margin-bottom: 10px;
+                                display: block;
+                                color: #424242;
+                                font-weight: bold;
+                            }
+
+                            p {
+                                line-height: 22px;
+                            }
+                        }
+
+                        .reply-func {
+                            position: absolute;
+                            right: 15px;
+                            top: 15px;
+                            height: calc(100% - 30px);
+                            width: 50px;
+
+                            button {
+                                position: absolute;
+                                bottom: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .load-more-comment {
+        padding-top: 20px;
+        border-top: 1px solid #ebebeb;
+        cursor: pointer;
+        color: #828282;
+        font-size: 16px;
+        text-align: center;
+    }
+}

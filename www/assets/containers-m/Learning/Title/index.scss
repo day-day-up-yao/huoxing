@@ -1,0 +1,22 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.m-learning-title {
+    height: rem(80);
+    padding: 0 rem(20);
+
+    a {
+        font-size: rem(32);
+        color: #333;
+        font-weight: 700;
+
+        &:hover {
+            color: #1482f1;
+        }
+    }
+
+    p {
+        font-size: rem(24);
+        margin-top: rem(10);
+        color: #666;
+    }
+}

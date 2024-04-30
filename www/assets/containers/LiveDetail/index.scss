@@ -1,0 +1,22 @@
+body,
+.layout-content {
+    background-color: #f4f5f8;
+}
+
+.pag-box {
+    width: 1200px;
+    margin: 20px auto 75px;
+
+    .live-wrapper {
+        display: flex;
+
+        .live-wrapper-left {
+            flex: 41;
+        }
+
+        .live-wrapper-right {
+            flex: 19;
+            margin-left: 20px;
+        }
+    }
+}

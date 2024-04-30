@@ -1,0 +1,103 @@
+@import "../../public/css/rem";
+
+.img-popup-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    cursor: zoom-out;
+    z-index: 999;
+
+    .img-popup-mask {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.6);
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+    }
+
+    &.mobile {
+        .img-popup-mask {
+            background: rgba(0, 0, 0, 1);
+        }
+
+        .img-position {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .img-content {
+                max-height: 80vh;
+                max-width: 100%;
+                background: none;
+
+                img {
+                    max-height: 80vh;
+                    max-width: 100%;
+                }
+            }
+
+            .close-icon {
+                right: rem(10);
+                top: rem(-50);
+                background: rgba(255, 255, 255, 0.9);
+                border: none;
+                border-radius: 0;
+                display: none;
+                height: rem(40);
+                width: rem(40);
+
+                &:before,
+                &:after {
+                    left: rem(20);
+                    top: rem(8);
+                    height: rem(26);
+                    width: rem(1);
+                }
+            }
+        }
+    }
+
+    .img-position {
+        position: relative;
+        z-index: 1;
+
+        .close-icon {
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            background: #fff;
+            display: block;
+            border: 1px solid #333;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+
+            &:before,
+            &:after {
+                left: 10px;
+                top: 4px;
+                background: #999;
+                height: 12px;
+                width: 1px;
+            }
+        }
+    }
+
+    .img-content {
+        max-height: 600px;
+        max-width: 1000px;
+        background: #fff;
+        overflow: hidden;
+
+        img {
+            display: block;
+        }
+    }
+}

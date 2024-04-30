@@ -1,0 +1,183 @@
+/**
+ * Author：quboshen
+ * Time：2020/11/14
+ * Description：顶部 DeFi市场数据
+ */
+
+.defi-market-data-page {
+    padding: 24px 0;
+    position: relative;
+    height: 86px;
+    width: 100%;
+
+    .defi-market-data-cont {
+        position: relative;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        z-index: 5;
+        background: #fff;
+        box-shadow: 0 0 14px 0 rgba(69, 70, 73, 0.09);
+        border-radius: 4px;
+        display: flex;
+
+        .defi-market-data-left {
+            position: relative;
+            width: 462px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .defi-market-data-titleBox {
+                width: 200px;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                .defi-market-data-titleBoxIcon {
+                    width: 46px;
+                    height: 46px;
+                    margin-left: 24px;
+                }
+
+                .defi-market-data-titleBoxNameBar {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    margin-left: 10px;
+
+                    .defi-market-data-titleBoxName {
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #202226;
+                        line-height: 20px;
+                        margin-bottom: 5px;
+                    }
+
+                    .defi-market-data-titleBoxTime {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #999;
+                        line-height: 17px;
+                    }
+                }
+
+                .defi-market-data-title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #202226;
+                    line-height: 25px;
+                    margin-left: 10px;
+                }
+            }
+
+            .defi-market-data-leftItem {
+                width: 130px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+                .defi-market-data-leftItemNum1 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #202226;
+                    line-height: 28px;
+                    height: 28px;
+                    margin-top: 18px;
+                }
+
+                .defi-market-data-leftItemNum2 {
+                    font-size: 12px;
+                    font-weight: 800;
+                    color: #999;
+                    line-height: 17px;
+                    margin-top: 2px;
+                }
+            }
+        }
+
+        .defi-market-data-right {
+            position: relative;
+            width: 738px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            .defi-market-data-rightItem {
+                width: 246px;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                position: relative;
+
+                .defi-market-data-rightItemIcon {
+                    width: 46px;
+                    height: 46px;
+                    border-radius: 50%;
+                }
+
+                .defi-market-data-rightItemBar {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    margin-left: 10px;
+
+                    .defi-market-data-rightItemNameBar {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .defi-market-data-rightItemName {
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 20px;
+                            color: #202226;
+                        }
+
+                        .defi-market-data-rightItemNum {
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            color: #c12a2a;
+                            margin-left: 8px;
+                        }
+
+                        .defi-market-data-rightItemBtn {
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #0a7ff2;
+                            line-height: 17px;
+                            margin-right: 10px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .defi-market-data-rightItemNum2 {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #999;
+                        line-height: 17px;
+                        margin-bottom: 4px;
+                    }
+                }
+
+                .defi-market-data-rightLine {
+                    position: absolute;
+                    width: 1px;
+                    height: 58px;
+                    background: #ececec;
+                    right: 26px;
+                    top: 14px;
+                }
+            }
+        }
+    }
+}

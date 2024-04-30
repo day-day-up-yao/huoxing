@@ -1,0 +1,58 @@
+.judge-profit-wrapper {
+    position: relative;
+    text-align: right;
+    margin-top: 10px;
+
+    .good-profit,
+    .bad-profit {
+        margin-left: 35px;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 14px;
+        color: #c9c9c9;
+
+        i {
+            margin-right: 5px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+
+        span {
+            &:first-child {
+                padding-left: 22px;
+            }
+
+            &.event-click {
+                position: absolute;
+                left: 50%;
+                top: 0;
+                margin-left: -50px;
+                width: 100px;
+                height: 20px;
+            }
+        }
+    }
+
+    .good-profit {
+        background: url("./images/icon-flash-up-def.svg") no-repeat left;
+        background-size: auto 20px;
+
+        &.active {
+            background: url("./images/icon-flash-up-active.svg") no-repeat left;
+            background-size: auto 20px;
+            color: #0abf1f;
+        }
+    }
+
+    .bad-profit {
+        background: url("./images/icon-flash-down-def.svg") no-repeat left;
+        background-size: auto 20px;
+
+        &.active {
+            background: url("./images/icon-flash-down-active.svg") no-repeat left;
+            background-size: auto 20px;
+            color: #ed061b;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.search-flash-item {
+    box-sizing: content-box;
+    height: auto;
+    border-bottom: 1px solid #ebebeb;
+    padding: 20px 0;
+
+    .search-flash-item-wrap {
+        position: relative;
+
+        .time-left {
+            position: relative;
+            height: 100%;
+            font-size: 12px;
+            color: #838a91;
+            line-height: 17px;
+            margin: 31px 0 6px;
+        }
+
+        .news-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2a2f37;
+            line-height: 30px;
+            margin: 2px 0 8px;
+
+            &.import {
+                color: #2a2f37;
+            }
+        }
+
+        img {
+            width: 260px;
+            margin-top: 28px;
+        }
+
+        .news-detail {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            text-align: justify;
+            font-size: 14px;
+            word-break: break-all;
+            word-wrap: break-word;
+            color: #838a91;
+            line-height: 20px;
+            //cursor: pointer;
+
+            a {
+                white-space: nowrap;
+            }
+        }
+
+        .judge-profit {
+            position: relative;
+            text-align: right;
+            margin-top: 18px;
+
+            .good-profit,
+            .bad-profit {
+                position: relative;
+                cursor: pointer;
+                font-size: 14px;
+                color: #c9c9c9;
+                display: inline-block;
+                margin-left: 35px;
+
+                i {
+                    font-size: 18px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
+
+                span {
+                    &:first-child {
+                        padding-left: 22px;
+                    }
+
+                    &.event-click {
+                        position: absolute;
+                        left: 50%;
+                        margin-left: -50px;
+                        top: 0;
+                        width: 100px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            .good-profit {
+                &.active {
+                    color: #0abf1f;
+                }
+            }
+
+            .bad-profit {
+                &.active {
+                    color: #ed061b;
+                }
+            }
+        }
+    }
+}

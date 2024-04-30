@@ -1,0 +1,62 @@
+/**
+ * Author：quboshen
+ * Time：2020-11-5
+ * Description：右侧热门标签
+ */
+
+.right-tags {
+    width: 360px;
+    border: 1px #f0f0f0 solid;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+    .right-tags-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        color: #333;
+        line-height: 28px;
+        font-weight: bold;
+
+        .right-tags-arrow {
+            display: inline-block;
+            border-right: 3px solid;
+            border-bottom: 3px solid;
+            width: 10px;
+            height: 10px;
+            transform: rotate(-45deg);
+            color: #ccc;
+        }
+    }
+
+    .right-tags-cont {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        a {
+            height: 30px;
+            color: #2a2f37;
+            font-size: 14px;
+            line-height: 20px;
+            background: #f2f3f4;
+            border-radius: 4px;
+            padding: 0 12px;
+            margin: 0 8px 8px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                background: #e7e7e7;
+                color: #333;
+            }
+        }
+    }
+}

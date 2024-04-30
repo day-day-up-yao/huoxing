@@ -1,0 +1,148 @@
+.im-live-detail-right-live-chat {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    background: #fbfbfb;
+    border: 1px solid #ececec;
+    margin-bottom: 16px;
+
+    .im-live-detail-right-live-chat-nolive {
+        width: 100%;
+        height: 576px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #fbfbfb;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        font-size: 14px;
+        color: #cecece;
+        line-height: 20px;
+
+        .im-live-detail-right-live-chat-nolive-icon {
+            width: 96px;
+        }
+    }
+
+    .im-live-detail-right-live-chat-list {
+        width: 100%;
+        height: 450px;
+        background: #fbfbfb;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        &::-webkit-scrollbar {
+            /* 滚动条整体样式 */
+            width: 9px;  /* 高宽分别对应横竖滚动条的尺寸 */
+            height: 1px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            /* 滚动条里面小方块 */
+            background: #ccc;
+            border-radius: 4px;
+        }
+
+        &::-webkit-scrollbar-track {
+            /* 滚动条里面轨道 */
+            background: #f7f8fa;
+        }
+
+        .im-live-detail-right-live-chat-list-box {
+            width: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+    }
+
+    .im-live-detail-right-live-chat-input-box {
+        height: 126px;
+        width: 100%;
+        background: #fff;
+        padding: 0 8px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .im-live-detail-right-live-chat-input {
+            height: 64px;
+            width: 100%;
+            margin-top: 12px;
+            font-size: 14px;
+            color: #333;
+            line-height: 22px;
+            resize: none;
+            background: #fbfbfb;
+            border-radius: 2px;
+            border: 1px solid #ececec;
+            padding: 4px 8px;
+            box-sizing: border-box;
+            outline: none;
+            z-index: 0;
+
+            &.im-live-detail-right-live-chat-input-noload {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
+                cursor: pointer;
+
+                .im-live-detail-right-live-chat-input-noload-sp {
+                    color: #0a7ff2;
+                    margin-right: 3px;
+                }
+            }
+
+            &.im-live-detail-right-live-chat-input-end {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
+                z-index: 10;
+            }
+        }
+
+        .im-live-detail-right-live-chat-btn-box {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 12px 0;
+            box-sizing: border-box;
+
+            .im-live-detail-right-live-chat-btn {
+                width: 54px;
+                height: 27px;
+                background: #ececec;
+                border-radius: 2px;
+                font-size: 12px;
+                color: #fff;
+                line-height: 17px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.im-live-detail-right-live-chat-btn-ok {
+                    cursor: pointer;
+                    background: #0a7ff2;
+                }
+            }
+
+            .im-live-detail-right-live-btn-sp {
+                font-size: 12px;
+                color: #cecece;
+                line-height: 17px;
+                margin-right: 8px;
+            }
+        }
+    }
+}

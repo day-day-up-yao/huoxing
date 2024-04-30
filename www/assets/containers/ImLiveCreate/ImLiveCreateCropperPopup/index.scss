@@ -1,0 +1,106 @@
+.im-live-create-cropper-popup {
+    position: relative;
+    width: 710px;
+    height: 412px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .im-live-create-cropper-popup-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        line-height: 25px;
+        margin-bottom: 6px;
+    }
+
+    .im-live-create-cropper-popup-halftitle {
+        font-size: 12px;
+        color: #999;
+        line-height: 17px;
+        margin-bottom: 16px;
+    }
+
+    .im-live-create-cropper-popup-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .im-live-create-cropper-popup-left {
+            width: 430px;
+            height: 300px;
+            border: 1px solid #ececec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .im-live-create-cropper-popup-image {
+                width: 430px;
+                max-height: 300px;
+            }
+        }
+
+        .im-live-create-cropper-popup-right {
+            width: 208px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+            .im-live-create-cropper-popup-text-item {
+                width: 100%;
+                margin-bottom: 12px;
+                font-size: 14px;
+                color: #333;
+                line-height: 20px;
+            }
+
+            .im-live-create-cropper-popup-btn-box {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 36px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .im-live-create-cropper-popup-btn {
+                    width: 88px;
+                    height: 36px;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    line-height: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    &.close {
+                        border: 1px solid #ececec;
+                        box-sizing: border-box;
+                        color: #333;
+                    }
+
+                    &.ok {
+                        background: #0a7ff2;
+                        font-weight: bold;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.im-live-create-cropper-popup-close {
+    top: 24px !important;
+    right: 24px !important;
+}

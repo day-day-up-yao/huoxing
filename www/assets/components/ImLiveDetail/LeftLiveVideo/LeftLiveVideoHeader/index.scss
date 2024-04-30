@@ -1,0 +1,155 @@
+.im-live-detail-left-live-video-header {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 16px 16px;
+    box-sizing: border-box;
+    background: #fff;
+
+    .im-live-detail-left-live-video-header-img {
+        width: 55px;
+        height: 55px;
+        margin-right: 16px;
+        border-radius: 50%;
+    }
+
+    .im-live-detail-left-live-video-header-info {
+        height: 55px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .im-live-detail-left-live-video-header-top-box {
+            height: 32px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .im-live-detail-left-live-video-header-top-left {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .im-live-detail-left-live-video-header-icon {
+                padding: 3px 6px;
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 3px;
+                margin-right: 8px;
+
+                &.im-live-detail-left-live-video-header-type1 {
+                    color: #0a7ff2;
+                    border: 1px solid#0a7ff2;
+                    background: #fff;
+                }
+
+                &.im-live-detail-left-live-video-header-type2 {
+                    color: #fff;
+                    border: 1px solid #f64a55;
+                    background: #f64a55;
+                }
+
+                &.im-live-detail-left-live-video-header-type3 {
+                    color: #838a91;
+                    border: 1px solid #838a91;
+                    background: #fff;
+                }
+            }
+
+            .im-live-detail-left-live-video-header-title {
+                height: 32px;
+                width: 540px;
+                font-size: 16px;
+                font-weight: bold;
+                color: #333;
+                line-height: 32px;
+                margin-right: 8px;
+                overflow: hidden;
+                display: -webkit-box;
+                vertical-align: middle;
+                text-overflow: ellipsis;
+
+                /*! autoprefixer: ignore next */
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+            }
+
+            .im-live-detail-left-live-video-header-title-sp {
+                height: 18px;
+                font-size: 12px;
+                color: #838a91;
+                line-height: 18px;
+            }
+
+            .im-live-detail-left-live-video-header-top-text {
+                height: 20px;
+                font-size: 14px;
+                color: #838a91;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+
+                &:nth-child(2) {
+                    margin-left: 16px;
+                }
+
+                .im-live-detail-left-live-video-header-top-text-icon {
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .im-live-detail-left-live-video-header-bottom-box {
+            height: 18px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .im-live-detail-left-live-video-header-bottom-left {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                .im-live-detail-left-live-video-header-bottom-text {
+                    height: 20px;
+                    font-size: 14px;
+                    color: #838a91;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+
+                    &:nth-child(2) {
+                        margin-left: 16px;
+                    }
+                }
+            }
+
+            .im-live-detail-left-live-video-header-bottom-right {
+                height: 18px;
+                font-size: 14px;
+                color: #838a91;
+                line-height: 18px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                .im-live-detail-left-live-video-header-bottom-right-icon {
+                    width: 16px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

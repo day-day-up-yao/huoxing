@@ -1,0 +1,42 @@
+.layout-content-right-item {
+    margin-bottom: 20px;
+    padding: 20px 20px 0;
+    background: #fff;
+    border: 1px #eee solid;
+    width: 318px;
+
+    &.first-item {
+        border-top: 2px solid #0c7ff2;
+    }
+
+    .right-item-title {
+        padding: 0 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h5 {
+            color: #222;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    .right-item-content {
+        color: #212121;
+
+        .no-news {
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}

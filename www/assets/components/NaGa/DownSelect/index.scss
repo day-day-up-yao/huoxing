@@ -1,0 +1,47 @@
+.down-select {
+    margin-top: 22px;
+    height: 38px;
+    border-radius: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+
+    &.little-select {
+        margin: 0;
+        width: 75%;
+    }
+
+    .down-select-con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .down-select-list {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 40px;
+        background: #1c1e23;
+        box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        z-index: 1;
+
+        .down-select-list-item {
+            height: 48px;
+            display: flex;
+            align-items: center;
+            padding: 0 22px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,184 @@
+@import 'multiPublic/css/rem.scss';
+@import "~react-datetime/css/react-datetime.css";
+@import "~rc-calendar/assets/index.css";
+@import '~rc-time-picker/assets/index.css';
+
+.finan-m-header {
+    color: #232f42;
+    position: relative;
+
+    .finan-header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-size: rem(40);
+            font-weight: bold;
+        }
+
+        .fin-screening {
+            img {
+                width: rem(33);
+                height: rem(33);
+            }
+        }
+    }
+
+    .screening-info {
+        margin-top: rem(28);
+
+        .screening-info-item {
+            border-radius: 20px;
+            height: rem(66);
+            border: 1px solid #e1e1e1;
+            font-size: rem(24);
+            margin-bottom: rem(22);
+            position: relative;
+
+            .acreening-item-down {
+                position: absolute;
+                top: rem(66);
+                left: 0;
+                width: 93%;
+                background: #fff;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: rem(20);
+                z-index: 10;
+
+                .select-m-time {
+                    .select-m-time-top {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .m-time-top-item {
+                            width: 50%;
+                            margin: rem(10) 0;
+                        }
+                    }
+
+                    .select-m-time-bottom {
+                        margin: rem(18) 0;
+
+                        .rc-calendar-range {
+                            width: 100%;
+                            border: none;
+                            box-shadow: none;
+                        }
+
+                        .rc-calendar-range-part {
+                            width: 100%;
+                        }
+
+                        .rc-calendar-footer-btn {
+                            display: none;
+                        }
+                    }
+
+                    .m-item-btn {
+                        display: flex;
+                        justify-content: space-around;
+
+                        .m-item-btn-item {
+                            width: 40%;
+                            height: rem(60);
+                            text-align: center;
+                            font-size: rem(24);
+                            line-height: rem(60);
+                            color: #fff;
+                            background: #333;
+                            border-radius: rem(10);
+                        }
+                    }
+                }
+
+                .select-m-amount {
+                    .m-amount-top {
+                        .white-amount {
+                            margin-bottom: rem(14);
+
+                            h4 {
+                                font-size: rem(24);
+                                margin: rem(24) 0;
+                            }
+
+                            .white-amount-b {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                font-size: rem(20);
+
+                                input {
+                                    border: 1px solid #d9dbe9;
+                                    background: #fff;
+                                    padding: 0 rem(10);
+                                    height: rem(52);
+                                    width: 90%;
+                                    border-radius: rem(10);
+                                }
+                            }
+                        }
+                    }
+
+                    .m-amount-bottom {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .m-amount-bottom-item {
+                            margin: rem(16) 0;
+                            font-size: rem(24);
+                            width: 50%;
+                        }
+                    }
+
+                    .m-amount-btn {
+                        display: flex;
+                        justify-content: space-around;
+
+                        .m-amount-btn-item {
+                            width: 40%;
+                            height: rem(60);
+                            text-align: center;
+                            font-size: rem(24);
+                            line-height: rem(60);
+                            color: #fff;
+                            background: #333;
+                            border-radius: rem(10);
+                        }
+                    }
+                }
+
+                .categary-list {
+                    max-height: rem(300);
+                    overflow-y: auto;
+
+                    .categary-list-item {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: rem(10) 0;
+
+                        img {
+                            width: rem(48);
+                            height: rem(48);
+                        }
+                    }
+                }
+            }
+
+            .acreening-item-con {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 rem(20);
+                height: 100%;
+            }
+
+            img {
+                width: rem(30);
+                height: rem(30);
+            }
+        }
+    }
+}

@@ -1,0 +1,278 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.m-dynamic-page-wrapper {
+    padding-bottom: rem(40);
+    position: relative;
+    box-sizing: border-box;
+    margin-top: rem(20);
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+
+    .m-dynamic-header {
+        padding: 0 rem(24);
+        width: 100%;
+        height: rem(80);
+        line-height: rem(80);
+
+        &:after {
+            content: "";
+            width: 100%;
+            height: rem(1);
+            background-color: #eee;
+            position: absolute;
+            border-radius: rem(10);
+            left: 0;
+            top: rem(82);
+        }
+
+        .wrapper-play {
+            font-size: rem(28);
+            font-weight: 700;
+            color: #333;
+        }
+
+        .wrapper-order {
+            padding-right: rem(26);
+            position: absolute;
+            font-size: rem(24);
+            right: rem(20);
+            color: #999;
+
+            .wrapper-order-target {
+                position: absolute;
+                width: rem(20);
+                height: rem(20);
+                display: flex;
+                flex-direction: column;
+                top: rem(30);
+                right: 0;
+                cursor: pointer;
+
+                .arrow-s {
+                    box-sizing: border-box;
+                    display: inline-block;
+                    color: #c1c1c1;
+                    width: rem(10);
+                    height: rem(10);
+                    border-style: solid;
+                    border-width: 0 2px 2px 0;
+
+                    &.active {
+                        color: #0c7ff2;
+                    }
+                }
+
+                .target-up {
+                    transform: rotate(225deg);
+                }
+
+                .target-down {
+                    margin-top: rem(0);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+
+    .dynamic-list-host {
+        margin-top: rem(20);
+        position: relative;
+        font-size: rem(15);
+        padding: 0 rem(24);
+
+        &:nth-last-of-type(3) {
+            .list-host-box {
+                padding-bottom: 0;
+                border-bottom: none;
+
+                &:after {
+                    top: rem(-20);
+                }
+            }
+        }
+
+        .list-host-box {
+            margin-left: rem(26);
+            padding: rem(20) 0;
+            border-bottom: rem(2) solid #eee;
+            position: relative;
+
+            &:before {
+                content: "";
+                width: rem(10);
+                height: rem(10);
+                background-color: #0c7ff2;
+                position: absolute;
+                border-radius: rem(10);
+                left: rem(-24);
+                top: rem(22);
+                z-index: 1;
+            }
+
+            &:after {
+                content: "";
+                width: rem(2);
+                height: 105%;
+                background-color: #eee;
+                position: absolute;
+                top: rem(32);
+                left: rem(-20);
+                z-index: 0;
+            }
+
+            .list-host-time {
+                color: #959595;
+                font-size: rem(22);
+                margin-top: rem(-3);
+            }
+
+            .list-host-title {
+                color: #5a80c7;
+                font-size: rem(22);
+                font-weight: 700;
+                margin-top: rem(26);
+            }
+
+            .list-img-wrapper {
+                height: rem(200);
+                width: rem(400);
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .list-host-text {
+                font-size: rem(28);
+                margin-top: rem(5);
+                color: #333;
+                line-height: rem(48);
+            }
+
+            .list-host-textimg {
+                margin-top: rem(42);
+                width: rem(400);
+                height: rem(186);
+                border: 1px solid #eee;
+                background-color: #eee;
+            }
+
+            .list-host-auctor {
+                width: rem(560);
+                height: rem(160);
+                background-color: #eee;
+                margin-top: rem(16);
+                display: flex;
+                padding: rem(22);
+
+                h4 {
+                    flex: 370;
+                    font-size: rem(28);
+                    line-height: rem(48);
+                    color: #424242;
+                }
+
+                .auctor-img {
+                    flex: 252;
+                    border: 1px solid #eee;
+                    width: 100%;
+                    height: 100%;
+                    background-size: rem(224) rem(145);
+                }
+            }
+
+            .list-accAuthor-text {
+                width: 100%;
+
+                h4 {
+                    font-size: rem(28);
+                    color: #333;
+                    margin-top: rem(15);
+                }
+
+                .list-author {
+                    background-color: #f5f5f5;
+                    box-sizing: border-box;
+                    position: relative;
+                    margin-top: rem(10);
+                    height: rem(162);
+                    width: 100%;
+                    padding: rem(16);
+                    display: flex;
+                    justify-content: space-between;
+
+                    .list-author-text {
+                        h6 {
+                            width: rem(318);
+                            font-size: rem(30);
+                            line-height: rem(42);
+                            color: #424242;
+                            display: none;
+                        }
+
+                        h4 {
+                            margin-top: 0;
+                            font-size: rem(30);
+                            font-weight: 700;
+                            line-height: rem(44);
+                            height: 100%;
+                            overflow: hidden;
+                        }
+                    }
+
+                    .list-author-img {
+                        width: rem(190);
+                        margin-left: rem(26);
+                    }
+                }
+            }
+        }
+    }
+
+    .layer {
+        position: absolute;
+        width: rem(640);
+        height: rem(300);
+        left: rem(-20);
+        bottom: rem(-180);
+        background-color: #fff;
+    }
+
+    .dynamic-page-wrapper-add {
+        margin-top: rem(20);
+        position: relative;
+        visibility: hidden;
+        width: rem(186);
+        height: rem(62);
+        border: rem(1) solid #5890fe;
+        color: #5890fe;
+        text-align: center;
+        line-height: rem(62);
+        font-size: rem(26);
+        left: 50%;
+        border-radius: rem(10);
+        transform: translate(-50%);
+        font-weight: 700;
+    }
+}
+
+.overspread {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    background-color: rgba($color: #000, $alpha: 0.5);
+}
+
+.web-link {
+    color: #4b9ff4;
+    font-weight: bold;
+    padding-left: rem(35);
+    background: url("./imgs/link.svg") left no-repeat;
+    background-size: auto 85%;
+    height: rem(20);
+}

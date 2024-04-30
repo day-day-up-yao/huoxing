@@ -1,0 +1,47 @@
+.protocol-page {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    color: #444;
+    width: 1000px;
+    padding-bottom: 96px;
+
+    .section,
+    .welcome {
+        margin: 0 auto;
+        font-size: 26px;
+        font-family: 'STHeiti Light', sans-serif;
+    }
+
+    .section,
+    .title {
+        font-weight: bold;
+    }
+
+    .title {
+        margin: 30px 0 20px;
+        font-size: 24px;
+        text-indent: 2rem;
+    }
+
+    .content {
+        margin-bottom: 10px;
+        text-indent: 2rem;
+        line-height: 32px;
+        font-size: 16px;
+        text-align: justify;
+
+        &.kaiti {
+            margin: 20px 0;
+            font-family: 'Kaiti', sans-serif;
+        }
+    }
+
+    .welcome {
+        margin: 60px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+}

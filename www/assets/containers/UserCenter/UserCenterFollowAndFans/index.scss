@@ -1,0 +1,41 @@
+.user-center-follow-and-fans {
+    position: relative;
+    width: 358px;
+    height: 57px;
+    padding: 30px 0;
+    border: 1px solid #ececec;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-center-follow-and-fans-box {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        &.user-center-follow-and-fans-box-follow {
+            cursor: pointer;
+        }
+
+        .user-center-follow-and-fans-box-span {
+            font-size: 14px;
+            color: #9eaec5;
+        }
+
+        .user-center-follow-and-fans-box-text {
+            font-size: 28px;
+            color: #333;
+            font-weight: bold;
+        }
+    }
+
+    .user-center-follow-and-fans-line {
+        background: #ececec;
+        height: 100%;
+        width: 1px;
+    }
+}

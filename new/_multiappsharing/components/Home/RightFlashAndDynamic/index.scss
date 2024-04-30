@@ -1,0 +1,130 @@
+/**
+ * Author：quboshen
+ * Time：2020-11-6
+ * Description：右侧 24H热门快讯 和 最新动态(潜伏日历)
+ */
+
+.right-flash-and-dynamic {
+    position: relative;
+    width: 100%;
+    border: 1px #f0f0f0 solid;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    .right-flash-and-dynamic-title-box {
+        position: relative;
+        width: 100%;
+        height: 32px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .right-flash-and-dynamic-title {
+            height: 32px;
+            font-size: 18px;
+            color: #838a91;
+            line-height: 22px;
+            margin-right: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+            &.right-flash-and-dynamic-title-active {
+                color: #333;
+                font-weight: bold;
+
+                .right-flash-and-dynamic-line {
+                    background: #0a7ff2;
+                }
+            }
+
+            &.right-flash-and-dynamic-title-only {
+                color: #333;
+                font-size: 18px;
+                font-weight: bold;
+                height: 24px;
+            }
+
+            .right-flash-and-dynamic-line {
+                background: #fff;
+                width: 100%;
+                height: 2px;
+            }
+        }
+
+        .right-flash-and-dynamic-arrow {
+            display: inline-block;
+            border-right: 3px solid;
+            border-bottom: 3px solid;
+            width: 10px;
+            height: 10px;
+            transform: rotate(-45deg);
+            color: #ccc;
+        }
+    }
+
+    .incident-list {
+        position: relative;
+        border-left: 1px solid #f0f0f0;
+        padding: 0 0 15px 15px;
+        margin-left: 7px;
+
+        font {
+            &.yuan {
+                position: absolute;
+                left: -8px;
+                top: 1px;
+                width: 15px;
+                height: 15px;
+                background: url("../../../public/img/yuan.png") no-repeat;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .list-top {
+            display: flex;
+            height: 20px;
+            line-height: 20px;
+            font-size: 15px;
+            justify-content: space-between;
+            flex-direction: row;
+            color: #999;
+
+            span {
+                color: #1981ef;
+            }
+        }
+
+        &.import {
+            a {
+                color: #333;
+
+                &:hover {
+                    color: #666;
+                }
+            }
+        }
+
+        a {
+            display: block;
+            height: auto;
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+            line-height: 20px;
+            margin-top: 5px;
+
+            &:hover {
+                color: #666;
+            }
+        }
+    }
+}

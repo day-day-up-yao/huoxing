@@ -1,0 +1,51 @@
+.im-live-list-right-live-good-up-item {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 12px;
+
+    &:hover {
+        .im-live-list-right-live-good-up-item-title {
+            color: #0056ff;
+        }
+    }
+
+    .im-live-list-right-live-good-up-item-img {
+        vertical-align: middle;
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+        float: left;
+    }
+
+    .im-live-list-right-live-good-up-item-right {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .im-live-list-right-live-good-up-item-title {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            line-height: 22px;
+        }
+
+        .im-live-list-right-live-good-up-item-text {
+            margin-top: 2px;
+            font-size: 14px;
+            color: #838a91;
+            line-height: 20px;
+            display: -webkit-box;
+            overflow: hidden;
+
+            /*! autoprefixer: ignore next */
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+    }
+}

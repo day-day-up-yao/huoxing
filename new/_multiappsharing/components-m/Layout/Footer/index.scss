@@ -1,0 +1,135 @@
+@import '../../../public/css/rem';
+
+.bottom-cont {
+    width: rem(590);
+    height: rem(200);
+    background: #f8f8f8;
+    padding: rem(45) rem(25) rem(30);
+    margin: 0 auto;
+
+    p {
+        width: 100%;
+
+        &.logo {
+            display: block;
+            float: left;
+            width: rem(138);
+
+            img {
+                width: rem(138);
+            }
+        }
+
+        &.share {
+            width: 30%;
+            height: rem(50);
+            float: right;
+
+            a {
+                position: relative;
+                display: block;
+                float: right;
+                width: rem(50);
+                height: rem(50);
+                margin-left: rem(25);
+
+                .wx-fx {
+                    position: absolute;
+                    display: none;
+                    top: rem(-102);
+                    left: rem(-10);
+                    width: rem(90);
+                    height: rem(90);
+                    padding: rem(5);
+                    background: #fff;
+                    border-radius: rem(6);
+
+                    img {
+                        width: rem(90);
+                    }
+                }
+
+                &.wx {
+                    background: url("./m-img/m-wx.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.tth {
+                    background: url("./m-img/m-tth.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.bjh {
+                    background: url("./m-img/m-bjh.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.sina {
+                    background: url("./m-img/m-sina.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.tw {
+                    background: url("./m-img/m-tw.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.db {
+                    background: url("./m-img/m-db.png") no-repeat;
+                    background-size: 100%;
+                }
+
+                &.ff {
+                    background: url("./m-img/m-ff.png") no-repeat;
+                    background-size: 100%;
+                }
+            }
+        }
+
+        &.slogan {
+            clear: both;
+            padding: rem(30) 0;
+            font-size: rem(24);
+            color: #666;
+        }
+
+        &.copyright {
+            color: #999;
+        }
+
+        &.text {
+            width: 100%;
+            margin: rem(10) 0;
+
+            a {
+                padding-right: rem(35);
+                color: #333;
+                font-size: rem(24);
+            }
+        }
+
+        &.site {
+            width: 100%;
+            font-size: rem(20);
+            color: #5a5a5a;
+            line-height: rem(40);
+
+            a {
+                color: #5a5a5a;
+
+                img {
+                    width: rem(20);
+                }
+            }
+
+            span {
+                float: left;
+
+                &:last-child {
+                    padding-left: rem(10);
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

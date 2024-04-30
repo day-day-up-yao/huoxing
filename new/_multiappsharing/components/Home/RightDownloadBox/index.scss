@@ -1,0 +1,110 @@
+/**
+ * Author：quboshen
+ * Time：2020/11/5
+ * Description：右侧下载栏
+ */
+
+.right-download-box {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    background: #f8f9fa;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    &.right-download-box-live {
+        background: #fff;
+        border: 1px solid #ececec;
+
+        .right-download-box-btn-box {
+            .right-download-box-btn {
+                width: 108px;
+            }
+        }
+    }
+
+    .right-download-box-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .right-download-box-content {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+
+    .right-download-box-btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .right-download-box-btn {
+            width: 120px;
+            height: 40px;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &.right-download-box-btn-color1 {
+                background: #252c39;
+            }
+
+            &.right-download-box-btn-color2 {
+                background: #0056ff;
+            }
+
+            .right-download-box-btn-img {
+                height: 20px;
+            }
+
+            .right-download-box-btn-text {
+                font-size: 15px;
+                color: #fff;
+                line-height: 21px;
+            }
+        }
+
+        .right-download-box-btn-code {
+            width: 32px;
+            height: 32px;
+            background: url("../../../public/img/right-download-code.png") no-repeat center / 100%;
+            position: relative;
+
+            &:hover {
+                .right-download-box-btn-code-show {
+                    display: block;
+                }
+            }
+
+            .right-download-box-btn-code-show {
+                position: absolute;
+                top: 50px;
+                left: -84px;
+                width: 100px;
+                padding: 10px;
+                background: #fff;
+                z-index: 15;
+                text-align: center;
+                border-radius: 10px 10px;
+                display: none;
+
+                .right-download-box-btn-code-show-img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}

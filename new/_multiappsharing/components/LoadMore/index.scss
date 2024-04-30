@@ -1,0 +1,15 @@
+.load-more-btn {
+    margin-top: 20px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    display: block;
+    height: 52px;
+    color: #828282;
+    font-size: 14px;
+    line-height: 52px;
+    text-align: center;
+
+    &:hover {
+        color: #1482f0;
+    }
+}

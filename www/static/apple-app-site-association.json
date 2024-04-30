@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "BU823M6C8P.com.linekong.MT24.MTBlockchain",
+                "paths": [ "/huoxingapp/*"]
+            },
+            {
+                            "appID": "9GT7E28999.com.feeyu.hhxy",
+                            "paths": [ "/qq_conn/101566666/*"]
+                        }
+        ]
+    }
+}

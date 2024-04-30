@@ -1,0 +1,15 @@
+.login-site-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url("./images/login-site-bg.jpg") no-repeat top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+    .login-site-content {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    }
+}

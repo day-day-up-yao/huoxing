@@ -1,0 +1,244 @@
+.im-live-tip-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .im-live-tip-box-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+
+    .im-live-tip-box-popup {
+        position: relative;
+        width: 520px;
+        height: 620px;
+        z-index: 2;
+        background: #fff;
+        padding: 32px 32px 32px 24px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .im-live-tip-box-top {
+            height: 28px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+
+            .im-live-tip-box-title {
+                font-size: 20px;
+                font-weight: bold;
+                color: #333;
+                line-height: 28px;
+            }
+
+            .im-live-tip-box-clear {
+                width: 28px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                .im-live-tip-box-clear-img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+
+        .im-live-tip-box-type-list {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            .im-live-tip-box-type-item {
+                width: 96px;
+                height: 42px;
+                border-radius: 8px;
+                border: 1px solid #ececec;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 14px;
+                color: #333;
+                line-height: 20px;
+                margin-bottom: 24px;
+                cursor: pointer;
+
+                /* 如果最后一行是3个元素 */
+                &:last-child:nth-child(4n - 1) {
+                    margin-right: calc(20.69% + 17.24% / 3);
+                }
+
+                /* 如果最后一行是2个元素 */
+                &:last-child:nth-child(4n - 2) {
+                    margin-right: calc(41.38% + 34.48% / 3);
+                }
+
+                &.im-live-tip-box-type-item-active {
+                    background: rgba($color: #0a7ff2, $alpha: 0.1);
+                    color: #0a7ff2;
+                    border: 1px solid rgba($color: #0a7ff2, $alpha: 0.1);
+                }
+            }
+        }
+
+        .im-live-tip-box-reason {
+            width: 456px;
+            height: 189px;
+            border-radius: 8px;
+            border: 1px solid #ececec;
+            padding: 12px;
+            box-sizing: border-box;
+            position: relative;
+            margin-bottom: 20px;
+
+            .im-live-tip-box-reason-input {
+                width: 100%;
+                height: 128px;
+                font-size: 14px;
+                color: #333;
+                line-height: 20px;
+                resize: none;
+                border: none;
+                outline: none;
+
+                &::-webkit-input-placeholder {
+                    color: #cecece;
+                }
+
+                &::-moz-placeholder {   /* Mozilla Firefox 19+ */
+                    color: #cecece;
+                }
+
+                &:-moz-placeholder {    /* Mozilla Firefox 4 to 18 */
+                    color: #cecece;
+                }
+
+                &:-ms-input-placeholder {  /* Internet Explorer 10-11 */
+                    color: #cecece;
+                }
+
+                &::-webkit-scrollbar {
+                    /* 滚动条整体样式 */
+                    width: 9px;  /* 高宽分别对应横竖滚动条的尺寸 */
+                    height: 1px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    /* 滚动条里面小方块 */
+                    background: #ccc;
+                    border-radius: 4px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    /* 滚动条里面轨道 */
+                    background: #f7f8fa;
+                }
+            }
+
+            .im-live-tip-box-reason-input-sp {
+                position: absolute;
+                right: 12px;
+                bottom: 12px;
+                font-size: 12px;
+                color: #cecece;
+                line-height: 17px;
+            }
+        }
+
+        .im-live-tip-box-update {
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            position: relative;
+
+            .im-live-tip-box-update-img-bg {
+                width: 100px;
+                height: 100px;
+                background: #fbfbfb;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                cursor: pointer;
+
+                .im-live-tip-box-update-img-cross {
+                    width: 44px;
+                    height: 44px;
+
+                    &.im-live-tip-box-update-img-text {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 8px;
+                    }
+                }
+
+                .im-live-tip-box-update-img-close {
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    right: -10px;
+                    top: -10px;
+                    cursor: pointer;
+                }
+
+                .im-live-tip-box-update-img-inputfile {
+                    position: absolute;
+                    width: 100px;
+                    height: 100px;
+                    opacity: 0;
+                    top: 0;
+                    left: 0;
+                    cursor: pointer;
+                }
+            }
+
+            .im-live-tip-box-update-text {
+                font-size: 14px;
+                color: #cecece;
+                line-height: 20px;
+                margin-left: 12px;
+            }
+        }
+
+        .im-live-tip-box-btn {
+            width: 140px;
+            height: 44px;
+            background: #0a7ff2;
+            border-radius: 4px;
+            margin: 0 auto;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}

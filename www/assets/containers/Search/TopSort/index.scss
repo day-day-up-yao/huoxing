@@ -1,0 +1,50 @@
+.search-top-sort {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    .search-top-sort-item {
+        font-size: 14px;
+        color: #acaeb2;
+        line-height: 20px;
+        display: flex;
+        cursor: pointer;
+
+        &.select {
+            color: #0a7ff2;
+        }
+
+        .search-top-sort-item-btn {
+            width: 8px;
+            height: 20px;
+            margin-left: 2px;
+            position: relative;
+
+            .search-top-sort-item-btn-img {
+                width: 8px;
+                height: 8px;
+                position: absolute;
+
+                &.up {
+                    top: 3px;
+                }
+
+                &.down {
+                    bottom: 3px;
+                }
+            }
+        }
+    }
+
+    .search-top-sort-line {
+        width: 1px;
+        height: 13px;
+        background: #acaeb2;
+        margin: 0 21px;
+    }
+}

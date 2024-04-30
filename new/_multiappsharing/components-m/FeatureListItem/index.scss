@@ -1,0 +1,53 @@
+@import "../../public/css/rem";
+
+.m-feature-list-item-wrapper {
+    border-bottom: rem(1) solid #e8e8e8;
+    box-sizing: border-box;
+
+    .content {
+        padding: rem(26) 0;
+
+        a.info {
+            width: 100%;
+            display: inline-block;
+            color: #212121;
+            font-size: 0;
+
+            img {
+                width: rem(155);
+                height: rem(114);
+                object-fit: cover;
+                margin-right: rem(15);
+                display: inline-block;
+                float: left;
+                border-radius: 4px;
+                box-shadow: rem(6) rem(6) rem(9) rgba(0, 0, 0, 0.25);
+            }
+
+            h3 {
+                font-size: rem(29);
+                font-weight: bold;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                word-wrap: break-word;
+                line-height: rem(45);
+                max-height: rem(90);
+                margin-top: rem(12);
+            }
+
+            p {
+                margin-top: rem(18);
+                line-height: rem(34);
+                word-wrap: break-word;
+                display: -webkit-box;
+                overflow: hidden;
+                font-size: rem(24);
+                color: #222;
+
+                /*! autoprefixer: ignore next */
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+        }
+    }
+}

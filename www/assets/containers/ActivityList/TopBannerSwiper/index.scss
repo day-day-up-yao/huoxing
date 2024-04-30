@@ -1,0 +1,114 @@
+@import 'swiper/swiper.scss';
+@import 'swiper/components/pagination/pagination.scss';
+@import 'swiper/components/navigation/navigation.scss';
+@import 'swiper/components/effect-coverflow/effect-coverflow.scss';
+
+.activity-list-top-banner-swiper {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    border-bottom: 1px #e1e1e1 solid;
+    background: #fff;
+    overflow: hidden;
+
+    .activity-list-top-banner-swiper-box {
+        width: 1400px;
+        height: 330px;
+        margin: 0 auto;
+        padding-top: 30px;
+
+        .activity-list-top-banner-swiper-primary {
+            width: 100%;
+            height: 100%;
+
+            .swiper-wrapper {
+                width: 100%;
+                height: 300px;
+
+                .swiper-slide {
+                    width: 1200px;
+                    height: 100%;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+
+                        img {
+                            width: 1200px;
+                            height: 300px;
+                            border-radius: 5px;
+                        }
+
+                        span {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(255, 255, 255, 0.6);
+                        }
+                    }
+
+                    &.swiper-slide-active {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .activity-p {
+                bottom: 5px;
+                right: 0;
+            }
+
+            .activity-prev,
+            .activity-next {
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                top: 145px;
+                opacity: 0.7;
+                transition: 0.3s;
+                z-index: 10;
+
+                &:hover {
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+            }
+
+            .activity-prev {
+                left: 10px;
+                background: url("../Image/activity-swiper-left-btn.png") no-repeat;
+            }
+
+            .activity-next {
+                left: 1130px;
+                background: url("../Image/activity-swiper-right-btn.png") no-repeat;
+            }
+
+            .swiper-pagination {
+                text-align: right !important;
+                width: 1200px;
+                margin: 0 auto;
+
+                .swiper-pagination-bullet {
+                    width: 8px !important;
+                    height: 10px !important;
+                    background: #e6e6e6;
+                    -webkit-transform: skew(-30deg);
+                    transform: skew(-30deg);
+                    border-radius: 0;
+                    opacity: 1;
+
+                    &.swiper-pagination-bullet-active {
+                        background: #0c7ff2;
+                    }
+                }
+            }
+        }
+    }
+}

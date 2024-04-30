@@ -1,0 +1,722 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.32.0",
+  "hash": "22d902ca69e024a1e517",
+  "publicPath": "http://10.0.8.247:8089/_dist/",
+  "outputPath": "/Users/admin/Desktop/HUOXING/hx/news.huoxing24.com/server/_dist",
+  "assetsByChunkName": {
+    "App": "App.js",
+    "containers-Author": "containers-Author.js",
+    "containers-AuthorDetails": "containers-AuthorDetails.js",
+    "containers-Details": "containers-Details.js",
+    "containers-Details~containers-FlashDetails": "containers-Details~containers-FlashDetails.js",
+    "containers-Feature": "containers-Feature.js",
+    "containers-FeatureDetailsAndTags": "containers-FeatureDetailsAndTags.js",
+    "containers-Flash": "containers-Flash.js",
+    "containers-FlashDetails": "containers-FlashDetails.js",
+    "containers-Home": "containers-Home.js",
+    "containers-Notice": "containers-Notice.js",
+    "containers-NoticeDetail": "containers-NoticeDetail.js",
+    "containers-Tags": "containers-Tags.js",
+    "containers-m-DetailShare": "containers-m-DetailShare.js",
+    "containers-m-Feature": "containers-m-Feature.js",
+    "containers-m-FeatureDetail": "containers-m-FeatureDetail.js",
+    "containers-m-Flash": "containers-m-Flash.js",
+    "containers-m-FlashDetail": "containers-m-FlashDetail.js",
+    "containers-m-FlashShareDetail": "containers-m-FlashShareDetail.js",
+    "containers-m-News": "containers-m-News.js",
+    "containers-m-NoticeDetail": "containers-m-NoticeDetail.js"
+  },
+  "assets": [
+    {
+      "name": "App.js",
+      "size": 1186296,
+      "chunks": [
+        "App"
+      ],
+      "chunkNames": [
+        "App"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "aiicon.png",
+      "size": 1982,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "avatar-default.jpg",
+      "size": 7916,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "bourse-icon.png",
+      "size": 1942,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "cellphone-icon.png",
+      "size": 1115,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "containers-Author.js",
+      "size": 50034,
+      "chunks": [
+        "containers-Author"
+      ],
+      "chunkNames": [
+        "containers-Author"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-AuthorDetails.js",
+      "size": 85411,
+      "chunks": [
+        "containers-AuthorDetails"
+      ],
+      "chunkNames": [
+        "containers-AuthorDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Details.js",
+      "size": 161117,
+      "chunks": [
+        "containers-Details"
+      ],
+      "chunkNames": [
+        "containers-Details"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Details~containers-FlashDetails.js",
+      "size": 62595,
+      "chunks": [
+        "containers-Details~containers-FlashDetails"
+      ],
+      "chunkNames": [
+        "containers-Details~containers-FlashDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Feature.js",
+      "size": 32812,
+      "chunks": [
+        "containers-Feature"
+      ],
+      "chunkNames": [
+        "containers-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FeatureDetailsAndTags.js",
+      "size": 57950,
+      "chunks": [
+        "containers-FeatureDetailsAndTags"
+      ],
+      "chunkNames": [
+        "containers-FeatureDetailsAndTags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Flash.js",
+      "size": 108771,
+      "chunks": [
+        "containers-Flash"
+      ],
+      "chunkNames": [
+        "containers-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-FlashDetails.js",
+      "size": 66743,
+      "chunks": [
+        "containers-FlashDetails"
+      ],
+      "chunkNames": [
+        "containers-FlashDetails"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Home.js",
+      "size": 68890,
+      "chunks": [
+        "containers-Home"
+      ],
+      "chunkNames": [
+        "containers-Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Notice.js",
+      "size": 59976,
+      "chunks": [
+        "containers-Notice"
+      ],
+      "chunkNames": [
+        "containers-Notice"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-NoticeDetail.js",
+      "size": 26483,
+      "chunks": [
+        "containers-NoticeDetail"
+      ],
+      "chunkNames": [
+        "containers-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-Tags.js",
+      "size": 69878,
+      "chunks": [
+        "containers-Tags"
+      ],
+      "chunkNames": [
+        "containers-Tags"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-DetailShare.js",
+      "size": 57253,
+      "chunks": [
+        "containers-m-DetailShare"
+      ],
+      "chunkNames": [
+        "containers-m-DetailShare"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Feature.js",
+      "size": 20410,
+      "chunks": [
+        "containers-m-Feature"
+      ],
+      "chunkNames": [
+        "containers-m-Feature"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FeatureDetail.js",
+      "size": 26559,
+      "chunks": [
+        "containers-m-FeatureDetail"
+      ],
+      "chunkNames": [
+        "containers-m-FeatureDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-Flash.js",
+      "size": 48508,
+      "chunks": [
+        "containers-m-Flash"
+      ],
+      "chunkNames": [
+        "containers-m-Flash"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashDetail.js",
+      "size": 25209,
+      "chunks": [
+        "containers-m-FlashDetail"
+      ],
+      "chunkNames": [
+        "containers-m-FlashDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-FlashShareDetail.js",
+      "size": 84376,
+      "chunks": [
+        "containers-m-FlashShareDetail"
+      ],
+      "chunkNames": [
+        "containers-m-FlashShareDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-News.js",
+      "size": 27265,
+      "chunks": [
+        "containers-m-News"
+      ],
+      "chunkNames": [
+        "containers-m-News"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "containers-m-NoticeDetail.js",
+      "size": 35960,
+      "chunks": [
+        "containers-m-NoticeDetail"
+      ],
+      "chunkNames": [
+        "containers-m-NoticeDetail"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "download_img.png",
+      "size": 10151,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "feature-backImg.png",
+      "size": 10680,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "flash-share-icon.jpg",
+      "size": 32234,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "footer-logo.png",
+      "size": 6531,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "header-logo.svg",
+      "size": 7161,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "huoxing-mark-bg.jpg",
+      "size": 22793,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-account.png",
+      "size": 327,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-sms.png",
+      "size": 488,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "icon-wechat.png",
+      "size": 1162,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "languageicon.png",
+      "size": 1142,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "languageiconh5.png",
+      "size": 1142,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "littienaga.png",
+      "size": 1389,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "liveshare-icon.jpg",
+      "size": 54990,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-b-logo.png",
+      "size": 6723,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-header-logo-blue.svg",
+      "size": 7189,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-search.svg",
+      "size": 1020,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-share-logo.png",
+      "size": 4891,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-wxShareBox-clear.png",
+      "size": 625,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "m-wxShareBox-ok.png",
+      "size": 1604,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "nagalogobig.png",
+      "size": 3000,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "newbi-icon.png",
+      "size": 2498,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-QRcode.jpg",
+      "size": 7985,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-android.png",
+      "size": 2245,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "right-download-ios.png",
+      "size": 818,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "text-icon.png",
+      "size": 1240,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "update-icon.png",
+      "size": 2333,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "v-blue.svg",
+      "size": 797,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "v-orange.svg",
+      "size": 797,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "video-btn.png",
+      "size": 1298,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "wechat-download-tips.png",
+      "size": 12332,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "App": {
+      "chunks": [
+        "App"
+      ],
+      "assets": [
+        "App.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "App": {
+      "chunks": [
+        "App"
+      ],
+      "assets": [
+        "App.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Home": {
+      "chunks": [
+        "containers-Home"
+      ],
+      "assets": [
+        "containers-Home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Details": {
+      "chunks": [
+        "containers-Details~containers-FlashDetails",
+        "containers-Details"
+      ],
+      "assets": [
+        "containers-Details~containers-FlashDetails.js",
+        "containers-Details.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Author": {
+      "chunks": [
+        "containers-Author"
+      ],
+      "assets": [
+        "containers-Author.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-AuthorDetails": {
+      "chunks": [
+        "containers-AuthorDetails"
+      ],
+      "assets": [
+        "containers-AuthorDetails.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Feature": {
+      "chunks": [
+        "containers-Feature"
+      ],
+      "assets": [
+        "containers-Feature.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-FeatureDetailsAndTags": {
+      "chunks": [
+        "containers-FeatureDetailsAndTags"
+      ],
+      "assets": [
+        "containers-FeatureDetailsAndTags.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Tags": {
+      "chunks": [
+        "containers-Tags"
+      ],
+      "assets": [
+        "containers-Tags.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Flash": {
+      "chunks": [
+        "containers-Flash"
+      ],
+      "assets": [
+        "containers-Flash.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-FlashDetails": {
+      "chunks": [
+        "containers-Details~containers-FlashDetails",
+        "containers-FlashDetails"
+      ],
+      "assets": [
+        "containers-Details~containers-FlashDetails.js",
+        "containers-FlashDetails.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-NoticeDetail": {
+      "chunks": [
+        "containers-NoticeDetail"
+      ],
+      "assets": [
+        "containers-NoticeDetail.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-Notice": {
+      "chunks": [
+        "containers-Notice"
+      ],
+      "assets": [
+        "containers-Notice.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FlashShareDetail": {
+      "chunks": [
+        "containers-m-FlashShareDetail"
+      ],
+      "assets": [
+        "containers-m-FlashShareDetail.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-News": {
+      "chunks": [
+        "containers-m-News"
+      ],
+      "assets": [
+        "containers-m-News.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-DetailShare": {
+      "chunks": [
+        "containers-m-DetailShare"
+      ],
+      "assets": [
+        "containers-m-DetailShare.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-Feature": {
+      "chunks": [
+        "containers-m-Feature"
+      ],
+      "assets": [
+        "containers-m-Feature.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FeatureDetail": {
+      "chunks": [
+        "containers-m-FeatureDetail"
+      ],
+      "assets": [
+        "containers-m-FeatureDetail.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-Flash": {
+      "chunks": [
+        "containers-m-Flash"
+      ],
+      "assets": [
+        "containers-m-Flash.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-FlashDetail": {
+      "chunks": [
+        "containers-m-FlashDetail"
+      ],
+      "assets": [
+        "containers-m-FlashDetail.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "containers-m-NoticeDetail": {
+      "chunks": [
+        "containers-m-NoticeDetail"
+      ],
+      "assets": [
+        "containers-m-NoticeDetail.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}

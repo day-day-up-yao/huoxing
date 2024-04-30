@@ -1,0 +1,172 @@
+.right-rise-drop-list {
+    .header {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rise-drop-btn {
+            display: flex;
+            justify-content: flex-start;
+
+            a {
+                margin-right: 15px;
+                border-bottom: 1px solid #fff;
+                cursor: pointer;
+                display: block;
+                height: 30px;
+                color: #999;
+                font-size: 16px;
+                line-height: 30px;
+
+                &.active,
+                &:hover {
+                    color: #424242;
+                    border-bottom: 1px solid #424242;
+                }
+            }
+        }
+
+        .time-btn {
+            height: 22px;
+            border: 1px solid #b8c2d1;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            a {
+                padding: 0 10px;
+                border-left: 1px solid #b8c2d1;
+                display: block;
+                height: 100%;
+                color: #a1a1a1;
+                font-size: 12px;
+                line-height: 22px;
+
+                &:first-child {
+                    border: none;
+                }
+
+                &:hover,
+                &.active {
+                    background: #b8c2d1;
+                    color: #fbfbfb;
+                }
+            }
+        }
+    }
+
+    .content {
+        margin-bottom: 10px;
+        width: 100%;
+
+        @mixin wordsPosition {
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(4) {
+                text-align: center;
+            }
+        }
+
+        thead {
+            color: #bbb;
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+
+            tr td:nth-of-type(1) {
+                text-align: left;
+            }
+        }
+
+        tbody {
+            font-size: 14px;
+
+            tr {
+                &:nth-of-type(1) td:first-child a {
+                    color: #0c7ff2;
+                }
+
+                &:nth-of-type(2) td:first-child a {
+                    color: #5cbcff;
+                }
+
+                &:nth-of-type(3) td:first-child a {
+                    color: #95e7ff;
+                }
+
+                &:hover td {
+                    background: #f6f6f6;
+                    cursor: pointer;
+                }
+
+                td {
+                    height: 42px;
+                    overflow: hidden;
+
+                    img {
+                        margin-right: 5px;
+                        position: relative;
+                        top: 2px;
+                        display: inline-block;
+                        height: 14px;
+                    }
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    &:nth-of-type(1) a {
+                        overflow: hidden;
+                        color: #d4d4d4;
+                        font-size: 16px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+
+                    &:nth-of-type(2) {
+                        text-align: right;
+
+                        a {
+                            padding-top: 15px;
+                            display: inline-block;
+                            height: (42 - 15) + px;
+                            max-width: 80px;
+                            color: #999;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            text-align: left;
+
+                            img {
+                                margin-top: -5px;
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(3),
+                    &:nth-of-type(4) {
+                        a {
+                            color: #424242;
+                        }
+                    }
+
+                    &:nth-of-type(5) {
+                        a {
+                            color: #66bb6a;
+                        }
+
+                        &.drop a {
+                            color: #ee250a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

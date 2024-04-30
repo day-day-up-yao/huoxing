@@ -1,0 +1,20 @@
+{
+  "show": true,
+  "include": ["news.marsbit.co", "www.marsbit.co", "10.0.8.65:3012"],
+  "data": [
+    {
+      "id": "1",
+      "params": { "path": "/", "exact": true, "strict": true },
+      "desc": "App下载",
+      "imgUrl": "https://static.marsbit.co/production/img/index.jpg",
+      "url": "https://www.marsbit.co/download?statisticalParameter=hx01"
+    },
+    {
+      "id": "3",
+      "params": { "path": "/:newsId.html", "exact": true, "strict": true },
+      "desc": "App下载",
+      "imgUrl": "https://static.marsbit.co/production/img/news.jpg",
+      "url": "https://www.marsbit.co/download?statisticalParameter=hx03"
+    }
+  ]
+}

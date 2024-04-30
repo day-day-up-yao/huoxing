@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference>
+	<agendas> <!--议程列表-->
+		<agenda>
+			<date>23 Aug</date><!--议程日期-->
+			<content>
+				<title_en>ETH Merger Forum</title_en><!--演讲标题EN-->
+				<title_zhcn>ETH合并专题论坛</title_zhcn><!--演讲标题ZHCN-->
+				<time>Sep 23th a.m</time><!--演讲时间-->
+				<desc>这是一场关于ETH2.0的演讲</desc><!--演讲描述-->
+				<speakers>
+					<speaker>
+						<name>TBD</name> <!--演讲者名字-->
+						<intro>TBD</intro><!--演讲者简介-->
+						<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Group1471.png</icon><!--演讲者头像URL-->
+					</speaker>
+			    </speakers>
+			</content>
+			<content>
+				<title_en>WEB3 New Public Chain and Application Forum</title_en>
+				<title_zhcn>WEB3新公链及应用论坛</title_zhcn>
+				<time>Sep 23th p.m</time>
+				<desc>这是一场关于ETH2.0的演讲</desc>
+				<speakers>
+					<speaker>
+						<name>TBD</name> <!--演讲者名字-->
+						<intro>TBD</intro><!--演讲者简介-->
+						<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Group1471.png</icon>
+					</speaker>
+			    </speakers>
+			</content>
+						<content>
+				<title_en>Defi big liquidation resumption meeting</title_en><!--演讲标题EN-->
+				<title_zhcn>Defi大清算复盘会</title_zhcn><!--演讲标题ZHCN-->
+				<time>Sep 24th a.m</time><!--演讲时间-->
+				<desc>这是一场关于ETH2.0的演讲</desc><!--演讲描述-->
+				<speakers>
+					<speaker>
+						<name>TBD</name> <!--演讲者名字-->
+						<intro>TBD</intro><!--演讲者简介-->
+						<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Group1471.png</icon>
+					</speaker>
+			    </speakers>
+			</content>
+			<content>
+				<title_en>NFT and Gaming Forum</title_en>
+				<title_zhcn>NFT与Gaming专题论坛</title_zhcn>
+				<time>Sep 24th p.m</time>
+				<desc>这是一场关于ETH2.0的演讲</desc>
+				<speakers>
+					<speaker>
+						<name>TBD</name> <!--演讲者名字-->
+						<intro>TBD</intro><!--演讲者简介-->
+						<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Group1471.png</icon>
+					</speaker>
+			    </speakers>
+			</content>
+		</agenda>
+		<agenda>
+			<date>24 Aug</date>
+			<content>
+				<title_en>ETH2.0：The Final Problem of Ethereum's Access to POS</title_en>
+				<title_zhcn>ETH2.0:以太坊访问POS的最终问题</title_zhcn>
+				<time>9.30am - 6.00pm</time>
+				<desc>这是一场关于ETH2.0的演讲</desc>
+				<speakers>
+					<speaker>
+						<name>UserB</name>
+						<intro>ETH2.0开发者</intro>
+						<icon>https://hx24-prod.marstelegram.com/meeting/power-singapore20220823/1573612331965112.jpg</icon>
+					</speaker>
+			    </speakers>
+			</content>
+		</agenda>
+	</agendas>
+	<past_speakers>
+		<speaker>
+			<name>Sam Bankman Fried</name><!--演讲者名字-->
+			<brief>Founder of FTX</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/SamBankmanFried.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Robert Leshner</name><!--演讲者名字-->
+			<brief>Founder of Compound</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/RobertLeshner.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Justin Sun</name><!--演讲者名字-->
+			<brief>Founder of TRON</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/JustinSun.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Sergey Nazarov</name><!--演讲者名字-->
+			<brief>Founder of Chainlink</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/SergeyNazarov.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Sergej Kunz</name><!--演讲者名字-->
+			<brief>Co-Founder of 1inch</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/SergejKunz.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Antonio</name><!--演讲者名字-->
+			<brief>Founder of dYdX </brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/Antonio.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Stani Kulechov</name><!--演讲者名字-->
+			<brief>Founder of Aave </brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/StaniKulechov.png</icon><!--演讲者头像URL-->
+		</speaker>	
+		<speaker>
+			<name>Lin Li</name><!--演讲者名字-->
+			<brief>Huobi CEO</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/LinLi.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Jihan Wu</name><!--演讲者名字-->
+			<brief>Co-founder of BitMain</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/JihanWu.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Ronghui Gu</name><!--演讲者名字-->
+			<brief>Co-founder of Certik </brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/RonghuiGu.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Weiguang Liu</name><!--演讲者名字-->
+			<brief>Vice President of Ant Financial</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/WeiguangLiu.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Bo Feng</name><!--演讲者名字-->
+			<brief>Founder of Dragonfly Capital</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/BoFeng.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>David Namdar</name><!--演讲者名字-->
+			<brief>Partner of Galaxy Digital</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/DavidNamdar.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Baoqiu Cui</name><!--演讲者名字-->
+			<brief>Vice President of Xiaomi Group, Chairman of Group Technical Committee</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/BaoqiuCui.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Menghan Wang</name><!--演讲者名字-->
+			<brief>Product Leader, OneConnect Blockchain Team, Ping An Finance</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/MenghanWang.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Shihiro Yamaguchi</name><!--演讲者名字-->
+			<brief>Vice President, FinTech, SBI</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/ShihiroYamaguchi.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Yao Liu</name><!--演讲者名字-->
+			<brief>Baidu Smart Cloud Blockchain Product Leader</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/YaoLiu.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Jay Hao</name><!--演讲者名字-->
+			<brief>OKEx CEO</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/JayHao.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Peter Vessennes</name><!--演讲者名字-->
+			<brief>Founding Chairman of the Bit Foundation</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/PeterVessennes.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Reese Jones</name><!--演讲者名字-->
+			<brief>Co-founder of Singularity University</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/ReeseJones.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Keith Teare</name><!--演讲者名字-->
+			<brief>Co-founder of TechCrunch</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/KeithTeare.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Tom Ding</name><!--演讲者名字-->
+			<brief>Co-founder of Dfinity</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/TomDing.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Vanessa Grellet</name><!--演讲者名字-->
+			<brief>general manager of ConsenSys / Managing Partner of Aglaé Ventures</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/VanessaGrellet.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Franklin Urteaga</name><!--演讲者名字-->
+			<brief>Former Clinton Administration Technology Advisor</brief><!--头衔简介-->
+			<icon> https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/FranklinUrteaga.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Katina Stefanova</name><!--演讲者名字-->
+			<brief>Former Bridgewater Fund Senior Executive Officer and Management Committee Advisor</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/KatinaStefanova.png</icon><!--演讲者头像URL-->
+		</speaker>
+		<speaker>
+			<name>Eugenio Gomez</name><!--演讲者名字-->
+			<brief>Professor of Regulation at Harvard Law School and USTB</brief><!--头衔简介-->
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Speaker/EugenioGomez.png</icon><!--演讲者头像URL-->
+		</speaker>
+	</past_speakers>
+	<medias category="分类1">
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/cointelegraph.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/jinse.png</icon>
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/chaingatcher.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/trchflow.png</icon>
+		</media>
+
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/foresightnews.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/tuoluotech.png</icon>
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/coinvoice.png</icon><!--媒体头像-->
+		</media>
+
+	</medias>
+	<medias category="分类2">
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/blockbeats.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/panews.png</icon>
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/odaily.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/defidao.png</icon>
+		</media>
+	</medias>
+	<medias category="分类3">
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/blocklike.png</icon>
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/coinlive.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/499block.png</icon>
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/7oclocklabs.png</icon><!--媒体头像-->
+		</media>
+		<media>
+			<icon>https://hx24-prod.oss-cn-hongkong.aliyuncs.com/meeting/power-singapore20220823/Media/beepcrypto.png</icon>
+		</media>
+	</medias>
+</conference>

@@ -1,0 +1,21 @@
+.layout-header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+/* 搜索弹出层mask定位在链接和导航底部 */
+.header-navigation {
+    position: relative;
+    z-index: 10;
+}
+
+.header-product-link {
+    position: relative;
+    z-index: 11;
+}
+
+.search-mask {
+    z-index: 9;
+}

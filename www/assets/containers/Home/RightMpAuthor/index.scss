@@ -1,0 +1,114 @@
+/**
+ * Author：quboshen
+ * Time：2020-11-18
+ * Description：右侧火星号作者
+ */
+
+@import 'swiper/swiper.scss';
+
+.right-mp-author {
+    position: relative;
+    width: 100%;
+    border: 1px #f0f0f0 solid;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+    &.right-mp-author-add-more {
+        padding-bottom: 60px;
+    }
+
+    .right-mp-author-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        color: #333;
+        line-height: 28px;
+        font-weight: bold;
+
+        .right-mp-author-arrow {
+            display: inline-block;
+            border-right: 3px solid;
+            border-bottom: 3px solid;
+            width: 10px;
+            height: 10px;
+            transform: rotate(-45deg);
+            color: #ccc;
+        }
+
+        .right-mp-author-next-btn {
+            font-size: 14px;
+            color: #c0c0c0;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+                color: #666;
+            }
+
+            .right-mp-author-next-btn-img {
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .right-mp-author-list {
+        position: relative;
+
+        .right-mp-author-item {
+            width: 100%;
+            height: 65px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 12px;
+
+            &:hover {
+                .right-mp-author-item-title {
+                    color: #0056ff;
+                }
+            }
+
+            .right-mp-author-item-img {
+                vertical-align: middle;
+                width: 56px;
+                height: 56px;
+                border-radius: 100%;
+                margin-right: 20px;
+            }
+
+            .right-mp-author-item-right {
+                flex: 1;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .right-mp-author-item-title {
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: bold;
+                    line-height: 22px;
+                }
+
+                .right-mp-author-item-text {
+                    margin-top: 2px;
+                    font-size: 13px;
+                    color: #838a91;
+                    line-height: 18px;
+                    display: -webkit-box;
+                    overflow: hidden;
+
+                    /*! autoprefixer: ignore next */
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                }
+            }
+        }
+    }
+}

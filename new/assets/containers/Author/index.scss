@@ -1,0 +1,144 @@
+.author-list-wrapper {
+    margin: 0 auto;
+    padding: 40px 0 100px;
+    width: 1200px;
+
+    .sort,
+    .type {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 30px;
+        font-size: 16px;
+
+        a {
+            margin-left: 20px;
+            padding: 0 10px;
+            display: block;
+            height: 100%;
+            color: #333;
+            line-height: 30px;
+
+            &.active {
+                background: #0a7ff2;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 15px;
+            }
+        }
+    }
+
+    ul {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 120px;
+            width: (1200 / 3) + px;
+            overflow: hidden;
+
+            &:hover .right .info-up .title button {
+                display: block;
+            }
+
+            .left {
+                width: 60px;
+            }
+
+            .right {
+                margin-left: 15px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                height: 100%;
+                width: 260px;
+
+                .info-up {
+                    width: 100%;
+
+                    .title {
+                        margin-bottom: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 30px;
+                        width: 100%;
+
+                        .name {
+                            padding-right: 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            a {
+                                max-width: 140px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                color: #212121;
+                                font-weight: bold;
+                            }
+
+                            span {
+                                margin-left: 5px;
+                                padding: 0 5px;
+                                border: 1px solid #999;
+                                max-width: 60px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                color: #999;
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
+                        }
+
+                        button {
+                            display: none;
+                            border-radius: 30px;
+                        }
+                    }
+
+                    p {
+                        display: -webkit-box;
+                        width: 100%;
+                        overflow: hidden;
+                        color: #757575;
+                        font-size: 14px;
+                        line-height: 22px;
+
+                        /*! autoprefixer: ignore next */
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                    }
+                }
+
+                .info-down {
+                    width: 100%;
+
+                    span {
+                        display: inline-block;
+                        color: #757575;
+                        font-size: 14px;
+
+                        &:first-child {
+                            margin-right: 10px;
+                            padding-right: 10px;
+                            border-right: 1px solid #9e9e9e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {
+        margin-top: 40px;
+    }
+}

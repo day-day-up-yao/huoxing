@@ -1,0 +1,56 @@
+@import "../../../node_modules/media-quill/es/index.scss";
+
+/* 新编辑器------------ quill 编辑器样式重置 */
+.ql-editor p {
+    margin: 0 0 16px 0;
+}
+
+.editor-quill-box {
+    height: 100%;
+
+    .editor-quill-cotent {
+        height: 100%;
+    }
+
+    &.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(255, 255, 255, 0.92);
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        .editor-quill-cotent {
+            position: fixed;
+            top: 0;
+            height: calc(100% - 42px);
+            width: 1000px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 1);
+
+            .ql-toolbar.ql-snow {
+                border-top: none;
+            }
+
+            .ql-container.ql-snow {
+                border-bottom: none;
+            }
+        }
+    }
+
+    .ql-toolbar.ql-snow .ql-formats.ql-fullscreen-formats {
+        float: right;
+        margin: 0;
+    }
+
+    .ql-fullscreen-formats,
+    .ql-fullscreen-svg,
+    .ql-fullscreen {
+        outline: none;
+    }
+}

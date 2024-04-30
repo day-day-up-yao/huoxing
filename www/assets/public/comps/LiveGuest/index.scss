@@ -1,0 +1,39 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.live-guest {
+    position: relative;
+    height: 100%;
+    max-height: rem(80);
+    overflow: hidden;
+    color: #666;
+    font-size: rem(24);
+    font-weight: 700;
+    line-height: rem(40);
+
+    .real-txt,
+    .temp-txt {
+        visibility: hidden;
+        word-break: break-all;
+    }
+
+    .temp-txt {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .check-more {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-right: rem(15);
+        background: url("./images/guest-more-icon.png") right no-repeat;
+        background-size: auto 55%;
+        color: #257ae2;
+        text-decoration: none;
+
+        span {
+            color: #666;
+        }
+    }
+}

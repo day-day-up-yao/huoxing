@@ -1,0 +1,41 @@
+.im-live-detail-left-live-info {
+    position: relative;
+    min-height: 108px;
+
+    .ql-container {
+        border: none;
+
+        &.ql-snow {
+            border: none;
+        }
+
+        .ql-editor {
+            padding: 0;
+            white-space: normal;
+            color: #333;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            line-height: 28px;
+
+            h1,
+            h2,
+            h3 {
+                font-size: 20px !important;
+                line-height: 26px;
+                margin: 47px 0 16px 0;
+            }
+
+            img {
+                max-width: 70%;
+                margin: 0 auto;
+                display: block;
+                cursor: auto;
+            }
+
+            p {
+                white-space: pre-line;
+                margin: 0 0 16px 0;
+            }
+        }
+    }
+}

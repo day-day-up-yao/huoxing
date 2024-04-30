@@ -1,0 +1,110 @@
+/* 关注按钮 */
+.attention-author-button {
+    background: #0c7ff2;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+
+    &:hover {
+        background: #4ea7ff;
+    }
+
+    &.active {
+        background: #d5dbe4;
+    }
+}
+
+/* 作者头像 */
+.author-info-avatar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+
+    .author-info-avatar-img {
+        position: relative;
+
+        .avatar-img {
+            border-radius: 50%;
+            display: block;
+            height: 30px;
+            width: 30px;
+            overflow: hidden;
+        }
+
+        .avatar-mark {
+            position: absolute;
+            border-radius: 50%;
+            display: block;
+            width: 15px;
+            height: 15px;
+            overflow: hidden;
+            bottom: -5px;
+            right: -3px;
+        }
+    }
+
+    .avatar-role {
+        font-size: 0.7rem;
+        color: #fff;
+        margin-left: 5px;
+        vertical-align: top;
+
+        .guest-icon {
+            border-radius: 5px;
+            padding: 1px 4px;
+            background-image: linear-gradient(to left, #ff9c60, #ffd08c);
+        }
+
+        .presenter-icon {
+            padding: 1px 4px;
+            border-radius: 5px;
+            background-image: linear-gradient(to left, #5f8eff, #8ba5ff);
+        }
+    }
+}
+
+/* 作者昵称 */
+.author-info-user-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 作者类型标签 */
+.author-info-user-type {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 6px;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.author-info-avatar-text {
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .live-profile-title {
+        color: #333;
+        font-size: 1.1rem;
+    }
+
+    .im-live-list-right-live-good-up-item-text {
+        display: block;
+        color: #777;
+        font-size: 0.9rem;
+        padding-top: 0.3rem;
+    }
+}

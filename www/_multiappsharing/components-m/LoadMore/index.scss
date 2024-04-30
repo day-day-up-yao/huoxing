@@ -1,0 +1,13 @@
+@import "../../public/css/rem";
+
+.m-load-more-btn {
+    width: rem(590);
+    border: 1px #0056ff solid;
+    color: #0056ff;
+    border-radius: rem(4);
+    font-size: rem(30);
+    text-align: center;
+    line-height: rem(80);
+    margin: rem(20) auto;
+    cursor: pointer;
+}

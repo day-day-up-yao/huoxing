@@ -1,0 +1,264 @@
+/* 图形验证码重置 */
+.yp-riddler-button {
+    height: 52px !important;
+    width: 360px !important;
+    line-height: inherit !important;
+}
+
+.yp-riddler-mark {
+    display: none !important;
+}
+
+.yp-riddler-slider-area {
+    height: 40px !important;
+    line-height: 40px !important;
+}
+
+.yp-riddler-slider-tip-default,
+.yp-riddler-slider-tip-error {
+    font-size: 14px !important;
+}
+
+#graphCodeBox {
+    padding: 0;
+    border: none;
+}
+
+/* 输入样式 */
+.register-login-wrapper {
+    padding: 40px;
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+
+    .content {
+        width: 360px;
+
+        /* 微信登录 */
+        &.wechat {
+            width: 300px;
+
+            .wechat-qrcode {
+                height: 400px;
+
+                iframe {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .close-icon {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .header {
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        h1 {
+            margin-right: 30px;
+            color: #222;
+            font-size: 24px;
+        }
+
+        .new-account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+
+            .arrow-icon {
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .body {
+        /* input与验证码共用样式 */
+        @mixin itemPublic {
+            border-radius: 3px;
+            height: 52px;
+            line-height: 52px;
+        }
+
+        .item {
+            position: relative;
+
+            /* 验证码列式排版 */
+            &.column {
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    width: 230px;
+                }
+
+                .right {
+                    width: 120px;
+                }
+            }
+
+            &.password {
+                position: relative;
+            }
+
+            /* 错误提示,刷新图形验证码,忘记密码 */
+            .error,
+            .graph-validate-code-refresh-btn,
+            .password-forget {
+                display: block;
+                height: 24px;
+                width: 100%;
+                color: #ea5d5c;
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            .password-forget {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: auto;
+                color: #999;
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            .graph-validate-code-refresh-btn {
+                cursor: pointer;
+                color: #999;
+                text-align: center;
+            }
+
+            /* 短信验证码 */
+            .code-btn {
+                @include itemPublic;
+
+                background: #0c7ff2;
+                display: block;
+                color: #fff;
+                text-align: center;
+
+                &.can-not-click {
+                    opacity: 0.6;
+                }
+            }
+
+            /* 图形验证码 */
+            .img-code-box {
+                @include itemPublic;
+
+                width: 100%;
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            /* 输入框样式 */
+            .input-box {
+                @include itemPublic;
+
+                padding: 0 10px;
+                background: #f6f8fb;
+                border: 1px solid #dde2e9;
+                box-sizing: border-box;
+                color: #666;
+                font-size: 15px;
+
+                input {
+                    background: none;
+                    border: none;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        /* 提交 */
+        .submit {
+            @include itemPublic;
+
+            margin-top: 25px;
+            background: rgba(12, 127, 242, 1);
+            border: none;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+
+            &:hover {
+                background: rgba(12, 127, 242, 0.8);
+            }
+        }
+
+        /* 用户协议 */
+        .protocol {
+            color: #999;
+            font-size: 12px;
+            text-align: center;
+
+            span {
+                color: #0c7ff2;
+            }
+        }
+
+        .tips {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .arrow-icon {
+                margin-left: 2px;
+            }
+        }
+
+        /* 其它方式登录 */
+        .other-way {
+            padding-top: 30px;
+
+            p {
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            .ways {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                a {
+                    margin: 0 10px;
+                    border-radius: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 50px;
+                    width: 50px;
+                    overflow: hidden;
+
+                    &.sms {
+                        background: #68a5e1;
+                    }
+
+                    &.account {
+                        background: #ff9561;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import 'multiPublic/css/rem.scss';
+
+.financelist-m {
+    padding: rem(20);
+
+    .react-pagination {
+        margin-top: 30px;
+
+        a {
+            color: rgba(35, 47, 66, 0.4);
+            border: none;
+            border-radius: 20%;
+            background: none;
+            display: flex;
+            justify-content: center;
+
+            &.active {
+                background: #0056ff;
+                color: #fff;
+            }
+        }
+    }
+}

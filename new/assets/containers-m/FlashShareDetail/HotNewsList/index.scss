@@ -1,0 +1,118 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.news-correlation {
+    width: 100%;
+    height: auto;
+    padding-bottom: rem(25);
+    background: #fff;
+
+    h6 {
+        position: relative;
+        width: 100%;
+        height: rem(50);
+        line-height: rem(50);
+        font-size: rem(27);
+        font-weight: 600;
+        color: #212121;
+        margin: 0 0 rem(15);
+        box-sizing: border-box;
+
+        span {
+            position: absolute;
+            top: rem(16);
+            width: rem(20);
+            height: rem(20);
+            left: 0;
+            float: left;
+            border-left: 2px solid #00b0ff;
+        }
+    }
+
+    .news-list-more {
+        width: 100%;
+        height: rem(110);
+        position: relative;
+        margin-top: rem(20);
+        padding-bottom: rem(20);
+        border-bottom: 1px #eee solid;
+
+        &:last-child {
+            border: none;
+        }
+
+        .title {
+            width: rem(425);
+            height: rem(80);
+            line-height: rem(39);
+            font-size: rem(27);
+            color: #212121;
+            display: -webkit-box;
+            overflow: hidden;
+
+            /*! autoprefixer: ignore next */
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+
+        .list-text {
+            position: relative;
+            width: rem(425);
+            height: rem(40);
+            margin-top: rem(8);
+            line-height: rem(40);
+            font-size: rem(20);
+
+            div {
+                float: left;
+            }
+
+            .author,
+            .time,
+            .app {
+                color: #bdbdbd;
+                float: left;
+
+                span {
+                    float: left;
+                }
+            }
+
+            .author {
+                margin-right: rem(20);
+            }
+
+            .app {
+                margin-right: rem(10);
+                color: #0c7ff2;
+            }
+        }
+
+        .cover-img-sma {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: rem(145);
+            height: rem(110);
+            overflow: hidden;
+
+            p {
+                display: block;
+                width: auto;
+                height: rem(110);
+                background-size: auto 100%;
+            }
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: rem(-20) 0 0 rem(-20);
+                display: block;
+                width: rem(40);
+                height: rem(40);
+                background: url("./img/btn.png") no-repeat;
+                background-size: 100%;
+            }
+        }
+    }
+}

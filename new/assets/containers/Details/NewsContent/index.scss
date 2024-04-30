@@ -1,0 +1,160 @@
+@import '../../../../node_modules/media-quill/es/index.scss';
+
+/* 旧编辑器------------ simditor 编辑器旧文章样式兼容 */
+@import './simditor.scss';
+
+/* 新编辑器------------ quill 编辑器样式重置 */
+.ql-editor {
+    padding: 0;
+    white-space: normal;
+}
+
+.ql-editor p {
+    margin: 0 0 16px 0;
+}
+
+.ql-snow .ql-editor h1,
+.ql-snow .ql-editor h2,
+.ql-snow .ql-editor h3 {
+    font-size: 20px !important;
+    line-height: 26px;
+    margin: 0 0 16px 0;
+}
+
+.ql-snow .ql-editor img {
+    height: auto;
+    margin-bottom: 16px;
+    max-width: 100%;
+    cursor: auto;
+}
+
+.ql-container.ql-snow {
+    border: none;
+    margin-top: 30px;
+}
+
+/* 页面其它样式 */
+.news-details-content {
+    /* 标题 */
+    h1 {
+        color: #222;
+        font-size: 26px;
+        font-weight: 700 !important;
+        line-height: 36px;
+    }
+
+    /* 新闻时间, 作者等信息 */
+    .news-info {
+        margin: 10px 0 20px;
+        color: #bdbdbd;
+        font-size: 14px;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a {
+            color: #bdbdbd;
+        }
+
+        a,
+        em {
+            margin-right: 10px;
+        }
+
+        time {
+            margin-left: 10px;
+            margin-right: 30px;
+        }
+    }
+
+    /* 新闻简介 */
+    .news-synopsis {
+        padding: 11px 0;
+        background: #f1f3f7;
+        border-left: 5px solid #afb8ca;
+        position: relative;
+
+        p {
+            font-size: 16px;
+            color: #313d57;
+            padding-left: 24px;
+            line-height: 34px;
+            padding-right: 20px;
+        }
+    }
+
+    .news-aritcleInfo {
+        margin-top: 43px;
+        margin-bottom: 30px;
+
+        pre {
+            margin: 0;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 29px;
+
+            p {
+                a {
+                    color: #0c7ff2;
+                }
+            }
+        }
+
+        .synopsis-content {
+            padding: 10px 20px 10px 40px;
+            background: url('../images/news-details-synopsis-bg.png') no-repeat left 10px;
+            background-size: 28px auto;
+            color: rgba(51, 51, 51, 70%);
+            font-size: 15px;
+            line-height: 32px;
+        }
+    }
+
+    .news-wxshare-icon {
+        position: absolute;
+        top: -2000px;
+        left: -2000px;
+    }
+
+    /* 免责声明 */
+    .news-tips {
+        margin: 10px auto 20px;
+        color: #999;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .tradingView {
+        font-size: 14px;
+        color: #a6a6a6;
+        margin: 30px 15px 20px;
+        line-height: 25px;
+
+        a {
+            color: #0c7ff2;
+        }
+    }
+
+    /* 新闻相关标签 */
+    .news-tags {
+        font-size: 14px;
+        line-height: 36px;
+        margin-bottom: 70px;
+
+        a {
+            margin-left: 8px;
+            background: #ededed;
+            color: #4d4c4c;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            padding: 7px 8px;
+
+            &:hover {
+                background: #e7e7e7;
+                color: #333;
+            }
+        }
+    }
+}

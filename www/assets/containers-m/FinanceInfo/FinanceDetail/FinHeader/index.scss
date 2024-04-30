@@ -1,0 +1,67 @@
+@import 'multiPublic/css/rem.scss';
+
+.finheader-m {
+    .finheader-m-top {
+        display: flex;
+
+        img {
+            width: rem(102);
+            height: rem(102);
+            border-radius: 50%;
+        }
+
+        .finheader-m-top-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: rem(18);
+
+            .categary-list {
+                display: flex;
+
+                .categary-list-item {
+                    font-size: rem(19);
+                    color: rgba(35, 47, 66, 0.7);
+                    background: #e7f2fd;
+                    border-radius: 10px;
+                    padding: rem(7) rem(18);
+                }
+            }
+        }
+    }
+
+    .finheader-m-desc {
+        margin-top: rem(28);
+        font-size: rem(20);
+        line-height: rem(28);
+    }
+
+    .comniiton-m {
+        margin-top: rem(41);
+
+        .comniiton-m-website {
+            margin-top: rem(34);
+        }
+
+        .comniiton-m-mt {
+            margin-top: rem(34);
+            display: flex;
+            flex-wrap: wrap;
+
+            .comniiton-m-other {
+                margin-bottom: rem(28);
+                color: #232f42;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                font-feature-settings: rem(24);
+
+                img {
+                    width: rem(48);
+                    height: rem(48);
+                    margin-right: rem(18);
+                }
+            }
+        }
+    }
+}

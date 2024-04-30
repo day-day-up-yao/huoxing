@@ -1,0 +1,26 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.m-wrapper-guest-show {
+    box-sizing: border-box;
+    margin-top: rem(17);
+    background-color: #fff;
+    padding: rem(24);
+
+    .guestlist-show {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        line-height: rem(40);
+
+        .guestlist-show-title {
+            width: rem(90);
+            color: #333;
+            font-size: rem(24);
+            font-weight: 700;
+        }
+
+        .guestlist-show-con {
+            width: rem(490);
+        }
+    }
+}

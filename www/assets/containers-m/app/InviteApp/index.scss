@@ -1,0 +1,110 @@
+@import "../../../../_multiappsharing/public/css/rem.scss";
+
+.invite-app {
+    position: relative;
+    width: rem(640);
+    height: rem(1138);
+    background: url("../images/invite-bg.jpg") center no-repeat;
+    background-size: 100%;
+
+    .invite-logo {
+        position: absolute;
+        top: rem(50);
+        left: 50%;
+        margin-left: rem(-64);
+        width: rem(128);
+        height: rem(30);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .invite-slogan {
+        position: absolute;
+        top: rem(216);
+        left: 50%;
+        margin-left: rem(-213);
+        width: rem(426);
+        height: rem(202);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .invite-title {
+        position: absolute;
+        top: rem(750);
+        left: 50%;
+        margin-left: rem(-226);
+        width: rem(452);
+        height: rem(105);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .invite-name {
+        position: absolute;
+        top: rem(650);
+        width: rem(460);
+        line-height: rem(50);
+        font-size: rem(40);
+        left: rem(90);
+        color: #8afffe;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: center;
+
+        p {
+            height: rem(50);
+            line-height: rem(50);
+        }
+    }
+
+    .invite-ewm {
+        position: absolute;
+        top: rem(870);
+        width: rem(640);
+        height: rem(253);
+
+        .ewm {
+            position: absolute;
+            left: rem(60);
+            top: rem(50);
+            width: rem(135);
+            height: rem(135);
+            overflow: hidden;
+
+            canvas {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 0;
+            }
+
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 1;
+            }
+        }
+
+        .ewm-bg {
+            width: rem(640);
+            height: rem(253);
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.activity-detail-bottom-info {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #f4f4f4;
+
+    .activity-detail-bottom-info-box {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 30px 0 100px;
+
+        .feature,
+        .activity-cont {
+            width: 100%;
+
+            h6 {
+                display: block;
+                font-size: 18px;
+                color: #222;
+                font-weight: 700;
+                line-height: 25px;
+                margin-bottom: 15px;
+
+                span {
+                    display: inline-block;
+                    background: #0c7ff2;
+                    width: 3px;
+                    height: 18px;
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                color: #666;
+                line-height: 26px;
+            }
+        }
+
+        .activity-cont {
+            margin-top: 30px;
+
+            &.simditor {
+                border: none;
+            }
+
+            img {
+                display: block;
+                max-width: 1000px;
+                height: auto;
+                margin: 20px auto;
+            }
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

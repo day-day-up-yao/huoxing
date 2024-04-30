@@ -1,0 +1,28 @@
+.search-page {
+    position: relative;
+
+    .search-page-top-box {
+        width: 100%;
+        position: relative;
+    }
+
+    .search-page-bottom-wrap {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+
+        .search-page-bottom-left {
+            position: relative;
+            width: 800px;
+        }
+
+        .search-page-bottom-right {
+            position: relative;
+            width: 360px;
+            padding-top: 80px;
+        }
+    }
+}

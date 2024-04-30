@@ -1,0 +1,23 @@
+.im-live-list-page {
+    background: #fff;
+    position: relative;
+
+    .im-live-list-page-main-box {
+        width: 1200px;
+        padding: 20px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .im-live-list-page-main-box-left {
+            position: relative;
+            width: 884px;
+        }
+
+        .im-live-list-page-main-box-right {
+            position: relative;
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+/**
+ * Author：quboshen
+ * Time：2020-12-4
+ * Description：右侧推荐直播
+ */
+
+.right-live {
+    width: 360px;
+    border: 1px #f0f0f0 solid;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+    .right-live-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        color: #333;
+        line-height: 28px;
+        font-weight: bold;
+        margin-bottom: 16px;
+
+        .right-live-arrow {
+            display: inline-block;
+            border-right: 3px solid;
+            border-bottom: 3px solid;
+            width: 10px;
+            height: 10px;
+            transform: rotate(-45deg);
+            color: #ccc;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../public/css/rem";
+
+.download-app-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: rem(60);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 999;
+
+    &.iphonex {
+        bottom: rem(80);
+    }
+
+    .download-app-btn {
+        position: relative;
+        padding: 0 rem(20);
+        height: rem(60);
+        width: rem(350);
+        background: rgba(243, 78, 61, 1);
+        color: #fff;
+        line-height: rem(62);
+        text-align: center;
+        font-size: rem(26);
+        border-radius: 50px;
+        box-shadow: 0 rem(3) rem(7) rgba(26, 26, 26, 0.25);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+}

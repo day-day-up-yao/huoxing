@@ -1,0 +1,147 @@
+@import "../../../../_multiappsharing/public/css/rem.scss";
+
+input {
+    outline: none;
+}
+
+.register {
+    background: #f5f5f5;
+    min-height: 100vh;
+    width: rem(640);
+
+    .bottom-down {
+        &.top {
+            top: 0;
+        }
+    }
+
+    .register-present {
+        margin-top: rem(70);
+        width: rem(590);
+        padding: rem(25);
+
+        p {
+            width: 100%;
+            line-height: rem(40);
+            color: #999;
+            padding-top: rem(30);
+            font-size: rem(26);
+            text-align: center;
+
+            span {
+                color: #333;
+            }
+        }
+
+        ul {
+            width: 100%;
+            margin-top: rem(30);
+
+            li {
+                position: relative;
+                width: 100%;
+                height: rem(80);
+                border-bottom: rem(1) #dedede solid;
+
+                input {
+                    width: 65%;
+                    line-height: rem(24);
+                    border: none;
+                    background: none;
+                    height: rem(80);
+                    font-size: rem(24);
+                    display: inline-block;
+                    color: #333;
+                    outline: none;
+                }
+
+                a {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 30%;
+                    line-height: rem(80);
+                    font-size: rem(24);
+                    background: none;
+                    display: block;
+                    color: #56a5f0;
+                    border: none;
+                }
+            }
+        }
+
+        .register-hint {
+            width: 100%;
+            text-align: center;
+            font-size: rem(24);
+            color: #bf3636;
+            height: rem(60);
+            line-height: rem(60);
+        }
+
+        .register-submit {
+            width: rem(590);
+            height: rem(76);
+            background: url("../images/button.jpg") no-repeat;
+            background-size: 100%;
+            font-size: rem(26);
+            text-align: center;
+            line-height: rem(76);
+            color: #fff;
+            margin-top: rem(120);
+        }
+    }
+
+    .down-hint {
+        position: fixed;
+        z-index: 100001;
+        top: 30%;
+        left: rem(80);
+        width: rem(480);
+        height: rem(250);
+        background: #fff;
+        border-radius: rem(5);
+        display: none;
+
+        .hint-top {
+            width: 100%;
+            height: rem(110);
+            padding-top: rem(50);
+            border-bottom: rem(1) solid #d8d9db;
+            text-align: center;
+
+            h5 {
+                font-size: rem(30);
+                color: #000;
+            }
+
+            p {
+                font-size: rem(22);
+                color: #999;
+                line-height: rem(50);
+            }
+        }
+
+        .hint-bottom {
+            width: 100%;
+
+            p,
+            a {
+                width: 50%;
+                float: left;
+                font-size: rem(30);
+                text-align: center;
+                line-height: rem(90);
+                color: #000;
+                box-sizing: border-box;
+
+                &.down-app {
+                    width: rem(239);
+                    color: #4c7fe2;
+                    border-left: rem(1) #d8d9db solid;
+                }
+            }
+        }
+    }
+}

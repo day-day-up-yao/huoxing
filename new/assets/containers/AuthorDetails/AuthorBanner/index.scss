@@ -1,0 +1,125 @@
+.author-banner {
+    background: url("../images/userCenter-banner.jpg") center no-repeat;
+    width: 100%;
+    height: 200px;
+
+    .banner-cont {
+        display: flex;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 35px 0;
+        width: 1200px;
+        height: 100%;
+
+        .author-introduce {
+            flex-wrap: nowrap;
+            width: 800px;
+            height: 100%;
+
+            .introduce-cont {
+                display: flex;
+                width: 100%;
+                height: 105px;
+
+                .author-img {
+                    flex-direction: row;
+                    width: 80px;
+                    height: 80px;
+                    background: red;
+                    border-radius: 100%;
+
+                    img {
+                        border-radius: 100%;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .author-account {
+                    position: relative;
+                    flex-direction: column-reverse;
+                    width: 700px;
+                    height: 105px;
+                    margin-left: 20px;
+                    line-height: 20px;
+
+                    .attention-state {
+                        position: absolute;
+                        right: 0;
+                        top: -9px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        text-align: center;
+                        line-height: 30px;
+                        background: #0c7ff2;
+                        width: 60px;
+                        height: 30px;
+                        color: #fff;
+                        font-size: 14px;
+
+                        &.not {
+                            background: #c2d4f0;
+                        }
+
+                        &:hover {
+                            background: #c2d4f0;
+                        }
+                    }
+
+                    h5 {
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #222;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 14px;
+                        color: #828a92;
+                    }
+                }
+            }
+
+            .author-cont-type {
+                display: flex;
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+
+                p {
+                    flex-direction: row;
+                    cursor: pointer;
+                    margin-right: 50px;
+                    line-height: 35px;
+                    font-size: 15px;
+
+                    span {
+                        margin-left: 6px;
+                        color: #0c7ff2;
+                    }
+
+                    &.active {
+                        border-bottom: 2px #666 solid;
+                    }
+
+                    &:hover {
+                        color: #666;
+                    }
+                }
+            }
+        }
+
+        .banner-hxh {
+            flex-wrap: nowrap;
+            margin-left: 40px;
+            width: 360px;
+            height: 100px;
+
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

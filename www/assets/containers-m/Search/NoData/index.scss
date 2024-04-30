@@ -1,0 +1,16 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.result-img {
+    width: rem(300);
+    padding: rem(150) 0 rem(150);
+    margin: 0 auto;
+    font-size: rem(22);
+    color: #a7b1bc;
+    line-height: rem(32);
+    text-align: center;
+
+    img {
+        width: rem(262);
+        height: rem(255);
+    }
+}

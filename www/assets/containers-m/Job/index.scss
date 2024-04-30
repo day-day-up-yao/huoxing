@@ -1,0 +1,124 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+.m-job-page {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+    a:link {
+        color: #666;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #666;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #666;
+        text-decoration: underline;
+    }
+
+    .job-banner {
+        width: 100%;
+        height: rem(268);
+        background: url("./Image/m-job-banner.jpg") center no-repeat;
+    }
+
+    .job-layout {
+        padding: 0 rem(25);
+        height: auto;
+
+        .job-cont {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+
+            h3 {
+                margin: rem(35) auto;
+                font-size: rem(40);
+                color: #212121;
+            }
+
+            p {
+                font-size: rem(24);
+                color: #666;
+                line-height: rem(35);
+                margin-bottom: rem(30);
+                text-align: justify;
+            }
+
+            .job-tab {
+                width: 100%;
+                height: rem(50);
+                line-height: rem(50);
+                margin-bottom: rem(10);
+                background: #fff;
+
+                &.fixed {
+                    position: fixed;
+                    top: 0;
+                    height: rem(70);
+                    background: #fff;
+                    padding-top: rem(15);
+                }
+
+                p {
+                    float: left;
+                    margin-right: rem(35);
+                    color: #666;
+
+                    &.active {
+                        color: #1377f0;
+                        border-bottom: 2px #1377f0 solid;
+                    }
+                }
+            }
+
+            .job-list-cont {
+                width: 100%;
+                height: auto;
+                margin-top: rem(30);
+
+                .job-list {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: rem(45);
+
+                    h5 {
+                        font-size: rem(30);
+                        color: #333;
+                    }
+
+                    h6 {
+                        margin: rem(20) 0;
+                        font-size: rem(24);
+                        color: #333;
+                    }
+
+                    p {
+                        font-size: rem(24);
+                        line-height: rem(35);
+                        color: #666;
+                        margin: 0;
+                        text-align: justify;
+                    }
+                }
+
+                .job-bottom {
+                    width: 100%;
+                    margin-bottom: 50px;
+
+                    p {
+                        margin-top: rem(20);
+                        font-size: rem(24);
+                        color: #333;
+                        line-height: rem(40);
+                    }
+                }
+            }
+        }
+    }
+}

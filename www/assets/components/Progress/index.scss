@@ -1,0 +1,106 @@
+.pregress-line {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pregress-line-bg {
+        width: 100%;
+        height: 2px;
+        background: rgba(133, 82, 243, 0.4);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        .pregress-line-con {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 4px;
+            background-color: #8552f3;
+        }
+    }
+
+    .pregress-line-btn {
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        border: 3px solid #8552f3;
+        position: absolute;
+        cursor: pointer;
+        transform: translateX(-0.2vw);
+
+        svg {
+            width: 0.9vw;
+        }
+
+        .pregress-line-btn-pop {
+            position: relative;
+
+            .btn-pop-num {
+                position: absolute;
+                top: -28px;
+                left: -14px;
+                width: 38px;
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                background: #454649;
+                border-radius: 4px;
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .pregress-line-con-center {
+        position: relative;
+        width: 100%;
+    }
+
+    .min-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: rgba(133, 82, 243, 0.4);
+        border: 1px solid #16181c;
+    }
+
+    .pregress-line-leftbtn {
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        border: 3px solid #8552f3;
+        position: absolute;
+        top: -4px;
+        cursor: pointer;
+        transform: translateX(-0.2vw);
+
+        svg {
+            width: 0.9vw;
+        }
+
+        .pregress-line-btn-pop {
+            position: relative;
+
+            .btn-pop-num {
+                position: absolute;
+                top: -28px;
+                left: -14px;
+                width: 38px;
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                background: #454649;
+                border-radius: 4px;
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+}

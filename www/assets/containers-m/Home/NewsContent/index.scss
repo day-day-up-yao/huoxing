@@ -1,0 +1,30 @@
+@import 'multiPublic/css/rem.scss';
+
+.news-box {
+    background-color: #fff;
+
+    .flash-more-btn {
+        width: 100%;
+        height: rem(80);
+        background: #fff;
+        padding: rem(20) 0;
+        margin-bottom: rem(100);
+
+        .btn-more {
+            width: rem(590);
+            height: rem(80);
+            border: rem(1) solid #0056ff;
+            border-radius: rem(3);
+            margin: 0 auto rem(35);
+            color: #0056ff;
+            font-size: rem(30);
+            line-height: rem(80);
+            text-align: center;
+
+            &.noborder {
+                border: none;
+                font-size: rem(26);
+            }
+        }
+    }
+}

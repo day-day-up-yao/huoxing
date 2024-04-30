@@ -1,0 +1,17 @@
+html,
+body,
+#root,
+.app-container {
+    height: 100%;
+}
+
+.naga {
+    height: 100%;
+    background: #16181c;
+
+    .naga-con {
+        height: 92%;
+        background: #16181c;
+        display: flex;
+    }
+}

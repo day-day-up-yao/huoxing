@@ -1,0 +1,231 @@
+html {
+    position: relative;
+    min-height: 100vh;
+
+    .layout-content {
+        padding-bottom: 220px;
+    }
+
+    #footerWrapper {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 220px;
+    }
+}
+
+.download-page {
+    position: relative;
+    width: 100%;
+    height: 888px;
+    margin: 0 auto;
+
+    .down-cont {
+        position: relative;
+        width: 1200px;
+        height: 825px;
+        margin: 0 auto;
+        padding-top: 75px;
+
+        .phone {
+            position: relative;
+            width: 728px;
+            height: 810px;
+            margin-left: 572px;
+
+            img {
+                position: absolute;
+                width: 100%;
+            }
+        }
+
+        .down-load-box {
+            position: absolute;
+            left: 0;
+            top: 230px;
+            width: 480px;
+            height: 520px;
+
+            .down-log {
+                position: absolute;
+                width: 560px;
+                height: 113px;
+
+                img {
+                    width: 305px;
+                }
+
+                h6 {
+                    font-size: 38px;
+                    color: #222;
+                    margin: 25px 0 0;
+                }
+
+                p {
+                    font-size: 34px;
+                    margin-top: 15px;
+                    color: #222;
+                    font-weight: 100;
+                }
+            }
+
+            .down-ewm {
+                position: absolute;
+                top: 215px;
+                width: 155px;
+                height: 155px;
+                background: #62abef;
+                border-radius: 5px;
+
+                p {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    width: 135px;
+                    height: 135px;
+                    background: #fff;
+                    border-radius: 5px;
+
+                    img {
+                        position: absolute;
+                        left: 10px;
+                        top: 10px;
+                        width: 112px;
+                        height: 112px;
+                    }
+                }
+            }
+
+            .down-btn {
+                position: absolute;
+                left: 0;
+                top: 215px;
+                width: 560px;
+
+                .download-btn {
+                    display: block;
+                    position: relative;
+                    width: 220px;
+                    height: 56px;
+                    float: left;
+                    font-weight: 400;
+                    text-align: center;
+                    line-height: 40px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    transition: all 0.1s;
+                    z-index: 9;
+                    margin-right: 25px;
+                    margin-bottom: 25px;
+
+                    .anim {
+                        transform: translateY(-50%) translateX(-50%);
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        z-index: -1;
+
+                        &:before {
+                            position: relative;
+                            content: '';
+                            display: block;
+                            margin-top: 100%;
+                        }
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    img {
+                        margin-bottom: -5px;
+                        margin-right: 5px;
+                        width: 100%;
+                    }
+
+                    &:hover {
+                        .anim {
+                            animation: anim-out 0.75s;
+
+                            &:after {
+                                animation: anim-out-pseudo 0.75s;
+                            }
+                        }
+                    }
+                }
+
+                .ewm-btn {
+                    position: relative;
+                    width: 90px;
+                    height: 90px;
+                    float: left;
+                    clear: both;
+
+                    .down-box-ios {
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 10px;
+                        padding: 5px;
+                        border: 1px solid #333;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @keyframes anim-out-pseudo {
+        0% {
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        100% {
+            background: transparent;
+        }
+    }
+
+    @keyframes anim-out {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    .phone-shade {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 129px;
+        background: url("./Image/phone-shade.png") center no-repeat;
+    }
+}
+
+.footer-main {
+    margin-top: 0;
+}
+
+.shade-pop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 14;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}

@@ -1,0 +1,57 @@
+@import '../../../public/css/rem';
+
+.m-header {
+    position: fixed;
+    top: rem(-169);
+    z-index: 99;
+    width: 100%;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+    height: rem(150);
+
+    .huoxing-top {
+        width: 100%;
+        height: rem(85);
+        background: #fff;
+    }
+
+    .back-prev-page {
+        position: absolute;
+        top: rem(25);
+        left: rem(20);
+        width: rem(60);
+        height: rem(60);
+
+        img {
+            height: rem(30);
+        }
+    }
+
+    .logo {
+        margin: 0 auto;
+        width: rem(216);
+        height: auto;
+        display: block;
+        padding: rem(20) 0 0 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .search {
+        position: absolute;
+        top: rem(25);
+        right: rem(30);
+        width: rem(35);
+        height: rem(35);
+        background: url("./images/m-header-search.svg") no-repeat;
+        background-size: 100%;
+    }
+}
+
+.m-layout-container .active {
+    top: 0;
+    transition: all 0.3s ease 0s;
+}

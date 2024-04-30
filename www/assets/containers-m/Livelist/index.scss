@@ -1,0 +1,32 @@
+@import 'multiPublic/css/rem.scss';
+
+.m-live-box {
+    padding: 12px;
+    background: #fff;
+    clear: both;
+    font-size: 17px;
+
+    .live-recommend-list {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        grid-column-gap: 9px;
+        grid-row-gap: 9px;
+    }
+
+    .video-more {
+        width: 100%;
+        margin: rem(50) auto rem(30);
+
+        p {
+            width: rem(590);
+            height: rem(80);
+            border: rem(1) solid #0056ff;
+            border-radius: rem(5);
+            margin: 0 auto;
+            color: #0056ff;
+            font-size: rem(30);
+            line-height: rem(80);
+            text-align: center;
+        }
+    }
+}

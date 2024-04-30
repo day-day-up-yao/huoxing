@@ -1,0 +1,32 @@
+.code-page-wrapper {
+    height: 132px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    .code-page-text {
+        height: 100%;
+        width: 100%;
+        flex: 246;
+
+        h3 {
+            font-size: 18px;
+            color: #424242;
+        }
+
+        h5 {
+            font-size: 14px;
+            color: #424242;
+            margin-top: 50px;
+        }
+    }
+
+    .code-page-img {
+        width: 100px;
+        height: 100px;
+        margin-top: -5px;
+        border: 1px solid #eee;
+    }
+}

@@ -1,0 +1,23 @@
+.search-excellent-news-list {
+    position: relative;
+    margin-bottom: 50px;
+
+    .search-excellent-news-list-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: #2a2f37;
+        line-height: 30px;
+        margin: 30px 0 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .search-excellent-news-list-title-num {
+            font-size: 19px;
+            font-weight: bold;
+            color: #acaeb2;
+            line-height: 26px;
+            margin-left: 5px;
+        }
+    }
+}

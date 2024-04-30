@@ -1,0 +1,79 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.m-title {
+    .haveImg {
+        box-sizing: border-box;
+        background-color: #fff;
+        width: 100%;
+
+        .wrapper-img {
+            width: 100%;
+
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .wrapper-headertitle {
+            height: rem(56);
+            width: 100%;
+            padding: 0 rem(24);
+            box-sizing: border-box;
+            line-height: rem(56);
+
+            .headertitle-time {
+                font-size: rem(24);
+                font-weight: 700;
+                color: #333;
+            }
+
+            .headertitle-text {
+                font-size: rem(24);
+                color: #666;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .noImg {
+        box-sizing: border-box;
+        background-color: #fff;
+        width: 100%;
+        padding: rem(26);
+
+        .wrapper-header {
+            width: 100%;
+
+            .waper-title {
+                display: inline-block;
+                width: rem(112);
+                height: rem(32);
+                background-color: #4fb07a;
+                color: #fff;
+                font-size: rem(22);
+                text-align: center;
+                line-height: rem(34);
+                border-radius: rem(32);
+                font-weight: 700;
+            }
+
+            .waper-text {
+                display: inline;
+                margin-left: rem(10);
+                line-height: rem(46);
+                font-size: rem(30);
+                font-weight: 700;
+            }
+        }
+
+        .wrapper-time {
+            width: 100%;
+            margin-top: rem(16);
+            font-size: rem(24);
+            line-height: rem(28);
+            color: #666;
+        }
+    }
+}

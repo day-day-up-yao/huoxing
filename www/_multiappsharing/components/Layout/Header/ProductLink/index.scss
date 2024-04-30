@@ -1,0 +1,91 @@
+.header-product-link {
+    background: #f0f2f5;
+    height: 35px;
+
+    .content {
+        margin: 0 auto;
+        //padding: 0 25px;
+        //min-width: 1200px;
+        //max-width: 1320px;
+        width: 1200px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 35px;
+
+        .hint {
+            line-height: 35px;
+            font-size: 14px;
+            color: #333;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .products {
+            float: right;
+
+            a {
+                padding-left: 20px;
+                float: left;
+                cursor: pointer;
+                height: 35px;
+                color: #97a8bf;
+                font-size: 14px;
+                line-height: 35px;
+
+                &:hover {
+                    color: #4776b7;
+                }
+
+                &.wechat-qrcode {
+                    position: relative;
+
+                    &:hover .qrcode-dropdown {
+                        display: block;
+                    }
+
+                    .qrcode-dropdown {
+                        padding: 10px;
+                        position: absolute;
+                        right: -30px;
+                        top: 35px;
+                        background: #fff;
+                        border: 1px solid #eaeaea;
+                        border-radius: 5px;
+                        display: none;
+                        width: 98px;
+
+                        &:before {
+                            content: '';
+                            margin-left: -10px;
+                            position: absolute;
+                            left: 50%;
+                            top: -19px;
+                            height: 0;
+                            width: 0;
+                            border-style: solid;
+                            border-width: 10px;
+                            border-color: transparent transparent #fff transparent;
+                        }
+
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+
+                        span {
+                            display: block;
+                            color: #616161;
+                            line-height: normal;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            .products-img {
+                margin-top: 6px;
+                height: 20px;
+            }
+        }
+    }
+}

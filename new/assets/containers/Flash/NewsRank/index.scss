@@ -1,0 +1,42 @@
+.right-news-wrapper {
+    .news-sort-box {
+        width: 100%;
+
+        .list-box {
+            display: flex;
+            margin-bottom: 15px;
+            line-height: 26px;
+
+            span {
+                flex-wrap: nowrap;
+                font-weight: bold;
+                color: #424242;
+                font-size: 16px;
+            }
+
+            a {
+                flex-wrap: nowrap;
+                margin-left: 10px;
+                width: 295px;
+                color: #424242;
+                font-size: 16px;
+
+                &:hover {
+                    color: #1482f0;
+                }
+            }
+
+            &:nth-child(1) span {
+                color: #f00;
+            }
+
+            &:nth-child(2) span {
+                color: #ff7200;
+            }
+
+            &:nth-child(3) span {
+                color: #ffb400;
+            }
+        }
+    }
+}

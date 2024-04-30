@@ -1,0 +1,108 @@
+.activity-list-item {
+    position: relative;
+    display: block;
+    width: 385px;
+    height: 410px;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    margin-right: 20px;
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    &:hover {
+        opacity: 0.8;
+        transition: 0.3s;
+        background-color: #fff;
+    }
+
+    .activity-list-item-state {
+        position: absolute;
+        z-index: 5;
+        right: -6px;
+        top: 12px;
+        width: 80px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        color: #fff;
+        background: #0c7ff2;
+        font-size: 15px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        &.over {
+            background: #e6e6e6;
+            color: #999;
+        }
+    }
+
+    img {
+        width: 385px;
+        height: 280px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        opacity: 1;
+    }
+
+    p {
+        width: 349px;
+        height: 43px;
+        font-size: 18px;
+        color: #222;
+        line-height: 22px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        margin: 18px;
+    }
+
+    .activity-list-item-b {
+        border-top: 1px #eaeaea solid;
+        margin: 0 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin: 0;
+            line-height: 30px;
+            font-size: 14px;
+            color: #666;
+
+            &.activity-list-item-site,
+            &.activity-list-item-time {
+                width: 174px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                img {
+                    width: 14px;
+                    height: 19px;
+                    opacity: 1;
+                }
+
+                span {
+                    vertical-align: middle;
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+
+            &.activity-list-item-time {
+                justify-content: flex-end;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

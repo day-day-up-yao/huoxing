@@ -1,0 +1,18 @@
+.share-list {
+    display: flex;
+    margin-top: 13px;
+
+    .share-img {
+        margin-right: 13px;
+        cursor: pointer;
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

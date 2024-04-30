@@ -1,0 +1,59 @@
+.notice-list {
+    width: 318px;
+    height: auto;
+    border: 1px #eee solid;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h6 {
+        font-size: 16px;
+        color: #222;
+        font-weight: bold;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+        margin: 18px 0;
+        border-bottom: 1px #eee solid;
+
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+
+            a {
+                padding-bottom: 0;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+            float: left;
+
+            img {
+                width: 18px;
+                height: 18px;
+                margin-right: 5px;
+                vertical-align: sub;
+            }
+        }
+
+        span {
+            display: block;
+            float: right;
+            font-size: 13px;
+            color: #999;
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            color: #333;
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+            padding-bottom: 15px;
+        }
+    }
+}

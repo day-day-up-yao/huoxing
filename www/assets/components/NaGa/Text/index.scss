@@ -1,0 +1,36 @@
+.activity {
+    p {
+        font-size: 14px;
+        margin-bottom: 25px;
+        color: #fff;
+        line-height: 20px;
+    }
+
+    .activity-img {
+        display: flex;
+        justify-content: center;
+        margin: 32px 0;
+    }
+
+    img {
+        max-width: 800px;
+        min-width: 110px;
+    }
+
+    &.little {
+        margin-top: 20px;
+
+        p {
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .activity-img {
+            margin: 16px 0;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.rename-box-wrapper {
+    padding: 24px;
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    color: #666;
+    font-size: 15px;
+    width: 415px;
+    height: 200px;
+    box-sizing: border-box;
+
+    .close-icon {
+        position: absolute;
+        right: 30px;
+    }
+
+    .header {
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        h1 {
+            margin-right: 30px;
+            color: #333;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: bold;
+        }
+
+        .new-account {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+
+            .arrow-icon {
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .body {
+        .item {
+            position: relative;
+
+            /* 错误提示 */
+            .error {
+                display: block;
+                height: 24px;
+                width: 100%;
+                color: #ea5d5c;
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+            /* 输入框样式 */
+            .input-box {
+                height: 44px;
+                padding: 12px;
+                background: #f6f6f6;
+                box-sizing: border-box;
+                color: #333;
+                font-size: 14px;
+
+                input {
+                    background: none;
+                    border: none;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        /* 提交 */
+        .submit {
+            width: 88px;
+            height: 36px;
+            border-radius: 4px;
+            float: right;
+            background: rgba(12, 127, 242, 1);
+            border: none;
+            cursor: pointer;
+            display: block;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+
+            &:hover {
+                background: rgba(12, 127, 242, 0.8);
+            }
+        }
+    }
+}

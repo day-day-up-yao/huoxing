@@ -1,0 +1,156 @@
+.addlist-wrapper-page {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    background-color: #fff;
+
+    .addlist-main {
+        position: relative;
+        padding: 10px 0;
+        width: 1200px;
+        margin-left: 50%;
+        transform: translate(-50%);
+
+        .addlist-main-tatle {
+            margin-top: 28px;
+            width: 100%;
+            height: 38px;
+            text-align: center;
+            cursor: pointer;
+
+            .tatle-left {
+                margin-right: 40px;
+            }
+
+            .tatle-left,
+            .tatle-right {
+                font-size: 26px;
+                color: #222;
+                position: relative;
+            }
+
+            .tab-show {
+                position: relative;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background-color: #0a7ff2;
+                    margin-top: 38px;
+                }
+            }
+
+            .tatle-split {
+                margin: 0 16px;
+                color: #bfbfbf;
+                font-size: 24px;
+            }
+        }
+
+        .guest-list {
+            width: 100%;
+            margin-top: 22px;
+            box-sizing: border-box;
+
+            .hostandguestlist {
+                margin-top: 10px;
+                box-sizing: border-box;
+                width: 398px;
+                height: 90px;
+                display: inline-block;
+                margin-bottom: 34px;
+
+                .hostandguestlist-box {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+
+                    .hostandguestlist-text-follow {
+                        position: absolute;
+                        height: 24px;
+                        width: 64px;
+                        border-radius: 10px;
+                        background-color: #eee;
+                        color: #666;
+                        font-size: 14px;
+                        text-align: center;
+                        line-height: 24px;
+                        right: 20px;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: #0a7ff2;
+                            color: #fff;
+                        }
+                    }
+
+                    .hostandguestlist-headimg {
+                        box-sizing: border-box;
+                        height: 68px;
+                        width: 68px;
+                        border-radius: 100%;
+                        border: 1px solid #eee;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+
+                    .avatar-mark {
+                        position: absolute;
+                        display: block;
+                        width: 18px;
+                        height: 18px;
+                        top: 44px;
+                        right: 328px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .hostandguestlist-text {
+                        flex: 332;
+                        padding: 0 30px 0 15px;
+
+                        .hostandguestlist-text-title {
+                            font-size: 18px;
+                            color: #212121;
+                            display: block;
+                        }
+
+                        .hostandguestlist-text-introduce {
+                            font-size: 14px;
+                            color: #666;
+                            line-height: 24px;
+                            margin-top: 20px;
+                            display: -webkit-box;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+
+                            /*! autoprefixer: ignore next */
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                        }
+                    }
+                }
+            }
+        }
+
+        .page-switch {
+            position: absolute;
+            width: 406px;
+            height: 38px;
+            margin-left: 50%;
+            transform: translate(-50%);
+            bottom: -40px;
+            border: 1px solid #eee;
+        }
+    }
+}

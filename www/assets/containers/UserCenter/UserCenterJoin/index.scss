@@ -1,0 +1,25 @@
+.user-center-join {
+    position: relative;
+
+    .user-center-join-box {
+        position: relative;
+        display: block;
+        float: right;
+        width: 360px;
+        height: 100px;
+        margin-top: 15px;
+        background: url('../Image/userCenter-hxmark-bg.jpg') no-repeat;
+
+        .user-center-join-text {
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            font-size: 22px;
+            color: #fff;
+
+            .user-center-join-text-span {
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+.activity-detail-top-info {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    background: #fff;
+    border-bottom: 1px #e1e1e1 solid;
+
+    .activity-detail-top-info-wrap {
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .activity-img {
+            width: 385px;
+            height: 280px;
+            float: left;
+
+            img {
+                width: 385px;
+                height: 280px;
+                border-radius: 5px;
+            }
+        }
+
+        .activity-right {
+            float: right;
+            width: 800px;
+            height: auto;
+
+            .activity-message {
+                position: relative;
+                width: 100%;
+                padding-bottom: 87px;
+
+                h1 {
+                    width: 100%;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: #222;
+                    line-height: 36px;
+                    margin-bottom: 15px;
+                }
+
+                .activityBtn,
+                .notActivityBtn {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 180px;
+                    height: 60px;
+                    border-radius: 50px;
+                    background: #0c7ff2;
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 60px;
+                    text-align: center;
+                    opacity: 1;
+                    transition: 0.3s;
+                    cursor: pointer;
+
+                    &:hover {
+                        opacity: 0.7;
+                        transition: 0.3s;
+                    }
+                }
+
+                .notActivityBtn {
+                    background: #d5dbe4;
+                    cursor: default;
+                }
+
+                .message-left {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 295px;
+                    line-height: 35px;
+
+                    span {
+                        display: block;
+                        float: left;
+                        width: 81px;
+                    }
+
+                    .sponsor {
+                        span {
+                            width: 65px;
+                        }
+                    }
+
+                    p {
+                        float: left;
+                        width: 190px;
+                        word-break: break-all;
+                    }
+                }
+
+                .message-right {
+                    display: inline-block;
+                    width: 475px;
+                    line-height: 35px;
+
+                    span {
+                        display: block;
+                        float: left;
+                        width: 81px;
+                    }
+
+                    .money {
+                        span {
+                            width: 50px;
+                        }
+                    }
+
+                    p {
+                        float: left;
+                        width: 370px;
+                    }
+                }
+
+                #shareBox {
+                    position: absolute;
+                    width: 220px;
+                    right: 0;
+                    bottom: 13px;
+                    display: flex;
+                    align-items: center;
+
+                    font {
+                        font-size: 14px;
+                        color: #838a92;
+                        float: left;
+                        line-height: 29px;
+                        padding-right: 20px;
+                    }
+
+                    a {
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}

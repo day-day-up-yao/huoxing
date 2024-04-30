@@ -1,0 +1,108 @@
+
+.im-live-control-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+
+    .im-live-control-item-title {
+        width: 132px;
+        font-size: 15px;
+        color: #333;
+        line-height: 22px;
+        text-align: end;
+        margin-right: 24px;
+    }
+
+    .im-live-control-item-explain {
+        width: 100%;
+        line-height: 20px;
+        margin-left: 48px;
+        font-size: 14px;
+        color: #999;
+    }
+
+    .im-live-control-item-img {
+        width: 224px;
+        height: 126px;
+        border-radius: 4px;
+    }
+
+    .im-live-control-item-text {
+        font-size: 14px;
+        color: #333;
+        line-height: 20px;
+    }
+
+    .im-live-control-item-input {
+        width: 600px;
+        height: 34px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        background: #f7f7f7;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #333;
+        line-height: 20px;
+        border: none;
+        -webkit-appearance: none;/* 去除阴影边框 */
+    }
+
+    .im-live-control-item-copy {
+        width: 80px;
+        height: 34px;
+        background: rgba($color:  #0a7ff2, $alpha: 0.1);
+        border-radius: 4px;
+        font-size: 14px;
+        color: #0a7ff2;
+        line-height: 18px;
+        margin-left: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .im-live-control-item-btn {
+        width: 156px;
+        height: 38px;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 48px;
+        cursor: pointer;
+
+        &.backColor1 {
+            background: #f43940;
+        }
+
+        &.backColor2 {
+            background: #ececec;
+        }
+
+        .im-live-control-item-btn-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+        }
+    }
+
+    .im-live-control-item-btn-explain {
+        font-size: 14px;
+        color: #0a7ff2;
+        line-height: 20px;
+        margin-left: 24px;
+        cursor: pointer;
+    }
+
+    .im-live-control-item-btn-explain-icon {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+}

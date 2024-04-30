@@ -1,0 +1,88 @@
+.home-festival-bg {
+    position: relative;
+    overflow: visible;
+
+    &.active {
+        padding: 50px 0;
+
+        .home-festival-bg-img,
+        .home-festival-bg-close {
+            opacity: 1;
+        }
+
+        .home-page-wrapper {
+            padding: 10px 30px 30px;
+        }
+    }
+
+    .home-festival-bg-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 0;
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+        background: url('./image/festival-bg-2021.jpg') no-repeat top;
+        background-size: 2560px auto;
+    }
+
+    .home-festival-bg-close {
+        position: absolute;
+        right: 0;
+        top: -24px;
+        height: 24px;
+        width: 52px;
+        border-radius: 3px;
+        background: rgba(97, 12, 18, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(220, 144, 117, 1);
+        font-size: 12px;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+
+        span {
+            display: block;
+            padding-right: 2px;
+        }
+    }
+}
+
+.home-page-wrapper {
+    position: relative;
+    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+
+    .home-page-main-box {
+        overflow: visible;
+        width: 1200px;
+        padding: 20px 0;
+        padding-top: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .home-page-main-box-left {
+            position: relative;
+            width: 800px;
+        }
+
+        .home-page-main-box-right {
+            position: relative;
+            width: 360px;
+
+            .right-subject-tags {
+                position: sticky;
+                top: 76px;
+            }
+        }
+    }
+}

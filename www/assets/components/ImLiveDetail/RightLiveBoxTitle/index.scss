@@ -1,0 +1,32 @@
+.im-live-detail-right-live-box-title {
+    position: relative;
+    height: 64px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ececec;
+
+    .im-live-detail-right-live-box-title-text {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        line-height: 32px;
+        margin-left: 8px;
+    }
+
+    .im-live-detail-right-live-box-title-line {
+        width: 2px;
+        height: 14px;
+        background: #0a7ff2;
+        border-radius: 1px;
+    }
+
+    .im-live-detail-right-live-box-title-icon {
+        width: 25px;
+        height: 25px;
+    }
+}

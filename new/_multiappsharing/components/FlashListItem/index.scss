@@ -1,0 +1,96 @@
+.flash-list-item-wrapper {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+
+    &:last-child {
+        border: none;
+    }
+
+    .item-icons {
+        display: flex;
+        justify-content: flex-start;
+
+        &.import {
+            .round {
+                background-color: #878787;
+            }
+
+            .time-left {
+                background-color: #f0f0f0;
+                color: #212121;
+
+                &:before {
+                    border-right-color: #f0f0f0;
+                }
+            }
+        }
+
+        .round {
+            margin: 5px 0 5px 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #878787;
+        }
+
+        .time-left {
+            margin-left: 15px;
+            padding-right: 5px;
+            position: relative;
+            background-color: #f0f0f0;
+            height: 100%;
+            color: #212121;
+            font-size: 14px;
+            line-height: 20px;
+
+            &:before {
+                position: absolute;
+                content: '';
+                left: -20px;
+                top: 0;
+                border: 10px solid transparent;
+                border-right-color: #f0f0f0;
+            }
+        }
+    }
+
+    .item-title {
+        padding: 32px 0 20px 0;
+        display: block;
+        font-size: 16px;
+        color: #212121;
+        font-weight: 700;
+
+        &.import {
+            color: #212121;
+        }
+    }
+
+    .little-img {
+        margin-top: 28px;
+        max-width: 260px;
+        cursor: zoom-in;
+    }
+
+    .item-detail {
+        overflow: hidden;
+        width: 100%;
+        color: #757575;
+        font-size: 14px;
+        line-height: 26px;
+        word-break: break-all;
+        word-wrap: break-word;
+        text-align: justify;
+
+        div {
+            a {
+                color: #757575;
+            }
+        }
+
+        a {
+            color: #0a7ff2;
+        }
+    }
+}

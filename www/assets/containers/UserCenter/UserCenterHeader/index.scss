@@ -1,0 +1,78 @@
+.user-center-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .user-center-header-right {
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .user-center-header-name-box {
+            position: relative;
+            display: flex;
+
+            .user-center-header-name {
+                color: #333;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 20px;
+            }
+
+            .user-center-header-author-type {
+                margin-left: 10px;
+            }
+        }
+
+        .user-center-header-infor {
+            font-size: 14px;
+            color: #838a92;
+            line-height: 20px;
+            margin-top: 15px;
+        }
+    }
+
+    .user-center-header-data-edition,
+    .user-center-header-change-password {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        color: #7d7e7e;
+        line-height: 25px;
+        cursor: pointer;
+
+        &:hover {
+            color: #222;
+        }
+
+        img {
+            padding-right: 10px;
+        }
+    }
+
+    .user-center-header-data-edition {
+        right: 120px;
+
+        img {
+            width: 16px;
+            height: 17px;
+            vertical-align: middle;
+            margin-bottom: 3px;
+        }
+    }
+
+    .user-center-header-change-password {
+        right: 0;
+
+        img {
+            width: 15px;
+            height: 17px;
+            vertical-align: middle;
+            margin-bottom: 3px;
+        }
+    }
+}

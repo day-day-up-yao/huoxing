@@ -1,0 +1,52 @@
+.quotation-page-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 10px 0;
+    margin-top: 20px;
+    background-color: #fff;
+    display: flex;
+
+    .page-wrapper-list {
+        box-sizing: border-box;
+        flex: 1;
+        line-height: 30px;
+        margin: 0 20px;
+        position: relative;
+        border-right: 1px #eee solid;
+
+        &:last-child {
+            border: none;
+        }
+
+        h5 {
+            font-size: 14px;
+            color: #333;
+            line-height: 28px;
+            display: inline;
+        }
+
+        h3 {
+            font-size: 16px;
+            color: #333;
+            line-height: 28px;
+            font-weight: 700;
+
+            span {
+                &.list-space {
+                    font-size: 14px;
+                    font-weight: 100;
+                    margin-left: 24px;
+
+                    &.fall {
+                        color: #eb4d3d;
+                    }
+
+                    &.rise {
+                        color: #3fb45f;
+                    }
+                }
+            }
+        }
+    }
+}

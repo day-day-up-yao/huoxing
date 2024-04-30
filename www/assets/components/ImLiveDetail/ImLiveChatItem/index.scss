@@ -1,0 +1,49 @@
+.im-live-detail-right-chart-item {
+    position: relative;
+    padding: 16px 16px 0 16px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+
+    span {
+        word-break: break-all;
+    }
+
+    .im-live-detail-right-chart-item-sp {
+        width: 34px;
+        height: 18px;
+        font-size: 12px;
+        color: #fff;
+        line-height: 18px;
+        border-radius: 9px;
+        box-sizing: border-box;
+        padding: 2px 6px;
+        margin-right: 4px;
+
+        &.im-live-detail-right-chart-item-icon1 {
+            background: linear-gradient(270deg, #608fff 0%, #8ca5ff 100%);
+        }
+
+        &.im-live-detail-right-chart-item-icon2 {
+            background: linear-gradient(270deg, #ff8b54 0%, #ffb273 100%);
+        }
+    }
+
+    .im-live-detail-right-chart-item-name {
+        color: #ff7043;
+    }
+
+    .im-live-detail-right-chart-item-sys {
+        color: #838a91;
+    }
+
+    .im-live-chart-item {
+        a {
+            margin-top: 4px;
+            display: inline-block;
+            word-wrap: break-word;
+            word-break: break-all;
+            color: #4b9ff4;
+        }
+    }
+}

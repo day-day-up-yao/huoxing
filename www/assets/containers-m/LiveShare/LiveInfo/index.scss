@@ -1,0 +1,153 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.live-share-m-info {
+    padding: 0;
+    box-sizing: border-box;
+
+    .liveshare-m-info-box {
+        background: #fff;
+        margin-bottom: 10px;
+
+        .video {
+            width: 100%;
+            height: 200px;
+            background: burlywood;
+        }
+
+        .video-title {
+            font-size: rem(28);
+            padding: 8px 12px;
+            padding-bottom: 0;
+            line-height: rem(50);
+            font-weight: bold;
+
+            .live-status {
+                display: inline-block;
+                width: 78px;
+                border-radius: 4px;
+                color: #fff;
+                font-size: 12px;
+                padding: 1px 0;
+                margin-top: -2px;
+                height: 20px;
+                line-height: 20px;
+                vertical-align: middle;
+
+                em {
+                    display: inline-block;
+                    line-height: 20px;
+                    float: right;
+                    width: 50px;
+                }
+
+                img {
+                    width: 18px;
+                    height: 18px;
+                    margin: 0 2px 0 4px;
+                }
+            }
+
+            .title {
+                margin-left: 4px;
+                display: inline;
+            }
+
+            .im-item-status-living {
+                background: #f63c2a !important;
+                padding: 2px 3px;
+                width: 68px;
+                text-align: center;
+
+                em {
+                    width: 42px !important;
+                    font-size: rem(20);
+                    font-weight: normal;
+                }
+            }
+
+            .im-item-status-ready {
+                background: #077ff3 !important;
+                padding: 2px 3px;
+                width: 50px;
+                text-align: center;
+
+                em {
+                    float: none;
+                }
+            }
+
+            .im-item-status-finish {
+                background: #838a91 !important;
+                padding: 2px 3px;
+                width: 68px;
+                text-align: center;
+
+                em {
+                    width: 42px !important;
+                    font-size: rem(20);
+                    font-weight: normal;
+                }
+            }
+        }
+
+        .live-time {
+            color: #9b9b9b;
+            font-size: 14px;
+            padding: 6px 12px;
+        }
+    }
+
+    .liveshare-info-presenter {
+        padding: 12px;
+        overflow: hidden;
+
+        .presenter-info {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            float: left;
+
+            .avatar {
+                width: rem(34);
+                height: rem(34);
+                border-radius: 100%;
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+
+            .name {
+                margin: 0 rem(10);
+                color: #333;
+                font-size: rem(22);
+            }
+
+            .grade {
+                height: rem(26);
+                width: rem(26);
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .presenter-play-num {
+        color: #9b9b9b;
+        font-size: rem(22);
+        padding: 0 rem(16);
+        display: flex;
+        align-items: center;
+        float: right;
+
+        span {
+            display: inline-block;
+            padding-left: 4px;
+        }
+    }
+}

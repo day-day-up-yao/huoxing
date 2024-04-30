@@ -1,0 +1,47 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+.m-feature-wrapper {
+    width: rem(640);
+    background: #fff;
+    overflow: hidden;
+
+    .func {
+        font-size: rem(24);
+        color: #999;
+        width: rem(590);
+        margin: 0 auto;
+        display: none;
+
+        .sort {
+            float: left;
+            padding: rem(30) 0;
+
+            a {
+                display: inline-block;
+                float: left;
+                margin-right: rem(35);
+                color: #666;
+                cursor: pointer;
+
+                &.active {
+                    background-color: #fff;
+                    color: #387dea;
+                }
+            }
+        }
+
+        .number span {
+            color: #387dea;
+            font-size: 20px;
+        }
+    }
+
+    ul {
+        width: rem(590);
+        margin: 0 auto;
+    }
+
+    .pagination {
+        margin: 90px 0 20px;
+    }
+}

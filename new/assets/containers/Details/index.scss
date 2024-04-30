@@ -1,0 +1,87 @@
+/* 头部广告 */
+.news-details-ad-up {
+    padding: 30px 0 20px;
+}
+
+/* 新闻评论 */
+.news-details-comment {
+    background: #f5f7fa;
+    border-top: 1px #eee solid;
+}
+
+/* 隐藏文章详情Power北京大会临时广告-过了可删除 */
+#content_ad {
+    display: none;
+}
+
+.ad-right-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
+
+    .right-img-cont {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: 200px;
+
+        a {
+            position: relative;
+            display: block;
+            float: left;
+            width: 360px;
+            height: 200px;
+
+            img {
+                width: 360px;
+                height: 200px;
+            }
+
+            span {
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 12px;
+                color: #eee;
+                background: #666;
+                width: 40px;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+            }
+
+            p {
+                position: absolute;
+                bottom: 0;
+                width: 340px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 10px;
+                font-size: 14px;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.6);
+                color: #eee;
+            }
+        }
+    }
+
+    .img-cont-item {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+
+        font {
+            width: 8px;
+            height: 8px;
+            background: #eee;
+            border-radius: 8px;
+            margin: 10px 5px;
+
+            &.active {
+                background: #666;
+            }
+        }
+    }
+}

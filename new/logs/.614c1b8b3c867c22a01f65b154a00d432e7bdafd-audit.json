@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "/Users/admin/Desktop/HUOXING/hx/news.huoxing24.com/logs/.614c1b8b3c867c22a01f65b154a00d432e7bdafd-audit.json",
+    "files": [
+        {
+            "date": 1714285333738,
+            "name": "/Users/admin/Desktop/HUOXING/hx/news.huoxing24.com/logs/warn-2024-04-28-14.log",
+            "hash": "85068608433dfd64b9d204082c20bf8b"
+        }
+    ],
+    "hashType": "sha256"
+}

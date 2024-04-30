@@ -1,0 +1,82 @@
+@import '../../../../_multiappsharing/public/css/rem.scss';
+
+.market-box {
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+    .search-result {
+        width: 100%;
+        height: rem(70);
+        background: #f5f5f5;
+        text-align: center;
+        font-size: rem(24);
+        color: #212121;
+        line-height: rem(70);
+
+        span {
+            color: #ff2727;
+        }
+    }
+
+    table {
+        width: 100%;
+
+        thead {
+            width: 100%;
+            color: #999;
+        }
+
+        tbody {
+            font-size: rem(24);
+            color: #222;
+        }
+
+        tr {
+            width: 100%;
+            height: rem(70);
+            border-bottom: 1px #f5f5f5 solid;
+
+            td {
+                width: 28%;
+                text-align: center;
+
+                img {
+                    width: rem(23);
+                    height: rem(23);
+                    padding-right: rem(10);
+                }
+
+                &:first-child {
+                    padding-left: rem(25);
+                    text-align: left;
+                }
+
+                &:last-child {
+                    padding-right: rem(25);
+                    text-align: right;
+                }
+
+                span {
+                    display: block;
+                    width: rem(100);
+                    height: rem(37);
+                    line-height: rem(37);
+                    text-align: center;
+                    color: #fff;
+                    float: right;
+                    border-radius: rem(6);
+                    font-size: rem(20);
+
+                    &.rise {
+                        background: #3ae4a7;
+                    }
+
+                    &.fall {
+                        background: #f43974;
+                    }
+                }
+            }
+        }
+    }
+}

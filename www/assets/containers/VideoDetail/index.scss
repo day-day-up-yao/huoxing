@@ -1,0 +1,34 @@
+.video-detail-page {
+    background: #f7f8fa;
+
+    .video-detail-page-main-box {
+        width: 1200px;
+        padding: 20px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .video-detail-page-main-box-left {
+            position: relative;
+            width: 840px;
+
+            .news-details-comment-content {
+                margin: 16px 0 !important;
+            }
+
+            .news-details-comment-show {
+                margin: 16px 0 40px !important;
+            }
+        }
+
+        .video-detail-page-main-box-right {
+            position: relative;
+            width: 344px;
+
+            .right-download-box {
+                background: #fff !important;
+            }
+        }
+    }
+}

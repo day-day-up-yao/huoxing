@@ -1,0 +1,92 @@
+.help-slide {
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    display: block;
+    width: 130px;
+    z-index: 799;
+
+    a {
+        margin-bottom: 10px;
+        padding: 0 12px;
+        position: relative;
+        background: #0056ff;
+        border-radius: 3px;
+        display: block;
+        height: 40px;
+        width: 90px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 40px;
+        cursor: pointer;
+
+        &:hover {
+            background: #0056ff;
+        }
+
+        span {
+            padding-left: 30px;
+            background: url("./images/help-slide-icon.png") no-repeat left;
+            background-position: 0 12px;
+            display: block;
+            height: 100%;
+        }
+
+        &.finance {
+            span {
+                background-position: 0 -21px;
+            }
+        }
+
+        &.appdownload {
+            span {
+                background-position: -1px -58px;
+            }
+
+            &:hover {
+                .qrcode {
+                    display: block;
+                }
+            }
+        }
+
+        .qrcode {
+            padding: 10px;
+            position: absolute;
+            left: -125px;
+            top: -55px;
+            background: #fff;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+            display: none;
+            width: 95px;
+
+            &:before {
+                content: '';
+                margin-top: -5px;
+                position: absolute;
+                right: -19px;
+                top: 50%;
+                border-width: 10px;
+                border-style: solid;
+                border-color: transparent transparent transparent #fff;
+                height: 0;
+                width: 0;
+            }
+
+            img {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+
+            em {
+                display: block;
+                color: #666;
+                font-size: 12px;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+    }
+}

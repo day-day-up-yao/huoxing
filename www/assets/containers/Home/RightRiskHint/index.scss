@@ -1,0 +1,62 @@
+/**
+ * Author：quboshen
+ * Time：2020-11-6
+ * Description：首页风险提示
+ */
+.right-risk-hint {
+    width: 360px;
+    line-height: 20px;
+    padding: 16px;
+    background-color: #fff;
+    border: 1px #f0f0f0 solid;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 14px;
+
+    p {
+        padding-top: 15px;
+        line-height: 22px;
+        text-align: justify;
+        font-weight: bold;
+    }
+
+    a {
+        display: block;
+        color: #333;
+        font-weight: bold;
+
+        .right-risk-hint-img {
+            img {
+                margin-bottom: -3px;
+            }
+
+            span {
+                padding-left: 10px;
+                color: #0c7ff2;
+                font-weight: bold;
+            }
+
+            font {
+                display: block;
+                text-align: right;
+                font-weight: bold;
+            }
+        }
+
+        p {
+            display: inline;
+            padding-top: 0;
+            margin-bottom: 10px;
+            font-weight: bold;
+
+            span {
+                display: block;
+                width: 100%;
+                text-align: right;
+                color: #666;
+                font-weight: bold;
+            }
+        }
+    }
+}

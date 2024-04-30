@@ -1,0 +1,96 @@
+.right-news-wrapper {
+    .right-news-item {
+        padding: 20px 0;
+        border-bottom: 1px solid #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 65px;
+        overflow: hidden;
+
+        &:first-child {
+            padding-top: 0;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &:nth-child(1) {
+            .left span {
+                background: #f43940;
+            }
+        }
+
+        &:nth-child(2) {
+            .left span {
+                background: #fd834e;
+            }
+        }
+
+        &:nth-child(3) {
+            .left span {
+                background: #fdaa44;
+            }
+        }
+
+        .left {
+            margin-right: 10px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            height: 100%;
+            width: 90px;
+            position: relative;
+
+            span {
+                display: inline-block;
+                flex-wrap: nowrap;
+                font-weight: bold;
+                color: #fff;
+                width: 20px;
+                height: 20px;
+                border-radius: 3px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 14px;
+                background: #d6d6d6;
+                position: absolute;
+                z-index: 1;
+                top: 2px;
+                left: 2px;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            width: 218px;
+
+            a {
+                max-height: 40px;
+                color: #2a2f37;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 20px;
+                display: -webkit-box;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 2;
+
+                /*! autoprefixer: ignore next */
+                -webkit-box-orient: vertical;
+
+                &:hover {
+                    color: #0163c5 !important;
+                }
+            }
+
+            time {
+                color: #838a91;
+                font-size: 12px;
+            }
+        }
+    }
+}

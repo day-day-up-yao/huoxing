@@ -1,0 +1,33 @@
+.user-center-tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+
+    .user-center-tag-box {
+        font-size: 15px;
+        color: #333;
+        margin-right: 50px;
+        line-height: 30px;
+        box-sizing: border-box;
+        border-bottom: 2px  solid rgba($color: #000, $alpha: 0);
+        cursor: pointer;
+
+        &.user-center-tag-box-active {
+            border-bottom: 2px  solid #666;
+            font-weight: bold;
+
+            .user-center-tag-box-span {
+                font-weight: bold;
+            }
+        }
+
+        .user-center-tag-box-span {
+            display: inline-block;
+            margin-left: 6px;
+            color: #0c7ff2;
+        }
+    }
+}

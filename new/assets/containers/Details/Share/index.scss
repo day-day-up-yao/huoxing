@@ -1,0 +1,148 @@
+.news-details-share-wrapper {
+    margin-top: 20px;
+    height: 62px;
+    width: 800px;
+}
+
+.news-details-share {
+    bottom: -70px;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px #eee solid;
+    box-sizing: border-box;
+    width: 800px;
+    z-index: 6;
+    transition: all 0.3s ease 0s;
+
+    &.active {
+        bottom: 0;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+
+        /* 用户信息部分 */
+        .user-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .avatar {
+                margin-right: 10px;
+                height: 30px;
+                width: 30px;
+                overflow: hidden;
+            }
+
+            .user-name {
+                margin-right: 30px;
+                color: #222;
+                font-weight: bold;
+            }
+        }
+
+        /* 阅读, 收藏, 分享, 回到顶部功能区 */
+        .func {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+
+            /* 阅读, 收藏 */
+            .comment-favorite {
+                display: flex;
+                align-items: center;
+
+                a {
+                    display: block;
+
+                    &.favorite {
+                        margin-right: 20px;
+                        background: url("../images/news-details-share.png") no-repeat 0 0;
+                        display: block;
+                        height: 22px;
+                        width: 22px;
+
+                        &:hover,
+                        &.active {
+                            background-position: -57px 0;
+                        }
+                    }
+
+                    &.comment {
+                        padding-left: 25px;
+                        background: url("../images/news-details-share.png") no-repeat 0 -40px;
+                        height: 100%;
+                        color: #bac7db;
+                        line-height: 32px;
+                    }
+                }
+            }
+
+            /* 分享 */
+            .share {
+                margin: 0 20px;
+                padding: 0 20px;
+                border-left: 1px #eee solid;
+                border-right: 1px #eee solid;
+                display: flex;
+                align-items: center;
+                color: #828a92;
+
+                .social-share {
+                    margin-left: 5px;
+
+                    .social-share-icon {
+                        border-color: #d5dbe4;
+                        height: 25px;
+                        width: 25px;
+                        color: #d5dbe4;
+                        font-size: 16px;
+                        line-height: 26px;
+
+                        &:hover {
+                            color: #fff;
+
+                            &.icon-qq {
+                                border-color: #56b6e7;
+                            }
+
+                            &.icon-weibo {
+                                border-color: #ff763b;
+                            }
+
+                            &.icon-wechat {
+                                border-color: #7bc549;
+                            }
+
+                            &.icon-twitter {
+                                border-color: #55acee;
+                            }
+
+                            &.icon-facebook {
+                                border-color: #44619d;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* 回到顶部 */
+            .goto-top {
+                background: url("../images/news-details-share.png") no-repeat 0 -380px;
+                cursor: pointer;
+                height: 21px;
+                width: 25px;
+
+                &:hover {
+                    background-position: -53px -380px;
+                }
+            }
+        }
+    }
+}

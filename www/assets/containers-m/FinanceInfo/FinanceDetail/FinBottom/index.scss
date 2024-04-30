@@ -1,0 +1,95 @@
+@import 'multiPublic/css/rem.scss';
+
+.finbottom-m {
+    margin-top: rem(70);
+
+    h3 {
+        font-size: rem(34);
+    }
+
+    h4 {
+        font-size: rem(24);
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .finbottom-m-list {
+        margin-top: rem(28);
+
+        .finbottom-m-list-item {
+            margin-bottom: rem(34);
+            background: #fff;
+            box-shadow: 0 15px 45px 0 rgba(40, 40, 40, 0.08);
+            padding: rem(55) rem(34);
+
+            .m-list-item-top {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .item-top-time {
+                    display: flex;
+                    align-items: center;
+                    font-size: rem(24);
+                    font-weight: bold;
+
+                    img {
+                        width: rem(28);
+                        height: rem(28);
+                        margin-right: rem(15);
+                    }
+                }
+
+                .item-top-money {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: rem(55) 0;
+
+                    .top-money-amount {
+                        margin: rem(20) 0;
+                        font-size: rem(50);
+                        font-weight: bold;
+                    }
+
+                    a {
+                        display: block;
+                        width: rem(156);
+                        height: rem(55);
+                        border-radius: rem(12);
+                        border: 1px solid #232f42;
+                        text-align: center;
+                        line-height: rem(56);
+                        font-size: rem(20);
+                        color: #232f42;
+                    }
+                }
+            }
+
+            .m-list-item-bottom {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .item-bottom-invest {
+                    margin-top: rem(20);
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    .bottom-invest-item {
+                        width: 50%;
+                        margin-top: rem(20);
+                    }
+
+                    img {
+                        max-height: rem(61);
+                        height: auto;
+                        max-width: 90%;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

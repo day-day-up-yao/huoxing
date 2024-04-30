@@ -1,0 +1,39 @@
+.user-center-list {
+    position: relative;
+    width: 800px;
+    height: auto;
+    margin-top: 13px;
+
+    .user-center-list-news-list {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        &.user-center-list-news-list-myvideo {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            .im-live-list-item {
+                /* 如果最后一行是2个元素 */
+                &:last-child:nth-child(3n - 1) {
+                    margin-right: calc(32% + 8% / 3);
+                }
+            }
+        }
+    }
+
+    .user-center-list-no {
+        width: 210px;
+        height: 30px;
+        font-size: 16px;
+        color: #a1b0c6;
+        padding-top: 140px;
+        text-align: center;
+        background: url('../Image/userCenter-list-empty.png') center no-repeat;
+        margin: 130px auto;
+    }
+}

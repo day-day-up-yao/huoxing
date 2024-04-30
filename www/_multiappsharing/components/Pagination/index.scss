@@ -1,0 +1,58 @@
+.react-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        margin: 0 5px;
+        background: #d7d7d7;
+        border: 1px solid #d7d7d7;
+        border-radius: 50%;
+        box-sizing: border-box;
+        display: block;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+
+        &:hover {
+            background: #fff;
+            border: 1px solid #0056ff;
+            color: #0056ff;
+        }
+
+        &.active {
+            background: #0056ff;
+            border: 1px solid #0056ff;
+            color: #fff;
+        }
+
+        &.prev,
+        &.next {
+            background: none;
+            border: none;
+            border-radius: initial;
+            height: auto;
+            width: auto;
+            color: #666;
+
+            &:hover {
+                background: none;
+                border: none;
+                color: #0056ff;
+            }
+
+            &.disabled {
+                opacity: 0.5;
+            }
+        }
+    }
+}

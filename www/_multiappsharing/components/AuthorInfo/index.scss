@@ -1,0 +1,70 @@
+/* 关注按钮 */
+.attention-author-button {
+    background: #0c7ff2;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+
+    &:hover {
+        background: #0c7ff2;
+    }
+
+    &.active {
+        background: #d5dbe4;
+    }
+}
+
+/* 作者头像 */
+.author-info-avatar {
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .avatar-img {
+        border-radius: 50%;
+        display: block;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .avatar-mark {
+        position: absolute;
+        bottom: 5px;
+        right: 0;
+        display: block;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+/* 作者昵称 */
+.author-info-user-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 作者类型标签 */
+.author-info-user-type {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 6px;
+    border-radius: 8px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+}

@@ -1,0 +1,84 @@
+.im-live-list-left-live-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .im-live-list-left-live-list-top-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .im-live-list-left-live-list-top-box-left {
+            width: 440px;
+            height: 250px;
+        }
+
+        .im-live-list-left-live-list-top-box-right {
+            width: 210px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .im-live-list-left-live-list-new-box {
+        height: 168px;
+        width: 100%;
+        margin-top: 24px;
+        background: #e6ebf3;
+        position: relative;
+        display: flex;
+
+        .im-live-list-left-live-list-new-box-left {
+            height: 100%;
+            width: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 25px;
+            padding: 0 16px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+            background: url('../Image/im-live-list-recommend.png');
+        }
+
+        .im-live-list-left-live-list-new-box-right {
+            width: 30px;
+            height: 100%;
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 0 8px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .im-live-list-left-live-list-new-box-list {
+            flex: 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .im-live-list-left-live-list-new-box-item {
+                width: 180px;
+                height: 136px;
+                background: #fff;
+                border-radius: 3px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

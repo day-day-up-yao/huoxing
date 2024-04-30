@@ -1,0 +1,102 @@
+/* 用户信息 */
+.news-details-user-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .avatar {
+        margin-right: 15px;
+    }
+
+    .info-right {
+        width: 240px;
+
+        h5 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                width: 140px;
+                color: #222;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 35px;
+            }
+        }
+
+        p {
+            display: -webkit-box;
+            overflow: hidden;
+            color: #828a92;
+            font-size: 14px;
+            line-height: 24px;
+            text-overflow: ellipsis;
+
+            /*! autoprefixer: ignore next */
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+        }
+    }
+}
+
+/* 用户新闻列表 */
+.news-details-user-list {
+    h5 {
+        padding: 20px 0 10px;
+        color: #222;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .list {
+        width: 100%;
+        height: auto;
+
+        a {
+            padding: 18px 0 18px 20px;
+            position: relative;
+            border-bottom: 1px #e1e1e1 solid;
+            display: block;
+            color: #222;
+            font-size: 14px;
+            line-height: 20px;
+
+            &:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 25px;
+                border-radius: 100%;
+                background: #e1e1e1;
+                height: 5px;
+                width: 5px;
+                float: left;
+            }
+
+            &:hover {
+                color: #1482f0;
+            }
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+}
+
+/* 转载样式 */
+.source-title,
+.original-title {
+    margin-bottom: 10px;
+    line-height: 22px;
+
+    a {
+        color: #212121;
+    }
+}
+
+.original-title {
+    padding-bottom: 10px;
+}

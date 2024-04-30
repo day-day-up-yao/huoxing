@@ -1,0 +1,29 @@
+.im-live-list-left-live-list-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .im-live-list-left-live-list-top-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .im-live-list-left-live-list-top-box-left {
+            width: 440px;
+            height: 250px;
+        }
+
+        .im-live-list-left-live-list-top-box-right {
+            width: 210px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

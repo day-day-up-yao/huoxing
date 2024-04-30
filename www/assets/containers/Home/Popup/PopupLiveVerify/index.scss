@@ -1,0 +1,99 @@
+.home-popup-live-verify-popup {
+    position: relative;
+    width: 607px;
+    height: 382px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .home-popup-live-verify-popup-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        line-height: 25px;
+        margin-bottom: 6px;
+    }
+
+    .home-popup-live-verify-popup-halftitle {
+        font-size: 14px;
+        color: #999;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+
+    .home-popup-live-verify-popup-box {
+        width: 557px;
+        height: 265px;
+        border-radius: 3px;
+        border: 1px solid #ececec;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .home-popup-live-verify-popup-line {
+            width: 1px;
+            height: 216px;
+            background: #ececec;
+        }
+
+        .home-popup-live-verify-popup-item {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 24px 0;
+            box-sizing: border-box;
+
+            .home-popup-live-verify-popup-item-title {
+                font-size: 14px;
+                color: #333;
+                line-height: 20px;
+
+                &.left {
+                    margin-bottom: 60px;
+                }
+
+                &.right {
+                    margin-bottom: 27px;
+                }
+            }
+
+            .home-popup-live-verify-popup-item-text {
+                font-size: 12px;
+                color: #999;
+                line-height: 17px;
+            }
+
+            .home-popup-live-verify-popup-item-code {
+                width: 96px;
+                height: 96px;
+                border-radius: 5px;
+                padding: 3px;
+                box-sizing: border-box;
+                margin-bottom: 21px;
+
+                .home-popup-live-verify-popup-item-code-img {
+                    width: 93px;
+                    height: 93px;
+                }
+            }
+
+            .home-popup-live-verify-popup-item-right-img {
+                width: 223px;
+                height: 170px;
+            }
+        }
+    }
+}
+
+.home-popup-live-verify-popup-close {
+    top: 24px !important;
+    right: 24px !important;
+}

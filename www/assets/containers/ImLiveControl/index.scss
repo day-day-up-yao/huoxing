@@ -1,0 +1,25 @@
+.im-live-control-page {
+    position: relative;
+    background: #f7f8fa;
+    padding: 24px 0;
+
+    .im-live-control-page-main-box {
+        width: 1200px;
+        height: 640px;
+        padding: 40px 0;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background: #fff;
+
+        .im-live-control-page-text {
+            font-size: 14px;
+            color: #999;
+            line-height: 20px;
+            margin-bottom: 24px;
+        }
+    }
+}

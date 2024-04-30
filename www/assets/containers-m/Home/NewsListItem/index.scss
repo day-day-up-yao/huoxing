@@ -1,0 +1,103 @@
+@import 'multiPublic/css/rem.scss';
+
+.news-list-more {
+    width: 100%;
+    min-height: rem(100);
+    position: relative;
+    margin-bottom: rem(20);
+    padding-bottom: rem(20);
+    border-bottom: 1px #eee solid;
+
+    &:last-child {
+        border: none;
+    }
+
+    .title {
+        width: rem(336);
+        overflow: hidden;
+        line-height: rem(35);
+        font-size: rem(28);
+        font-weight: bold;
+        color: #212121;
+        padding-bottom: rem(10);
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        min-height: rem(90);
+        justify-content: space-between;
+        word-break: break-all;
+    }
+
+    .flashTitle {
+        width: 100%;
+        overflow: hidden;
+        line-height: rem(35);
+        font-size: rem(28);
+        font-weight: bold;
+        color: #212121;
+        padding-bottom: rem(10);
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        min-height: rem(65);
+        justify-content: space-between;
+        word-break: break-all;
+    }
+
+    .list-text {
+        position: relative;
+        width: rem(336);
+        height: rem(40);
+        line-height: rem(40);
+
+        .bottom-left {
+            float: left;
+            color: #bdbdbd;
+            font-size: rem(20);
+
+            & > div {
+                float: left;
+            }
+
+            .time {
+                margin-left: rem(15);
+            }
+
+            .txt_0A7FF2 {
+                background-color: #deebfe;
+                border-radius: rem(10);
+                color: #0056ff;
+                padding: 0 rem(8);
+                line-height: rem(34);
+            }
+        }
+    }
+
+    .cover-img-sma {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: rem(200);
+
+        img {
+            width: rem(200);
+            height: auto;
+            border-radius: 4px;
+        }
+    }
+
+    .cover-img-sma-first {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: rem(200);
+
+        img {
+            width: rem(200);
+            height: auto;
+            border-radius: 4px;
+        }
+    }
+}

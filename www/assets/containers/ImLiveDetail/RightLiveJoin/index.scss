@@ -1,0 +1,45 @@
+.im-live-detail-right-live-join {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ececec;
+    margin-bottom: 16px;
+
+    .im-live-detail-right-live-join-box {
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .im-live-detail-right-live-join-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            line-height: 20px;
+        }
+
+        .im-live-detail-right-live-join-text-box {
+            height: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 8px;
+
+            .im-live-detail-right-live-join-img {
+                height: 16px;
+                width: 16px;
+                margin-right: 6px;
+            }
+
+            .im-live-detail-right-live-join-text {
+                font-size: 14px;
+                color: #333;
+                line-height: 20px;
+            }
+        }
+    }
+}

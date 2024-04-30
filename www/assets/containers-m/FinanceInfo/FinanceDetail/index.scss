@@ -1,0 +1,11 @@
+@import 'multiPublic/css/rem.scss';
+
+.fince-m-detail {
+    padding: rem(20);
+    color: #232f42;
+
+    h3 {
+        font-size: rem(40);
+        font-weight: 900;
+    }
+}

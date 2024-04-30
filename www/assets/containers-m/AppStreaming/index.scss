@@ -1,0 +1,101 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+html,
+body,
+#root,
+.app-container {
+    height: 100%;
+}
+
+.m-app-streaming-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+    padding: 0 rem(25) rem(142);
+    box-sizing: border-box;
+
+    .m-app-streaming-page-box {
+        position: relative;
+        width: 100%;
+        padding: rem(25);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background: #fff;
+
+        .m-app-streaming-page-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 0 rem(25);
+            box-sizing: border-box;
+            border-left: 1px solid #ececec;
+            position: relative;
+
+            .m-app-streaming-page-title {
+                width: 100%;
+                font-size: rem(24);
+                font-weight: bold;
+                color: #333;
+                line-height: rem(34);
+            }
+
+            .m-app-streaming-page-text {
+                width: 100%;
+                font-size: rem(20);
+                color: #999;
+                line-height: rem(28);
+                margin-top: rem(4);
+                padding-bottom: rem(40);
+            }
+
+            .m-app-streaming-page-num {
+                width: rem(25);
+                height: rem(25);
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: rem(20);
+                font-weight: bold;
+                color: #077ff3;
+                border: rem(3) solid #077ff3;
+                background: #fff;
+                line-height: rem(28);
+                position: absolute;
+                top: 0;
+                left: rem(-16);
+            }
+
+            .m-app-streaming-page-copy {
+                width: rem(120);
+                height: rem(46);
+                background: rgba($color:  #077ff3, $alpha: 0.1);
+                border-radius: rem(23);
+                font-size: rem(21);
+                color: #077ff3;
+                line-height: rem(30);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                right: rem(-9);
+            }
+
+            .m-app-streaming-page-img {
+                width: rem(234);
+                height: rem(140);
+                background: #f7f8fa;
+                border-radius: rem(6);
+                border: rem(2) solid #ececec;
+                margin: rem(13) 0 rem(40);
+            }
+        }
+    }
+}

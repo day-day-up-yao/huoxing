@@ -1,0 +1,397 @@
+@import "~react-datetime/css/react-datetime.css";
+@import "~rc-calendar/assets/index.css";
+@import '~rc-time-picker/assets/index.css';
+
+.finanlist {
+    width: 1200px;
+    margin: 50px auto;
+    margin-top: 125px;
+
+    h3 {
+        font-size: 36px;
+        line-height: 42px;
+        color: #232f42;
+        font-weight: bold;
+    }
+
+    .finanlist-header {
+        margin-top: 32px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .select-list {
+            display: flex;
+
+            .select-list-item {
+                width: 170px;
+                height: 56px;
+                border-radius: 16px 16px 16px 16px;
+                border: 2px solid #e6e8ed;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                font-size: 15px;
+                margin-right: 24px;
+                cursor: pointer;
+                position: relative;
+
+                &.list-item-data {
+                    width: 220px;
+                }
+
+                .item-select {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                .select-amount {
+                    position: absolute;
+                    left: 0;
+                    top: 60px;
+                    background: #fff;
+                    width: max-content;
+                    border: 2px solid #d9dbe9;
+                    border-radius: 15px;
+                    max-height: 320px;
+                    overflow-y: auto;
+                    z-index: 10;
+
+                    .data-select {
+                        display: flex;
+
+                        .rc-calendar {
+                            border: none;
+                            box-shadow: none;
+
+                            .rc-calendar-body {
+                                border: none;
+                            }
+                        }
+
+                        .rc-calendar-range-bottom {
+                            display: none;
+                        }
+
+                        .data-select-right {
+                            padding: 12px;
+                            border-left: 1px solid #eee;
+                            font-size: 14px;
+
+                            .select-data-item {
+                                width: 120px;
+                                height: 37px;
+                                line-height: 37px;
+                                padding-left: 10px;
+                                border-radius: 6px;
+                                font-weight: 400;
+
+                                &:hover {
+                                    background: #eee;
+                                }
+                            }
+                        }
+                    }
+
+                    .data-select-btn {
+                        padding: 10px;
+                        display: flex;
+                        justify-content: flex-end;
+                        border-top: 1px solid #eee;
+
+                        .data-btn-item {
+                            color: #fff;
+                            background: #333;
+                            font-size: 13px;
+                            padding: 6px 20px;
+                            margin-left: 8px;
+                            border-radius: 4px;
+                        }
+                    }
+
+                    .select-product-item {
+                        height: 30px;
+                        line-height: 30px;
+                        color: #333;
+                        font-size: 13px;
+                        padding: 0 15px;
+                        width: 200px;
+
+                        &:hover {
+                            background: #333;
+                            color: #fff;
+                        }
+                    }
+
+                    .selelct-amount-con {
+                        display: flex;
+                        padding: 20px;
+
+                        .selelct-amount-con-left {
+                            .amount-left-num {
+                                &.bottom-max {
+                                    margin-top: 15px;
+                                }
+
+                                .amount-left-num-white {
+                                    display: flex;
+                                    align-items: center;
+                                    margin-top: 10px;
+
+                                    input {
+                                        border: 1px solid #eee;
+                                        border-radius: 6px;
+                                        height: 24px;
+                                        width: 100px;
+                                        margin-right: 5px;
+                                        padding: 0 10px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .selelct-amount-con-right {
+                            margin-left: 35px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            font-size: 14px;
+
+                            .right-select-mount {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    .select-sure-btn {
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: space-around;
+                        padding-bottom: 20px;
+
+                        .select-item-btn {
+                            width: 35%;
+                            height: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                            background: #333;
+                            cursor: pointer;
+                            border: 2px solid #333;
+                            border-radius: 4px;
+                            font-size: 13px;
+
+                            .btn-cancal {
+                                background: #fff;
+                                color: #333;
+                                border: 2px solid #333;
+                            }
+                        }
+                    }
+                }
+
+                input {
+                    background: none;
+                    border: none;
+                }
+
+                .list-item-search {
+                    width: 90%;
+                    height: 100%;
+                }
+
+                .list-item-img {
+                    width: 20px;
+                    height: 20px;
+
+                    &.little-img {
+                        width: 12px;
+                        height: 12px;
+
+                        &.rotate-img {
+                            img {
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        .finanlist-header-right {
+            display: flex;
+            align-items: center;
+            color: rgba(35, 47, 66, 0.4);
+            font-size: 13px;
+            margin-right: 10px;
+
+            img {
+                width: 16px;
+                height: 16px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .finanlist-center {
+        margin-top: 24px;
+
+        .finanlist-center-top {
+            display: flex;
+            align-items: center;
+            background: #f6f8fc;
+            border-radius: 16px 16px 16px 16px;
+            padding: 20px 16px;
+            font-size: 14px;
+            color: rgba(35, 47, 66, 0.7);
+            font-weight: bold;
+
+            &.finanlist-center-list {
+                border-bottom: 1px solid #e1e1e1;
+                background: #fff;
+                border-radius: unset;
+                font-size: 13px;
+                color: #232f42;
+            }
+        }
+
+        .center-item-one {
+            width: 50px;
+
+            .one-item-number {
+                color: rgba(35, 47, 66, 0.4);
+            }
+        }
+
+        a {
+            color: #232f42;
+        }
+
+        .center-item-two {
+            width: 210px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 48px;
+                height: 48px;
+                border-radius: 24px;
+            }
+
+            p {
+                font-weight: 900;
+                font-size: 15px;
+                margin-left: 12px;
+            }
+        }
+
+        .center-item-three {
+            width: 125px;
+        }
+
+        .center-item-four {
+            width: 90px;
+        }
+
+        .center-item-five {
+            width: 325px;
+            display: flex;
+            align-items: center;
+
+            .five-item {
+                height: 32px;
+                background: #e7f2fd;
+                border-radius: 17px 17px 17px 17px;
+                line-height: 32px;
+                padding: 0 10px;
+                margin-right: 8px;
+
+                &.five-second-item {
+                    background: #f5f0da;
+                }
+
+                &.five-thend-item {
+                    background: #dbecdb;
+                }
+            }
+        }
+
+        .center-item-six {
+            width: 360px;
+
+            .invest-list {
+                display: flex;
+                justify-content: space-between;
+
+                a {
+                    display: block;
+
+                    img {
+                        max-height: 20px;
+                        height: auto;
+                        max-width: 70px;
+                        width: auto;
+                        filter: grayscale(1);
+                    }
+                }
+
+                .invest-list-num {
+                    padding: 5px;
+                    border: 1px solid #333;
+                    border-radius: 3px;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+            }
+
+            .other-invest {
+                display: flex;
+                flex-wrap: wrap;
+
+                a {
+                    max-height: 20px;
+                    height: auto;
+                    max-width: 70px;
+                    width: auto;
+                    display: block;
+                    margin-right: 20px;
+                    margin-top: 12px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .react-pagination {
+        margin-top: 40px;
+
+        a {
+            color: rgba(35, 47, 66, 0.4);
+            border: none;
+            border-radius: 20%;
+            background: none;
+            display: flex;
+            justify-content: center;
+
+            &.active {
+                background: #0056ff;
+                color: #fff;
+            }
+        }
+    }
+}

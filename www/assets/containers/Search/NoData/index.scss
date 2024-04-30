@@ -1,0 +1,32 @@
+.no-data {
+    position: relative;
+    margin-top: 30px;
+    padding: 145px 230px;
+
+    .no-data-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .no-data-img {
+            height: 62px;
+            width: 62px;
+        }
+
+        .no-data-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2a2f37;
+            line-height: 28px;
+            margin-top: 18px;
+        }
+
+        .no-data-text {
+            font-size: 14px;
+            color: #2a2f37;
+            line-height: 20px;
+            margin-top: 12px;
+        }
+    }
+}

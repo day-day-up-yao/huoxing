@@ -1,0 +1,73 @@
+.login-site-wrapper-m {
+    background: #fff;
+    display: flex;
+    padding-top: 45px;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+    .login-site-content {
+        min-height: 700px;
+        background: none;
+
+        .get-nst {
+            color: #999;
+            margin-top: 40px;
+            text-align: center;
+
+            span {
+                margin-left: 5px;
+                color: #333;
+                font-weight: bold;
+            }
+        }
+
+        .register-login-wrapper {
+            padding: 0;
+
+            .content {
+                width: 320px;
+
+                /* 图形验证码重置 */
+                .yp-riddler-win-masker {
+                    width: 100% !important;
+
+                    .yp-riddler-winbox {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100% !important;
+                    }
+                }
+
+                .yp-riddler-button {
+                    width: auto !important;
+                }
+
+                .yp-riddler-win {
+                    transform: scale(0.8);
+                }
+
+                .header {
+                    h1 {
+                        margin-right: 10px;
+
+                        &.mobile {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .body {
+                    .item {
+                        &.column .left {
+                            width: 180px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

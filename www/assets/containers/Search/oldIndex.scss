@@ -1,0 +1,98 @@
+.search-content {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    .search-content-left {
+        float: left;
+        width: 800px;
+
+        .search-import {
+            width: 848px;
+            height: 54px;
+
+            .search-input {
+                background: url("./imgs/search-btn.png") #fff left no-repeat;
+                background-position: 15px;
+                width: 750px;
+                height: 54px;
+                padding-left: 48px;
+                border: 1px #e5e5e5 solid;
+                color: #757575;
+
+                &:hover {
+                    border: 1px #bdbdbd solid;
+                }
+            }
+        }
+
+        .search-contet-top {
+            height: 70px;
+            line-height: 70px;
+            overflow: hidden;
+
+            .tabs {
+                float: left;
+                font-size: 0;
+
+                li {
+                    font-size: 16px;
+                    color: #999;
+                    display: inline-block;
+                    margin-right: 18px;
+                    cursor: pointer;
+
+                    &.active {
+                        color: #0e7ff2;
+                    }
+                }
+            }
+
+            .result-num {
+                font-size: 14px;
+                color: #757575;
+                float: right;
+
+                span {
+                    color: #e61e1e;
+                    padding: 0 7px;
+                }
+            }
+        }
+
+        .search-result-list {
+            //width: 810px;
+            //padding: 0 20px;
+            height: auto;
+            //background: #fff;
+            border-radius: 3px;
+
+            .author-list-item {
+                width: 253px;
+                height: 212px;
+
+                .author-desc {
+                    padding: 0 18px;
+                    color: #757575;
+                }
+
+                .author-name {
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    display: block;
+                }
+
+                &:nth-of-type(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .search-content-right {
+        width: 358px;
+        float: right;
+    }
+}

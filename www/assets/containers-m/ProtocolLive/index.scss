@@ -1,0 +1,41 @@
+@import '../../../_multiappsharing/public/css/rem.scss';
+
+.m-protocol-page {
+    width: rem(640);
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: rem(96);
+
+    .section,
+    .welcome {
+        width: rem(580);
+        margin: 0 auto;
+        font-size: rem(26);
+        font-family: 'STHeiti Light', sans-serif;
+    }
+
+    .welcome {
+        text-align: center;
+    }
+
+    .section,
+    .title {
+        font-weight: bold;
+    }
+
+    .title {
+        margin: rem(40) 0;
+        text-indent: 2rem;
+    }
+
+    .content {
+        text-indent: 2rem;
+        line-height: rem(52);
+        text-align: justify;
+
+        &.kaiti {
+            margin: rem(20) 0;
+            font-family: 'Kaiti', sans-serif;
+        }
+    }
+}

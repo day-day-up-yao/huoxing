@@ -1,0 +1,509 @@
+/* 搜索输入框与按钮公用样式 */
+@mixin searchInput {
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    color: #999;
+    font-size: 15px;
+}
+
+/* 下拉框共用样式 */
+@mixin dropdown {
+    position: absolute;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: none;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px;
+        border-color: transparent transparent rgba(0, 0, 0, 0.03) transparent;
+    }
+}
+
+/* 导航与用户信息下拉框共用样式 */
+@mixin navUser {
+    @include dropdown;
+
+    left: -(120 - 18) / 2 + px;
+    top: 58px;
+    width: 120px;
+    z-index: 999;
+
+    &:before {
+        left: 52px;
+        top: -19px;
+    }
+
+    a {
+        display: block;
+        width: 100%;
+        height: 40px;
+        color: #555;
+        line-height: 40px;
+        text-align: center;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.02);
+            color: #0c7ff2;
+        }
+    }
+}
+
+/* 按钮可共用样式 */
+@mixin button {
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* mask背景样式 */
+@mixin mask {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header-navigation {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+
+    .content {
+        margin: 0 auto;
+        padding: 0 0;
+        position: relative;
+        height: 75px;
+        width: 1200px;
+        //min-width: 1200px;
+        //max-width: 1320px;
+        font-size: 15px;
+        line-height: 75px;
+    }
+
+    /* 火星财经logo */
+    .logo {
+        float: left;
+        margin-right: 30px;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 139px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    /* 导航 */
+    .nav {
+        float: left;
+        position: relative;
+        z-index: 0;
+        display: flex;
+
+        a {
+            margin-right: 20px;
+            color: #555;
+
+            &.hot {
+                position: relative;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    right: -10px;
+                    top: 15px;
+                    background: url("../../../../public/img/icon-hot.svg") no-repeat center;
+                    height: 15px;
+                    width: 25px;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                color: #0c7ff2;
+            }
+
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+
+    /* 小屏幕下菜单下拉框 */
+    .nav-dropdown {
+        float: left;
+        position: relative;
+        align-items: center;
+        display: flex;
+        height: 100%;
+
+        &:hover .nav-dropdown-box {
+            display: block;
+        }
+
+        .nav-dropdown-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 14px;
+            width: 18px;
+
+            span {
+                background: #d2d2d2;
+                display: block;
+                height: 2px;
+                width: 100%;
+            }
+        }
+
+        .nav-dropdown-box {
+            @include navUser;
+        }
+    }
+
+    /* 宽屏与窄屏显示与隐藏 */
+    .bigshow {
+        display: block;
+    }
+
+    .smallshow {
+        display: none;
+    }
+
+    /* 搜索与登录 */
+    .search-login {
+        float: right;
+        position: relative;
+        z-index: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        /* 搜索按钮 */
+        .search-btn {
+            @include searchInput;
+
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 110px;
+            overflow: hidden;
+            cursor: pointer;
+
+            &:hover {
+                input {
+                    color: #1981ef;
+                }
+
+                span {
+                    border-color: #1981ef;
+
+                    &:before {
+                        background: #1981ef;
+                    }
+                }
+            }
+
+            span {
+                margin-right: 15px;
+            }
+
+            input {
+                padding-left: 20px;
+                border: none;
+                cursor: pointer;
+                height: 100%;
+                width: 40px;
+                color: #999;
+            }
+        }
+
+        /* 跳转到火星号 */
+        .redirect-mars {
+            @include button;
+
+            margin: 0 15px;
+            position: relative;
+            width: 95px;
+            background: #0056ff;
+            border: 1px #0056ff solid;
+            color: #fff;
+
+            &:hover {
+                border: 1px #0056ff solid;
+                background: #fff;
+                color: #0056ff;
+            }
+
+            span {
+                position: absolute;
+                right: -10px;
+                top: -16px;
+                display: block;
+                height: 20px;
+                width: 33px;
+                font-size: 12px;
+            }
+        }
+
+        /* app下载 */
+        .app-download {
+            @include button;
+
+            margin-left: 25px;
+            position: relative;
+            background: #fff;
+            width: 80px;
+            color: #0056ff;
+
+            span {
+                padding-left: 8px;
+                background: url('./images/download-app-icon.svg') no-repeat left;
+                background-size: auto 60%;
+                display: block;
+            }
+
+            &:hover .qrcode {
+                display: block;
+            }
+
+            .qrcode {
+                @include dropdown;
+
+                padding: 10px;
+                left: -40px;
+                top: 35px;
+                width: 110px;
+
+                &:before {
+                    margin-left: -10px;
+                    left: 50%;
+                    top: -19px;
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+
+                p {
+                    margin: 0;
+                    display: block;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .language-select {
+            position: relative;
+            padding: 0 32px 0 20px;
+            cursor: pointer;
+
+            .language-select-img {
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            .language-select-list {
+                position: absolute;
+                top: 60px;
+                left: -40px;
+                width: 144px;
+                box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                background: #fff;
+                z-index: 2;
+
+                .language-select-list-item {
+                    height: 46px;
+                    line-height: 46px;
+                    width: 100%;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: #f3f3f3;
+                    }
+
+                    &.selected-item {
+                        background: #f3f3f3;
+                    }
+                }
+            }
+        }
+
+        /* 注册登录按钮 */
+        .register-login {
+            display: flex;
+            height: 100%;
+
+            a {
+                width: 70px;
+                height: 100%;
+                color: #222;
+                text-align: center;
+                border-left: 1px #f5f5f5 solid;
+                border-right: 1px #f5f5f5 solid;
+
+                &:hover {
+                    background: #0c7ff2;
+                    color: #fff;
+                }
+
+                &.register {
+                    color: #999;
+
+                    &:hover {
+                        background: #fff;
+                        color: #0c7ff2;
+                    }
+                }
+            }
+        }
+
+        /* 登录后头像与下拉框 */
+        .user-info {
+            position: relative;
+            display: none;
+
+            &:hover {
+                .user-func {
+                    display: block;
+                }
+            }
+
+            .avatar {
+                border-radius: 100%;
+                display: block;
+                height: 40px;
+                width: 40px;
+                overflow: hidden;
+
+                img {
+                    display: block;
+                    height: 100%;
+                }
+            }
+
+            .user-func {
+                @include navUser;
+
+                left: -42px;
+                top: 46px;
+
+                a {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+
+                    /*! autoprefixer: ignore next */
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                }
+            }
+        }
+    }
+
+    /* 搜索弹出框 */
+    .search-con {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #fff;
+        display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        width: 100%;
+        opacity: 0;
+        overflow: hidden;
+        transform: translateY(-2px);
+        transition: all 0.3s 0s ease;
+
+        &.show {
+            height: 100%;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        input {
+            @include searchInput;
+
+            padding-left: 20px;
+            width: 490px;
+            color: #333;
+        }
+
+        .search-icon {
+            margin-right: 20px;
+        }
+
+        .close-icon {
+            margin-left: 20px;
+        }
+    }
+}
+
+/* 搜索黑色背景 */
+.search-mask {
+    @include mask;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    height: 100%;
+    width: 100%;
+
+    &.show {
+        display: block;
+    }
+}
+
+/* 登录背景与定位 */
+.register-login-container {
+    @include mask;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 8889;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1360px) {
+    .header-navigation {
+        .bigshow {
+            display: none;
+        }
+
+        .smallshow {
+            display: flex;
+        }
+    }
+}
