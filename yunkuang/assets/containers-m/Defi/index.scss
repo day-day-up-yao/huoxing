@@ -1,0 +1,144 @@
+.page-m {
+    width: 100%;
+
+    .df-con-con-jpcode {
+        width: 50%;
+        position: relative;
+
+        p {
+            position: absolute;
+            top: 3px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+
+    .df-con-con-code {
+        width: 95%;
+        margin: 0 auto;
+
+        .deposit-wchat {
+            width: 100%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+
+            .deposit-wchat-l {
+                width: 130px;
+                margin-top: 45px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .deposit-wchat-r {
+                display: flex;
+
+                .r-text {
+                    margin-top: 25px;
+                    margin-right: 10px;
+
+                    div {
+                        color: #283044;
+                        font-size: 16px;
+                        text-align: right;
+                        line-height: 20px;
+                        font-weight: 500;
+                    }
+
+                    div:nth-child(3) {
+                        color: #70737F;
+                        font-size: 14px;
+                    }
+                }
+
+                .r-img {
+                    width: 90px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .ndf-heard {
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        line-height: 35px;
+
+        span {
+            margin: 0 5px;
+            height: 30px;
+            color: #7B8093;
+        }
+
+        .ndf-heard-span {
+            border-bottom: 1px solid #0a76f5;
+            color: #111;
+        }
+    }
+
+    .df {
+        width: 95%;
+        padding: 1px 0;
+
+        .df-xhlogo {
+            width: 150px;
+            margin: 30px auto;
+        }
+
+        .df-top {
+            width: 100%;
+            margin: 0 auto;
+
+            .df-top-img {
+                width: 280px;
+            }
+
+            .de-anment-p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            h3 {
+                font-size: 28px;
+                margin: 10px 0;
+                line-height: 38px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+        }
+
+        .df-con-con {
+            width: 100%;
+        }
+
+        .df-con-list {
+            width: 100%;
+            margin: 8px 10px;
+
+            .df-con-list-img {
+                margin: 10px auto;
+                width: 65px;
+                height: auto;
+            }
+
+            .df-con-list-con {
+                font-size: 24px;
+                padding: 0 10px;
+            }
+        }
+
+        .df-tosx {
+            margin: 20px auto;
+        }
+    }
+}

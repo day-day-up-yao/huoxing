@@ -1,0 +1,54 @@
+.page-m {
+    width: 100%;
+
+    .newdfdetail {
+        .dfdetail-con {
+            width: 90%;
+            margin: 0 auto;
+
+            .dfdetail-con-nav {
+                flex-wrap: wrap;
+
+                .dfdetail-con-nav-l {
+                    width: 100%;
+                }
+
+                .dfdetail-con-nav-r {
+                    margin-top: 20px;
+                    width: 100%;
+
+                    .dfdetail-con-nav-r-bottom {
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .dfdetail-con-title {
+                width: 94%;
+                padding: 30px 10px;
+
+                ul {
+                    display: block;
+
+                    li {
+                        margin: 20px 0;
+                    }
+                }
+
+                .dfdetail-con-title-list {
+                    display: block;
+
+                    .dfdetail-con-title-list-c {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .newdfdetail-position .newdfdetail-position-title {
+        height: 400px;
+    }
+}

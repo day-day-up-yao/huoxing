@@ -1,0 +1,201 @@
+.page-m {
+    width: 100%;
+
+    .down {
+        position: relative;
+        padding-bottom: 70px;
+        background: #fff;
+
+        .down-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .down-top {
+            position: absolute;
+            width: 100%;
+            top: 3%;
+            left: 0;
+
+            &.down-top-zh {
+                top: 6%;
+            }
+
+            .down-logo {
+                width: 16%;
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .down-title {
+                width: 100%;
+                text-align: center;
+                color: #fff;
+                margin-top: 3%;
+
+                .down-titlejp {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+
+                h2 {
+                    font-size: 1.7rem;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    line-height: 30px;
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                    margin-top: 4%;
+
+                    span {
+                        padding: 0 16px;
+                        border-right: 1px solid #F7A26F;
+                        font-family: 'socialshare', sans-serif;
+                    }
+
+                    span:last-child {
+                        border: none;
+                    }
+                }
+            }
+
+            .down-infologo {
+                display: flex;
+                justify-content: center;
+                height: auto;
+                width: 100%;
+
+                img {
+                    width: 75%;
+                    height: 10%;
+                }
+            }
+        }
+
+        .down-bottom {
+            width: 100%;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            padding: 10px 0;
+
+            .down-Ardioad {
+                box-sizing: border-box;
+                background-color: #333;
+                color: #fff;
+                border-radius: 4px;
+                padding: 10px 0;
+                margin: 4px;
+                width: 58%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+
+                img {
+                    width: 24px;
+                    margin-right: 15px;
+                }
+            }
+
+            .down-ios {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                padding: 4px 0;
+
+                .ios-jpstore {
+                    background-color: #333;
+                    color: #fff;
+                    border-radius: 4px;
+                    padding: 10px 0;
+                    margin: 4px;
+                    width: 68%;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+
+                    img {
+                        width: 24px;
+                        margin-right: 15px;
+                    }
+                }
+
+                .ios-btn {
+                    background-color: #F4881C;
+                    color: #fff;
+                    border-radius: 4px;
+                    padding: 5px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    width: 45%;
+                    position: relative;
+
+                    .ios-not-download {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 4px;
+                        background: rgba(204, 204, 204, 0.8);
+                    }
+
+                    img {
+                        width: 24px;
+                        margin-right: 8px;
+                    }
+
+                    &.btn-tf {
+                        background: #333;
+                        color: #fff;
+                    }
+
+                    .ios-btn-right {
+                        :nth-child(1) {
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+
+                        :nth-child(2) {
+                            color: rgba(255, 255, 255, 0.4);
+                            font-size: 12px;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .backwechat {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+
+            img {
+                width: 96%;
+                padding-top: 30px;
+            }
+        }
+    }
+}

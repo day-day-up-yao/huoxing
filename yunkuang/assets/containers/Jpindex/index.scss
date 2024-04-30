@@ -1,0 +1,28 @@
+.pc-jpindex {
+    width: 100%;
+
+    .pc-jpindex-con {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        background: rgba(0, 0, 0, 1);
+        justify-content: center;
+        align-items: center;
+        z-index: 9900;
+
+        .pc-jpindex-con-title {
+            width: 300px;
+            height: 100px;
+            background: #5CA5B3;
+            border-radius: 5px;
+            padding: 10px;
+            color: #fff;
+            line-height: 30px;
+            text-align: center;
+            padding-top: 50px;
+        }
+    }
+}

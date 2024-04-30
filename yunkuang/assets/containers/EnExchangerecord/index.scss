@@ -1,0 +1,41 @@
+.exrecord {
+    width: 1000px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 38px 40px;
+    box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+    min-height: 400px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 40px 0;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .exrecord-con {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #888;
+            padding: 3px 0;
+
+            li {
+                width: 130px;
+                font-size: 14px;
+            }
+        }
+
+        ol {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+
+            li {
+                width: 130px;
+                font-size: 14px;
+            }
+        }
+    }
+}

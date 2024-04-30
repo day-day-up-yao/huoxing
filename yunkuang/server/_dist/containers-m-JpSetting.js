@@ -1,0 +1,28 @@
+require("source-map-support").install();
+exports.ids = ["containers-m-JpSetting"];
+exports.modules = {
+
+/***/ "./assets/containers-m/JpSetting/image/icon-jpsetting-arrow.png":
+/*!**********************************************************************!*\
+  !*** ./assets/containers-m/JpSetting/image/icon-jpsetting-arrow.png ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"icon-jpsetting-arrow.png\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvY29udGFpbmVycy1tL0pwU2V0dGluZy9pbWFnZS9pY29uLWpwc2V0dGluZy1hcnJvdy5wbmcuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hc3NldHMvY29udGFpbmVycy1tL0pwU2V0dGluZy9pbWFnZS9pY29uLWpwc2V0dGluZy1hcnJvdy5wbmc/ODIwNCJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IF9fd2VicGFja19wdWJsaWNfcGF0aF9fICsgXCJpY29uLWpwc2V0dGluZy1hcnJvdy5wbmdcIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./assets/containers-m/JpSetting/image/icon-jpsetting-arrow.png\n");
+
+/***/ }),
+
+/***/ "./assets/containers-m/JpSetting/index.js":
+/*!************************************************!*\
+  !*** ./assets/containers-m/JpSetting/index.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ \"./node_modules/node-noop/index.js\");\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _image_icon_jpsetting_arrow_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./image/icon-jpsetting-arrow.png */ \"./assets/containers-m/JpSetting/image/icon-jpsetting-arrow.png\");\n/* harmony import */ var _image_icon_jpsetting_arrow_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_image_icon_jpsetting_arrow_png__WEBPACK_IMPORTED_MODULE_2__);\n\n\n // const listData = [\n//     { name: 'セキュリティ', href: '/jpsecurity' },\n//     { name: 'パスワードを変更する', href: '/jpindex' }\n// ]\n\nvar listData = [{\n  name: 'セキュリティ',\n  href: '/jpsecurity'\n}];\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"jp-setting-page\"\n  }, listData && listData.map(function (item, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n      className: \"jp-setting-item\",\n      key: index,\n      onClick: function onClick() {\n        window.location.href = item.href;\n      }\n    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n      className: \"jp-setting-item-title\"\n    }, item.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n      className: \"jp-setting-item-arrow\",\n      src: _image_icon_jpsetting_arrow_png__WEBPACK_IMPORTED_MODULE_2___default.a\n    }));\n  }));\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9hc3NldHMvY29udGFpbmVycy1tL0pwU2V0dGluZy9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2Fzc2V0cy9jb250YWluZXJzLW0vSnBTZXR0aW5nL2luZGV4LmpzP2NjNTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgJy4vaW5kZXguc2NzcydcclxuaW1wb3J0IGljb25BcnJvdyBmcm9tICcuL2ltYWdlL2ljb24tanBzZXR0aW5nLWFycm93LnBuZydcclxuXHJcbi8vIGNvbnN0IGxpc3REYXRhID0gW1xyXG4vLyAgICAgeyBuYW1lOiAn44K744Kt44Ol44Oq44OG44KjJywgaHJlZjogJy9qcHNlY3VyaXR5JyB9LFxyXG4vLyAgICAgeyBuYW1lOiAn44OR44K544Ov44O844OJ44KS5aSJ5pu044GZ44KLJywgaHJlZjogJy9qcGluZGV4JyB9XHJcbi8vIF1cclxuXHJcbmNvbnN0IGxpc3REYXRhID0gW1xyXG4gICAgeyBuYW1lOiAn44K744Kt44Ol44Oq44OG44KjJywgaHJlZjogJy9qcHNlY3VyaXR5JyB9XHJcbl1cclxuXHJcbmV4cG9ydCBkZWZhdWx0ICgpID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJqcC1zZXR0aW5nLXBhZ2VcIj5cclxuICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgbGlzdERhdGEgJiYgbGlzdERhdGEubWFwKChpdGVtLCBpbmRleCkgPT4ge1xyXG4gICAgICAgICAgICAgICAgICAgIHJldHVybiAoXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwianAtc2V0dGluZy1pdGVtXCIga2V5PXtpbmRleH0gb25DbGljaz17KCkgPT4geyB3aW5kb3cubG9jYXRpb24uaHJlZiA9IGl0ZW0uaHJlZiB9fT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwianAtc2V0dGluZy1pdGVtLXRpdGxlXCI+e2l0ZW0ubmFtZX08L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwianAtc2V0dGluZy1pdGVtLWFycm93XCIgc3JjPXtpY29uQXJyb3d9IC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIClcclxuICAgICAgICAgICAgICAgIH0pXHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufVxyXG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUNBO0FBR0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQUE7QUFBQTtBQUdBO0FBQ0E7QUFDQTtBQUFBO0FBR0E7QUFDQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQ0E7QUFBQTtBQUFBO0FBR0E7QUFJQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./assets/containers-m/JpSetting/index.js\n");
+
+/***/ })
+
+};;

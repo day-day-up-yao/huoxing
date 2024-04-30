@@ -1,0 +1,42 @@
+.charg-detail {
+    .charg-detail-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 44px;
+            height: 44px;
+        }
+
+        span {
+            font-size: 16px;
+            color: #333;
+            margin-top: 8px;
+        }
+    }
+
+    .charg-detail-list {
+        margin-top: 20px;
+
+        .line {
+            margin: 15px 0;
+        }
+
+        .charg-detail-list-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: #999;
+            height: 30px;
+            align-items: center;
+
+            .detail-item-right {
+                color: #333;
+                font-weight: 500;
+                word-break: break-all;
+            }
+        }
+    }
+}

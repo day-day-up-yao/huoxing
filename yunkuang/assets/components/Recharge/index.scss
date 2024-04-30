@@ -1,0 +1,120 @@
+.recharge-wrapper {
+    p.not-enough {
+        margin: 20px 0;
+
+        a {
+            margin-left: 10px;
+            color: #F4881C;
+        }
+    }
+
+    .order-topup {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        z-index: 999;
+
+        .order-top-up {
+            padding: 20px;
+            width: 340px;
+            background: #fff;
+            text-align: center;
+
+            span.address {
+                margin: 0 auto;
+                padding: 0;
+                text-align: left;
+                display: block;
+                width: 320px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 15px auto;
+            }
+
+            .order-top-up-erc {
+                color: #fff;
+                padding: 2px 5px;
+                margin: 20px auto;
+                font-size: 14px;
+                display: flex;
+                flex-wrap: wrap;
+
+                span {
+                    border: 1px solid #F4881C;
+                    padding: 4px 15px;
+                    border-radius: 18px;
+                    margin: 6px 15px;
+                    cursor: pointer;
+                }
+            }
+
+            .order-top-up-img {
+                width: 150px;
+                height: 150px;
+                background: #ccc;
+                margin: 10px auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .order-top-up-address {
+                font-size: 14px;
+                display: flex;
+                margin: 10px 8px;
+                justify-content: space-between;
+
+                div {
+                    color: #fff;
+                    background: #F4881C;
+                    border-radius: 12px;
+                    padding: 5px 20px;
+                    cursor: pointer;
+                }
+
+                p {
+                    margin-left: 0;
+                }
+
+                span {
+                    margin: 6px 15px 0 15px;
+                    display: block;
+                    width: 263px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            button {
+                width: 320px;
+                height: 40px;
+                margin-top: 20px;
+                border: 0;
+                background: #F4881C;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            p.tips {
+                padding: 10px 10px 20px;
+                display: block;
+                text-align: center;
+                line-height: 22px;
+                color: #333;
+            }
+        }
+    }
+}

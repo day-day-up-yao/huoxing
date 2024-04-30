@@ -1,0 +1,79 @@
+.page-m {
+    width: 100%;
+
+    .Anment {
+        padding: 0;
+
+        .Anmentcon-top {
+            display: none;
+        }
+
+        .Anmentcon {
+            width: 100%;
+            padding: 0;
+            min-height: auto;
+            background: none;
+
+            .Anmentcon-list {
+                ul {
+                    li {
+                        display: block;
+                        background: #fff;
+                        padding: 10px 15px;
+                        margin-top: 5px;
+                        height: auto;
+
+                        span {
+                            display: block;
+                        }
+
+                        span:nth-child(1) {
+                            color: #0b1736;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            white-space: pre-line;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 2;
+                            text-align: justify;
+                            word-break: break-all;
+                            width: 100%;
+                        }
+
+                        span:nth-child(2) {
+                            font-size: 12px;
+                            color: #9398a4;
+                            margin-top: 8px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+
+            .Anmentcon-bottom {
+                padding: 15px 0;
+                margin: 0;
+
+                .react-pagination {
+                    white-space: nowrap;
+                    overflow-x: auto;
+
+                    a {
+                        flex-shrink: 0;
+                    }
+
+                    .prev {
+                        display: none;
+                    }
+
+                    .next {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

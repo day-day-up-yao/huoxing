@@ -1,0 +1,316 @@
+.exchanges {
+    width: 100%;
+    background: #FBFBFC;
+
+    .exchanges-sure {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+
+        .sure-con {
+            width: 370px;
+            padding: 30px;
+            border-radius: 10px;
+            background: #fff;
+            text-align: center;
+
+            h3 {
+                font-size: 20px;
+                color: #242f44;
+                font-weight: 700;
+                padding: 20px 0;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+
+            .sure-bottom {
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-around;
+
+                span {
+                    padding: 10px 30px;
+                    border-radius: 3px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                :nth-child(1) {
+                    background: #d8d8d8;
+                }
+
+                :nth-child(2) {
+                    background: #f60;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .exchanges-con {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+
+        .con-left {
+            width: 434px;
+            background: #FFF;
+            border-radius: 6px;
+            border: 1px solid #E6ECFA;
+            padding: 32px;
+
+            h3 {
+                font-weight: 600;
+                color: #35384A;
+                line-height: 28px;
+                font-size: 24px;
+                text-align: center;
+            }
+
+            h4 {
+                font-size: 12px;
+                font-weight: 400;
+                color: #70737F;
+                line-height: 14px;
+                text-align: center;
+                margin-top: 12px;
+            }
+
+            .concurrency {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 48px;
+                border-radius: 6px;
+                border: 1px solid rgba(197, 197, 204, 0.6);
+                line-height: 48px;
+                width: 94%;
+                padding: 0 12px;
+                margin-top: 12px;
+                position: relative;
+
+                .currency-list {
+                    position: absolute;
+                    top: 48px;
+                    left: 0;
+                    background: #fff;
+                    width: 100%;
+                    border: 1px solid #eaecef;
+
+                    .item {
+                        display: flex;
+                        justify-content: space-between;
+                        width: 94%;
+                        padding: 0 12px;
+                        align-items: center;
+                        height: 40px;
+                        line-height: 40px;
+                        cursor: pointer;
+
+                        .item-img {
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                width: 24px;
+                                height: 24px;
+                            }
+
+                            .item-text {
+                                font-size: 14px;
+                                margin-left: 10px;
+                            }
+                        }
+
+                        .list-curreny-r {
+                            width: 15px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .item:hover {
+                        background: #eee;
+                    }
+                }
+
+                .concurrency-left {
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+
+                    img:nth-child(1) {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #283044;
+                        line-height: 16px;
+                        margin: 0 6px;
+                    }
+
+                    img:nth-child(3) {
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+
+                .concurrency-right {
+                    display: flex;
+                    width: 77%;
+                    justify-content: space-between;
+
+                    input {
+                        border: none;
+                        background: #fff;
+                    }
+
+                    span {
+                        font-size: 12px;
+                        color: #F4881C;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .writing {
+                font-size: 12px;
+                display: flex;
+                color: #283044;
+                margin: 12px 0;
+
+                div {
+                    margin: 0 4px;
+                }
+
+                div:nth-child(1) {
+                    color: #70737F;
+                }
+            }
+
+            .getcurrency {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 48px;
+                border-radius: 6px;
+                border: 1px solid rgba(197, 197, 204, 0.6);
+                line-height: 48px;
+                width: 94%;
+                padding: 0 12px;
+                margin-top: 12px;
+
+                .getcurrency-left {
+                    display: flex;
+                    align-items: center;
+
+                    img:nth-child(1) {
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    .line {
+                        width: 1px;
+                        height: 20px;
+                        background: rgba(197, 197, 204, 0.6);
+                        margin-left: 14px;
+                    }
+                }
+
+                .getcurrency-right {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 87%;
+
+                    input {
+                        border: none;
+                        background: #fff;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #283044;
+                    }
+                }
+            }
+
+            .botton {
+                width: 100%;
+                height: 48px;
+                background: #F4881C;
+                border-radius: 6px;
+                color: #fff;
+                line-height: 48px;
+                text-align: center;
+                margin-top: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .con-right {
+            width: 270px;
+            background: rgba(244, 136, 28, 0.05);
+            border-radius: 6px;
+            border: 1px solid rgba(244, 136, 28, 0.2);
+            font-size: 12px;
+
+            .exbon-top {
+                height: 38px;
+                background: rgba(244, 136, 28, 0.05);
+                border-radius: 6px 6px 0 0;
+                line-height: 38px;
+                font-weight: 600;
+                color: #35384A;
+                font-size: 14px;
+                padding: 0 20px;
+            }
+
+            .exbon-list {
+                padding: 0 20px;
+                margin-top: 20px;
+            }
+
+            .exbon-top-con {
+                margin: 13px 0;
+                color: #70737F;
+                line-height: 20px;
+                border-bottom: 1px solid #F9DFC6;
+                padding-bottom: 15px;
+
+                span:nth-child(1) {
+                    font-weight: 500;
+                    color: #283044;
+                    line-height: 17px;
+                }
+
+                ul {
+                    margin-top: 8px;
+
+                    li {
+                        list-style: inside;
+                    }
+                }
+            }
+
+            .exbon-top-con:nth-child(3) {
+                border: none;
+            }
+        }
+    }
+}

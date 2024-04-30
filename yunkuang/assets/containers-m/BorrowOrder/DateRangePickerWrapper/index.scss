@@ -1,0 +1,95 @@
+@import '~react-dates/lib/css/_datepicker.css';
+
+.date-range-picker-wrapper {
+    margin-right: 8px;
+    margin-top: 9px;
+
+    .DateRangePicker_picker {
+        z-index: 1210;
+    }
+
+    .DateRangePickerInput {
+        position: relative;
+        border: none;
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #e6e8ea;
+
+        .DateInput {
+            width: auto;
+
+            input {
+                padding: 0;
+                font-size: 16px;
+                color: #1e2026;
+            }
+        }
+
+        .DateRangePickerInput_arrow_svg {
+            margin: 0 4px;
+            fill: #848e9c;
+        }
+
+        .DateRangePickerInput_clearDates {
+            position: absolute;
+            right: -16px;
+            margin: 0;
+            padding: 0;
+            top: 12px;
+
+            &:hover {
+                background: none;
+            }
+        }
+    }
+
+    .CalendarMonth_caption {
+        margin-bottom: 8px;
+    }
+
+    .DayPickerKeyboardShortcuts_buttonReset {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .DateRangePicker_picker {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: inherit;
+        width: 100%;
+        z-index: 1210px;
+
+        .DayPicker_transitionContainer {
+            height: 100% !important;
+        }
+
+        .DayPickerNavigation {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            height: 48px;
+
+            .DayPickerNavigation_button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: none;
+                height: 24px;
+                border: none;
+
+                svg {
+                    height: 80%;
+                }
+            }
+        }
+    }
+}

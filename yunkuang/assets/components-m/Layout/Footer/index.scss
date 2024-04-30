@@ -1,0 +1,132 @@
+.layout-footer-m {
+    width: 100%;
+    background: #fff;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    .footer-download {
+        width: 95%;
+        background: rgba(255, 255, 255, 0.9);
+        height: 50px;
+        position: fixed;
+        bottom: 48px;
+        left: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+
+        .download-left {
+            display: flex;
+
+            .download-left-img {
+                width: 48px;
+                height: 48px;
+                border-radius: 4px;
+                margin-top: 3px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .download-left-text {
+                margin-left: 10px;
+
+                :nth-child(1) {
+                    margin-top: 8px;
+                }
+
+                :nth-child(2) {
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .download-right {
+            display: flex;
+
+            .download-right-text {
+                background: #DB663B;
+                color: #fff;
+                height: 35px;
+                line-height: 35px;
+                padding: 0 15px;
+                margin-top: 8px;
+                border-radius: 5px;
+            }
+
+            .download-right-close {
+                width: 24px;
+                height: 24px;
+                margin-left: 10px;
+                margin-top: 15px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .footer-con {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            height: 48px;
+
+            li {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    color: #111;
+                }
+
+                p:nth-child(1) {
+                    width: 24px;
+                    height: 24px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                p:nth-child(2) {
+                    font-size: rem(10);
+                }
+
+                .footer-con-pos {
+                    position: absolute;
+                    top: -6px;
+                    right: -6px;
+                    width: 16px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .footer-con-mine {
+                    position: absolute;
+                    top: 0;
+                    right: 1px;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: #F00;
+                }
+            }
+        }
+    }
+}

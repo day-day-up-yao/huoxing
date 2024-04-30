@@ -1,0 +1,162 @@
+.depositearn {
+    width: 100%;
+    position: relative;
+    min-height: 400px;
+
+    .depositearn-nolist {
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .earnlist {
+        width: 95%;
+        margin: 15px auto;
+
+        .earnlist-item {
+            padding: 10px 0;
+            font-size: 13px;
+            line-height: 24px;
+            border-bottom: 1px solid #eee;
+        }
+    }
+
+    .depositearn-con {
+        .depositearn-con-item {
+            margin-top: 50px;
+
+            .depos-item-top {
+                width: 95%;
+                margin: 0 auto;
+
+                .depos-top-img {
+                    width: 60px;
+                    margin: 0 auto;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                h3 {
+                    margin: 15px 0;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #000;
+                }
+
+                .depos-top-annual {
+                    text-align: center;
+                    margin: 20px 0;
+
+                    p:nth-child(1) {
+                        color: #D24040;
+                        font-size: 45px;
+                        font-weight: 500;
+
+                        :nth-child(2) {
+                            font-size: 45px;
+                        }
+                    }
+
+                    p:nth-child(2) {
+                        color: #A2A2AA;
+                        line-height: 22px;
+                        font-size: 14px;
+                    }
+                }
+
+                .depos-top-num {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .depos-top-num-l {
+                        span {
+                            color: #35384A;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+
+                        :nth-child(1) {
+                            color: #9AA2AB;
+                            margin-right: 5px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+
+            .depos-item-bottom {
+                width: 100%;
+                background: #f1f0f0;
+                padding: 15px;
+                position: relative;
+                margin-top: 10px;
+
+                .item-bottom-line {
+                    width: 80px;
+                    border-right: 2px solid #D8BD8E;
+                    height: 270px;
+                }
+
+                .item-bottom-posit {
+                    position: absolute;
+                    height: 90%;
+                    top: 15px;
+                    left: 0;
+                    font-size: 12px;
+                    color: #35384A;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    .item-bottom-time {
+                        display: flex;
+                    }
+
+                    .item-bottom-posit-l {
+                        width: 80px;
+                        text-align: right;
+                    }
+
+                    .item-bottom-posit-c {
+                        width: 8px;
+                        height: 8px;
+                        border: 2px solid #fff;
+                        background: #D8BD8E;
+                        margin: 0 10px;
+                        border-radius: 6px;
+                    }
+
+                    .item-bottom-posit-r {
+                        p:nth-child(2) {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 760px) {
+    .depositearn {
+        width: 600px;
+        margin: 0 auto;
+        padding-bottom: 25px;
+
+        .depositearn-con .depositearn-con-item .depos-item-bottom {
+            width: 95%;
+        }
+
+        .depositearn-con .depositearn-con-item .depos-item-top .depos-top-annual {
+            margin: 20px 0 10px 0;
+        }
+    }
+}

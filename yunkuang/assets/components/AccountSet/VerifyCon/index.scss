@@ -1,0 +1,42 @@
+.verify-con {
+    margin-top: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #333;
+    padding: 0 20px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        background: #F8F8F9;
+    }
+
+    &.sure-ed {
+        border: 1px solid #E6ECFA;
+        color: #A2A2AA;
+
+        &:hover {
+            background: #fff;
+        }
+    }
+
+    .verify-con-left {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 24px;
+            height: 24px;
+            margin-right: 6px;
+        }
+    }
+
+    .verify-con-right {
+        img {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}

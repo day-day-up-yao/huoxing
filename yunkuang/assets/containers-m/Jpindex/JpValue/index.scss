@@ -1,0 +1,103 @@
+.jp-home-value {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    border-radius: 14px;
+    border: 5px solid #CBCBD2;
+    box-sizing: border-box;
+    padding: 0 7px;
+    margin-bottom: 10px;
+
+    .jp-home-value-header {
+        height: 32px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .jp-home-value-header-left {
+            font-size: 13px;
+            color: #A2A2AA;
+            font-weight: 600;
+        }
+
+        .jp-home-value-header-right {
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .jp-home-value-header-right-text {
+                font-size: 13px;
+                color: #A2A2AA;
+            }
+
+            .jp-home-value-header-right-icon {
+                width: 24px;
+                height: 24px;
+                margin-right: 2px;
+            }
+        }
+    }
+
+    .jp-home-value-line {
+        width: 100%;
+        height: 2px;
+        background: #E6EBF0;
+        margin-bottom: 16px;
+    }
+
+    .jp-home-value-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .jp-home-value-item-flex {
+            font-size: 13px;
+            line-height: 16px;
+            color: #333;
+            margin-bottom: 20px;
+
+            &.jp-home-value-item-header {
+                color: #A2A2AA;
+                margin: 10px 0 8px;
+            }
+
+            &.jp-home-value-item-green {
+                color: #24A6C0;
+            }
+
+            &.jp-home-value-item-red {
+                color: #C25050;
+            }
+
+            &:nth-of-type(1) {
+                width: 68px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            &:nth-of-type(2) {
+                width: 135px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            &:nth-of-type(3) {
+                width: 100px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            .jp-home-value-item-icon {
+                width: 16px;
+                height: 16px;
+                margin-right: 4px;
+            }
+        }
+    }
+}

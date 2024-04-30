@@ -1,0 +1,49 @@
+.jp-index {
+    position: relative;
+    padding: 50px 12px;
+
+    .jp-index-player {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .jp-index-player-left {
+            font-size: 18px;
+            color: #333;
+            line-height: 24px;
+
+            div {
+                font-size: 13px;
+                color: #999;
+                display: flex;
+            }
+
+            img {
+                width: 14px;
+                height: 14px;
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+        }
+
+        .jp-index-player-right {
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .jp-index-player-title {
+                color: #A2A2AA;
+                font-size: 13px;
+            }
+
+            .jp-index-player-num {
+                color: #333;
+                font-size: 13px;
+            }
+        }
+    }
+}

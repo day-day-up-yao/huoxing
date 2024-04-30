@@ -1,0 +1,30 @@
+.page-m {
+    width: 100%;
+
+    .extract {
+        width: 98%;
+        padding: 0;
+
+        .extract-con {
+            ul {
+                li {
+                    width: 27%;
+                }
+
+                li:nth-child(3) {
+                    width: 36%;
+                }
+            }
+
+            ol {
+                li {
+                    width: 27%;
+                }
+
+                li:nth-child(3) {
+                    width: 36%;
+                }
+            }
+        }
+    }
+}

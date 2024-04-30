@@ -1,0 +1,164 @@
+@import "rem";
+
+/* style reset */
+table {
+    border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+input,
+textarea,
+button,
+td,
+th {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        @extend a;
+    }
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+div,
+input,
+span,
+button {
+    outline: none;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: "\20";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* hx-loading */
+.hx-loading {
+    margin: (-10/2) + px 0 0 -40px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 10px;
+    width: 100px;
+    z-index: 9999;
+
+    .round {
+        float: left;
+        margin: 0 ((100/3 - 15)/2)+px;
+        background-color: #046ab6;
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+    }
+
+    .round-one {
+        animation: hx-loading-round 1.5s infinite;
+    }
+
+    .round-two {
+        animation: hx-loading-round 1.5s infinite;
+        animation-delay: 0.25s;
+    }
+
+    .round-three {
+        animation: hx-loading-round 1.5s infinite;
+        animation-delay: 0.5s;
+    }
+}
+
+@keyframes hx-loading-round {
+    75% {
+        transform: scale(0);
+    }
+}
+
+/* public */
+html,
+body {
+    font-family: PingFang SC, Microsoft YaHei, Arial, sans-serif;
+}
+
+/* icon */
+.close-icon,
+.more-icon {
+    position: absolute;
+    right: rem(10);
+    top: rem(8);
+    cursor: pointer;
+    display: inline-block;
+    height: rem(30);
+    width: rem(30);
+    z-index: 2;
+
+    &:before,
+    &:after {
+        content: '';
+        position: absolute;
+        left: 9px;
+        top: 0;
+        background: #bbb;
+        height: rem(30);
+        width: rem(2);
+        transform: rotate(45deg);
+    }
+
+    &:before {
+        transform: rotate(-45deg);
+    }
+}
+
+.more-icon {
+    height: rem(60);
+    width: rem(16);
+
+    &:before,
+    &:after {
+        left: rem(4);
+        top: 0;
+        height: rem(16);
+        width: rem(2);
+    }
+
+    &:after {
+        left: rem(14);
+    }
+}

@@ -1,0 +1,74 @@
+.passwd {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+
+    h3 {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 14px;
+        color: #ccc;
+        margin: 20px 0;
+    }
+
+    .passwd-con-top {
+        margin: 10px 0;
+
+        input {
+            border: 0;
+            outline: none;
+            font-size: 14px;
+            height: 40px;
+            width: 100%;
+            border-bottom: 1px solid #999;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .passwd-con-second {
+        border-bottom: 1px solid #999;
+        margin: 10px 0;
+
+        p {
+            font-size: 14px;
+            color: #999;
+            margin: 5px 0;
+        }
+    }
+
+    .passwd-con-last {
+        padding: 8px 0;
+        width: 100%;
+
+        input {
+            border: 0;
+            outline: none;
+            font-size: 14px;
+            height: 40px;
+            width: 306px;
+            border-bottom: 1px solid #999;
+        }
+
+        span {
+            font-size: 14px;
+            cursor: pointer;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        background: #f60;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+}

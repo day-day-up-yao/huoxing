@@ -1,0 +1,98 @@
+.page-m {
+    width: 100%;
+
+    .dfdetail {
+        padding: 1px 0;
+
+        .df-xhlogo {
+            width: 150px;
+            margin: 30px auto;
+        }
+
+        .dfdetail-con {
+            width: 90%;
+            margin: 0 auto;
+
+            .dfdetail-con-top {
+                h3 {
+                    font-size: 30px;
+                }
+
+                h4 {
+                    padding: 0 10px;
+                }
+            }
+
+            .dfdetail-con-nav {
+                flex-wrap: wrap;
+
+                .dfdetail-con-nav-l {
+                    width: 100%;
+                }
+
+                .dfdetail-con-nav-r {
+                    margin-top: 20px;
+                    width: 100%;
+
+                    .dfdetail-con-nav-r-bottom {
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .dfdetail-con-sjz {
+                .dfdetail-con-sjz-posit {
+                    left: 3%;
+
+                    .dfdetail-con-sjz-time .dfdetail-con-sjz-time-c-s {
+                        margin: 9px 0 9px 80%;
+                        width: 14px;
+                        height: 14px;
+                        border-radius: 7px;
+                        background: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+
+                        div {
+                            width: 8px;
+                            height: 8px;
+                            background: #242F44;
+                            border-radius: 4px;
+                            margin: 7px auto;
+                        }
+                    }
+                }
+            }
+
+            .dfdetail-con-title {
+                width: 94%;
+                padding: 30px 10px;
+
+                ul {
+                    display: block;
+
+                    li {
+                        margin: 20px 0;
+                    }
+                }
+
+                .dfdetail-con-title-list {
+                    display: block;
+
+                    .dfdetail-con-title-list-c {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .newdfdetail-position .newdfdetail-position-title {
+        height: 400px;
+        width: 80%;
+    }
+}

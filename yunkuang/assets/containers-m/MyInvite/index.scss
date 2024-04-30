@@ -1,0 +1,298 @@
+@import "../../public/css/normalize";
+@import "../../public/css/public-m";
+@import "../../public/css/rem";
+
+.myinvite-m {
+    width: 100%;
+    background: #eee;
+    padding-bottom: 55px;
+
+    .myinvite-toinvite {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #3481F7;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        text-align: center;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .myinvite-codeimg {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(9, 9, 9, 0.8);
+        z-index: 1;
+
+        .myinvite-codeimg-img {
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .myinvite-codeimg-btn {
+            width: 70%;
+            margin: 0 auto;
+
+            p {
+                color: #fff;
+                width: 100%;
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+            }
+        }
+
+        .myinvite-codeimg-closebtn {
+            width: 28px;
+            margin: 0 auto;
+            margin-top: 10px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .myinvite-con-top {
+        width: 100%;
+        position: relative;
+
+        .top-nav-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .invite-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 8px;
+            color: #fff;
+
+            .invite-header-l {
+                width: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .invite-header-c {
+                font-size: 17px;
+                font-weight: 500;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .myinvite-con-top-pos {
+            position: absolute;
+            left: 0;
+            bottom: -160px;
+            width: 100%;
+
+            .myinvite-con-top-nav {
+                width: 90%;
+                border-radius: 3px;
+                background: #fff;
+                padding: 0 10px;
+                margin: 0 auto;
+
+                .nav-top {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    height: 50px;
+                    line-height: 50px;
+                    border-bottom: 1px solid #ECECEC;
+
+                    .nav-top-left {
+                        width: 90%;
+                        color: #313543;
+                        font-size: 14px;
+
+                        p {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+
+                            .nav-top-left-two {
+                                width: 68%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+
+                    .nav-top-right {
+                        width: 20px;
+                        margin-top: 2px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .nav-bottom {
+                    padding: 14px 0;
+                    color: #B5B7C0;
+
+                    p {
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+
+                    span {
+                        font-size: rem(15);
+                        line-height: 18px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .myinvite-myget {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 170px;
+        background: #fff;
+        border-radius: 3px;
+
+        h3 {
+            font-size: 14px;
+            font-weight: 500;
+            width: 100%;
+            border-bottom: 1px solid #ECECEC;
+            padding-bottom: 12px;
+        }
+
+        .myinvite-myget-bom {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+
+            .myget-left {
+                width: 50%;
+                position: relative;
+                text-align: center;
+
+                .myget-left-title {
+                    position: absolute;
+                    left: 87px;
+                    bottom: -2px;
+
+                    :nth-child(1) {
+                        font-size: 12px;
+                        padding: 8px 6px;
+                        background: #ccc;
+                        color: #fff;
+                        border-radius: 10px;
+                        line-height: 0;
+                    }
+
+                    :nth-child(2) {
+                        display: none;
+                        position: absolute;
+                        width: 100px;
+                        text-align: center;
+                        left: -35px;
+                        padding: 5px;
+                        border-radius: 3px;
+                        border: 1px solid #eee;
+                        background: #fff;
+                    }
+                }
+
+                :nth-child(1) {
+                    color: #3481F7;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 500;
+                }
+
+                :nth-child(2) {
+                    font-size: 12px;
+                    color: #48484b;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .myinvite-updown {
+        width: 90%;
+        padding: 10px;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 10px;
+        border-radius: 4px;
+
+        h3 {
+            font-weight: 500;
+            width: 100%;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ECECEC;
+            font-size: 16px;
+        }
+
+        ul {
+            margin-top: 15px;
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+                line-height: 40px;
+
+                p {
+                    font-size: 14px;
+                    display: flex;
+                    color: #48484b;
+
+                    :nth-child(1) {
+                        color: #3481F7;
+                        margin-right: 10px;
+                        width: 20px;
+                        text-align: center;
+                        display: block;
+                        margin-top: 5px;
+                        line-height: 31px;
+
+                        img {
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

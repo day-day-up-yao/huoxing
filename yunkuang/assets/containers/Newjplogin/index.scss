@@ -1,0 +1,85 @@
+.jplogin {
+    .jplogin-con {
+        width: 100%;
+        background: #58aac2;
+    }
+
+    .jplogin-top {
+        background: #58aac2;
+        width: 1250px;
+        margin: 0 auto;
+
+        h3 {
+            color: #fff;
+            font-weight: 500;
+            font-size: 40px;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .jplogin-top-line {
+            height: 4px;
+            background: #00ea98;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        h4 {
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .jplogin-top-btn {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+
+            span {
+                padding: 13px 25px;
+                background: hsla(0, 0%, 100%, 0.2);
+                color: #fff;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .newtologo-con-img {
+        width: 1100px;
+        margin: 50px auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .newtologo-con-text {
+        width: 1100px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ccc;
+        margin: 20px auto;
+    }
+
+    .jplogin-bottom {
+        width: 100%;
+        background: #58aac2;
+    }
+
+    .newtologo-con-imgs {
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 40px;
+
+        img {
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,111 @@
+.homeheader-con {
+    padding-bottom: 70px;
+}
+
+.home-header-info {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+
+    .home-header-info-list {
+        position: absolute;
+        left: 0;
+        top: -70px;
+        width: 1074px;
+        padding: 35px 63px;
+        box-shadow: 0 13px 64px 0 rgba(46, 41, 62, 0.1);
+        border-radius: 30px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+
+        .home-header-info-list-item-text {
+            font-size: 32px;
+            font-weight: 600;
+            color: #35384a;
+            line-height: 38px;
+        }
+
+        .home-header-info-list-item-desc {
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.7);
+            line-height: 19px;
+        }
+    }
+}
+
+.newheader-con {
+    background: #fafafa;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 73px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    .home-header-left {
+        h3 {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 56px;
+            color: #35384a;
+        }
+
+        .home-header-left-desc {
+            margin: 32px 0 44px 0;
+            height: 52px;
+            border-radius: 26px;
+            border: 2px solid #f60;
+            line-height: 52px;
+            color: #f60;
+            font-size: 20px;
+            padding: 0 38px;
+            display: inline-block;
+        }
+
+        .home-header-signup {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px;
+            width: 450px;
+            background: #fff;
+            border-radius: 27px;
+            height: 42px;
+            overflow: hidden;
+
+            input {
+                background: none;
+                border: none;
+                padding-left: 24px;
+                width: 60%;
+                height: 100%;
+            }
+
+            button {
+                padding: 0 20px;
+                border-radius: 30px;
+                background: #f60;
+                cursor: pointer;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                border: none;
+            }
+        }
+    }
+
+    .home-header-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img {
+            width: 650px;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.bindgoogle {
+    width: 800px;
+    margin: 50px auto;
+
+    .google_title {
+        margin: 20px 0;
+
+        p {
+            margin: 20px 0;
+            font-size: 14px;
+
+            :nth-child(2) {
+                display: block;
+                width: 150px;
+                height: 150px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .google_startbind {
+        font-size: 14px;
+        color: #242B32;
+        width: 600px;
+
+        .google_startbind_t {
+            border-bottom: 1px #ccc solid;
+
+            p {
+                margin: 10px;
+            }
+        }
+
+        .google_startbind_em {
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+            input {
+                outline: none;
+                border: 0;
+            }
+
+            span {
+                cursor: pointer;
+            }
+        }
+
+        .google_startbind_fin {
+            width: 100px;
+            height: 30px;
+            background: #242F44;
+            line-height: 30px;
+            text-align: center;
+            color: #fff;
+            border-radius: 4px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .google_botton {
+        font-size: 14px;
+        color: #919598;
+        margin: 10px 0;
+
+        p {
+            margin: 10px 0;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.product-agreement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .agreement-center {
+        width: 1200px;
+        padding: 50px 0;
+
+        div {
+            line-height: 30px;
+        }
+    }
+}

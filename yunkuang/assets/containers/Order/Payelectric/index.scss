@@ -1,0 +1,98 @@
+.electric {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 50px;
+
+    .electric-title {
+        width: 98%;
+        padding: 0 12px;
+        display: flex;
+        justify-content: space-between;
+        height: 36px;
+        line-height: 36px;
+        background: #F6F6F9;
+        color: #A2A2AA;
+
+        div {
+            width: 120px;
+            text-align: center;
+        }
+
+        div:nth-child(1) {
+            text-align: left;
+            width: 240px;
+        }
+
+        div:last-child {
+            text-align: right;
+            width: 220px;
+        }
+    }
+
+    .electric-list {
+        .electric-list-item {
+            padding: 15px 12px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #EBEDF0;
+
+            div {
+                width: 120px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: 20px;
+                font-size: 12px;
+
+                i {
+                    padding: 2px 5px;
+                    border-radius: 4px;
+                }
+
+                .success {
+                    color: #283044;
+                }
+
+                .fail {
+                    color: #C25050;
+                }
+
+                .cancel {
+                    color: #A2A2AA;
+                }
+            }
+
+            div:nth-child(1) {
+                text-align: left;
+                justify-content: left;
+                width: 240px;
+            }
+
+            div:last-child {
+                text-align: right;
+                justify-content: flex-end;
+                width: 220px;
+            }
+
+            .item-zero {
+                display: flex;
+                align-items: center;
+
+                span {
+                    cursor: pointer;
+                    padding: 4px 12px;
+                    border-radius: 4px;
+                    border: 1px solid rgba(40, 48, 68, 0.5);
+                }
+
+                :nth-child(1) {
+                    background: #F4881C;
+                    margin-right: 10px;
+                    border: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

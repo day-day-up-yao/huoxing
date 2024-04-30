@@ -1,0 +1,37 @@
+.page-m {
+    width: 100%;
+
+    .dflist {
+        padding: 1px 0;
+
+        .df-xhlogo {
+            width: 150px;
+            margin: 30px auto;
+        }
+
+        .dflist-con {
+            width: 100%;
+            padding: 0;
+
+            .dflist-top {
+                width: 80%;
+            }
+
+            .dflist-sxli {
+                width: 100%;
+
+                .dflist-con-list {
+                    width: 100%;
+
+                    .dflist-con-list-img {
+                        margin: 10px auto;
+                    }
+
+                    .dflist-con-btn {
+                        margin: 10px auto;
+                    }
+                }
+            }
+        }
+    }
+}

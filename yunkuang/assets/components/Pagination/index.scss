@@ -1,0 +1,53 @@
+.react-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        margin: 0 5px;
+        background: #fff;
+        border: 1px solid #CBCED6;
+        border-radius: 3px;
+        box-sizing: border-box;
+        display: block;
+        height: 34px;
+        width: 34px;
+        overflow: hidden;
+        color: #0B1736;
+        font-size: 16px;
+        line-height: 34px;
+        text-align: center;
+
+        &:hover {
+            background: #fff;
+            border: 1px solid #387dea;
+            color: #387dea;
+        }
+
+        &.active {
+            background: #fff;
+            border: 1px solid #387dea;
+            color: #387dea;
+        }
+
+        &.prev,
+        &.next {
+            background: none;
+            border: none;
+            border-radius: initial;
+            height: auto;
+            width: auto;
+            color: #666;
+
+            &:hover {
+                background: none;
+                border: none;
+                color: #387dea;
+            }
+
+            &.disabled {
+                opacity: 0.5;
+            }
+        }
+    }
+}

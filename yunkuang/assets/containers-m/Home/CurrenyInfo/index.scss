@@ -1,0 +1,55 @@
+@import '../../../public/css/swiper.min.scss';
+
+.home-currenyinfo {
+    padding-left: 12px;
+    margin-top: 12px;
+    display: flex;
+
+    .currenyinfo-item {
+        width: 90%;
+        background: #fff;
+        border-radius: 8px;
+        padding: 10px;
+
+        .item-top {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 16px;
+                height: 16px;
+            }
+
+            p {
+                margin-left: 6px;
+                font-size: 14px;
+                white-space: nowrap;
+                overflow: hidden;
+
+                span:nth-child(2) {
+                    color: #a2a2aa;
+                    font-size: 12px;
+                    margin-left: 3px;
+                }
+            }
+        }
+
+        .item-bottom {
+            margin-top: 6px;
+            font-size: 13px;
+            display: flex;
+
+            p:nth-child(1) {
+                margin-right: 8px;
+            }
+
+            .fall {
+                color: #32966e;
+            }
+
+            .rose {
+                color: #cb2412;
+            }
+        }
+    }
+}

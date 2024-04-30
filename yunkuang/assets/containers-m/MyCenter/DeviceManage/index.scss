@@ -1,0 +1,77 @@
+h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 12px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.line {
+    margin-top: 11px;
+}
+
+.device-manage {
+    background: #FFF;
+    border-radius: 8px;
+    padding: 14px 10px;
+
+    &.history {
+        margin-top: 10px;
+    }
+
+    .device-manage-list {
+        .device-manage-list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-top: 18px;
+
+            .device-item-text {
+                display: flex;
+                align-items: center;
+
+                .text-item {
+                    font-size: 13px;
+                    color: #999;
+                    margin-left: 4px;
+                }
+            }
+
+            .device-back {
+                color: #999;
+
+                .device-back-to {
+                    color: #003287;
+                }
+            }
+        }
+    }
+
+    .login-history-list {
+        .history-list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 24px;
+
+            p {
+                font-size: 14px;
+                line-height: 16px;
+            }
+
+            .item-little {
+                color: #999;
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+            .history-list-item-right {
+                text-align: right;
+            }
+        }
+    }
+}

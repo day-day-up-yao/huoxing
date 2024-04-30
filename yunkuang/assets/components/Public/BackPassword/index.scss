@@ -1,0 +1,222 @@
+
+.Retrieve {
+    padding: 10px 30px;
+    font-size: 14px;
+    box-sizing: content-box;
+
+    &.searcesize {
+        width: 350px;
+    }
+
+    .enback-con-text {
+        margin: 10px 0;
+        font-size: 12px;
+        color: #fff;
+        line-height: 14px;
+    }
+
+    input {
+        border: 1px solid #dde2e9;
+        outline: none;
+        width: 93%;
+        height: 40px;
+        padding: 0 12px;
+        border-radius: 4px;
+        line-height: 40px;
+    }
+
+    .get-password {
+        color: #003287;
+        margin-top: 24px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .error {
+        color: #EB3D45;
+        font-size: 14px;
+    }
+
+    div {
+        line-height: 2;
+    }
+
+    h3 {
+        height: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .Retrieve-title {
+        font-size: 13px;
+        color: #999;
+    }
+
+    .Retrieve-con {
+        position: relative;
+
+        .item-mobile-l {
+            display: flex;
+            line-height: 40px;
+            justify-content: space-between;
+            border-bottom: 1px solid #eee;
+
+            p {
+                padding: 0 5px;
+            }
+        }
+
+        ul {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            max-height: 155px;
+            overflow-y: auto;
+            background: #fff;
+            width: 100%;
+            white-space: nowrap;
+            overflow-x: hidden;
+            border: 1px solid #dde2e9;
+
+            li {
+                padding-left: 3px;
+            }
+
+            li:hover {
+                background: rgba(219, 102, 59, 0.1);
+            }
+        }
+    }
+
+    .Retrieve-val {
+        border: 1px solid #dde2e9;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 0;
+        border-radius: 4px;
+        align-items: center;
+        padding: 0 12px;
+        background: #fff;
+
+        input {
+            border: 0;
+            outline: none;
+            width: 200px;
+            height: 100%;
+            line-height: 40px;
+            border-radius: 5px;
+            padding: 0;
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            color: #242F44;
+            border: 0;
+            background: #fff;
+            font-size: 14px;
+        }
+    }
+
+    .Retrieve-sure {
+        margin-top: 15px;
+    }
+
+    .Retrieve-btn {
+        border: 0;
+        outline: none;
+        width: 99%;
+        height: 44px;
+        line-break: 44px;
+        text-align: center;
+        background: #003287;
+        color: #fff;
+        margin-top: 22px;
+        cursor: pointer;
+        border-radius: 4px;
+
+        &.securebtn {
+            background: #64afaf;
+        }
+    }
+}
+
+.Retrieve-validation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+
+    .Retrieve-validation-ga {
+        width: 270px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 30px;
+
+        input {
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            padding: 5px;
+            width: 100%;
+        }
+
+        .Retrieve-validation-btn {
+            display: flex;
+            justify-content: space-between;
+
+            :nth-child(2) {
+                width: 70px;
+                height: 30px;
+                color: #fff;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 30px;
+                background: #242F44;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .Retrieve-validation-code {
+        width: 270px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 30px;
+
+        input {
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            padding: 5px;
+            width: 70%;
+        }
+
+        .Retrieve-validation-btn {
+            display: flex;
+            justify-content: space-between;
+
+            :nth-child(2) {
+                width: 70px;
+                height: 30px;
+                color: #fff;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 30px;
+                background: #242F44;
+                cursor: pointer;
+            }
+        }
+    }
+}

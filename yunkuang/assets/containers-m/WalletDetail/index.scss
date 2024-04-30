@@ -1,0 +1,212 @@
+.wallet-detail {
+    .wallet-detail-header {
+        padding: 18px 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-img {
+            width: 24px;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .header-center {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #999;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .header-center-currey {
+                font-size: 18px;
+                color: #283044;
+                margin: 0 4px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .wallet-detail-top {
+        padding: 0 18px;
+
+        .top-number {
+            .top-number-btc {
+                font-weight: 500;
+                color: #333;
+                line-height: 24px;
+                font-size: 20px;
+            }
+
+            .top-number-usdt {
+                margin-top: 4px;
+                color: #999;
+                font-size: 14px;
+
+                span:nth-child(1) {
+                    margin-right: 4px;
+                }
+            }
+        }
+
+        .top-car {
+            margin: 16px 0;
+            display: flex;
+            justify-content: space-between;
+
+            .item-car {
+                width: 48%;
+                position: relative;
+
+                img {
+                    width: 100%;
+                }
+
+                .car-text {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px 8px;
+
+                    .text-top {
+                        font-size: 16px;
+                        color: #DB663B;
+
+                        &.other-color {
+                            color: #333;
+                        }
+                    }
+
+                    .text-desc {
+                        margin-top: 4px;
+                        color: #8F8F95;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+
+    .wallet-all {
+        .wallet-all-select {
+            display: flex;
+            justify-content: space-around;
+
+            .all-select-item {
+                color: #A2A2AA;
+                font-size: 14px;
+                position: relative;
+                padding-bottom: 9px;
+
+                &.pitch-on-item {
+                    color: #333;
+                    font-weight: 500;
+                }
+
+                .pitch-on-item-line {
+                    position: absolute;
+                    bottom: 0;
+                    left: 4px;
+                    width: 18px;
+                    height: 2px;
+                    background: #003287;
+                    border-radius: 1px;
+                }
+            }
+        }
+
+        .wallet-all-list {
+            background: #fff;
+            border-radius: 8px;
+            padding: 19px 13px 19px 6px;
+            min-height: 300px;
+
+            .wallet-all-list-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 19px;
+
+                .wallet-all-list-item-left {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 6px;
+                    }
+
+                    .all-item-text {
+                        color: #333;
+
+                        .all-item-text-bottom {
+                            display: flex;
+                            align-items: center;
+                            color: #999;
+                            margin-top: 4px;
+                            font-size: 12px;
+
+                            .text-bottom-round {
+                                width: 4px;
+                                height: 4px;
+                                border-radius: 2px;
+                                background: #32966E;
+                                margin-right: 6px;
+
+                                &.fail-round {
+                                    background: #CB2412;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .wallet-all-list-item-right {
+                    color: #A2A2AA;
+                    font-size: 12px;
+                    text-align: right;
+
+                    .all-item-right-number {
+                        color: #DB663B;
+                        font-size: 14px;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bootom-btn {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-around;
+
+    .bootom-btn-item {
+        width: 30%;
+        height: 36px;
+        background: #003287;
+        border-radius: 18px;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

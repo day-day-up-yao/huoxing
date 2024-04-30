@@ -1,0 +1,342 @@
+.clacu {
+    width: 100%;
+    background: #F1F2F5;
+
+    .clacu-top {
+        background: #fff;
+        border-radius: 8px;
+        width: 95%;
+        padding: 20px 10px;
+
+        .select {
+            width: 205px;
+            height: 26px;
+            background: #F5F6FA;
+            padding: 3px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            border-radius: 6px;
+
+            div {
+                width: 99px;
+                line-height: 26px;
+                text-align: center;
+                border-radius: 6px;
+            }
+
+            .active {
+                background: #fff;
+                border-radius: 6px;
+                font-weight: 500;
+            }
+        }
+
+        .pricenum {
+            width: 99%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 16px;
+            position: relative;
+
+            ::-webkit-input-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            :-moz-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            ::-moz-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            :-ms-input-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            .price-left {
+                width: 44%;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                background: #F5F6FA;
+                border-radius: 4px;
+                padding: 0 10px;
+
+                p {
+                    width: 78%;
+                    color: #283044;
+                }
+
+                .price-left-r {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 60%;
+
+                    input {
+                        background: #F5F6FA;
+                        border: none;
+                        width: 80%;
+                    }
+                }
+
+                .price-line {
+                    left: 52%;
+                    position: absolute;
+                    top: 14px;
+                    height: 12px;
+                    width: 1px;
+                    background: #E6EBF0;
+                }
+            }
+
+            .price-right {
+                width: 42%;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                background: #F5F6FA;
+                border-radius: 4px;
+                padding: 0 10px;
+
+                p {
+                    width: 100%;
+                    color: #283044;
+                }
+
+                .price-right-r {
+                    display: flex;
+                    justify-content: space-between;
+
+                    input {
+                        background: #F5F6FA;
+                        border: none;
+                        width: 50%;
+                        padding-left: 10%;
+                    }
+                }
+
+                .price-line {
+                    left: 43%;
+                    position: absolute;
+                    top: 14px;
+                    height: 12px;
+                    width: 1px;
+                    background: #E6EBF0;
+                }
+            }
+        }
+
+        .price {
+            width: 94%;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 4px;
+            background: #F5F6FA;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            padding: 0 10px;
+            position: relative;
+
+            ::-webkit-input-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            :-moz-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            ::-moz-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            :-ms-input-placeholder {
+                color: rgba(197, 197, 204, 0.6);
+            }
+
+            p {
+                color: #283044;
+                width: 50%;
+            }
+
+            .price-r {
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    background: #F5F6FA;
+                    border: none;
+                    width: 60%;
+                }
+            }
+
+            .price-line {
+                position: absolute;
+                top: 14px;
+                left: 35%;
+                height: 12px;
+                width: 1px;
+                background: #E6EBF0;
+            }
+        }
+
+        .price:nth-child(0) {
+            background: #fff;
+        }
+
+        .rate {
+            font-size: 12px;
+            margin-top: 8px;
+            color: #8F8F95;
+
+            :nth-child(2) {
+                color: #283044;
+                margin-left: 8px;
+            }
+        }
+
+        .btn {
+            width: 85%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+            background: #DB663B;
+            border-radius: 6px;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    }
+
+    .clacu-bottom {
+        background: #fff;
+        border-radius: 8px;
+        width: 95%;
+        padding: 20px 10px 12px;
+        margin-top: 10px;
+
+        .bottom-select {
+            width: 91%;
+            height: 26px;
+            background: #F5F6FA;
+            padding: 3px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            border-radius: 6px;
+            font-size: 14px;
+
+            div {
+                width: 30%;
+                line-height: 26px;
+                text-align: center;
+                border-radius: 6px;
+            }
+
+            .active {
+                background: #fff;
+                border-radius: 6px;
+                font-weight: 500;
+            }
+        }
+
+        .bottom-num {
+            text-align: center;
+            margin: 8px 0 12px;
+
+            p:nth-child(1) {
+                color: #DB663B;
+
+                :nth-child(1) {
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+
+                :nth-child(2) {
+                    font-size: 14px;
+                }
+            }
+
+            p:nth-child(2) {
+                color: #8F8F95;
+                font-size: 13px;
+                display: flex;
+                justify-content: center;
+                position: relative;
+
+                span:nth-child(1) {
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        top: 1px;
+                        right: -15px;
+                        width: 13px;
+                        height: 13px;
+                    }
+                }
+
+                span:nth-child(2) {
+                    position: absolute;
+                    top: 15px;
+                    left: auto;
+                    box-shadow: 0 5px 20px 0 rgba(0, 0, 13, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+                    padding: 10px;
+                    background: rgba(0, 0, 0, 0.6);
+                    border-radius: 5px;
+                    line-height: 25px;
+                    color: #fff;
+                }
+            }
+        }
+
+        .bottom-list {
+            width: 95%;
+            padding: 12px 10px;
+            background: #F5F6FA;
+            border-radius: 8px;
+            margin: 0 auto;
+
+            .list {
+                display: flex;
+                justify-content: space-between;
+
+                .list-l {
+                    color: #8F8F95;
+                    font-size: 13px;
+                }
+
+                .list-r {
+                    color: #283044;
+
+                    .list-r-one {
+                        color: #DB663B;
+                        font-size: 14px;
+                    }
+
+                    :nth-child(1) {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    :nth-child(3) {
+                        font-size: 12px;
+                    }
+
+                    :nth-child(5) {
+                        font-size: 12px;
+                        color: #8F8F95;
+                    }
+                }
+            }
+        }
+    }
+}

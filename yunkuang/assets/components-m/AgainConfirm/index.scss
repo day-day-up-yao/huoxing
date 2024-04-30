@@ -1,0 +1,35 @@
+.again-confirm {
+    width: 80%;
+    background: #fff;
+    border-radius: 6px;
+
+    .confirm-text {
+        padding: 38px 18px 28px 18px;
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .confirm-btn {
+        border-top: 1px solid #F0F1F3;
+        display: flex;
+
+        .again-btn {
+            height: 42px;
+            line-height: 42px;
+            width: 50%;
+            border-right: 1px solid #F0F1F3;
+            color: #666;
+            text-align: center;
+
+            &.btn-sure {
+                color: #003287;
+                font-weight: 500;
+                border: none;
+            }
+        }
+    }
+}

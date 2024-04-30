@@ -1,0 +1,72 @@
+.cocolayouttop {
+    background: #0A1825;
+    height: 56px;
+    line-height: 56px;
+    min-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: #fff;
+    }
+
+    .cocolayouttop-l {
+        display: flex;
+    }
+
+    .cocolayouttop-r {
+        display: flex;
+        padding-right: 15px;
+
+        .ocolayouttop-logined {
+            display: flex;
+
+            a {
+                color: #fff;
+            }
+        }
+
+        .cocolayouttop-tologin {
+            display: flex;
+
+            div {
+                padding: 0 10px;
+            }
+        }
+
+        .cocolayouttop-anmont {
+            width: 24px;
+            margin: 0 10px;
+            margin-top: 5px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .cocolayouttop-language {
+            color: #fff;
+            padding: 0 10px;
+        }
+    }
+
+    .cocologo {
+        width: 116px;
+        margin: 7px 0 0 15px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .cocoli {
+        line-height: 56px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 10px;
+
+        a {
+            color: #fff;
+        }
+    }
+}

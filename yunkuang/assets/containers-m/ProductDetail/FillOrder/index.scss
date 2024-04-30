@@ -1,0 +1,198 @@
+.fill-order-con {
+    padding: 0 12px;
+
+    .fill-action {
+        background: #fff;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 12px;
+        position: relative;
+    }
+
+    .fill-action-notice {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        height: 36px;
+        background: #FBFBFD;
+        border-radius: 8px;
+        font-size: 12px;
+        color: #999;
+        width: 93.5%;
+        padding: 0 12px;
+
+        .notic-colors {
+            color: #DB663B;
+            margin-right: 5px;
+        }
+    }
+
+    h3 {
+        font-size: 15px;
+        font-weight: 500;
+        color: #283044;
+    }
+
+    .fill-order-top {
+        display: flex;
+        background: #FDFDFE;
+        width: 96%;
+        padding: 15px 8px;
+        position: relative;
+
+        .fill-top-text {
+            .top-text-desc {
+                display: flex;
+                align-items: center;
+                margin-top: 8px;
+                color: #8F8F95;
+                font-size: 13px;
+
+                img {
+                    width: 12px;
+                    height: 12px;
+                    margin-left: 4px;
+                }
+            }
+        }
+
+        .fill-top-img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 44px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    span {
+        color: #8F8F95;
+        font-size: 13px;
+    }
+
+    .fill-electric-num {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .fill-electric-num-right {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+
+            .num-right-day {
+                margin-left: 12px;
+            }
+        }
+    }
+
+    .electric-type {
+        margin-top: 24px;
+        padding-bottom: 36px;
+
+        .electric-type-select {
+            display: flex;
+
+            &.select-days {
+                margin-top: 10px;
+            }
+
+            .type-select-item {
+                width: 100px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                border: 1px solid rgba(40, 48, 68, 0.2);
+                margin-right: 12px;
+                color: #999;
+                position: relative;
+
+                input {
+                    text-align: center;
+                    color: #999;
+                    border: none;
+                    background: none;
+                }
+
+                &.pitchon-item {
+                    border: 1px solid #003287;
+                    color: #283044;
+                }
+
+                .selected-item-img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+
+        .electric-type-text {
+            margin-top: 18px;
+            color: #999;
+            line-height: 17px;
+            font-size: 12px;
+        }
+    }
+
+    .reduced-price {
+        display: flex;
+        font-size: 14px;
+        color: #283044;
+        justify-content: space-between;
+
+        .reduced-link {
+            display: flex;
+            align-items: center;
+            color: #8F8F95;
+            font-size: 13px;
+
+            img {
+                margin-left: 4px;
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+
+    .all-price {
+        margin-top: 10px;
+
+        .all-price-item {
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            align-items: center;
+
+            .price-item-right {
+                color: #333;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+            }
+
+            .price-item-all {
+                color: #333;
+            }
+
+            .price-item-allnum {
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.layout-header-pc-jp {
+    background: #58aac2;
+    height: auto;
+    line-height: inherit;
+
+    .content {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        min-width: 1250px;
+        padding: 0 20px;
+
+        .content-logo {
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

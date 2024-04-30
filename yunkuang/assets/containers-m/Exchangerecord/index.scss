@@ -1,0 +1,36 @@
+.page-m {
+    width: 100%;
+
+    .exrecord {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 40px 0;
+        box-shadow: none;
+
+        h2 {
+            margin: 20px 0;
+        }
+
+        .exrecord-con {
+            ol {
+                padding: 5px 5px;
+
+                :nth-child(1),
+                :nth-child(6),
+                :nth-child(2) {
+                    display: none;
+                }
+            }
+
+            ul {
+                padding: 5px 5px;
+
+                :nth-child(1),
+                :nth-child(6),
+                :nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

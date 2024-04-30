@@ -1,0 +1,38 @@
+.electric-days {
+    display: flex;
+    text-align: center;
+
+    .days-select,
+    .days-input {
+        display: flex;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    p,
+    input {
+        padding: 0 30px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #242F44;
+        color: #242F44;
+        text-align: center;
+        margin: 0 20px;
+        cursor: pointer;
+
+        &.active {
+            background: #242F44;
+            color: #fff;
+        }
+    }
+
+    input {
+        padding: 0 0 0 10px;
+        margin: 0 5px 0 20px;
+        text-align: left;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+}

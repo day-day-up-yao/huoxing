@@ -1,0 +1,106 @@
+.signup-login-wrapper {
+    position: relative;
+    background: #fff;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #E6ECFA;
+}
+
+.close-icon {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+
+input::-webkit-input-placeholder {
+    color: #A2A2AA;
+}
+
+input::-moz-placeholder {
+    color: #A2A2AA;
+}
+
+input:-moz-placeholder {
+    color: #A2A2AA;
+}
+
+input:-ms-input-placeholder {
+    color: #A2A2AA;
+}
+
+.Retrieve-validation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+
+    .Retrieve-validation-ga {
+        width: 270px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 30px;
+
+        input {
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            padding: 5px;
+            width: 100%;
+        }
+
+        .Retrieve-validation-btn {
+            display: flex;
+            justify-content: space-between;
+
+            :nth-child(2) {
+                width: 70px;
+                height: 30px;
+                color: #fff;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 30px;
+                background: #242F44;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .Retrieve-validation-code {
+        width: 270px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px 30px;
+
+        input {
+            margin: 10px 0;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            padding: 5px;
+            width: 70%;
+        }
+
+        .Retrieve-validation-btn {
+            display: flex;
+            justify-content: space-between;
+
+            :nth-child(2) {
+                width: 70px;
+                height: 30px;
+                color: #fff;
+                border-radius: 5px;
+                text-align: center;
+                line-height: 30px;
+                background: #242F44;
+                cursor: pointer;
+            }
+        }
+    }
+}

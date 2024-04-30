@@ -1,0 +1,21 @@
+.page-m {
+    width: 100%;
+
+    .aboutus {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+        box-shadow: none;
+
+        .aboutus-bottom {
+            flex-wrap: wrap;
+        }
+
+        .aboutus-bottom .product-intro-logfour,
+        .product-intro-logthree,
+        .product-intro-logtwo,
+        .product-intro-logone {
+            width: 48%;
+        }
+    }
+}

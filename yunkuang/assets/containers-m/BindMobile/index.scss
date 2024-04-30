@@ -1,0 +1,47 @@
+.page-m {
+    width: 100%;
+
+    .bindmobile {
+        width: 90%;
+        margin: 20px auto;
+        background: none;
+
+        h3 {
+            font-size: 18px;
+        }
+
+        .select {
+            .select-info {
+                background: #fff;
+                height: 44px;
+            }
+        }
+
+        .bindm-con {
+            margin: 20px 0;
+            width: 86%;
+            outline: none;
+            height: 44px;
+            padding: 0 24px;
+            line-height: 44px;
+            border-radius: 6px;
+            border: 0.5px solid #333;
+            background: #fff;
+
+            input {
+                width: 40%;
+                line-height: 44px;
+                height: 44px;
+            }
+
+            span {
+                line-height: 44px;
+            }
+        }
+
+        button {
+            width: 100%;
+            background: #003287;
+        }
+    }
+}

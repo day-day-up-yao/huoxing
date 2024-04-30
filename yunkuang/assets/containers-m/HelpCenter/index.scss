@@ -1,0 +1,14 @@
+.page-m {
+    width: 100%;
+
+    .helpcenter {
+        width: 90%;
+        margin: 10px auto;
+        padding: 0 0 40px 0;
+        box-shadow: none;
+
+        .helpcenter_top .helpcenter_top_right {
+            display: none;
+        }
+    }
+}

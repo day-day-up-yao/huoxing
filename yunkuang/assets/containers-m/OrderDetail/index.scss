@@ -1,0 +1,144 @@
+@import '../../public/css/rem.scss';
+
+.page-m {
+    .pay-other-info {
+        width: 100%;
+
+        .had-pay {
+            font-weight: bold;
+            width: 85%;
+            border-radius: 4px;
+        }
+    }
+
+    .order-detail {
+        padding: 0 0 40px 0;
+
+        .order-con-select-top {
+            padding-left: 10px;
+        }
+
+        .order-con-top {
+            padding: 0 15px 0;
+            width: auto;
+            line-height: 30px;
+
+            .count-down-wrapper {
+                width: 100%;
+            }
+        }
+
+        .order-con-message ul {
+            padding: 0 20px 0 35px;
+            width: auto;
+
+            li p:nth-child(1) {
+                margin-right: 30px;
+            }
+        }
+
+        h3 {
+            display: none;
+        }
+
+        .order-con {
+            width: auto;
+            box-shadow: none;
+            padding: 0;
+
+            .risk-warning {
+                padding: 0 20px;
+                margin: 30px 0;
+                text-align: justify;
+            }
+        }
+    }
+
+    .paynow-wrapper {
+        /* 付款按钮 */
+        .payment-wrapper {
+            .pay-type {
+                flex-wrap: wrap;
+                min-height: 123.38px;
+
+                .item {
+                    height: 41.7px;
+                    line-height: 41.7px;
+                    width: 125px;
+                    margin: 10px;
+
+                    &.wechat {
+                        background-size: contain;
+
+                        &.active,
+                        &:hover {
+                            background-size: contain;
+                        }
+                    }
+
+                    &.usdt {
+                        background-size: contain;
+
+                        &.active,
+                        &:hover {
+                            background-size: contain;
+                        }
+                    }
+
+                    &.bank-card {
+                        background-size: contain;
+
+                        &.active,
+                        &:hover {
+                            background-size: contain;
+                        }
+                    }
+
+                    &.alpay {
+                        background-size: contain;
+
+                        &.active,
+                        &:hover {
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+
+            button.pay-rightnow {
+                width: 300px;
+                font-weight: bold;
+            }
+        }
+
+        /* 更新订单，点击之后自动点击事件(支付) */
+        .create-order-btn {
+            width: 300px;
+            top: 142px;
+        }
+    }
+
+    .electric-days {
+        flex-direction: column;
+
+        .days-select {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .popup2fa .popup2fa-con {
+        padding: 40px 10px;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 4px;
+
+        input {
+            width: 50%;
+        }
+    }
+}

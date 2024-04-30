@@ -1,0 +1,44 @@
+.jppriv {
+    width: 100%;
+
+    .jppriv-con {
+        width: 100%;
+        border-top: 1px solid #eee;
+        padding: 10px 0;
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .jppriv-list {
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 30px;
+            font-size: 14px;
+
+            h3 {
+                line-height: 24px;
+            }
+
+            .jppriv-lis-con {
+                margin-top: 15px;
+
+                h4 {
+                    font-weight: bold;
+                }
+
+                .jppriv-lis-con-p {
+                    margin-top: 15px;
+
+                    p {
+                        margin: 10px 0;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

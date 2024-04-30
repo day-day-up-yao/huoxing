@@ -1,0 +1,30 @@
+.page-m {
+    width: 100%;
+
+    .publicheader {
+        margin: 0 auto;
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 12px;
+
+        .publicheader-l {
+            width: 16px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .publicheader-c {
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .publicheader-r {
+            font-size: 14px;
+            color: #003287;
+        }
+    }
+}

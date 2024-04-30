@@ -1,0 +1,179 @@
+.myinvite {
+    width: 100%;
+    background: #FBFBFC;
+
+    .invitebanner {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .invit-list {
+        width: 480px;
+        margin: 0 auto;
+        padding: 20px 0;
+
+        .itemone {
+            padding: 19px 28px;
+            background: #FFF;
+            border-radius: 10px;
+            border: 1px solid #E6ECFA;
+            text-align: center;
+            margin-top: 12px;
+
+            .itemone-title {
+                font-weight: 500;
+                color: #35384A;
+                font-size: 17px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 28px;
+                background: rgba($color: #F8E8B5, $alpha: 0.25);
+                width: auto;
+                padding: 0 8px;
+                margin: 0 auto;
+                border-radius: 12px;
+
+                img {
+                    width: 17px;
+                }
+
+                span {
+                    margin: 0 9px;
+                }
+            }
+
+            .itemone-code {
+                margin-top: 14px;
+                width: 100%;
+
+                h4 {
+                    font-weight: 500;
+                    color: #35384A;
+                    line-height: 14px;
+                    font-size: 17px;
+                    text-align: left;
+                }
+
+                .code {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 94%;
+                    padding: 0 12px;
+                    height: 48px;
+                    background: #F8F9FC;
+                    border-radius: 6px;
+                    margin-top: 13px;
+
+                    #address {
+                        display: block;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        width: 80%;
+                    }
+
+                    :nth-child(2) {
+                        color: #F4881C;
+                        border-left: 1px solid rgba(197, 197, 204, 0.6);
+                        padding-left: 13px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .itemone-btn {
+                height: 48px;
+                background: #F4881C;
+                border-radius: 6px;
+                line-height: 48px;
+                text-align: center;
+                margin-top: 24px;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+            ul {
+                margin-top: 30px;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+                li {
+                    width: 30%;
+                    text-align: center;
+                    padding: 5px 0;
+
+                    :nth-child(1) {
+                        color: #F4881C;
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+
+                    :nth-child(3) {
+                        margin-top: 5px;
+                        color: #8F8F95;
+                        font-size: 12px;
+                    }
+                }
+
+                li:nth-child(2) {
+                    border-left: 1px solid #E2E2E5;
+                    border-right: 1px solid #E2E2E5;
+                }
+            }
+
+            .ranking {
+                margin-top: 15px;
+
+                .ranking-item {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 40px;
+                    line-height: 40px;
+                    background: #F8F9FC;
+                    border-radius: 8px;
+                    padding: 0 9px;
+
+                    p {
+                        font-size: 14px;
+                        display: flex;
+                        color: #48484b;
+                        align-items: center;
+
+                        span:nth-child(1) {
+                            color: #283044;
+                            margin-right: 10px;
+                            width: 20px;
+                            text-align: center;
+                            display: block;
+                            margin-top: 5px;
+                            line-height: 31px;
+                            font-size: 16px;
+                            font-weight: 500;
+
+                            img {
+                                width: 20px;
+                            }
+                        }
+
+                        i:nth-child(2) {
+                            color: #A2A2AA;
+                            margin-left: 4px;
+                        }
+                    }
+                }
+
+                .ranking-item:nth-child(2n) {
+                    background: #fff;
+                }
+            }
+        }
+    }
+}

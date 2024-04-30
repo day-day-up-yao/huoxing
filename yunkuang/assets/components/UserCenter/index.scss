@@ -1,0 +1,48 @@
+.usernew {
+    width: 1000px;
+    margin: 100px auto;
+
+    .user_uid {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .user_con_ter {
+        margin: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        .user_con_google {
+            width: 250px;
+            background: #eee;
+            padding: 30px 30px 0;
+            margin: 0 22px 20px 0;
+
+            p {
+                margin: 20px 0;
+                font-size: 14px;
+            }
+
+            .user_con_google_to {
+                min-width: 60px;
+                height: 25px;
+                background: #242F44;
+                color: #fff;
+                line-height: 25px;
+                text-align: center;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            .user_con_google_no {
+                min-width: 60px;
+                height: 25px;
+                background: rgba(0, 0, 0, 0.12);
+                color: rgba(0, 0, 0, 0.26);
+                line-height: 25px;
+                text-align: center;
+                border-radius: 3px;
+            }
+        }
+    }
+}

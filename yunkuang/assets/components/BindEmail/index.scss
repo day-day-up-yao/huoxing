@@ -1,0 +1,130 @@
+.bindmobile {
+    width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    padding-top: 20px;
+
+    h3 {
+        font-size: 23px;
+        padding-bottom: 30px;
+    }
+
+    .bindm-cons {
+        border-bottom: 1px solid #999;
+        font-size: 14px;
+        height: 40px;
+        margin: 20px 0 5px 0;
+        display: flex;
+
+        .bindm-cons-left {
+            position: relative;
+            width: 90px;
+
+            p:nth-child(1) {
+                font-size: 12px;
+                margin-top: -6px;
+            }
+
+            p:nth-child(2) {
+                margin-top: 7px;
+            }
+
+            ul {
+                display: none;
+                position: absolute;
+                top: 40px;
+                left: 0;
+                background: #fff;
+                max-height: 148px;
+                z-index: 1;
+                width: 130px;
+                overflow-y: auto;
+                overflow-x: hidden;
+                border: 1px solid #ccc;
+
+                li {
+                    line-height: 30px;
+                    padding-left: 3px;
+                    white-space: nowrap;
+                }
+
+                li:hover {
+                    background: #c1c1c1;
+                }
+            }
+        }
+
+        .bindm-cons-left:hover {
+            border-bottom: 1px solid #111;
+        }
+
+        input {
+            border: 0;
+            outline: none;
+            height: 40px;
+            width: 325px;
+        }
+    }
+
+    .bindm-cons:hover {
+        border-bottom: 1px solid #111;
+    }
+
+    .bindm-cont {
+        font-size: 14px;
+    }
+
+    .bindm-con {
+        border-bottom: 1px solid #999;
+        margin: 40px 0;
+        font-size: 14px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            border: 0;
+            outline: none;
+            height: 40px;
+            width: 65%;
+        }
+
+        p {
+            color: #ccc;
+            line-height: 40px;
+        }
+
+        span {
+            cursor: pointer;
+            color: #242F44;
+            line-height: 40px;
+        }
+    }
+
+    .bindm-con:hover {
+        border-bottom: 1px solid #111;
+    }
+
+    .bindm-conm {
+        cursor: no-drop;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #999;
+
+        p {
+            color: #ccc;
+            line-height: 40px;
+        }
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        background: #f60;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+}

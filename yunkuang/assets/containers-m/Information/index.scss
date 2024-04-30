@@ -1,0 +1,171 @@
+.page-m {
+    width: 100%;
+
+    .info {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 60px;
+        padding-top: 10px;
+
+        .info-top {
+            width: 200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                width: 100px;
+                text-align: center;
+                font-size: 14px;
+                color: #B5B7C0;
+                border: 1px solid #B5B7C0;
+                height: 25px;
+                line-height: 25px;
+            }
+
+            :nth-child(1) {
+                border-right: none;
+                border-radius: 4px 0 0 4px;
+            }
+
+            :nth-child(2) {
+                border-left: none;
+                border-radius: 0 4px 4px 0;
+            }
+
+            .info-top-con {
+                background: #242F44;
+                color: #fff;
+                border: 1px solid #242F44;
+            }
+        }
+
+        .speedmsg-con {
+            width: 90%;
+            margin: 20px auto;
+
+            .speedmsg-con-msg {
+                border-left: 1px dashed #eee;
+                position: relative;
+                padding-bottom: 20px;
+
+                .speedmsg-con-msg-pson {
+                    position: absolute;
+                    top: 15px;
+                    left: -8px;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 6px;
+                    border: 2px solid #ff9b6e;
+
+                    div {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 3px;
+                        background: #ff9b6e;
+                        margin: 2px auto;
+                    }
+                }
+
+                .speedmsg-con-msg-list {
+                    margin-left: 30px;
+                    padding-top: 15px;
+
+                    .speedmsg-con-msg-list-time {
+                        font-size: 14px;
+                        color: #ccc;
+                    }
+
+                    a {
+                        color: #222;
+                    }
+
+                    h3 {
+                        margin: 10px 0;
+                        font-weight: bold;
+                        line-height: 24px;
+                    }
+
+                    .speedmsg-con-msg-list-info {
+                        .speedmsg-con-msg-list-info-p {
+                            font-size: 15px;
+                            line-height: 23px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            white-space: pre-line;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 4;
+                            text-align: justify;
+                            word-break: break-all;
+                        }
+
+                        .speedmsg-con-msg-list-info-psee {
+                            font-size: 15px;
+                            line-height: 23px;
+                            text-align: justify;
+                            word-break: break-all;
+                        }
+
+                        .speedmsg-con-msg-list-info-open {
+                            font-size: 14px;
+                            color: #666;
+                            margin-top: 10px;
+
+                            img {
+                                width: 14px;
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .info-con {
+            width: 90%;
+            margin: 20px auto;
+
+            .info-con-msg {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                padding: 12px 0;
+                border-bottom: 1px solid #ECECEC;
+
+                .info-con-msg-left {
+                    width: 65%;
+
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 400px;
+                        line-height: 22px;
+                        color: rgba(49, 53, 67, 1);
+                    }
+
+                    p {
+                        font-size: 12px;
+                        line-height: 17px;
+                        margin-top: 9px;
+                        color: rgba(181, 183, 192, 1);
+
+                        span:nth-child(2) {
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .info-con-msg-right {
+                    width: 30%;
+                    height: 70px;
+                    border-radius: 3px;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

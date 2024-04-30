@@ -1,0 +1,68 @@
+.my-oeder-select {
+    padding-left: 12px;
+    display: flex;
+    margin-top: 15px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+
+    .select-item {
+        font-size: 14px;
+        color: #999;
+        margin-right: 20px;
+        position: relative;
+        padding-bottom: 6px;
+        flex-shrink: 0;
+
+        :last-child {
+            margin: 0;
+        }
+
+        &.pitch-on {
+            color: #333;
+            font-weight: 500;
+        }
+
+        .select-item-line {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .line-select {
+                height: 3px;
+                width: 18px;
+                background: #003287;
+            }
+        }
+    }
+}
+
+.state-list {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+
+    .state-list-item {
+        flex-shrink: 0;
+        margin-right: 12px;
+        color: #999;
+        background: #fff;
+        padding: 0 8px;
+        border-radius: 6px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 13px;
+
+        &.active {
+            background: #D9E4F7;
+            color: #003287;
+        }
+
+        :last-child {
+            margin: 0;
+        }
+    }
+}

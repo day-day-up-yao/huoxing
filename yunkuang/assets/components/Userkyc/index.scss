@@ -1,0 +1,214 @@
+.userkyctitle {
+    width: 1000px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 38px 40px;
+    box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+    min-height: 200px;
+
+    h3 {
+        padding: 5px 0;
+        border-bottom: 3px solid #242F44;
+    }
+
+    .kyccon {
+        padding: 30px 20px;
+
+        .kyccon-input {
+            li {
+                width: 100%;
+                margin: 10px 0;
+                font-size: 15px;
+
+                select {
+                    width: 100%;
+                    height: 30px;
+                    line-height: 30px;
+                    margin: 5px 0;
+
+                    option {
+                        width: 100%;
+                        height: 40px;
+                    }
+                }
+
+                input {
+                    width: 98.7%;
+                    height: 30px;
+                    padding: 0 4px;
+                    margin: 5px 0;
+                }
+
+                .sex {
+                    width: 40px;
+                    height: 10px;
+                }
+            }
+
+            .err {
+                font-size: 14px;
+                color: #d76a00;
+            }
+        }
+
+        .kyccon-pictitle {
+            margin: 30px 0;
+            font-size: 15px;
+
+            p {
+                margin: 5px 0;
+            }
+        }
+
+        .kyccon-pic {
+            .kyccon-pic-list {
+                margin: 20px 0;
+
+                p {
+                    margin: 5px 0;
+                }
+
+                .kyccon-pic-list-img {
+                    display: flex;
+                    margin: 20px 0;
+                    overflow: hidden;
+
+                    div {
+                        width: 320px;
+                        height: 200px;
+                        margin-right: 30px;
+                        border-radius: 3px;
+                        position: relative;
+                        z-index: 1;
+
+                        img {
+                            width: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+
+                    :nth-child(1) {
+                        border: 1px #242F44 dashed;
+                        line-height: 200px;
+                        text-align: center;
+                        color: #242F44;
+                        cursor: pointer;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            background: #242F44;
+            color: #fff;
+            border: 0;
+            border-radius: 3px;
+            margin-top: 20px;
+        }
+    }
+
+    .tobindmobil {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #cccc;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+
+        .tobindmobillists {
+            margin: 60px auto;
+            background: #fff;
+            width: 450px;
+            height: 460px;
+            position: relative;
+
+            .tobindmobilclose {
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .tobindmobillist {
+            margin: 60px auto;
+            background: #fff;
+            width: 450px;
+            height: 460px;
+            position: relative;
+
+            p {
+                text-align: center;
+                margin: 25px 0;
+
+                :nth-child(1) {
+                    margin-right: 40px;
+                }
+            }
+
+            p:nth-child(1) {
+                padding-top: 60px;
+                font-size: 20px;
+                color: #242F44;
+            }
+
+            h5 {
+                text-align: center;
+                padding: 30px 0;
+                font-size: 22px;
+                border-bottom: 3px solid #242F44;
+            }
+
+            .tobindmsg {
+                margin-bottom: 40px;
+
+                h4 {
+                    text-align: center;
+                    margin: 70px 0;
+                }
+
+                .tobindmsg-select {
+                    display: flex;
+                    justify-content: space-around;
+
+                    div {
+                        height: 110px;
+                        width: 200px;
+                        border: 1px solid #ccc;
+                        border-radius: 3px;
+                        text-align: center;
+                        line-height: 110px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .bindclose {
+                text-align: center;
+                border-top: 2px solid #242F44;
+                padding: 20px 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .tobindmobillist-btn {
+        background: #242F44;
+        color: #fff;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        margin: 0 auto;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

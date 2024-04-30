@@ -1,0 +1,256 @@
+.order-detail {
+    padding: 40px 0;
+
+    h3 {
+        margin-top: 40px;
+    }
+
+    .order-con {
+        background: #fff;
+        width: 1000px;
+        margin: 0 auto;
+        box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+        padding: 40px;
+    }
+
+    .order-con-top {
+        width: 100%;
+        border-bottom: 2px solid #242F44;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        color: #242F44;
+
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .count-down-wrapper,
+        .order-count-down {
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            justify-content: flex-end;
+
+            .countdown-item {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .order-con-message {
+        ul {
+            width: 100%;
+            padding-left: 30px;
+
+            li {
+                display: flex;
+                margin: 20px 0;
+
+                :nth-child(1) {
+                    color: #999;
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+
+    .order-con-pay {
+        width: 100%;
+        margin: 10px 0;
+
+        .earnings-pay-intro,
+        .risk-warning {
+            color: #333;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        .risk-warning {
+            margin: 20px 0 0 30px;
+
+            p {
+                margin-bottom: 10px;
+                text-indent: 2em;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #888;
+            padding: 10px 30px;
+        }
+
+        .select-electric-way {
+            .electric-way-btn {
+                margin: 20px 0 0 30px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                button {
+                    padding: 0 30px;
+                    height: 30px;
+                    border-radius: 3px;
+                    border: 1px solid #242F44;
+                    color: #242F44;
+                    text-align: center;
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-size: 14px;
+
+                    &.active {
+                        background: #242F44;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .order-con-pays {
+            display: flex;
+            margin-top: 30px;
+            padding-left: 30px;
+
+            .order-con-pay-title {
+                height: 30px;
+                line-height: 30px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .order-con-bill {
+        margin: 10px 0;
+        width: 100%;
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #888;
+            padding: 10px 30px;
+        }
+
+        .order-con-bill {
+            padding-left: 30px;
+
+            table {
+                text-align: left;
+                line-height: 42px;
+
+                th {
+                    padding-right: 20px;
+                    color: #999;
+                }
+            }
+
+            .order-con-bill-all-con {
+                border-top: 1px solid #ccc;
+
+                th,
+                td {
+                    padding-top: 10px;
+                    color: #242F44;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .order-con-select {
+        margin: 10px 0;
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #888;
+            padding: 10px 30px;
+        }
+
+        .order-con-select-top {
+            padding-left: 30px;
+
+            .order-con-select-top-t {
+                margin: 20px 0;
+
+                span {
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.paynow-wrapper {
+    margin-top: 25px;
+    position: relative;
+
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    /* 付款按钮 */
+    .payment-wrapper {
+        position: relative;
+        z-index: 0;
+
+        button.pay-rightnow {
+            width: 100%;
+            height: 48px;
+            text-align: center;
+            line-height: 48px;
+            color: #fff;
+            background: #FFA006;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+
+    /* 更新订单，点击之后自动点击事件(支付) */
+    .create-order-btn {
+        position: absolute;
+        left: 0;
+        top: 60px;
+        background: none;
+        border: none;
+        height: 48px;
+        width: 400px;
+        z-index: 1;
+        cursor: pointer;
+    }
+}
+
+.promotion-code-wrapper {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .promotion-code,
+    a {
+        padding: 0 10px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #242F44;
+        color: #242F44;
+        margin: 20px 20px 0 0;
+        text-align: left;
+    }
+
+    a,
+    a:hover {
+        padding: 0 20px;
+        background: #242F44;
+        height: 32px;
+        color: #fff;
+        line-height: 30px;
+        cursor: pointer;
+    }
+}

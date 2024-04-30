@@ -1,0 +1,23 @@
+.page-m {
+    width: 100%;
+
+    .instruct {
+        width: 90%;
+        margin: 20px auto;
+        box-shadow: none;
+        padding: 0 0 40px 0;
+
+        .instruct-con .instruct-con-title {
+            flex-wrap: wrap;
+        }
+
+        .instruct-con .instruct-con-title p {
+            width: 100%;
+        }
+
+        .instruct-con .instruct-con-title .instruct-con-r {
+            width: 40%;
+            margin: 15px auto;
+        }
+    }
+}

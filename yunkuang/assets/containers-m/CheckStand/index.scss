@@ -1,0 +1,212 @@
+.check-stand {
+    .need-payinfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        flex-direction: column;
+
+        .payinfo-amount {
+            display: flex;
+            align-items: baseline;
+            font-size: 24px;
+            font-weight: 500;
+            color: #DB663B;
+
+            .amount-unit {
+                font-size: 16px;
+            }
+        }
+
+        .payinfo-text {
+            font-size: 13px;
+            color: #A2A2AA;
+            margin-top: 6px;
+        }
+    }
+
+    .allbg {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .mining-info {
+        background: #fff;
+        padding: 18px 12px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+
+        .mining-info-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: 500;
+
+            .item-lift-name {
+                color: #A2A2AA;
+            }
+
+            .curreny-unit {
+                margin-left: 3px;
+            }
+
+            &.item-have-other {
+                margin-top: 15px;
+                font-weight: 400;
+            }
+        }
+
+        h3 {
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .select-currency-list {
+            margin-top: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .select-currency-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                height: 36px;
+                position: relative;
+                font-size: 13px;
+                color: #C5C5CC;
+                border-radius: 4px;
+                border: 1px solid rgba(40, 48, 68, 0.2);
+                margin-bottom: 11px;
+
+                .curreny-icon {
+                    width: 19px;
+                    height: 19px;
+                    margin-right: 5px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &.select-item {
+                    border: 1px solid #003287;
+                    color: #283044;
+                    font-weight: 500;
+                }
+
+                .selected-item-img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .account-money {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .left-account-info {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                color: #283044;
+                font-weight: 500;
+
+                .account-number {
+                    font-weight: 400;
+                    color: #A2A2AA;
+                    line-height: 16px;
+                    margin: 0 0 0 12px;
+                    display: flex;
+
+                    span {
+                        margin: 0 4px;
+                        display: block;
+                    }
+
+                    .account-number-amount {
+                        max-width: 60%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                .account-refresh {
+                    width: 12px;
+                    height: 12px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            .top-up-btn {
+                padding: 5px 14px;
+                border-radius: 4px;
+                color: #003287;
+                background: #E8EFFF;
+            }
+        }
+    }
+
+    .check-stand-bottom {
+        position: fixed;
+        bottom: 10px;
+        left: 0;
+        width: 100%;
+
+        .check-stand-bottom-con {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+
+            .bottom-timeinfo {
+                width: 52%;
+                height: 44px;
+                background: #FFF;
+                box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.05);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #70737F;
+                font-size: 14px;
+
+                &.bottom-pay-btn {
+                    width: 45%;
+                    background: #003287;
+                    color: #fff;
+                }
+
+                &.pay-btn-allwidth {
+                    width: 100%;
+                }
+            }
+
+            .countdown-item {
+                display: flex;
+
+                .mclouds-amount {
+                    padding: 3px;
+                    border-radius: 7px;
+                    font-weight: bold;
+                    color: #F4881C;
+                    font-size: 13px;
+                    background: #F4F5FA;
+                }
+
+                .mclouds-word {
+                    margin: 0 2px;
+                }
+            }
+        }
+    }
+}

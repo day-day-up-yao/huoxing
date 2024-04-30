@@ -1,0 +1,63 @@
+.page-m {
+    .detail {
+        width: auto;
+        margin: 0;
+        box-shadow: none;
+        padding: 0 15px;
+        min-height: 500px;
+        padding-bottom: 60px;
+
+        .detail-con {
+            .detail-con-title {
+                ul {
+                    display: flex;
+
+                    li {
+                        width: 30%;
+
+                        &:first-child {
+                            width: 15%;
+                            text-align: left;
+                            display: none;
+                        }
+
+                        &:last-child {
+                            width: 15%;
+                            text-align: right;
+                        }
+                    }
+                }
+
+                .detail-con-title-ol {
+                    ol {
+                        li {
+                            width: 30%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            &:first-child {
+                                width: 15%;
+                                text-align: left;
+                                display: none;
+                            }
+
+                            &:last-child {
+                                width: 15%;
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .detail-con .detail-con-title .detail-con-title-ol .detail-con-title-ol-alert {
+            margin: 10px 0 0 0;
+
+            .detail-con-title-ol-alert-r .detail-con-title-ol-alert-r-r {
+                margin: 0;
+            }
+        }
+    }
+}

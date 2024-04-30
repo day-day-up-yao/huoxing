@@ -1,0 +1,50 @@
+.anmentmsg {
+    width: 100%;
+    background: #F7F8F9;
+    padding: 24px 0;
+
+    .anmentmsg-con {
+        width: 1224px;
+        box-shadow: 0 1px 1px 0 rgba(11, 23, 54, 0.04);
+        min-height: 600px;
+        padding: 24px 32px;
+        background: #fff;
+        margin: 0 auto;
+
+        h2 {
+            color: #0B1736;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-size: 14px;
+            color: #9398A4;
+            font-weight: 400;
+            margin-top: 8px;
+        }
+
+        .anmentmsg-message {
+            margin-top: 16px;
+            line-height: 29px;
+            font-size: 16px;
+
+            p {
+                padding-bottom: 4px;
+                line-height: 29px;
+                font-size: 16px;
+                word-break: break-all;
+            }
+
+            span {
+                margin-left: 16px;
+            }
+
+            img {
+                width: 390px;
+                margin: 8px 0;
+            }
+        }
+    }
+}

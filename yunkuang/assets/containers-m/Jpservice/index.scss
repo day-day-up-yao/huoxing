@@ -1,0 +1,40 @@
+.jpser {
+    width: 100%;
+
+    .jpser-con {
+        width: 100%;
+        border-top: 1px solid #eee;
+        padding: 10px 0;
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .jpser-list {
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 30px;
+            font-size: 14px;
+
+            h3 {
+                line-height: 24px;
+            }
+
+            .jpser-list-con {
+                margin-top: 15px;
+
+                h4 {
+                    font-weight: bold;
+                }
+
+                p {
+                    margin: 10px 0;
+                    line-height: 23px;
+                }
+            }
+        }
+    }
+}

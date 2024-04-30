@@ -1,0 +1,56 @@
+.jp-home-wallet {
+    position: relative;
+    width: 100%;
+    background: #5CA5B3;
+    border-radius: 14px;
+    padding: 18px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    min-height: 170px;
+
+    .jp-home-wallet-item {
+        width: 100%;
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .jp-home-wallet-name {
+            width: 100px;
+            height: 100%;
+            text-align: left;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 26px;
+            color: #fff;
+        }
+
+        .jp-home-wallet-num {
+            flex: 1;
+            height: 100%;
+            text-align: right;
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+        }
+
+        .jp-home-wallet-btnbox {
+            width: 100px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .jp-home-wallet-btn {
+                width: 24px;
+                height: 24px;
+                margin-left: 20px;
+            }
+        }
+    }
+}

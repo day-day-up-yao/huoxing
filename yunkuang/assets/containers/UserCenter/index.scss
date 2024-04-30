@@ -1,0 +1,116 @@
+.newcenter {
+    width: 100%;
+    background: #FBFBFC;
+
+    .userhader {
+        height: 74px;
+        background: #141E47;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+        .userhader-con {
+            padding-top: 16px;
+            width: 1200px;
+            margin: 0 auto;
+
+            .con-top {
+                font-weight: 500;
+                color: #FFF;
+                line-height: 28px;
+                font-size: 24px;
+            }
+
+            .con-bottom {
+                font-weight: 500;
+                color: rgba(255, 255, 255, 0.5);
+                line-height: 18px;
+                font-size: 13px;
+                margin-top: 4px;
+
+                :nth-child(1) {
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+
+    .center-list {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 0;
+
+        .item {
+            padding: 32px 24px;
+            width: 300px;
+            background: #FFF;
+            border-radius: 6px;
+            border: 1px solid #E6ECFA;
+            display: flex;
+            margin: 20px 0;
+
+            .item-left {
+                width: 40px;
+                margin-top: -5px;
+            }
+
+            .item-img {
+                width: 28px;
+                margin-right: 10px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .item-right {
+                width: 88%;
+
+                h3 {
+                    font-weight: 500;
+                    color: #333;
+                    line-height: 28px;
+                    font-size: 20px;
+                }
+
+                h4 {
+                    font-weight: 400;
+                    color: #8F8F95;
+                    line-height: 16px;
+                    font-size: 16px;
+                    margin-top: 4px;
+                }
+
+                .item-btn {
+                    height: 36px;
+                    background: #F4F5FA;
+                    border-radius: 6px;
+                    border: 1px solid #E6ECFA;
+                    margin-top: 26px;
+                    text-align: center;
+                    line-height: 36px;
+                    width: 100%;
+                    color: #A2A2AA;
+                }
+
+                .item-btned {
+                    height: 36px;
+                    background: #f60;
+                    border-radius: 6px;
+                    border: 1px solid #E6ECFA;
+                    margin-top: 26px;
+                    text-align: center;
+                    line-height: 36px;
+                    width: 100%;
+                    color: #FFF;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .item:nth-child(3n-1) {
+            margin: 20px;
+        }
+    }
+}

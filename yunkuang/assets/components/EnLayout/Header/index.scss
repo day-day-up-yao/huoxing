@@ -1,0 +1,54 @@
+.layout-header-enpc {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+
+    .enpc-con {
+        width: 1240px;
+        line-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .enpc-con-left {
+            width: 160px;
+            margin-top: 7px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .enpc-con-right {
+            position: relative;
+            width: 150px;
+            text-align: center;
+            cursor: pointer;
+
+            .enpc-con-right-ul {
+                position: absolute;
+                top: 48px;
+                left: 25px;
+                background: #fff;
+                border-radius: 4px;
+                box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+                z-index: 10;
+
+                div {
+                    line-height: 40px;
+                    padding: 0 10px;
+                    width: 136px;
+
+                    a {
+                        color: #111;
+                    }
+                }
+
+                div:hover {
+                    background: #eee;
+                }
+            }
+        }
+    }
+}

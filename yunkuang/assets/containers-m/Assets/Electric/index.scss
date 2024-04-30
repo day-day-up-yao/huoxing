@@ -1,0 +1,163 @@
+@import '../index.scss';
+
+.electirc-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .electirc-page-con {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #F9F9FB;
+        width: 100%;
+        padding: 12px 0;
+        border-radius: 12px 12px 0 0;
+
+        .electirc-page-con-top {
+            padding: 0 12px;
+        }
+
+        .close-page {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+
+            img {
+                width: 14px;
+                height: 14px;
+            }
+        }
+
+        .electric-orderlist {
+            margin-top: 13px;
+            background: #fff;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .select-type {
+                width: 88%;
+                height: 32px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background: #F5F6FA;
+                border-radius: 6px;
+                color: #999;
+                font-size: 13px;
+
+                div {
+                    width: 30%;
+                    text-align: center;
+                }
+
+                .select-item {
+                    padding: 6px 0;
+                    border-radius: 8px;
+                    background: #fff;
+                    color: #333;
+                }
+            }
+
+            .mining-list {
+                margin-top: 18px;
+                width: 100%;
+                height: 380px;
+                overflow-y: auto;
+
+                .mining-list-item {
+                    background: #F9F9FB;
+                    padding: 12px 9px;
+                    position: relative;
+                    border-radius: 6px;
+                    margin-bottom: 12px;
+
+                    .mining-img-posit {
+                        position: absolute;
+                        top: 12px;
+                        right: 0;
+                        width: 44px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .item-text {
+                        font-size: 14px;
+                        font-weight: 500;
+
+                        .item-text-twotitle {
+                            font-size: 12px;
+                            color: #999;
+                            margin-top: 7px;
+                            width: 80%;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+
+                .item-mining-info {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 22px;
+
+                    .mining-info-itm {
+                        font-size: 14px;
+
+                        p:nth-child(1) {
+                            color: #999;
+                            font-size: 12px;
+                            margin-bottom: 6px;
+                        }
+
+                        .switch-btn {
+                            display: flex;
+                            align-items: center;
+                            color: #666;
+                            font-size: 12px;
+                            margin-top: 20px;
+
+                            img {
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .electric-bottom {
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 12px;
+                width: 100%;
+
+                .btn-switch {
+                    border-radius: 4px;
+                    border: 1px solid #003287;
+                    height: 28px;
+                    padding: 0 14px;
+                    color: #003287;
+                    font-size: 13px;
+                    line-height: 28px;
+
+                    &.pay-btn {
+                        background: #003287;
+                        border: none;
+                        color: #fff;
+                        margin-left: 12px;
+                        height: 30px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

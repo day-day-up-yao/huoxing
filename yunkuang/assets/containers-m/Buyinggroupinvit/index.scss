@@ -1,0 +1,27 @@
+@import "../../public/css/normalize";
+@import "../../public/css/public-m";
+@import "../../public/css/rem";
+
+.myinvite-m {
+    width: 100%;
+    position: relative;
+
+    .myinvite-m-top {
+        width: 100%;
+        height: rem(80);
+        text-align: center;
+        line-height: rem(80);
+        background: #fbc818;
+
+        :nth-child(2) {
+            margin: 0 15px;
+        }
+    }
+
+    .myinvite-m-img {
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}

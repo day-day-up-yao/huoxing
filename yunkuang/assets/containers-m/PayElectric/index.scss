@@ -1,0 +1,98 @@
+.page-m {
+    .electric {
+        width: 100%;
+        padding: 0 0 40px 0;
+        margin: 0;
+        box-shadow: none;
+
+        .electric-con {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+        h3 {
+            padding: 5px;
+        }
+
+        .electric-nav {
+            .electric-nav-cent {
+                padding: 10px;
+
+                .electric-nav-cent-img {
+                    display: none;
+                }
+
+                .electric-nav-cent-l {
+                    flex-shrink: 0;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 7px;
+                    margin-top: 2%;
+
+                    img {
+                        width: 80%;
+                        margin: 2px 1px;
+                    }
+                }
+
+                .electric-nav-cent-message {
+                    position: relative;
+
+                    .electric-nav-cent-message-number {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        margin-left: 0;
+                        justify-content: space-between;
+                        width: 66%;
+
+                        .electric-nav-cent-m-n-l {
+                            width: 100px;
+
+                            p:nth-child(2) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .electric-nav-last {
+                            width: 100px;
+                        }
+                    }
+
+                    ul {
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+
+                        li:nth-child(2) {
+                            display: none;
+                        }
+
+                        li {
+                            width: 30%;
+                        }
+                    }
+                }
+            }
+
+            .electric-nav-bottom {
+                width: 95%;
+                margin: 0 auto;
+            }
+        }
+
+        .electric-last {
+            margin: 10px 0;
+
+            .pay-type {
+                .item {
+                    width: 130px;
+                }
+            }
+        }
+
+        .pay-other-info {
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 12px 12px;
+
+    .home-header-left {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 30px;
+            margin-right: 6px;
+            height: 30px;
+        }
+
+        p {
+            color: #003287;
+            font-weight: 500;
+            font-size: 13px;
+        }
+    }
+
+    .home-header-right {
+        display: flex;
+
+        a {
+            display: block;
+            width: 24px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        a:nth-child(1) {
+            margin-right: 17px;
+        }
+    }
+}

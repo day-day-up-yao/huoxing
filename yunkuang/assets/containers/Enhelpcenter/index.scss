@@ -1,0 +1,27 @@
+.enhelp {
+    width: 1000px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 38px 40px;
+    box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+    min-height: 200px;
+
+    h3 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 0;
+        color: #242F44;
+        border-bottom: 3px solid #242F44;
+    }
+
+    h4 {
+        font-style: 16px;
+        font-weight: 500;
+        margin: 25px 0;
+    }
+
+    p {
+        line-height: 26px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,325 @@
+.together {
+    width: 100%;
+    padding: 40px 0;
+    background: #fff;
+
+    .product-rule-intro {
+        color: #333;
+        font-size: 14px;
+        line-height: 24px;
+        width: 960px;
+        padding: 40px 20px;
+        background: #fff;
+        margin: 0 auto;
+
+        h3 {
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        h4 {
+            margin: 30px 0 10px 0;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        h5 {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+    }
+
+    .together-top {
+        width: 1000px;
+        margin: 30px auto;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.HomeConlist {
+    width: 1000px;
+    margin: 0 auto;
+
+    .HomeCon_C {
+        background: #fff;
+        width: 1000px;
+        display: block;
+        box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+        margin: 30px 0;
+        padding-top: 20px;
+        color: #222;
+        position: relative;
+
+        .HomeCon-over {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background: rgba(9, 9, 9, 0.2);
+            top: 0;
+            left: 0;
+
+            .HomeCon-over-img {
+                width: 80px;
+                height: 80px;
+                margin: 20px 0 0 740px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .up {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .down {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+
+            .HomeCon_Limg {
+                height: 158px;
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            .HomeCon_Con {
+                width: 380px;
+
+                .left {
+                    h3 {
+                        font-size: 23px;
+                        font-weight: 600;
+                        color: rgba(0, 0, 0, 1);
+                        line-height: 38px;
+                        width: 600px;
+                    }
+
+                    .left-center {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    p {
+                        margin: 10px 0;
+                    }
+
+                    h5 {
+                        padding: 0 20px;
+                        border: 1px solid #242F44;
+                        border-radius: 4px;
+                        height: 32px;
+                        line-height: 32px;
+                        font-size: 14px;
+                        color: #242F44;
+                        overflow: hidden;
+                        margin: 8px 0;
+                        text-align: center;
+                        display: inline-block;
+                        margin-top: -20px;
+                    }
+                }
+
+                h3 {
+                    color: #242F44;
+                    font-size: 16px;
+                    margin-left: 10;
+                }
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 20px;
+
+                    li {
+                        padding-bottom: 20px;
+                        width: 380 / 3 + px;
+                        text-align: center;
+
+                        &:nth-child(1),
+                        &:nth-child(4) {
+                            text-align: left;
+                        }
+
+                        &:nth-child(3),
+                        &:nth-child(6) {
+                            text-align: right;
+                        }
+
+                        p:first-child {
+                            margin-bottom: 5px;
+                            font-size: 18px;
+                            font-weight: 500px;
+                            color: rgba(0, 0, 0, 1);
+                            line-height: 22px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+
+                        p:last-child {
+                            font-size: 14px;
+                            font-weight: 400px;
+                            color: rgba(164, 164, 164, 1);
+                            line-height: 20px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+
+            .HomeCon_R_C {
+                margin-right: 40px;
+
+                p {
+                    margin: 8px 0;
+                    font-size: 15px;
+                    color: #F44A70;
+                }
+
+                :nth-child(2) {
+                    font-size: 20px;
+                }
+            }
+
+            .HomeCon_R_Con {
+                width: 240px;
+                height: 40px;
+                display: flex;
+
+                button {
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    border: 0;
+                    font-size: 20px;
+                }
+
+                .HomeCon_inp {
+                    width: 160px;
+                    height: 40px;
+                    background: rgba(247, 247, 247, 1);
+                    border: 0;
+                    outline: none;
+                    line-height: 40px;
+                    text-align: center;
+                }
+            }
+
+            .HomeCon_R_Cons {
+                margin: 10px 0;
+                font-size: 14px;
+
+                p {
+                    margin: 5px 0;
+                }
+            }
+
+            .HomeCon_R_B {
+                width: 140px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                background: #242F44;
+                color: #fff;
+                cursor: pointer;
+                border: 0;
+            }
+
+            .HomeCon_right {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .HomeCon_C_bottom {
+            width: 95%;
+            background: linear-gradient(90deg, rgba(34, 110, 228, 1) 0%, rgba(245, 63, 104, 1) 100%);
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 25px;
+
+            .HomeCon_C_bottom_left {
+                color: #fff;
+                margin: 5px 0;
+
+                p {
+                    margin: 5px 0;
+                }
+            }
+
+            .HomeCon_C_bottom_right {
+                color: #fff;
+
+                p {
+                    .HomeCon_C_bottom_right_spans {
+                        text-decoration: line-through;
+                        padding: 0 5px;
+                    }
+                }
+
+                .HomeCon_C_bottom_right_span {
+                    font-size: 22px;
+                    margin: 8px 0;
+
+                    .HomeCon_C_bottom_right_spanstwo {
+                        font-size: 14px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .HomeCon_B {
+                width: 270px;
+
+                .HomeCon_Btop {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    color: #fff;
+                }
+
+                .HomeCon_Bcon {
+                    width: 100%;
+                    height: 14px;
+                    border-radius: 7px;
+                    background: rgba(250, 250, 250, 0.7);
+                    margin: 5px 0;
+                    overflow: hidden;
+
+                    .HomeCon_Bcons {
+                        width: 40;
+                        height: 100%;
+                        background: #ffb900;
+                        border-radius: 7px;
+                    }
+                }
+            }
+
+            .count-down-item {
+                font-size: 14px;
+                color: #fff;
+                display: flex;
+
+                .countdown-item,
+                .count-time-con {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

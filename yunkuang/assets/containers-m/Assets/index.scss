@@ -1,0 +1,312 @@
+.assets {
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        padding: 15px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-left {
+            display: flex;
+            align-items: center;
+
+            .left-img {
+                width: 28px;
+                height: 28px;
+            }
+
+            .left-text {
+                margin-left: 6px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+
+            .right-img {
+                display: block;
+                width: 24px;
+                height: 24px;
+
+                &.setting {
+                    margin-right: 17px;
+                }
+            }
+        }
+    }
+
+    .assets-info {
+        margin-top: 6px;
+        padding: 0 12px;
+
+        .assets-info-top {
+            padding: 0 6px;
+
+            .assets-other {
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                margin-top: 8px;
+
+                .other-left {
+                    display: flex;
+                    color: #999;
+                    align-items: center;
+
+                    .other-left-money {
+                        color: #333;
+                    }
+
+                    .add-num {
+                        color: #C25050;
+                        font-weight: 500;
+                        margin: 0 5px;
+                    }
+
+                    .num-parcent {
+                        padding: 2px 3px;
+                        background: rgba(194, 80, 80, 0.1);
+                        border-radius: 9px;
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 12px;
+                            height: 12px;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+
+                .other-right {
+                    display: flex;
+                    align-items: center;
+                    color: #003287;
+                    font-size: 12px;
+                    margin-right: 3px;
+
+                    img {
+                        width: 12px;
+                        height: 12px;
+                    }
+                }
+            }
+        }
+
+        .other-list {
+            display: flex;
+            justify-content: space-around;
+            border-radius: 8px;
+            background: #fff;
+            padding: 0 4px 11px 0;
+            margin: 14px 0;
+
+            .list-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+
+                img {
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+
+    .assets-bottom {
+        .assets-invidis {
+            .invidis-item {
+                border-radius: 8px;
+                background: #fff;
+                margin-bottom: 10px;
+
+                .item-con {
+                    padding: 12px;
+                }
+
+                .invidis-item-top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left-top-item {
+                        display: flex;
+                        align-items: center;
+                        font-size: 13px;
+                        color: #999;
+
+                        .invidis-item-top-img {
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 3px;
+                        }
+                    }
+
+                    .right-item-top {
+                        display: flex;
+                        align-items: center;
+                        font-size: 12px;
+                        color: #003287;
+
+                        img {
+                            width: 12px;
+                            height: 12px;
+                            margin-left: 3px;
+                        }
+                    }
+                }
+
+                .invidis-item-bottom {
+                    margin-top: 10px;
+                    display: flex;
+                    font-size: 16px;
+                    align-items: baseline;
+
+                    .invidis-item-bottom-delor {
+                        margin-left: 4px;
+                        color: #999;
+                        font-size: 12px;
+                    }
+                }
+
+                .earn-list {
+                    padding: 12px 18px 12px 10px;
+                    background: #F9F9FB;
+                    border-radius: 4px 4px 0 0;
+
+                    .earn-list-item {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 15px;
+
+                        .gray {
+                            color: #999;
+                            font-size: 12px;
+                            margin-top: 2px;
+                        }
+
+                        .item-curreny-info {
+                            display: flex;
+                            align-items: center;
+
+                            img {
+                                width: 16px;
+                                height: 16px;
+                            }
+
+                            .info-curreny {
+                                font-size: 14px;
+                                margin-left: 8px;
+                            }
+                        }
+
+                        .item-number-info {
+                            display: flex;
+                            align-items: center;
+                            text-align: right;
+                            font-size: 14px;
+                            width: 60%;
+                            justify-content: space-between;
+
+                            .info-right {
+                                margin-left: 50px;
+                            }
+                        }
+                    }
+
+                    .earn-get {
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: 13px;
+                        color: #999;
+
+                        .yestaday-earn {
+                            display: flex;
+                            align-items: center;
+
+                            .yestaday-earn-see {
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 4px;
+                            }
+                        }
+
+                        .earn-get-btn {
+                            padding: 8px 14px;
+                            border-radius: 4px;
+                            background: #003287;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.other-item {
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    .other-item-title {
+        font-size: 13px;
+
+        span {
+            color: #999;
+        }
+    }
+
+    .other-item-con {
+        margin-top: 7px;
+        display: flex;
+        justify-content: space-between;
+
+        .item-con-box {
+            background: #F9F9FB;
+            border-radius: 6px;
+            height: 56px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 8px;
+            font-size: 14px;
+            font-weight: 500;
+
+            .tag-num {
+                color: #DB663B;
+            }
+
+            .box-desc {
+                color: #999;
+                margin-top: 5px;
+                font-weight: 400;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 6px;
+
+                .box-desc-img {
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
+    }
+}

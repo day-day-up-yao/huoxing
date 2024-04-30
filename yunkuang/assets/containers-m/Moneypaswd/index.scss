@@ -1,0 +1,48 @@
+.page-m {
+    width: 100%;
+
+    .passwd {
+        width: 90%;
+        margin: 20px auto;
+        padding: 0 0 40px 0;
+
+        .passwd-con-top {
+            input {
+                width: 86%;
+                outline: none;
+                height: 44px;
+                margin: 0;
+                padding: 0 24px;
+                line-height: 44px;
+                border-radius: 6px;
+                border: 0.5px solid #333;
+            }
+        }
+
+        .passwd-con-second {
+            width: 100%;
+        }
+
+        .passwd-con-last {
+            width: 86%;
+            outline: none;
+            height: 44px;
+            margin: 0;
+            padding: 0 24px;
+            line-height: 44px;
+            border-radius: 6px;
+            border: 0.5px solid #333;
+            background: #fff;
+
+            input {
+                width: 78%;
+                border: none;
+            }
+        }
+
+        button {
+            width: 100%;
+            background: #003287;
+        }
+    }
+}

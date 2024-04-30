@@ -1,0 +1,126 @@
+.plagorder {
+    width: 100%;
+
+    .plagorder-con {
+        width: 1200px;
+        padding: 40px 0;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            background: #eee;
+            margin-top: 40px;
+
+            li {
+                color: #848e9c;
+                font-size: 13px;
+                width: 25%;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+            }
+        }
+
+        ol {
+            width: 100%;
+            display: flex;
+            background: #fff;
+            border-bottom: 1px solid rgb(238, 238, 238);
+
+            li {
+                color: #848e9c;
+                font-size: 13px;
+                width: 25%;
+                height: 40px;
+                line-height: 40px;
+                padding: 10px 0;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 18px;
+                    height: 18px;
+                    margin-top: 11px;
+                }
+            }
+
+            li:nth-child(4) {
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media (max-width: 760px) {
+        .plagorder-con {
+            width: 98%;
+            padding: 15px 0;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            ul {
+                width: 100%;
+                display: flex;
+                background: #eee;
+                margin-top: 40px;
+
+                li {
+                    color: #848e9c;
+                    font-size: 13px;
+                    width: 25%;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                }
+            }
+
+            ol {
+                width: 100%;
+                display: flex;
+                background: #fff;
+                border-bottom: 1px solid rgb(238, 238, 238);
+
+                li {
+                    color: #848e9c;
+                    font-size: 13px;
+                    width: 25%;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 10px 0;
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        margin-top: 11px;
+                    }
+                }
+
+                li:nth-child(4) {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .nolist-con {
+        width: 250px;
+        margin: 10px auto;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

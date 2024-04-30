@@ -1,0 +1,64 @@
+.helpcenter {
+    width: 1000px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 38px 40px;
+    box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+    min-height: 200px;
+
+    .data-title {
+        width: 1000px;
+        margin: 10px auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .helpcenter_con {
+        margin-top: 40px;
+    }
+
+    .helpcenter_top {
+        border-bottom: 3px solid #242F44;
+        padding: 10px 0;
+        display: flex;
+
+        h3 {
+            font-size: 20px;
+            color: #242F44;
+        }
+
+        .helpcenter_top_right {
+            height: 26px;
+            background: #E8F1FF;
+            border-radius: 13px;
+            line-height: 26px;
+            margin-left: 30px;
+
+            span {
+                padding: 4px 20px;
+                border-radius: 12px;
+                color: #242F44;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .helpcenter_con_one {
+        h4 {
+            margin: 20px 0;
+            color: #242F44;
+            font-size: 18px;
+        }
+
+        p {
+            margin: 25px 0;
+            font-size: 14px;
+
+            span {
+                line-height: 20px;
+            }
+        }
+    }
+}

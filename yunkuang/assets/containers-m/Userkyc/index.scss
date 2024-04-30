@@ -1,0 +1,82 @@
+.page-m {
+    width: 100%;
+
+    .userkyctitle {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0 40px 0;
+        box-shadow: none;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .kyccon {
+            padding: 10px 0;
+
+            .kyccon-input {
+                li {
+                    input {
+                        width: 98.7%;
+                        padding: 0;
+                    }
+
+                    .sex {
+                        width: 20px;
+                    }
+                }
+            }
+
+            .kyccon-pic .kyccon-pic-list .kyccon-pic-list-img {
+                flex-wrap: wrap;
+
+                .kyccon-pic-list-img-frist {
+                    margin: 10px 0;
+                }
+
+                div {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+
+        .tobindmobil .tobindmobillist {
+            width: 100%;
+            margin: 150px auto;
+            height: 415px;
+
+            .tobindmsg {
+                h4 {
+                    margin: 30px 0;
+                }
+
+                .tobindmsg-select div {
+                    height: 100px;
+                    line-height: 100px;
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+    .bindmobile {
+        width: 90%;
+
+        .bindm-con input {
+            width: 40%;
+        }
+
+        button {
+            width: 90%;
+        }
+    }
+
+    .userkyctitle .tobindmobil .tobindmobillists {
+        width: 100%;
+    }
+}

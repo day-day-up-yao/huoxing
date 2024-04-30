@@ -1,0 +1,35 @@
+.jp-security-page {
+    position: relative;
+    padding: 50px 12px;
+
+    .jp-security-item-box {
+        width: 100%;
+        background: #FFF;
+        border-radius: 6px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+
+        .jp-security-item {
+            height: 54px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #E6EBF0;
+
+            &:last-of-type {
+                border: none;
+            }
+
+            .jp-security-item-text {
+                color: #333;
+                font-size: 14px;
+                line-height: 20px;
+
+                &.jp-security-item-text-color2 {
+                    color: #A2A2AA;
+                }
+            }
+        }
+    }
+}

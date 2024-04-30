@@ -1,0 +1,57 @@
+.paytype {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    .paytype-con {
+        width: 400px;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        position: relative;
+
+        .close {
+            width: 20px;
+            position: absolute;
+            top: 18px;
+            right: 18px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .payment-wrapper {
+            margin-top: 35px;
+
+            .pay-type {
+                justify-content: space-around;
+            }
+
+            .pay-rightnow {
+                width: 90%;
+                margin: 0 auto;
+                height: 50px;
+                border-radius: 8px;
+                color: #fff;
+                text-align: center;
+                line-height: 50px;
+                cursor: pointer;
+                background: #F4881C;
+                border: none;
+                margin-top: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import '../../../public/css/swiper.min.scss';
+
+.notice {
+    padding: 0 12px;
+    margin-top: 12px;
+
+    .notice-con {
+        background: #fff;
+        height: 28px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        align-items: center;
+
+        .notice-left {
+            width: 16px;
+            height: 16px;
+        }
+
+        .notice-right {
+            width: 12px;
+            height: 12px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .notice-center {
+            width: 86%;
+            height: 28px;
+            overflow: hidden;
+            line-height: 28px;
+
+            .notice-text {
+                height: 28px;
+                width: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 12px;
+            }
+        }
+    }
+}

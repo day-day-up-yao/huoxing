@@ -1,0 +1,86 @@
+.orderinfo {
+    width: 100%;
+    background: #FBFBFC;
+    padding-bottom: 50px;
+
+    .go-pay {
+        width: 1180px;
+        background: #FFF;
+        border-radius: 12px;
+        border: 1px solid #E6ECFA;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 28px 0 40px 18px;
+
+        .pay-info {
+            display: flex;
+
+            .left {
+                color: #8F8F95;
+                font-size: 14px;
+                width: 150px;
+            }
+
+            .right {
+                width: 500px;
+                background: #F8F9FB;
+                border-radius: 4px;
+                padding: 18px 13px;
+
+                p {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    color: #283044;
+                    margin-bottom: 12px;
+
+                    :nth-child(1) {
+                        color: #8F8F95;
+                    }
+
+                    .nosame {
+                        color: #F4881C;
+                    }
+                }
+
+                .all-money {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-top: 12px;
+                    border-top: 2px solid #E6EBF0;
+                    color: #8F8F95;
+
+                    :nth-child(2) {
+                        color: #283044;
+                        font-weight: bold;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+
+        .pay-types {
+            display: flex;
+            margin-top: 28px;
+
+            .types-left {
+                color: #8F8F95;
+                font-size: 14px;
+                width: 150px;
+            }
+
+            .type-right {
+                .pay-other-info {
+                    button {
+                        width: 168px;
+                        height: 40px;
+                        background: #F4881C;
+                        border-radius: 4px;
+                        border: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.stop-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+
+    .stop-box {
+        width: 400px;
+        background: #fff;
+        padding: 25px;
+        border-radius: 10px;
+        font-size: 15px;
+
+        h3 {
+            font-weight: 500;
+            color: #35384A;
+            line-height: 30px;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .box-text {
+            line-height: 24px;
+            padding-bottom: 10px;
+            font-size: 14px;
+
+            div {
+                white-space: pre-line;
+            }
+
+            p:nth-child(2) {
+                margin-top: 10px;
+            }
+        }
+
+        .box-select {
+            width: 90%;
+            display: flex;
+            font-size: 12px;
+            margin: 20px auto;
+
+            p {
+                margin-left: 5px;
+                color: #70737F;
+            }
+        }
+
+        .box-btn {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+
+            div {
+                width: 45%;
+                font-size: 13px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 5px;
+                cursor: pointer;
+                background: #F4F5FA;
+            }
+
+            .sureok {
+                color: #A2A2AA;
+                background: #F2F4FB;
+            }
+
+            .btn-sure {
+                color: #fff;
+                background: #f60;
+            }
+        }
+    }
+}

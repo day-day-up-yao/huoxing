@@ -1,0 +1,94 @@
+.stak {
+    width: 100%;
+
+    .stak-top {
+        height: 280px;
+        width: 100%;
+    }
+
+    .stak-btn {
+        height: 50px;
+        background: #242F44;
+        color: #fff;
+
+        div {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        p {
+            margin: 0 20px;
+            line-height: 50px;
+        }
+    }
+
+    .stak-list {
+        width: 1200px;
+        margin: 40px auto;
+
+        h3 {
+            line-height: 35px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        ul {
+            li {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 0;
+                border-top: 1px solid #eee;
+
+                p:nth-child(1) {
+                    width: 350px;
+                    line-height: 34px;
+                }
+
+                .stak-list-noitm4 {
+                    line-height: 34px;
+                    padding: 0 30px;
+                    background: #e0e0e0;
+                    border-radius: 4px;
+                    padding-top: 2px;
+                    font-size: 15px;
+                    cursor: not-allowed;
+                }
+
+                .stak-list-item2 {
+                    :nth-child(1) {
+                        color: #F69400;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    :nth-child(3) {
+                        font-size: 14px;
+                        color: #919598;
+                    }
+                }
+
+                .stak-list-item3 {
+                    :nth-child(1) {
+                        font-size: 14px;
+                    }
+
+                    :nth-child(3) {
+                        font-size: 14px;
+                        color: #919598;
+                    }
+                }
+
+                .stak-list-itm4 {
+                    line-height: 34px;
+                    padding: 0 30px;
+                    border-radius: 4px;
+                    padding-top: 2px;
+                    font-size: 15px;
+                    background: #4b9ff4;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

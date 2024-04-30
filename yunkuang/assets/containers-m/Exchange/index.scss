@@ -1,0 +1,61 @@
+.page-m {
+    width: 100%;
+
+    .exchange {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 40px 0;
+        box-shadow: none;
+
+        .excon {
+            width: 80%;
+            margin: 20px auto;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            .excon-inp {
+                width: 100%;
+                margin: 30px auto;
+
+                .excon-inp-top {
+                    input {
+                        width: 50%;
+                    }
+
+                    .excon-inp-two {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        .exrecords {
+            top: 10px;
+            right: 10px;
+        }
+
+        .exbon {
+            width: 100%;
+
+            .exbon-top span {
+                margin-left: 10px;
+                font-size: 16px;
+            }
+        }
+
+        .extitle {
+            .extitlecon {
+                width: 90%;
+                margin: 60vw auto;
+
+                div {
+                    span {
+                        margin: 0 30px;
+                    }
+                }
+            }
+        }
+    }
+}

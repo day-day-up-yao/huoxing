@@ -1,0 +1,70 @@
+.Anment {
+    width: 100%;
+    background: #F7F8F9;
+    padding: 24px 0;
+
+    .Anmentcon {
+        width: 1224px;
+        margin: 0 auto;
+        box-shadow: 0 1px 1px 0 rgba(11, 23, 54, 0.04);
+        background: #fff;
+        padding: 0 33px;
+        min-height: 500px;
+
+        .Anmentcon-top {
+            height: 70px;
+            line-height: 70px;
+            width: 100%;
+            font-size: 18px;
+            font-weight: 500;
+            color: #0B1736;
+            border-bottom: 1px solid #ECECEC;
+        }
+
+        .Anmentcon-list {
+            ul {
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    height: 52px;
+                    line-height: 52px;
+                    font-size: 14px;
+                    color: #0B1736;
+                    cursor: pointer;
+
+                    .Anmentcon-list-left {
+                        display: block;
+                        width: 60%;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+
+                    .Anmentcon-list-right {
+                        color: #9398A4;
+                    }
+                }
+            }
+
+            .Anmentcon-Nolist {
+                width: 200px;
+                margin: 64px auto;
+                text-align: center;
+
+                img {
+                    width: 100%;
+                }
+
+                p {
+                    color: #9398A4;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .Anmentcon-bottom {
+            margin-top: 300px;
+            padding-bottom: 34px;
+        }
+    }
+}

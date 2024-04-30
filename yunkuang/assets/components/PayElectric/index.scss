@@ -1,0 +1,186 @@
+.electric {
+    width: 1000px;
+    margin: 50px auto;
+    box-shadow: -4px 0 30px rgba(0, 0, 2, 0.1);
+    padding: 40px;
+
+    .electric-con {
+        border-bottom: 2px solid #242F44;
+        padding: 3px 0;
+
+        h3 {
+            color: #242F44;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    .electric-nav {
+        .electric-nav-cent {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            input {
+                margin-top: 50px;
+            }
+
+            .electric-nav-cent-img {
+                width: 180px;
+                height: 120px;
+                background: #ccc;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .electric-nav-cent-l {
+                width: 24px;
+                height: 24px;
+                border: 1px solid #242F44;
+                border-radius: 12px;
+                cursor: pointer;
+                margin-top: 5%;
+
+                img {
+                    width: 58%;
+                    margin: 7px 5px;
+                }
+            }
+
+            .electric-nav-cent-message {
+                ul {
+                    display: flex;
+
+                    li {
+                        width: 140px;
+                        text-align: center;
+
+                        :nth-child(1) {
+                            color: #999;
+                            font-size: 14px;
+                        }
+
+                        p {
+                            margin: 10px 0;
+                        }
+                    }
+                }
+
+                .electric-nav-cent-message-number {
+                    display: flex;
+                    margin-left: 60%;
+
+                    .electric-nav-cent-m-n-l {
+                        width: 140px;
+                        text-align: center;
+
+                        :nth-child(1) {
+                            color: #999;
+                            font-size: 14px;
+                        }
+
+                        :nth-child(2) {
+                            color: #242F44;
+                            font-size: 20px;
+                        }
+
+                        p {
+                            margin: 10px 0;
+                        }
+                    }
+
+                    .electric-nav-last {
+                        width: 140px;
+                        text-align: center;
+
+                        :nth-child(1) {
+                            color: #999;
+                            font-size: 14px;
+                        }
+
+                        :nth-child(2) {
+                            color: #fff;
+                            font-size: 15px;
+                            width: 85px;
+                            height: 25px;
+                            line-height: 25px;
+                            text-align: center;
+                            border-radius: 3px;
+                            margin: 0 auto;
+                            background: #242F44;
+                            cursor: pointer;
+                        }
+
+                        p {
+                            margin: 10px 0;
+                        }
+                    }
+
+                    .electric-nav-cent-m-n-r {
+                        width: 140px;
+                        text-align: center;
+
+                        p {
+                            margin: 10px 0;
+                            color: #999;
+                            font-size: 14px;
+                        }
+
+                        .electric-nav-cent-m-n-r-c {
+                            font-size: 20px;
+
+                            span {
+                                margin: 0 5px;
+                            }
+
+                            :nth-child(2) {
+                                background: #f6f6f6;
+                                padding: 5px 11px;
+                            }
+
+                            :nth-child(1) {
+                                cursor: pointer;
+                            }
+
+                            :nth-child(3) {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .electric-nav-bottom {
+            width: 935px;
+            border-bottom: 1px solid #ccc;
+            margin-left: 6.5%;
+        }
+    }
+
+    .electric-last,
+    .payment-wrapper {
+        button.pay-rightnow {
+            width: 100%;
+            height: 50px;
+            color: #fff;
+            background: #FFA006;
+            line-height: 50px;
+            text-align: center;
+            border: 0;
+            margin: 15px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    }
+
+    .electric-last {
+        margin-left: 65px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}

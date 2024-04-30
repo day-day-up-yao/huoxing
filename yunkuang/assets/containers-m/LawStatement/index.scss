@@ -1,0 +1,18 @@
+.page-m {
+    width: 100%;
+
+    .lawcenter {
+        width: 90%;
+        margin: 10px auto;
+        padding: 0 0 40px 0;
+        box-shadow: none;
+
+        .helpcenter_top .helpcenter_top_right {
+            display: none;
+        }
+
+        .helpcenter_con_one p {
+            line-height: 20px;
+        }
+    }
+}

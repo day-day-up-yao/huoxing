@@ -1,0 +1,120 @@
+.productinfo {
+    width: 1198px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 32px;
+    border-radius: 12px;
+    border: 1px solid #E6ECFA;
+
+    .info-top {
+        padding-top: 16px;
+        padding-left: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        .info-times {
+            position: absolute;
+            bottom: 21px;
+            right: 116px;
+
+            .order-count-down {
+                display: flex;
+                align-items: center;
+                font-size: 13px;
+                color: #8F8F95;
+
+                .countdown-item {
+                    display: flex;
+                    margin-left: 5px;
+
+                    .mclouds-amount {
+                        padding: 3px 5px;
+                        border-radius: 7px;
+                        font-weight: bold;
+                        color: #F4881C;
+                        font-size: 20px;
+                        background: rgba(244, 136, 28, 0.07);
+                    }
+
+                    .mclouds-word {
+                        margin: 0 6px;
+                    }
+                }
+            }
+        }
+
+        .top-left {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .productname {
+                margin-left: 16px;
+
+                .name {
+                    font-weight: 600;
+                    color: #222A3C;
+                    line-height: 24px;
+                }
+
+                .name-info {
+                    display: flex;
+                    margin-top: 12px;
+
+                    p {
+                        font-size: 13px;
+                        color: #283044;
+
+                        :nth-child(1) {
+                            color: #8F8F95;
+                            margin-right: 12px;
+                        }
+                    }
+
+                    p:nth-child(2) {
+                        margin-left: 32px;
+                    }
+                }
+            }
+        }
+
+        .top-right {
+            width: 88px;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+
+    .info-bottom {
+        background: rgba(245, 246, 250, 0.65);
+        border-top: 1px solid #E6ECFA;
+        padding: 15px 0 20px 18px;
+
+        .info-bottom-list {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .bottom-item {
+            color: #8F8F95;
+            font-size: 13px;
+            width: 240px;
+
+            :nth-child(2) {
+                color: #283044;
+                font-size: 16px;
+                font-weight: 500;
+                margin-top: 7px;
+            }
+        }
+    }
+}

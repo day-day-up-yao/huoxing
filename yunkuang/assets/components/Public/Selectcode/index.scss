@@ -1,0 +1,125 @@
+.select {
+    width: 100%;
+    position: relative;
+
+    .select-info {
+        height: 46px;
+        display: flex;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        border: 1px solid #c5c5cc;
+        padding: 0 10px;
+
+        .select-input {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            border-radius: 6px;
+        }
+
+        &.notbox {
+            border: none;
+            border-bottom: 1px solid #999;
+            border-radius: 0;
+        }
+
+        &.notbox:hover {
+            border-bottom: 1px solid #111;
+        }
+
+        .select-info-right {
+            display: flex;
+            border-radius: 22px;
+            height: 44px;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.03);
+            padding: 0 10px;
+            width: 76%;
+
+            &.actives {
+                border: 1px solid #003287;
+                height: 42px;
+                border-radius: 21px;
+            }
+        }
+
+        .select-info-left {
+            display: flex;
+            width: 30%;
+            align-items: center;
+            cursor: pointer;
+            border-right: 1px solid #c5c5cc;
+
+            .select-input-left {
+                display: flex;
+                align-items: center;
+                color: #999;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            img {
+                width: 12px;
+                margin-left: 5px;
+            }
+
+            .city-icon {
+                width: 20px;
+                height: auto;
+            }
+        }
+
+        input {
+            outline: none;
+            width: 70%;
+            height: 40px;
+            border: none !important;
+            padding: 0 12px;
+            line-height: 40px;
+            border-radius: 0 4px 4px 0;
+            margin: 0 !important;
+            background: rgba(0, 0, 0, 0) !important;
+        }
+    }
+
+    ul {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        max-height: 155px;
+        overflow-y: auto;
+        background: #fff;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
+        border: 1px solid #dde2e9;
+        box-shadow: 0 4px 8px 1px rgba(37, 39, 54, 0.4);
+        border-radius: 10px;
+
+        li {
+            padding: 8px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+
+            span {
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                width: 20px;
+                height: auto;
+                margin: 0 10px;
+            }
+        }
+
+        li:hover {
+            background: rgba(219, 102, 59, 0.05);
+        }
+    }
+}

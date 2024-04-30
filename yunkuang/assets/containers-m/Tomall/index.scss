@@ -1,0 +1,162 @@
+.page-m {
+    width: 100%;
+
+    .mall {
+        width: 100%;
+        padding: 15px 0 50px 0;
+
+        .mall-top {
+            ul {
+                width: 257px;
+                display: flex;
+                border-radius: 4px;
+                margin: 0 auto;
+
+                li {
+                    width: 85px;
+                    font-size: 13px;
+                    color: #B5B7C0;
+                    text-align: center;
+                    height: 26px;
+                    line-height: 26px;
+                    border: 1px solid #B5B7C0;
+                    position: relative;
+
+                    p {
+                        width: 16px;
+                        height: 16px;
+                        position: absolute;
+                        top: -8px;
+                        right: 4px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                li:nth-child(1) {
+                    border-radius: 4px 0 0 4px;
+                }
+
+                li:nth-child(4) {
+                    border-radius: 0 4px 4px 0;
+                    border-left: none;
+                }
+
+                .mall-top-li {
+                    width: 85px;
+                    font-size: 13px;
+                    color: #fff;
+                    text-align: center;
+                    height: 26px;
+                    line-height: 26px;
+                    background: #242F44;
+                    border: 1px solid #242F44;
+                }
+
+                li:nth-child(2) {
+                    border-left: none;
+                    border-right: none;
+                }
+            }
+
+            .mall-top-btn {
+                margin: 10px 0;
+                display: flex;
+
+                span {
+                    display: block;
+                    font-size: 14px;
+                    color: #B5B7C0;
+                    line-height: 20px;
+                    margin-right: 24px;
+                }
+
+                .mall-top-btn-b {
+                    display: block;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #313543;
+                    margin-right: 24px;
+                    border-bottom: 2px solid #242F44;
+                }
+            }
+
+            .mall-top-jp {
+                width: 160px;
+                border: 1px solid #B5B7C0;
+                border-radius: 4px;
+
+                li {
+                    border: none;
+                }
+            }
+        }
+
+        .malleth {
+            width: 94%;
+            margin: 10px auto;
+            margin-top: 20px;
+            position: relative;
+
+            .malleth-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 15px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            h2 {
+                font-size: 20px;
+                text-align: center;
+                font-weight: 500;
+            }
+
+            h3 {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 24px;
+                font-size: 18px;
+            }
+
+            h4 {
+                margin-top: 15px;
+                line-height: 22px;
+                font-size: 16px;
+                text-align: center;
+            }
+
+            .malleth-title {
+                margin-top: 20px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin: 15px 0;
+                    line-height: 25px;
+                }
+
+                span {
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding-top: 10px;
+                }
+
+                ol {
+                    margin-top: 10px;
+
+                    li {
+                        font-size: 14px;
+                        line-height: 30px;
+                        list-style: inside;
+                    }
+                }
+            }
+        }
+    }
+}

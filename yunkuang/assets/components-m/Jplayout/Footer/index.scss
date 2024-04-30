@@ -1,0 +1,42 @@
+.layout-footer-jpm {
+    width: 100%;
+    background: #5CA5B3;
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    .footer-con {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #eee;
+
+            li {
+                margin-top: 6px;
+                position: relative;
+                color: #fff;
+                width: 60px;
+
+                p:nth-child(1) {
+                    width: 24px;
+                    margin: 1px auto;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                p:nth-child(2) {
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+
+            li:nth-child(1) {
+                width: 90px;
+            }
+        }
+    }
+}

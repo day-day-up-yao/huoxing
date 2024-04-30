@@ -1,0 +1,21 @@
+.overdue {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-layout-container {
+    height: 100%;
+
+    .m-layout-content {
+        height: 100%;
+
+        p {
+            width: 80%;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+}

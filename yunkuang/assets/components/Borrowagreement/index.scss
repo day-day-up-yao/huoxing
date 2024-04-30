@@ -1,0 +1,43 @@
+.bagree {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    h2 {
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .bagree-top {
+        margin-top: 100px;
+        font-size: 16px;
+
+        p {
+            line-height: 25px;
+            margin: 10px 0;
+        }
+    }
+
+    .bagree-jy {
+        margin-top: 50px;
+
+        p {
+            line-height: 25px;
+            margin: 10px 0;
+        }
+
+        .bagree-jy-p {
+            p {
+                font-weight: bold;
+                margin: 30px 0;
+            }
+
+            span {
+                line-height: 25px;
+                display: inline-block;
+                padding: 6px 0;
+            }
+        }
+    }
+}

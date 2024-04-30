@@ -1,0 +1,24 @@
+.page-m {
+    width: 100%;
+
+    .anmentmsg {
+        padding: 0;
+
+        .anmentmsg-con {
+            padding: 11px 15px;
+            width: auto;
+
+            h2 {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 12px;
+            }
+
+            .anmentmsg-message {
+                font-size: 14px;
+            }
+        }
+    }
+}

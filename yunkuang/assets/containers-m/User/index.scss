@@ -1,0 +1,58 @@
+@import '../../public/css/normalize.scss';
+@import '../../public/css/public-m.scss';
+
+html.page-m {
+    width: 100%;
+    min-width: auto;
+    overflow-x: hidden;
+
+    body,
+    #root,
+    .app-container,
+    .m-layout-container,
+    .m-layout-content {
+        width: 100%;
+        min-width: auto;
+        overflow-x: hidden;
+        height: 100%;
+    }
+
+    .user-page-m {
+        height: 100%;
+
+        .user-page-m-con {
+            height: 100%;
+        }
+
+        .signup-wrapper {
+            .input-con .item .more-func {
+                font-size: 12px;
+            }
+
+            .input-con .item .more-func input {
+                width: 45%;
+            }
+
+            .input-con .item .agree {
+                font-size: 12px;
+            }
+        }
+
+        .signup-login-wrapper {
+            height: 100%;
+
+            .Login {
+                width: 80%;
+                margin: 0 auto;
+                height: 100%;
+            }
+        }
+    }
+
+    .validation .to-validation {
+        width: 90%;
+        padding: 20px 2%;
+        border-radius: 4px;
+        box-sizing: content-box;
+    }
+}

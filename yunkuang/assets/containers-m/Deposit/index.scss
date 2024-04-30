@@ -1,0 +1,334 @@
+.deposit {
+    width: 100%;
+    padding-bottom: 1px;
+    background: #fff;
+
+    .deposit-center {
+        width: 100%;
+        background: #141E47;
+        border-radius: 0 0 15px 15px;
+        padding-bottom: 30px;
+
+        .deposit-top-logo {
+            width: 150px;
+            padding-top: 15px;
+            padding-left: 5%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .deposit-top {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 40px;
+
+        .deposit-top-left {
+            .left-img {
+                width: 148px;
+            }
+
+            .left-text {
+                padding-bottom: 10px;
+                font-size: 35px;
+                font-weight: 600;
+                color: #fff;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            p {
+                color: rgba(255, 255, 255, 0.8);
+                font-size: 14px;
+                line-height: 26px;
+                display: flex;
+                white-space: nowrap;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-top: 7px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .deposit-top-right {
+            width: 38%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .deposit-top-sg {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: -32px;
+            right: 0;
+            color: #f60;
+            font-size: 17px;
+            cursor: pointer;
+            border-radius: 3px;
+            font-weight: 500;
+
+            img {
+                width: 25px;
+                height: 25px;
+                margin-top: -2px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .deposit-con {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        .deposit-con-top {
+            display: flex;
+
+            div {
+                width: 70px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 6px;
+                color: #fff;
+                margin-right: 10px;
+                border: 1px solid #f60;
+                cursor: pointer;
+            }
+
+            .deposit-con-top-selec {
+                background: #f60;
+            }
+        }
+
+        .deposit-con-list {
+            .deposit-con-list-item {
+                margin-top: 20px;
+                width: 100%;
+                background: #fff;
+                border-radius: 7px;
+                padding: 15px 0;
+                text-align: center;
+                position: relative;
+
+                .item-over {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+
+                    img {
+                        width: 70px;
+                    }
+                }
+
+                .item-top {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                h3 {
+                    font-weight: 550;
+                    font-size: 20px;
+                    color: #111;
+                    margin-left: 5px;
+                }
+
+                .item-box {
+                    display: flex;
+                    justify-content: center;
+                    color: #f60;
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-top: 13px;
+
+                    div {
+                        background: rgba(216, 189, 142, 0.18);
+                        border-radius: 2px;
+                        padding: 5px 8px;
+                        margin: 0 5px;
+                    }
+                }
+
+                .item-jpbox {
+                    color: #f60;
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-top: 10px;
+
+                    div {
+                        background: rgba(216, 189, 142, 0.18);
+                        border-radius: 2px;
+                        padding: 5px 8px;
+                        margin: 4px auto;
+                        display: inline-block;
+                    }
+                }
+
+                .item-nh {
+                    margin: 10px 0;
+
+                    p:nth-child(1) {
+                        color: #D24040;
+                        font-size: 34px;
+                        font-weight: 500;
+
+                        :nth-child(2) {
+                            font-size: 18px;
+                            font-weight: 550;
+                        }
+                    }
+
+                    p:nth-child(2) {
+                        margin-top: 2px;
+                        font-size: 13px;
+                        color: #9AA2AB;
+                    }
+                }
+
+                .item-btn {
+                    width: 80%;
+                    margin: 0 auto;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #FFF;
+                    background: #f60;
+                    text-align: center;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .deposit-bottom {
+        background: #F1F1F1;
+        width: #fff;
+        padding: 10px 0;
+        padding-top: 30px;
+    }
+
+    .deposit-wchat {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+
+        .deposit-wchat-l {
+            width: 130px;
+            margin-top: 45px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .deposit-wchat-r {
+            display: flex;
+
+            .r-text {
+                margin-top: 25px;
+                margin-right: 10px;
+
+                p {
+                    color: #283044;
+                    font-size: 16px;
+                    text-align: right;
+                    line-height: 20px;
+                    font-weight: 500;
+                }
+
+                p:nth-child(3) {
+                    color: #70737F;
+                    font-size: 14px;
+                }
+            }
+
+            .r-img {
+                width: 90px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .deposit-jpwchat {
+        width: 50%;
+        margin: 20px auto;
+        background: #fff;
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            padding-top: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 760px) {
+    .layout-content-pc {
+        background: #000;
+    }
+
+    .deposit {
+        width: 600px;
+        margin: 0 auto;
+
+        .deposit-top .deposit-top-left {
+            top: 50px;
+        }
+
+        .deposit-con {
+            margin-top: 20px;
+        }
+
+        .deposit-con .deposit-con-list .deposit-con-list-item {
+            padding: 30px 0;
+
+            .item-over img {
+                width: 110px;
+            }
+
+            .item-box {
+                margin-top: 20px;
+            }
+
+            .item-nh {
+                margin: 20px 0;
+            }
+        }
+
+        .deposit-bottom {
+            background: #fff;
+        }
+
+        .deposit-wchat {
+            .deposit-wchat-l {
+                width: 160px;
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.ndf {
+    width: 100%;
+    background: #F6F8FC;
+}
+
+.twodf {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    .df-top {
+        width: 450px;
+        margin: 47px auto;
+        text-align: center;
+
+        .df-top-img {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            font-size: 38px;
+            color: #15192A;
+            line-height: 50px;
+            letter-spacing: 2px;
+            margin: 21px 0 6px 0;
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #7B8093;
+            line-height: 29px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .df-con {
+        width: 100%;
+        display: flex;
+        margin: 47px auto;
+        flex-wrap: wrap;
+
+        .df-con-list {
+            width: 356px;
+            background: #F0F2F9;
+            border-radius: 10px;
+            border: 1px solid #E3E7F0;
+            margin: 15px 20px;
+
+            .df-con-list-img {
+                width: 80px;
+                height: 80px;
+                border-radius: 40px;
+                margin: 32px auto;
+                background: #eee;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .df-con-list-con {
+                margin: 20px auto;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    font-size: 14px;
+                    color: #7B8093;
+                    text-align: center;
+                    width: 30%;
+
+                    p:nth-child(1) {
+                        font-size: 18px;
+                        color: #15192A;
+                        margin: 6px 0;
+                    }
+                }
+
+                li:nth-child(1) {
+                    p:nth-child(1) {
+                        color: #4DA58C;
+                    }
+                }
+
+                li:nth-child(2) {
+                    width: 35%;
+                }
+            }
+
+            .df-con-btn {
+                width: 150px;
+                margin: 30px auto;
+                height: 50px;
+                line-height: 50px;
+                color: #242F44;
+                background: #F0F2F9;
+                text-align: center;
+                cursor: pointer;
+                box-shadow: 6px 6px 16px 0 rgba(199, 203, 209, 0.5), -6px -6px 16px 0 rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+
+    .df-tosx {
+        width: 188px;
+        height: 56px;
+        background: #F6F8FC;
+        box-shadow: 6px 6px 16px 0 rgba(199, 203, 209, 0.5), -6px -6px 16px 0 rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin: 60px auto;
+        line-height: 56px;
+        color: #242F44;
+
+        .df-tosx-con {
+            display: flex;
+            margin: 0 auto;
+            width: 100px;
+            cursor: pointer;
+        }
+
+        .df-tosx-img {
+            width: 24px;
+            height: 24px;
+            border-radius: 12px;
+            margin-top: 5px;
+            margin-right: 8px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

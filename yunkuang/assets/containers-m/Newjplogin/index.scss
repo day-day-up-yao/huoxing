@@ -1,0 +1,102 @@
+.page-m {
+    width: 100%;
+
+    .newtologo {
+        width: 100%;
+
+        .newtologo-top {
+            width: 100%;
+            background: #58aac2;
+
+            .newtologo-top-img {
+                width: 150px;
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .newtologo-con {
+            width: 100%;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            .newtologo-con-pos {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+
+                .newtologo-con-pos-c {
+                    width: 90%;
+                    margin: 0 auto;
+                    color: #fff;
+
+                    h2 {
+                        padding: 35px 0;
+                        font-size: 30px;
+                        font-weight: bold;
+                        line-height: 35px;
+                        text-align: center;
+                    }
+
+                    .newtologo-con-pos-c-line {
+                        width: 90%;
+                        height: 2px;
+                        background: #00EA98;
+                        margin: 15px auto;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        text-align: center;
+                        margin: 40px auto;
+                    }
+
+                    .newtologo-con-pos-c-tologin {
+                        width: 85%;
+                        margin: 20px auto;
+                        display: flex;
+                        justify-content: space-around;
+
+                        span {
+                            padding: 10px 20px;
+                            background: rgba(255, 255, 255, 0.2);
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .newtologo-con-img {
+            width: 95%;
+            margin: 25px auto;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .newtologo-con-text {
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #878080;
+        }
+
+        .newtologo-con-imgs {
+            width: 100%;
+            margin-top: 15px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

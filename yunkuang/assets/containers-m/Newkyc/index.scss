@@ -1,0 +1,30 @@
+.page-m {
+    .newkyc {
+        width: 90%;
+
+        .newkyc-basic {
+            h3 {
+                font-size: 26px;
+            }
+
+            input {
+                background: #F7F7FA;
+            }
+        }
+
+        .senior {
+            .senior-one-img {
+                flex-wrap: wrap;
+
+                .img-left {
+                    width: 100%;
+                }
+
+                .img-right {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

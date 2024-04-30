@@ -1,0 +1,229 @@
+.topay {
+    width: 360px;
+    padding: 23px 30px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+
+    &.otherstyle {
+        width: auto;
+
+        .topay .promo .promo-code {
+            background: #E8EFFF;
+            color: #003287;
+        }
+
+        .select .select-list .select-list-item {
+            width: 90px;
+
+            &.activepay {
+                border: 1px solid #003287;
+                width: 90px;
+                background: #E8EFFF;
+            }
+
+            input {
+                width: 76%;
+            }
+        }
+
+        .botton {
+            background: #003287;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        img {
+            width: 20px;
+        }
+    }
+
+    .select {
+        p {
+            font-size: 15px;
+            color: #283044;
+        }
+
+        .select-list {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+
+            .select-list-item {
+                width: 106px;
+                text-align: center;
+                height: 34px;
+                line-height: 34px;
+                border-radius: 4px;
+                border: 1px solid rgba(40, 48, 68, 0.2);
+                font-size: 15px;
+                color: #283044;
+                cursor: pointer;
+                position: relative;
+
+                .select-img {
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                    top: -3px;
+                    right: 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                &.activepay {
+                    border: 1px solid #DB663B;
+                    width: 108px;
+                    background: rgba(219, 102, 59, 0.05);
+                }
+
+                input {
+                    width: 81%;
+                    height: 99%;
+                    border: none;
+                    background: #fff;
+                    border-radius: 4px;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    .promo {
+        margin: 18px 0;
+        font-size: 15px;
+
+        .promo-code {
+            width: 93%;
+            height: 40px;
+            border-radius: 4px;
+            border: 1px solid #C5C5CC;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+            margin-top: 12px;
+
+            input {
+                width: 70%;
+                border: none;
+                background: #fff;
+            }
+
+            span {
+                background: rgba(219, 102, 59, 0.1);
+                border-radius: 4px;
+                color: #F4881C;
+                font-size: 13px;
+                cursor: pointer;
+                padding: 4px 12px;
+            }
+        }
+
+        .amount {
+            width: 93%;
+            height: 40px;
+            border-radius: 4px;
+            border: 1px solid #C5C5CC;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+            margin-top: 12px;
+            background: #F5F6FA;
+
+            p {
+                :nth-child(2) {
+                    margin-left: 3px;
+                }
+            }
+
+            p:nth-child(2) {
+                font-size: 13px;
+                color: #A2A2AA;
+            }
+        }
+
+        ol {
+            margin-top: 12px;
+
+            li {
+                color: #70737F;
+                font-size: 13px;
+                line-height: 20px;
+                margin-top: 8px;
+                list-style: outside;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .botton {
+        width: 90%;
+        margin: 18px auto;
+        height: 40px;
+        border-radius: 8px;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        background: #F4881C;
+    }
+
+    .paytype {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 2;
+        display: none;
+        justify-content: center;
+        align-items: center;
+
+        .paytype-con {
+            width: 390px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            position: relative;
+
+            h3 {
+                text-align: center;
+            }
+
+            .payment-wrapper {
+                margin-top: 35px;
+
+                .pay-type {
+                    justify-content: space-around;
+
+                    .item {
+                        margin: 5px 0;
+                    }
+                }
+
+                .pay-rightnow {
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 50px;
+                    border-radius: 8px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 50px;
+                    cursor: pointer;
+                    background: #F4881C;
+                    border: none;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}

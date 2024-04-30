@@ -1,0 +1,44 @@
+.extract {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .extract-con {
+        margin-top: 30px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            background: #F7F8F9;
+            color: #9398A4;
+            line-height: 50px;
+
+            li {
+                width: 400px;
+                text-align: center;
+            }
+        }
+
+        ol {
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            line-height: 50px;
+            color: #0B1736;
+
+            li {
+                width: 400px;
+                text-align: center;
+            }
+        }
+    }
+}
