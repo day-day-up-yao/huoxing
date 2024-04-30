@@ -1,0 +1,55 @@
+.campaign-create-rewards {
+  display: none;
+  position: relative;
+  width: 670px;
+
+  &.show {
+    display: block;
+  }
+
+  .campaign-create-rewards-custom-item {
+    &.only-title {
+      .campaign-create-rewards-custom-item-title {
+        margin-bottom: 32px;
+      }
+    }
+
+    .campaign-create-rewards-custom-item-title {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: var(--naga-font-hundred);
+      margin-bottom: 12px;
+      display: flex !important;
+      justify-content: space-between;
+      align-items: center;
+
+      .campaign-create-rewards-custom-item-title-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        .campaign-create-rewards-custom-item-title-btn {
+          padding: 10px 12px;
+          background-color: var(--nage-main-bg);
+          color: var(--naga-font-hundred);
+
+          &:hover {
+            background-color: var(--nage-main-bg);
+          }
+
+          &.active {
+            background-color: var(--naga-red-bg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-create-rewards {
+    width: 100%;
+  }
+}

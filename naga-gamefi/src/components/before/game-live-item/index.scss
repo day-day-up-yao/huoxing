@@ -1,0 +1,101 @@
+.game-live-item {
+  position: relative;
+  width: 100%;
+  background: var(--nage-main-bg);
+  border-radius: 5px;
+  border: 1px solid var(--nage-gameitem-border);
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    .game-live-item-window-box {
+      .game-live-item-window-img {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .game-live-item-window-box {
+    width: 100%;
+    height: 186px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .game-live-item-window-img {
+      width: 100%;
+      height: 100%;
+      transition: all 0.5s;
+      object-fit: cover;
+    }
+  }
+
+  .game-live-item-live-tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--naga-red-bg);
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 5px;
+
+    .icon {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--naga-font-hundred);
+      margin-right: 6px;
+    }
+
+    .text {
+      font-size: 16px;
+      color: var(--naga-font-hundred);
+      line-height: 26px;
+    }
+  }
+
+  .game-live-item-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--naga-font-hundred);
+    line-height: 26px;
+    width: calc(100% - 38px);
+    margin: 24px auto 19px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-live-item {
+    padding: 6px;
+
+    .game-live-item-window-box {
+      height: 162px;
+    }
+
+    .game-live-item-live-tag {
+      top: 14px;
+      left: 14px;
+    }
+
+    .game-live-item-title {
+      font-size: 14px;
+      line-height: 22px;
+      width: calc(100% - 24px);
+      margin: 12px auto 6px;
+    }
+  }
+}

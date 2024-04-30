@@ -1,0 +1,195 @@
+.game-screen {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+
+  .screen-select {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    border-radius: 5px;
+    background: var(--naga-loading-bg);
+    margin-left: 16px;
+    color: var(--naga-font-hundred);
+    cursor: pointer;
+    text-wrap: nowrap;
+    overflow: hidden;
+
+    &:hover {
+      background: var(--naga-rank-slect-bg);
+    }
+
+    &.select-active {
+      background: var(--naga-red-bg);
+      color: #fff;
+    }
+  }
+
+  .game-screen-left {
+    display: flex;
+    align-items: center;
+
+    .down-list {
+      display: flex;
+      align-items: center;
+    }
+
+    .screen-down {
+      width: 140px;
+      height: 40px;
+      background: var(--naga-loading-bg);
+      border-radius: 5px;
+      position: relative;
+      cursor: pointer;
+
+      &:nth-child(3) {
+        display: none;
+      }
+
+      &.genre-item {
+        width: 130px;
+        margin-right: 10px;
+      }
+
+      .down-popup-wrapper {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        z-index: 10;
+        padding-top: 10px;
+      }
+
+      .down-popup {
+        width: max-content;
+        background: var(--naga-loading-bg);
+        border-radius: 8px;
+        max-height: 410px;
+        overflow-y: auto;
+
+        .chain-select {
+          color: var(--naga-font-seventy);
+          font-size: 15px;
+
+          .go-search {
+            padding: 20px;
+          }
+
+          input {
+            width: 160px;
+            border: 1px solid var(--nage-footer-border-top);
+            border-radius: 8px;
+            height: 34px;
+            font-size: 15;
+            background: none;
+            padding: 0 10px;
+            color: var(--naga-font-seventy);
+          }
+
+          .chain-allselect {
+            display: flex;
+            justify-content: space-between;
+            color: var(--naga-red-bg);
+
+            span {
+              cursor: pointer;
+            }
+          }
+
+          .all-chain {
+            .select-chain-item {
+              display: flex;
+              align-items: center;
+              padding: 14px 20px;
+              border-bottom: 1px solid var(--naga-select-border);
+              font-size: 15px;
+
+              &:hover {
+                background: var(--naga-hover-bg);
+              }
+
+              &.item-active {
+                background: var(--naga-hover-bg);
+              }
+
+              &:last-child {
+                border: none;
+              }
+
+              .select-img {
+                width: 14px;
+                height: 14px;
+                margin-right: 10px;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+
+              .select-checkbox {
+                display: none;
+
+                img {
+                  width: 14px;
+                  height: 14px;
+                }
+
+                .select-checkbox-no {
+                  width: 14px;
+                  height: 14px;
+                  background: var(--nage-footer-border-top);
+                  border-radius: 1px;
+                }
+              }
+            }
+
+            .all-chain-cancal {
+              position: fixed;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 57px;
+              text-align: center;
+              line-height: 57px;
+              background: var(--naga-gamelibrary-screen-totle-bg);
+              font-size: 17px;
+              display: none;
+            }
+          }
+        }
+      }
+
+      .screen-down-con {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        align-items: center;
+        height: 100%;
+
+        span {
+          display: block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 90%;
+        }
+
+        img {
+          width: 12px;
+          height: 12px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .screen-chain {
+      margin-left: 40px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .game-screen-right {
+    display: flex;
+  }
+}

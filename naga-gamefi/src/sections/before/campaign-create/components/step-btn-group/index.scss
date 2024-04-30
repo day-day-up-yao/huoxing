@@ -1,0 +1,59 @@
+.campaign-create-step-btn-group {
+  position: relative;
+  width: 670px;
+  margin-bottom: 160px;
+  display: flex;
+  gap: 20px;
+  background: var(--naga-body);
+  z-index: 2;
+
+  .campaign-create-step-btn-group-ghost-btn {
+    width: 170px;
+    height: 54px;
+    border-radius: 5px !important;
+    opacity: 1;
+    border: 1px solid var(--naga-font-hundred);
+    font-size: 16px;
+    color: var(--naga-font-hundred);
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .campaign-create-step-btn-group-primary-btn {
+    flex: 1;
+    height: 54px;
+    background: var(--naga-red-bg);
+    border-radius: 5px !important;
+    font-size: 16px;
+    // color: var(--naga-font-hundred);
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-create-step-btn-group {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    gap: 9px;
+    z-index: 20;
+
+    .campaign-create-step-btn-group-primary-btn,
+    .campaign-create-step-btn-group-ghost-btn {
+      height: 44px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .campaign-create-step-btn-group-ghost-btn {
+      width: 128px;
+    }
+  }
+}

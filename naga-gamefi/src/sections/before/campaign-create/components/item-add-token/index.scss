@@ -1,0 +1,17 @@
+.campaign-create-item-add-token {
+  position: relative;
+  border: 1px solid var(--nage-gameitem-border);
+
+  .input-group-add-left-first {
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--naga-font-hundred);
+    line-height: 22px;
+    background-color: var(--naga-rank-slect-bg);
+  }
+
+  .input {
+    background-color: var(--nage-gameitem-bg);
+  }
+}

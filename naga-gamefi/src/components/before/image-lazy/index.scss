@@ -1,0 +1,24 @@
+.img-lazy {
+  position: relative;
+}
+
+.lazyload-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+  background: var(--naga-loading-bg);
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    filter: blur(25px);
+    animation: imgshadow 0s linear 1s forwards;
+  }
+}
+
+@keyframes imgshadow {
+  to {
+    filter: blur(0);
+  }
+}

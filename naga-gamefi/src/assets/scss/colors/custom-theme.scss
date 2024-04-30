@@ -1,0 +1,10 @@
+@import './themes/dark.scss';
+@import './themes/light.scss';
+
+.rs-theme-light {
+  @include light;
+}
+
+.rs-theme-dark {
+  @include dark;
+}

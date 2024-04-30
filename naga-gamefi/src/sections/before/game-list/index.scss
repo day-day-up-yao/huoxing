@@ -1,0 +1,257 @@
+.game-list-page {
+  .game-ranking-title {
+    margin: 10px 0 32px;
+    width: 100%;
+
+    .title-text {
+      font-size: 40px;
+      line-height: 44px;
+    }
+
+    .game-ranking-type-btn {
+      height: 40px;
+      color: var(--naga-font-seventy);
+      border: 1px solid var(--naga-font-seventy);
+
+      &:hover {
+        color: var(--naga-font-hundred);
+        border: 1px solid var(--naga-font-hundred);
+        box-shadow: none;
+
+        svg {
+          color: var(--naga-font-hundred);
+        }
+      }
+
+      svg {
+        color: var(--naga-font-seventy);
+        height: 14px;
+      }
+    }
+  }
+
+  .game-ranking-box {
+    position: relative;
+    width: 100%;
+    background: var(--nage-main-bg);
+    border-radius: 5px;
+    border: 1px solid var(--nage-main-border);
+    padding: 60px 40px 40px;
+    box-sizing: border-box;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .all-game {
+    .game-list {
+      .ganem-item {
+        font-size: 14px;
+      }
+    }
+  }
+  .game-screen .game-screen-left .screen-chain {
+    margin-left: 10px;
+
+    .screen-select {
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .render-center {
+    .game-list-page {
+      padding: 0 16px;
+
+      .game-ranking-box {
+        .game-screen {
+          font-size: 13px;
+
+          .game-screen-left {
+            .screen-chain {
+              margin-left: 10px;
+            }
+
+            .screen-down {
+              &.genre-item {
+                width: 100px;
+              }
+            }
+          }
+
+          .game-screen-right {
+            align-items: center;
+          }
+
+          .screen-select {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-list-page {
+    .game-ranking-title {
+      margin: 12px 0;
+    }
+
+    .game-ranking-box {
+      padding: 30px 0;
+
+      .game-screen {
+        padding: 0;
+
+        .game-screen-right {
+          display: none;
+        }
+
+        .game-screen-left {
+          width: 100%;
+
+          .screen-chain {
+            display: none;
+          }
+
+          .down-list {
+            width: 100%;
+            justify-content: space-between;
+
+            .screen-down {
+              width: 27%;
+              border-radius: 5px;
+
+              &.genre-item {
+                width: 27%;
+                margin: 0;
+              }
+
+              &:nth-child(2) {
+                width: 40%;
+              }
+
+              &:nth-child(3) {
+                display: block;
+              }
+
+              .down-popup {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                max-height: none;
+                background: var(--naga-gamelist-popup-bg);
+                left: 0;
+
+                .chain-select {
+                  position: relative;
+                  height: 100%;
+
+                  .go-search {
+                    display: none;
+                  }
+
+                  .all-chain {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    background: var(--naga-gamelibrary-screen-totle-bg);
+                    max-height: 500px;
+                    overflow-y: auto;
+                    padding-bottom: 110px;
+
+                    .select-chain-item {
+                      justify-content: space-between;
+
+                      .select-img {
+                        display: none;
+                      }
+
+                      .select-checkbox {
+                        display: block;
+                      }
+                    }
+
+                    .all-chain-cancal {
+                      display: block;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .left-fix {
+        display: block;
+      }
+
+      .all-game {
+        overflow-x: auto;
+
+        .h5-games {
+          width: 850px;
+
+          .game-title {
+            font-size: 12px;
+            padding: 0 15px;
+          }
+
+          .first-column {
+            width: 2%;
+
+            &.h5-one-column {
+              display: block;
+            }
+
+            &.pc-one-column {
+              display: none;
+            }
+          }
+
+          .game-list {
+            .ganem-item {
+              padding: 0 15px;
+              border-radius: 0;
+              min-height: 50px;
+            }
+          }
+
+          .second-column {
+            width: 100px;
+
+            .game-icon {
+              flex: none;
+              width: 38px;
+              height: 38px;
+            }
+
+            .second-right {
+              .game-name {
+                display: none;
+              }
+            }
+          }
+
+          .react-pagination {
+            display: none;
+          }
+        }
+
+        .h5-more-page {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.layout-footer {
+  margin-top: 80px;
+}

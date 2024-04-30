@@ -1,0 +1,63 @@
+.game-news-page-search {
+  height: 42px;
+  width: 240px;
+  background: var(--nage-footer-border-top);
+  border-radius: 21px 21px 21px 21px;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .game-news-page-search-icon {
+    width: 16px;
+    height: 16px;
+
+    &.left {
+      margin-right: 10px;
+    }
+
+    &.right {
+      margin-left: 10px;
+    }
+  }
+
+  .game-news-page-search-input {
+    flex: 1;
+    height: 18px;
+    font-size: 16px;
+    color: var(--naga-font-hundred);
+    line-height: 18px;
+    text-align: left;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    /* 通用 */
+    ::-webkit-input-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+
+    ::-moz-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+
+    :-ms-input-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+
+    /* webkit专用 */
+    #field2::-webkit-input-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+
+    #field3::-webkit-input-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+
+    #field4::-webkit-input-placeholder {
+      color: var(--naga-news-falsh-bg);
+    }
+  }
+}

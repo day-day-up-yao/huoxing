@@ -1,0 +1,30 @@
+.task-list-screen {
+  margin-right: 10px;
+
+  .task-list-screen-drop {
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--nage-main-bg);
+
+    &:hover {
+      background: var(--naga-rank-slect-bg);
+    }
+
+    span {
+      padding-right: 9px;
+    }
+
+    .svgstyle {
+      color: var(--naga-font-hundred);
+    }
+  }
+
+  .task-list-screen-item {
+    background: var(--nage-main-bg);
+    top: 50px;
+  }
+}

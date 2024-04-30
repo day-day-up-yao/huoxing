@@ -1,0 +1,118 @@
+.campaign-create-textfield {
+  margin-bottom: 32px !important;
+
+  .campaign-create-textfield-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: var(--naga-font-hundred);
+    margin-bottom: 12px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+
+    &.first {
+      line-height: 42px;
+      margin-bottom: 2px;
+    }
+  }
+
+  .rs-input-group {
+    overflow: hidden;
+  }
+
+  .rs-input {
+    height: 54px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 20px;
+    background: var(--nage-main-bg);
+    border: 1px solid var(--naga-rank-slect-bg);
+    border-radius: 5px;
+    color: var(--naga-font-hundred);
+
+    &:focus {
+      // border: 3px solid red;
+      box-shadow: none;
+    }
+  }
+
+  .rs-picker-toggle-wrapper {
+    height: 54px;
+    font-size: 16px;
+    line-height: 22px;
+    background: var(--nage-main-bg);
+    border: 1px solid var(--nage-main-bg);
+    border-radius: 5px;
+    color: var(--naga-font-hundred);
+    display: flex;
+    align-items: center;
+
+    &:focus-within,
+    &:hover {
+      border: 1px solid var(--naga-font-hundred);
+    }
+
+    .rs-picker-toggle {
+      background-color: var(--nage-main-bg) !important;
+
+      &.rs-btn {
+        padding-left: 20px;
+      }
+
+      .rs-picker-toggle-value {
+        color: var(--naga-font-hundred);
+        font-size: 16px;
+      }
+    }
+  }
+
+  .campaign-create-textfield-error {
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--naga-red-bg);
+    margin-top: 8px;
+  }
+}
+
+.rs-picker-select-menu-item {
+  padding: 16px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-create-textfield {
+    margin-bottom: 16px !important;
+
+    .campaign-create-textfield-title {
+      font-size: 12px;
+      margin-bottom: 8px;
+      line-height: 20px;
+    }
+
+    .rs-input {
+      height: 40px;
+      padding: 0 12px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .rs-picker-toggle-wrapper {
+      height: 40px;
+      font-size: 12px;
+      line-height: 20px;
+
+      .rs-picker-toggle {
+        .rs-picker-toggle-value {
+          color: var(--naga-font-hundred);
+          font-size: 12px;
+        }
+      }
+    }
+
+    .campaign-create-textfield-error {
+      font-size: 12px;
+      line-height: 20px;
+      margin-top: 6px;
+    }
+  }
+}

@@ -1,0 +1,256 @@
+.h5-game-title {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .render-center {
+    .allquantity {
+      .quantity-item {
+        width: 214px;
+        height: 119px;
+
+        .quantity-item-num {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .librarycon {
+      .library-right {
+        width: 928px;
+
+        .library-gamelist {
+          .library-gamelist-item {
+            width: 217px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .render-center {
+    .allquantity {
+      .quantity-item {
+        width: 185px;
+        height: 119px;
+
+        .quantity-item-num {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .librarycon {
+      .game-toatal-popup {
+        display: block;
+      }
+
+      .librarycon-left {
+        display: none;
+      }
+
+      .screening {
+        width: 380px;
+
+        .rating-con {
+          .rating-con-left {
+            width: 327px;
+          }
+        }
+
+        .screening-item-top {
+          p {
+            display: none;
+          }
+
+          img {
+            display: block;
+          }
+        }
+      }
+
+      .library-right {
+        width: 100%;
+
+        .screening-show {
+          .show-total-btn {
+            display: flex;
+          }
+
+          .screening-show-left {
+            display: none;
+          }
+        }
+
+        .library-gamelist {
+          gap: 32px 19px;
+
+          .library-gamelist-item {
+            width: 233px;
+
+            .item-bottom {
+              .item-staus {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .render-center {
+    .h5-game-title {
+      display: block;
+    }
+
+    .allquantity {
+      display: none;
+    }
+
+    .librarycon {
+      margin: 0;
+      padding: 0 16px;
+
+      .toatal-selected-con {
+        padding: 16px 24px;
+        width: -webkit-fill-available;
+        top: 51px;
+
+        .screening {
+          width: 100%;
+        }
+      }
+
+      .toatal-selected-allbtn {
+        width: 100%;
+        padding: 20px 0;
+
+        .allbtn-cancal {
+          width: 45%;
+        }
+      }
+
+      .library-right {
+        .screening-show {
+          flex-direction: row-reverse;
+          align-items: center;
+
+          .show-total-btn {
+            align-items: initial;
+          }
+
+          .screening-show-right {
+            right: auto;
+            left: 0;
+            width: auto;
+
+            .right-down-select {
+              left: 0;
+              right: auto;
+            }
+          }
+        }
+
+        .react-pagination {
+          display: none;
+        }
+
+        .library-gamelist {
+          gap: 24px 0;
+
+          a {
+            display: block;
+            width: 100%;
+          }
+
+          .library-gamelist-item {
+            width: 100%;
+            border-radius: 6px;
+            align-items: center;
+            flex-direction: initial;
+
+            .item-top {
+              width: 130px;
+              height: 130px;
+              flex: none;
+              padding: 0;
+
+              .item-top-img {
+                width: 130px;
+                height: 130px;
+              }
+
+              .game-score {
+                width: 46px;
+                height: 46px;
+                bottom: 8px;
+                right: 8px;
+                font-size: 18px;
+              }
+            }
+
+            .item-bottom {
+              margin-top: 0;
+              align-items: normal;
+              justify-content: center;
+              padding: 0;
+              padding-right: 10px;
+              padding-left: 18px;
+              border-left: none;
+              flex: 1;
+              overflow: hidden;
+              border-radius: 6px;
+              height: 128px;
+              margin-left: -6px;
+
+              .title-curreny-text-only {
+                font-size: 14px;
+                font-weight: 400;
+              }
+
+              .support-list {
+                margin: 8px 0;
+                min-height: 14px;
+              }
+
+              .item-platfrom {
+                img {
+                  display: block;
+                }
+              }
+
+              .item-bottom-down {
+                img {
+                  display: none;
+                }
+
+                .item-staus {
+                  width: 100%;
+                  justify-content: center;
+                  padding: 5px 0;
+
+                  img {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.layout-footer {
+  margin-top: 80px;
+}

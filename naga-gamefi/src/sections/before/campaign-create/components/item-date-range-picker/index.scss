@@ -1,0 +1,63 @@
+.campaign-create-item-date-range-picker {
+  position: relative;
+  width: 100%;
+
+  &:focus-within,
+  &:hover {
+    border: 1px solid var(--nage-main-bg) !important;
+  }
+
+  .rs-picker-toggle {
+    height: 54px;
+    line-height: 52px;
+    background-color: var(--nage-main-bg) !important;
+    border: 1px solid var(--naga-rank-slect-bg);
+    color: var(--naga-font-fourty);
+    padding: 0 36px 0 20px !important;
+    box-sizing: border-box;
+
+    .rs-picker-toggle-placeholder {
+      color: var(--naga-font-fourty);
+    }
+
+    .rs-picker-toggle-value {
+      color: var(--naga-font-hundred);
+    }
+  }
+
+  .rs-picker-toggle-clean,
+  .rs-picker-toggle-caret {
+    top: 14px !important;
+  }
+
+  .rs-picker-toggle-textbox {
+    background: var(--nage-main-bg);
+    color: var(--naga-font-fourty);
+    padding: 0 36px 0 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-create-item-date-range-picker {
+    .rs-picker-toggle {
+      height: 40px;
+      line-height: 38px;
+      padding: 0 36px 0 12px !important;
+    }
+
+    .rs-picker-toggle-clean,
+    .rs-picker-toggle-caret {
+      top: 8px !important;
+    }
+
+    .rs-picker-toggle-textbox {
+      padding: 0 36px 0 12px !important;
+    }
+  }
+
+  .rs-picker-daterange-menu {
+    .rs-picker-daterange-panel {
+      transform: translate(-70px, -50px) scale(0.7);
+    }
+  }
+}

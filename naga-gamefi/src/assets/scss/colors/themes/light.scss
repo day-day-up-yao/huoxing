@@ -1,0 +1,83 @@
+@mixin light {
+  --naga-body: #ffffff;
+
+  // 字体颜色
+  --naga-font-hundred: #18191d;
+  --naga-font-seventy: #28292a;
+  --naga-font-fourty: #434446;
+  --naga-font-twenty: #626364;
+  --naga-font--news-gamename: #919fb5;
+  --naga-font-score-zero: #bcbcbc;
+  --naga-disable-font: rgba(255, 255, 255, 0.2);
+  --naga-font-gamelibrary-quantity: #626364;
+  --naga-gamelibrary-screen-font: #535964;
+  --nage-font-home-banner-desc-hover: rgba(255, 255, 255, 0.85);
+  --nage-font-home-banner-desc: #ffffff;
+  --naga-font-header-login: #ccc;
+  --nage-font-task-start-btn: #fff;
+
+  // 背景，边框
+  --naga-red-bg: #e60000;
+  --naga-red-bg-alpha: rgba(230, 0, 0, 0.2);
+  --naga-red-task-list-item-bg-alpha: rgba(230, 0, 0, 0.1);
+  --naga-red-footer-bg: #d02f25;
+  --naga-red-login-btn: #ea2626;
+  --nage-main-bg: #f8f9fb;
+  --nage-main-border: #d5d7d9;
+  --naga-gameitem-bg: #66131320;
+  --naga-loading-bg: #eaecf0;
+  --naga-rank-slect-bg: #eaecf0;
+  --naga-rich-icon: #9facbf;
+  --naga-rich-icon-bg: #3b3b3f;
+  --nage-gameitem-bg: rgba(255, 255, 255, 0.05);
+  --nage-gameitem-border: #979899;
+  --naga-icon-bg: #eaecf0;
+  --naga-gamedetail-img-bg: rgba(0, 0, 0, 0.4);
+  --nage-footer-border-top: rgba(24, 25, 29, 0.1);
+  --naga-hover-bg: rgba(255, 255, 255, 0.05);
+  --naga-select-border: rgba(255, 255, 255, 0.05);
+  --naga-h5-select-popup: #121212;
+  --nage-fixed-bg: rgba(0, 0, 0, 0.6);
+  --nage-detail-swiper-shadow: rgba(0, 0, 0, 0.4);
+  --naga-gamedetail-swiper-thumb: #eaecf0;
+  --naga-gamelibrary-quantity-bg1: rgba(145, 159, 204, 0.06);
+  --naga-gamelibrary-quantity-bg2: rgba(145, 159, 204, 0.11);
+  --naga-gamelibrary-quantity-border1: rgba(108, 138, 228, 0);
+  --naga-gamelibrary-quantity-border2: rgba(108, 138, 228, 0.48);
+  --naga-gamelibrary-quantity-border3: rgba(108, 138, 228, 0);
+  --naga-gamelibrary-quantity-blue: #0d54db;
+  --naga-gamelibrary-quantity-orange: #eb550f;
+  --naga-gamelibrary-quantity-pink: #dc0dca;
+  --naga-gamelibrary-quantity-green: #19ce18;
+  --naga-gamelibrary-screen-bg: #eaecf0;
+  --naga-gamelibrary-screen-flag-bg: #4f201f;
+  --naga-gamelibrary-screen-btn-bg: #eaecf0;
+  --naga-gamelibrary-screen-popup-bg: #2a2a2a;
+  --naga-gamelibrary-screen-show-bg: rgba(24, 25, 29, 0);
+  --naga-gamelibrary-screen-totle-bg: #f8f9fb;
+  --naga-gamelibrary-screen-totle-btn-bg: rgba(255, 255, 255, 0.08);
+  --naga-gamelibrary-screen-hove-bg: rgba(255, 255, 255, 0.2);
+  --naga-gamelist-popup-bg: rgba(145, 158, 171, 0.16);
+  --naga-news-falsh-bg: #28292a;
+  --naga-news-newsheader-active: rgba(230, 0, 0, 0.15);
+  --nage-home-banner-swiper-btn-hover: rgb(44, 47, 54);
+  --nage-usercenter-tab-selected-bg: rgba(230, 0, 0, 0.2);
+  --nage-review-item-bg: #101113;
+  --nage-review-item-border: #eaecf0;
+  --nage-game-evaluation-box-bg: #2f3239;
+  --naga-download-btn--hover-bg: #36373b;
+  --naga-download-btn-bg: #3e3f43;
+  --naga-task-list-btn-bg: rgba(46, 48, 54, 0.7);
+  --naga-task-list-btn-color: #f4bc2c;
+  --naga-task-list-swiper-pagiation-item-bg: rgba(255, 255, 255, 0.3);
+  --naga-task-list-item-bg: #f8f9fb;
+  --naga-task-detail-time-bg: rgba(21, 189, 68, 0.1);
+  --nage-task-detail-link-color: #4ea5f3;
+  --naga-task-list-item-finish-bg: rgba(24, 25, 29, 0.1);
+  --naga-event-bg: #08033a;
+  --naga-gameitem-chain-bg: rgba(46, 48, 54, 0.7);
+
+  // 涨跌
+  --nage-main-rise: #ee4729;
+  --nage-main-fall: #15bd44;
+}

@@ -1,0 +1,27 @@
+.newgamedetail-header-share {
+  .svgstyle {
+    margin-right: 10px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-detail-introduction {
+    p {
+      font-size: 16px;
+      color: var(--naga-font-seventy);
+    }
+
+    img {
+      margin: 10px 0;
+    }
+
+    span {
+      font-size: 16px !important;
+    }
+  }
+}

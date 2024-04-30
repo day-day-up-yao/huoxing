@@ -1,0 +1,199 @@
+@import 'custom-theme.scss'; // 进行样式定制
+
+/* ———————————— 输入框 ———————————— */
+.rs-input:focus,
+.rs-input:hover:not(:disabled) {
+  border-color: inherit;
+}
+
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus,
+.rs-input-group:focus-within {
+  outline: auto !important;
+}
+
+.rs-input {
+  ::-webkit-input-placeholder {
+    color: var(--naga-font-fourty);
+  }
+
+  :-moz-placeholder {
+    color: var(--naga-font-fourty);
+  }
+
+  ::-moz-placeholder {
+    color: var(--naga-font-fourty);
+  }
+
+  :-ms-input-placeholder {
+    color: var(--naga-font-fourty);
+  }
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+}
+
+.rs-input-group:not(.rs-input-group-disabled):hover,
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus,
+.rs-input-group:focus-within {
+  border-color: #fff;
+}
+
+.rs-input-number-btn-group-vertical {
+  display: none !important;
+}
+
+/* ———————————— 输入选择器 ———————————— */
+.rs-picker-toggle-active,
+.rs-picker.rs-picker-focused {
+  box-shadow: none !important;
+}
+
+/* ———————————— 加载器 ———————————— */
+.rs-loader-spin:before {
+  border: none;
+}
+
+.rs-loader-spin:after {
+  border-width: 2px;
+}
+
+/* ———————————— 按钮 ———————————— */
+.rs-btn-link {
+  color: var(--naga-red-bg);
+
+  &:disabled,
+  .rs-btn-disabled {
+    color: var(--naga-red-login-btn);
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.rs-btn-ghost {
+  &:hover,
+  &:focus {
+    box-shadow: none;
+    background-color: var(--nage-main-bg);
+  }
+}
+
+.rs-btn-primary {
+  background-color: var(--naga-red-bg) !important;
+
+  &:disabled,
+  .rs-btn-disabled {
+    background-color: var(--naga-red-login-btn) !important;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--naga-red-login-btn) !important;
+  }
+}
+
+/* ———————————— 时间选择器 ———————————— */
+
+.rs-calendar-table-cell-in-range {
+  &:before {
+    background-color: var(--naga-red-bg-alpha);
+  }
+}
+
+.rs-calendar-time-view .rs-calendar-header-title-time {
+  color: var(--naga-red-bg) !important;
+}
+
+.rs-calendar-time-dropdown-cell.rs-calendar-time-dropdown-cell-active {
+  background-color: var(--naga-red-bg) !important;
+}
+
+.rs-calendar-table-cell-selected {
+  &:hover {
+    .rs-calendar-table-cell-content {
+      background-color: var(--naga-red-login-btn) !important;
+    }
+  }
+
+  .rs-calendar-table-cell-content {
+    background-color: var(--naga-red-bg) !important;
+  }
+}
+
+/* ———————————— 上传组件 ———————————— */
+.rs-uploader-picture .rs-uploader-trigger-btn:hover,
+.rs-uploader-picture .rs-uploader-trigger-btn:focus {
+  background-color: var(--nage-main-bg);
+  color: var(--naga-font-fourty);
+}
+
+/* ———————————— SVG 图片 ———————————— */
+.svgstyle {
+  &:hover {
+    color: var(--naga-font-fourty);
+  }
+}
+
+/* ———————————— 下拉菜单 ———————————— */
+.rs-picker-select-menu-items {
+  margin-top: 6px;
+}
+
+.rs-picker-select-menu-item.rs-picker-select-menu-item-active {
+  background-color: var(--rs-listbox-option-hover-bg);
+  color: var(--rs-listbox-option-hover-text);
+}
+
+/* ———————————— 列表、表格 ———————————— */
+.rs-table-cell {
+  border-bottom: none;
+}
+
+/* ———————————— 开关 ———————————— */
+.rs-toggle {
+  &.rs-toggle-checked {
+    .rs-toggle-presentation {
+      &:after {
+        margin-left: -18px;
+      }
+    }
+  }
+
+  .rs-toggle-presentation {
+    height: 20px;
+    min-width: 36px;
+    border-radius: 10px;
+
+    &:after {
+      width: 16px;
+      height: 16px;
+      left: 2px;
+      top: 2px;
+      border-radius: 50%;
+    }
+  }
+
+  .rs-toggle-inner {
+    margin-left: 20px;
+    margin-right: 4px;
+    height: 20px;
+  }
+}
+
+/* ———————————— 表单 ———————————— */
+.rs-form-control-label {
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+/* ———————————— 面板弹窗 ———————————— */
+.rs-picker-menu {
+  background-color: var(--nage-main-bg);
+}

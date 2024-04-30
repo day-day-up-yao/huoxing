@@ -1,0 +1,24 @@
+.render-center {
+  width: 1440px;
+  padding: 30px 0 100px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .render-center {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .render-center {
+    width: 991px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .render-center {
+    padding: 0;
+    width: 100%;
+  }
+}

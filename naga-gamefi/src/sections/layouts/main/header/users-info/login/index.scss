@@ -1,0 +1,32 @@
+.login {
+  width: 100%;
+
+  .login-bottom {
+    margin-top: 24px;
+
+    .login-bottom-changelogin {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: var(--naga-font-fourty);
+
+      .login-bottom-changelogin-link {
+        cursor: pointer;
+      }
+    }
+
+    .login-bottom-tologinup {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: var(--naga-font-fourty);
+
+      .to-signup {
+        color: var(--naga-font-hundred);
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}

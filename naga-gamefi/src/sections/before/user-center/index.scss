@@ -1,0 +1,115 @@
+.user-center {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.h5-usercenter-con {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .render-center {
+    padding: 0 16px;
+    padding-top: 30px;
+  }
+
+  .pc-usercenter-con {
+    display: none;
+  }
+
+  .h5-usercenter-con {
+    display: block;
+  }
+
+  .user-center {
+    display: block;
+
+    .usercenter-right {
+      background: none;
+      margin-left: 0;
+
+      .usercenter-header-tab {
+        display: flex;
+
+        &.article-comment-tab {
+          display: none;
+        }
+      }
+
+      .usercenter-comment-tab {
+        display: flex;
+      }
+
+      .usercenter-account {
+        &.other-account {
+          margin-top: 32px;
+        }
+
+        .usercenter-account-item {
+          h3 {
+            font-size: 14px;
+            line-height: 20px;
+          }
+
+          .user-center-address {
+            display: none;
+          }
+        }
+
+        .usercenter-account-con {
+          display: block;
+
+          .usercenter-account-con-info {
+            padding: 8px;
+            margin-top: 16px;
+            width: 100%;
+
+            .account-wallet-connect {
+              width: 80px;
+              font-size: 12px;
+            }
+
+            .account-wallet-info-other-left {
+              .other-left-type {
+                font-size: 14px;
+
+                img {
+                  width: 26px;
+                  height: 26px;
+                  margin-right: 6px;
+                }
+              }
+            }
+
+            .account-wallet-info-right {
+              .to-other-bind {
+                width: 24px;
+                height: 24px;
+              }
+
+              .go-loginorbind {
+                img {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .user-message {
+        width: 100%;
+      }
+
+      .user-message .user-message-item .user-message-item-left .user-message-item-left-title {
+        width: 80px;
+      }
+    }
+  }
+
+  .usercenter-left {
+    display: none;
+  }
+}

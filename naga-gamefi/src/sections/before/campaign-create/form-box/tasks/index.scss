@@ -1,0 +1,15 @@
+.campaign-create-tasks {
+  display: none;
+  position: relative;
+  width: 670px;
+
+  &.show {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-create-tasks {
+    width: 100%;
+  }
+}

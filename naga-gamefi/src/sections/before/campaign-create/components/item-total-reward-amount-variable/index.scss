@@ -1,0 +1,13 @@
+.campaign-create-item-total-reward-amount {
+  position: relative;
+
+  .rs-input-group-addon {
+    padding: 0 20px !important;
+    font-size: 16px;
+    color: var(--naga-font-hundred) !important;
+
+    &.nobg {
+      background-color: var(--nage-main-bg);
+    }
+  }
+}

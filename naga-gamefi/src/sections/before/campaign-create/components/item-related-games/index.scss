@@ -1,0 +1,89 @@
+.campaign-create-item-related-games-input-box {
+    position: relative;
+
+    .input-icon {
+        height: 100% !important;
+
+        img {
+            width: 16px;
+        }
+    }
+
+    .campaign-create-item-related-games-input {
+        position: relative;
+    }
+}
+
+.search-not-found {
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--naga-font-seventy);
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+#campaign-create-item-related-games-popover,
+#campaign-create-item-related-games-popover0,
+#campaign-create-item-related-games-popover1,
+#campaign-create-item-related-games-popover2,
+#campaign-create-item-related-games-popover3,
+#campaign-create-item-related-games-popover4,
+#campaign-create-item-related-games-popover5 {
+    width: 670px;
+    padding: 24px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: var(--nage-main-bg);
+    border: 0.5px solid var(--naga-rank-slect-bg);
+    border-radius: 5px;
+    height: 390px;
+    overflow-y: scroll;
+}
+
+#campaign-create-item-related-games-popover0,
+#campaign-create-item-related-games-popover1 {
+    height: 120px;
+    overflow-y: hidden;
+}
+
+#campaign-create-item-related-games-popover2 {
+    height: 200px;
+    overflow-y: hidden;
+}
+
+#campaign-create-item-related-games-popover3 {
+    height: 250px;
+    overflow-y: hidden;
+}
+
+#campaign-create-item-related-games-popover4 {
+    height: 320px;
+    overflow-y: hidden;
+}
+
+#campaign-create-item-related-games-popover5 {
+    height: 380px;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    #campaign-create-item-related-games-popover,
+    #campaign-create-item-related-games-popover0,
+    #campaign-create-item-related-games-popover1,
+    #campaign-create-item-related-games-popover2,
+    #campaign-create-item-related-games-popover3,
+    #campaign-create-item-related-games-popover4,
+    #campaign-create-item-related-games-popover5 {
+        width: calc(100% - 32px);
+        padding: 8px;
+        height: 200px;
+    }
+}

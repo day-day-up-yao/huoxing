@@ -1,0 +1,229 @@
+.game-detail-review-dom {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+
+  .game-detail-review-dom-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .game-detail-review-dom-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: var(--naga-font-hundred);
+      line-height: 26px;
+    }
+
+    .game-detail-review-dom-add-btn {
+      background: var(--naga-red-bg);
+      border-radius: 5px;
+      min-width: 132px;
+      font-size: 14px;
+      color: #fff;
+      line-height: 16px;
+      padding: 10px 24px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .game-detail-review-dom-add-btn-img {
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+        color: #fff;
+      }
+    }
+  }
+
+  .game-detail-review-rate-box {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    background: var(--nage-main-bg);
+    border-radius: 5px;
+    position: relative;
+
+    .game-detail-review-rate-box-left {
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .game-detail-review-score-box {
+        height: 92px;
+        width: 92px;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        font-size: 36px;
+      }
+
+      .game-detail-review-score-num {
+        font-size: 20px;
+        color: var(--naga-font-fourty);
+        line-height: 24px;
+        margin-left: 16px;
+      }
+    }
+
+    .game-detail-review-rate-box-right {
+      display: grid;
+      grid-template-rows: repeat(5, 1fr);
+      row-gap: 8px;
+      max-width: 576px;
+      flex: 1;
+
+      .game-detail-review-rate-box-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .game-detail-review-rate-box-rate {
+          font-size: 14px;
+          width: 100px;
+          justify-content: flex-end;
+
+          .rs-rate-character {
+            width: 14px;
+            height: 14px;
+            padding: 0;
+            margin-right: 6px;
+          }
+
+          .rs-rate-character-after {
+            color: var(--naga-font-fourty);
+          }
+        }
+
+        .game-detail-review-rate-box-progress-line {
+          flex: 1;
+          width: auto;
+          padding: 0;
+          margin-left: 18px;
+
+          .rs-progress-line-inner {
+            background: var(--naga-select-border);
+            height: 6px;
+          }
+
+          .rs-progress-line-bg {
+            background: var(--naga-font-fourty);
+            height: 6px;
+          }
+
+          .rs-progress-info {
+            color: var(--naga-font-fourty);
+            line-height: 16px;
+            height: 16px;
+            width: 40px;
+            flex: 0 0 40px;
+            justify-content: flex-end;
+
+            .rs-progress-info-status {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .game-detail-review-rate-list {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .game-detail-review-not-data-box {
+    height: 280px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-detail-review-dom {
+    margin-top: 24px;
+
+    .game-detail-review-dom-header {
+      height: 32px;
+
+      .game-detail-review-dom-title {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      .game-detail-review-dom-add-btn {
+        height: 32px;
+        padding: 0;
+        min-width: auto;
+        line-height: 32px;
+        color: var(--naga-font-fourty);
+        background: var(--naga-body);
+
+        .game-detail-review-dom-add-btn-img {
+          color: var(--naga-font-fourty);
+        }
+      }
+    }
+
+    .game-detail-review-rate-box {
+      padding: 48px 16px 16px;
+      margin-top: 16px;
+
+      .game-detail-review-rate-box-left {
+        .game-detail-review-score-box {
+          width: 76px;
+          height: 76px;
+          font-size: 30px;
+        }
+
+        .game-detail-review-score-num {
+          position: absolute;
+          margin-left: 4px;
+          top: 16px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+
+      .game-detail-review-rate-box-right {
+        row-gap: 6px;
+
+        .game-detail-review-rate-box-item {
+          .game-detail-review-rate-box-rate {
+            font-size: 8px;
+            width: 64px;
+
+            .rs-rate-character {
+              width: 8px;
+              height: 8px;
+              margin-right: 2px;
+            }
+          }
+
+          .game-detail-review-rate-box-progress-line {
+            margin-left: 8px;
+
+            .rs-progress-info {
+              line-height: 14px;
+              height: 14px;
+              padding-left: 8px;
+              width: 30px;
+              flex: 0 0 30px;
+
+              .rs-progress-info-status {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

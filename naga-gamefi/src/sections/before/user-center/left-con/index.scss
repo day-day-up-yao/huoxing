@@ -1,0 +1,53 @@
+.usercenter-left {
+    width: 220px;
+
+    .usercenter-left-min {
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .usercenter-tab-list {
+        margin-top: 24px;
+
+        .usercenter-tab-item {
+            height: 62px;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            color: var(--naga-font-seventy);
+            position: relative;
+            cursor: pointer;
+            border-radius: 5px;
+
+            &.selected-tab-item {
+                background: var(--nage-main-bg);
+                color: var(--naga-font-hundred);
+            }
+
+            .tab-selected-border {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 3px;
+                background: var(--naga-red-bg);
+            }
+
+            .usercenter-tab-item-con {
+                display: flex;
+                align-items: center;
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                span {
+                    padding-left: 12px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

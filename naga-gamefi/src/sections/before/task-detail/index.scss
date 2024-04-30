@@ -1,0 +1,168 @@
+.task-detail-center {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+.task-detail-info-h5 {
+  display: none;
+}
+
+@media screen and (max-width: 1600px) {
+  .task-detail-right .reward-list-info .reward-list-info-item {
+    font-size: 14px;
+  }
+  .countdown.time-end-in {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .task-detail-right {
+    .reward-list-info {
+      .reward-list-info-con {
+        display: block;
+      }
+
+      .reward-list-info-item {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+
+    .reward-list-info-template {
+      margin-top: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .task-detail {
+    padding: 16px;
+
+    .task-detail-top {
+      font-size: 20px;
+      line-height: 32px;
+    }
+
+    .task-detail-center {
+      display: block;
+      margin-top: 14px;
+
+      .taskdetail-left {
+        width: 100%;
+
+        .task-detail-info-h5 {
+          display: block;
+          margin-top: 25px;
+
+          .task-detail-right {
+            display: block;
+          }
+        }
+
+        .taskdetail-left-top {
+          margin-top: 16px;
+          justify-content: center;
+          display: block;
+
+          .taskdetail-left-top-status {
+            margin-bottom: 10px;
+          }
+
+          .taskdetail-left-top-left {
+            font-size: 12px;
+          }
+
+          .taskdetail-left-top-right {
+            display: none;
+          }
+        }
+
+        .taskdetail-left-imganddesc {
+          margin-top: 16px;
+
+          .taskdetail-left-img {
+            height: 200px;
+          }
+
+          .taskdetail-left-desc {
+            margin-top: 16px;
+
+            .taskdetail-left-desc-con {
+              font-size: 16px;
+              line-height: 30px;
+              max-height: none;
+            }
+          }
+        }
+
+        // .taskdetail-left-selecttask {
+        //   display: none;
+        // }
+
+        // .task-detail-btn {
+        //   display: none;
+        // }
+      }
+
+      .task-detail-right {
+        width: 100%;
+        display: none;
+
+        .h5-detail-task {
+          display: block;
+        }
+
+        .h5-detail-btn {
+          display: block;
+        }
+
+        h3 {
+          display: none;
+        }
+
+        .nft-preview {
+          margin-top: 32px;
+
+          h3 {
+            display: block;
+            font-size: 20px;
+          }
+        }
+
+        .task-detail-right-time {
+          .task-detail-right-time-text {
+            .task-detail-right-time-text-date {
+              font-size: 14px;
+
+              .task-detail-right-time-text-date-ing {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .task-detail-right-taskinfo {
+          padding: 24px 15px;
+
+          .taskinfo-top-desc {
+            margin-top: 24px;
+
+            .taskinfo-top-desc-item {
+              margin-bottom: 16px;
+
+              &:last-child {
+                margin: 0;
+              }
+
+              .taskinfo-top-desc-right {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

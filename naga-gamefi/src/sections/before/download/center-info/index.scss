@@ -1,0 +1,101 @@
+.downlaod-center-info {
+  width: 100%;
+
+  .downlaod-center-info-con {
+    background: var(--naga-red-bg);
+    position: relative;
+
+    .downlaod-center-info-con-topborder {
+      width: 100%;
+      height: 110px;
+      background-image: linear-gradient(
+        178.5deg,
+        var(--naga-gamedetail-swiper-thumb) 49%,
+        rgba(255, 255, 255, 0) 50%
+      );
+    }
+
+    .downlaod-center-info-con-bottomborder {
+      width: 100%;
+      height: 110px;
+      background-image: linear-gradient(
+        358.5deg,
+        var(--naga-gamedetail-swiper-thumb) 49%,
+        rgba(255, 255, 255, 0) 50%
+      );
+      margin-top: 100px;
+    }
+
+    .downlaod-center-info-con-text {
+      text-align: center;
+      margin-top: 50px;
+      color: #fff;
+
+      h3 {
+        font-size: 45px;
+      }
+
+      .downlaod-center-info-con-text-desc {
+        line-height: 44px;
+        font-size: 26px;
+        margin: 0 auto;
+        margin-top: 24px;
+        font-weight: 400;
+        width: 830px;
+      }
+    }
+
+    .downlaod-center-info-con-running {
+      margin-top: 44px;
+      overflow: hidden;
+      // display: flex;
+      display: grid;
+      grid-template-columns: repeat(2, 2970px);
+
+      .downlaod-center-info-con-running-list {
+        display: flex;
+        align-items: center;
+        padding: 50px 0;
+
+        .downlaod-center-info-con-running-list-item {
+          margin: 0 15px;
+          box-shadow: 0 16px 40px 0 rgba(34, 8, 8, 0.2);
+          border-radius: 18px;
+          overflow: hidden;
+
+          img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+          }
+        }
+
+        @keyframes hotList {
+          0% {
+            transform: translateX(0);
+          }
+
+          20% {
+            transform: translateX(-354px);
+          }
+
+          40% {
+            transform: translateX(-708px);
+          }
+
+          60% {
+            transform: translateX(-1068px);
+          }
+
+          80% {
+            transform: translateX(-1416px);
+          }
+
+          100% {
+            transform: translateX(-1770px);
+          }
+        }
+      }
+    }
+  }
+}

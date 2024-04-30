@@ -1,0 +1,124 @@
+.game-detail-team-core-item {
+  position: relative;
+  width: 185px;
+  height: 212px;
+  background: var(--naga-hover-bg);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+
+  .game-detail-team-core-item-icon-box {
+    width: 88px;
+    height: 88px;
+    margin-top: 30px;
+    border: 1px solid var(--naga-font-hundred);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    .game-detail-team-core-item-icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+  }
+
+  .game-detail-team-core-item-title {
+    font-size: 20px;
+    color: var(--naga-font-hundred);
+    line-height: 24px;
+    margin-top: 12px;
+    max-width: calc(100% - 8px);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .game-detail-team-core-item-text {
+    font-size: 18px;
+    color: var(--naga-font-seventy);
+    line-height: 20px;
+    margin-top: 8px;
+    max-width: calc(100% - 8px);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .game-detail-team-core-item {
+    width: 180px;
+    height: 202px;
+
+    .game-detail-team-core-item-title {
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 12px;
+    }
+
+    .game-detail-team-core-item-text {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-detail-team-core-item {
+    width: 100%;
+    height: 195px;
+
+    .game-detail-team-core-item-icon-box {
+      width: 72px;
+      height: 72px;
+      margin-top: 32px;
+
+      .game-detail-team-core-item-icon {
+        width: 52px;
+        height: 52px;
+      }
+    }
+
+    .game-detail-team-core-item-title {
+      margin-top: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .game-detail-team-core-item {
+    height: 128px;
+    border-radius: 9px;
+
+    .game-detail-team-core-item-icon-box {
+      width: 52px;
+      height: 52px;
+      margin-top: 18px;
+
+      .game-detail-team-core-item-icon {
+        width: 42px;
+        height: 42px;
+      }
+    }
+
+    .game-detail-team-core-item-title {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .game-detail-team-core-item-text {
+      margin-top: 4px;
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+}

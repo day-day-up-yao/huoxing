@@ -1,0 +1,25 @@
+.vote-h5-header {
+  display: none;
+}
+
+.react-pagination a {
+  &.active {
+    background: #ffc24b;
+    color: #0d212e;
+  }
+
+  &:hover {
+    background: #ffc24b;
+    color: #0d212e;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vote-pc-header {
+    display: none;
+  }
+
+  .vote-h5-header {
+    display: block;
+  }
+}

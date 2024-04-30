@@ -1,0 +1,26 @@
+.news-information {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+
+  .news-information-table-item-box {
+    position: relative;
+    background: var(--rs-body);
+    transition: none !important;
+
+    .rs-table-cell-content {
+      padding: 0;
+    }
+  }
+
+  .rs-table-row {
+    &:last-of-type {
+      .news-main-item {
+        border-bottom: none;
+      }
+    }
+  }
+}

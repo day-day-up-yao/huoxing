@@ -1,0 +1,46 @@
+.game-overview-weekly-number-of-games-chart {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: var(--nage-main-bg);
+  border-radius: 5px;
+  border: 1px solid var(--nage-main-border);
+  box-sizing: border-box;
+
+  .game-overview-weekly-number-of-games-chart-tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4px;
+    width: auto;
+    height: auto;
+    background: var(--nage-main-bg);
+
+    .tooltip-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 12px;
+      line-height: 20px;
+
+      .tooltip-item-left {
+        width: 200px;
+        text-align: end;
+        color: var(--naga-font-fourty);
+      }
+
+      .tooltip-item-right {
+        width: auto;
+        margin-left: 4px;
+        color: var(--naga-font-hundred);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-overview-weekly-number-of-games-chart {
+    height: 400px;
+  }
+}

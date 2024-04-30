@@ -1,0 +1,78 @@
+.react-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+
+  a {
+    margin: 0 5px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: block;
+    height: 32px;
+    width: 32px;
+    overflow: hidden;
+    color: var(--naga-font-seventy);
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+
+    &:hover {
+      background: var(--naga-red-bg);
+      color: #fff;
+    }
+
+    &.active {
+      background: var(--naga-red-bg);
+      color: #fff;
+    }
+
+    &.prev,
+    &.next {
+      background: none;
+      border: none;
+      border-radius: initial;
+      height: auto;
+      width: auto;
+      color: #666;
+      display: flex;
+      align-items: center;
+      margin: 0 25px;
+      opacity: 0.3;
+
+      &:hover {
+        background: none;
+        border: none;
+        color: #0056ff;
+      }
+
+      &.disabled {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .react-pagination {
+    margin-top: 20px;
+
+    a {
+      margin: 4px;
+      width: 28px;
+      height: 28px;
+      font-size: 12px;
+      line-height: 28px;
+
+      &.prev,
+      &.next {
+        margin: 8px;
+      }
+    }
+  }
+}

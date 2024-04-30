@@ -1,0 +1,413 @@
+.carousel {
+  .slider-wrapper {
+    .slide {
+      &.selected {
+        z-index: 1 !important;
+      }
+    }
+  }
+
+  .thumbs-wrapper {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .thumbs {
+    display: flex;
+    gap: 0 0.6%;
+  }
+
+  .thumb {
+    border: none;
+    flex-shrink: 0;
+
+    &:hover {
+      border: none;
+    }
+
+    &.selected {
+      border: none;
+    }
+  }
+}
+
+.topshow {
+  display: flex;
+  justify-content: space-between;
+
+  .h5-swiper {
+    display: none;
+    width: 100%;
+
+    .h5-swiper-not {
+      display: flex;
+      overflow: hidden;
+      flex-wrap: nowrap;
+
+      .h5-swiper-not-item {
+        width: 75%;
+        height: 278px;
+        background: var(--naga-loading-bg);
+        margin-right: 20px;
+        border-radius: 5px;
+        flex-shrink: 0;
+      }
+    }
+
+    // .swiper-h5home-banner {
+    //   padding-bottom: 50px;
+    // }
+
+    .swiper-pagination-bullets {
+      bottom: 0;
+    }
+
+    .swiper-pagination-horizontal {
+      right: 15px;
+      // text-align: right;
+    }
+
+    .swiper-pagination-bullet {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--naga-gamelibrary-screen-font);
+      opacity: 1;
+
+      &.swiper-pagination-bullet-active {
+        background: var(--naga-font-hundred);
+      }
+    }
+
+    .h5-swiper-item {
+      display: block;
+      width: 93%;
+      background: var(--naga-select-border);
+      border-radius: 5px;
+      overflow: hidden;
+      border: 1px solid var(--nage-gameitem-border);
+
+      .h5-swiper-top {
+        width: 100%;
+        padding-bottom: calc(1.7 / 3 * 100%);
+        position: relative;
+
+        .h5-swiper-top-img {
+          width: calc(100% - 12px);
+          border-radius: 5px;
+          overflow: hidden;
+          position: absolute;
+          top: 6px;
+          left: 6px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .h5-swiper-bottom {
+        padding: 16px;
+        position: relative;
+        min-height: 164px;
+
+        .h5-swiper-item-logo {
+          min-width: 140px;
+          height: 38px;
+          font-size: 14px;
+          line-height: 38px;
+
+          img {
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .h5-swiper-item-desc {
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 24px;
+          min-height: 48px;
+          display: -webkit-box;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          word-wrap: break-word;
+          color: var(--naga-font-seventy);
+        }
+
+        .h5-swiper-price-box {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          gap: 8px;
+          font-size: 12px;
+          color: var(--naga-font-hundred);
+          line-height: 16px;
+
+          .h5-swiper-price-icon {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+
+            svg {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .topshow-swiper {
+    width: 100%;
+    overflow: hidden;
+
+    .not-banner-dom {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .not-banner-dom-left {
+        width: 80%;
+        background: var(--naga-loading-bg);
+        height: 100%;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .not-banner-dom-right {
+        width: 18%;
+
+        .not-banner-dom-right-item {
+          width: 100%;
+          padding-bottom: calc(0.5 * 100%);
+          background: var(--naga-loading-bg);
+          margin-bottom: 4px;
+          border-radius: 14px;
+          height: 0;
+          overflow: hidden;
+        }
+      }
+    }
+
+    .not-banner-dom-2 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+
+      .not-banner-dom-left {
+        flex: 1;
+        background: var(--naga-loading-bg);
+        height: auto;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .not-banner-dom-right {
+        width: 342px;
+        height: 734px;
+        // background-color: var(--naga-loading-bg);
+        border-radius: 5px;
+        overflow: hidden;
+
+        .not-banner-dom-right-item {
+          width: 100%;
+          padding-bottom: 130px;
+          background: var(--naga-loading-bg);
+          margin-bottom: 4px;
+          border-radius: 4px;
+          height: 0;
+          overflow: hidden;
+        }
+      }
+    }
+
+    .smallbanner-item {
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+
+      .slide-actives {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: -1px;
+        background-color: var(--naga-select-border);
+        animation: banneractive 8s;
+      }
+
+      .smallbanner-item-img {
+        position: relative;
+        width: 100%;
+        height: 111px;
+        border: 1px solid var(--naga-gamedetail-swiper-thumb);
+        border-radius: 5px;
+        overflow: hidden;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+        &:hover {
+          border: 1px solid var(--naga-font-hundred);
+
+          .smallbanner-item-shadow {
+            display: none;
+          }
+        }
+
+        &.active {
+          border: 1px solid var(--naga-font-hundred);
+
+          .smallbanner-item-shadow {
+            display: none;
+          }
+        }
+
+        .smallbanner-item-shadow {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: var(--nage-detail-swiper-shadow);
+        }
+      }
+
+      .smallbanner-item-name {
+        margin-left: 16px;
+        line-height: 26px;
+        font-size: 16px;
+        white-space: pre-wrap;
+      }
+
+      &.smallbanner-bg-active {
+        background: var(--nage-main-bg);
+      }
+    }
+
+    .swiper-pagination {
+      display: none;
+    }
+  }
+
+  .swiper-home-banner {
+    height: 100%;
+  }
+
+  a {
+    display: block;
+    height: 100%;
+  }
+
+  .topshow-left {
+    width: 100%;
+    height: 610px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    .topshow-left-video {
+      width: 100%;
+      height: 100%;
+    }
+
+    .topshow-left-shadow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(267deg, rgba(18, 19, 22, 0) 0, #121316b8 100%);
+    }
+
+    .topshow-left-desc {
+      position: absolute;
+      width: 300px;
+      left: 40px;
+      bottom: 50px;
+
+      .slide-item-top {
+        position: relative;
+        display: flex;
+        opacity: 1;
+
+        .slide-item-logo {
+          width: 150px;
+          -webkit-background-position: bottom left;
+          background-position: bottom left;
+          background-repeat: no-repeat;
+          background-size: contain;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 44px;
+      }
+
+      .desc-text {
+        margin-top: 16px;
+        line-height: 30px;
+        font-size: 20px;
+        text-align: left;
+        color: var(--naga-font-seventy);
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+
+      .desc-btn {
+        width: 146px;
+        height: 48px;
+        background: var(--naga-font-hundred);
+        border-radius: 5px;
+        margin-top: 32px;
+        text-align: center;
+        line-height: 48px;
+        color: var(--nage-font-home-banner-desc);
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover {
+          color: var(--nage-font-home-banner-desc-hover);
+        }
+      }
+    }
+  }
+}
+
+@keyframes banneractive {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}

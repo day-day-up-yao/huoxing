@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Outfit-Bold;
+  src: url('/fonts/Outfit-Bold.otf');
+}
+
+.task-explore-list {
+  padding-top: 30px;
+
+  .task-explore-list-title {
+    .title-text {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+
+  .task-explore-list-topselect {
+    display: flex;
+    align-items: center;
+
+    .task-explore-list-topselect-item {
+      position: relative;
+      padding-bottom: 16px;
+      color: var(--naga-font-fourty);
+      margin-right: 40px;
+      font-size: 22px;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--naga-font-hundred);
+        font-weight: bold;
+      }
+
+      &.selct-item-active {
+        color: var(--naga-font-hundred);
+        font-weight: bold;
+      }
+
+      .task-explore-list-topselect-item-bottomline {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--naga-red-bg);
+      }
+    }
+  }
+
+  .task-explore-list-screenlist {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .task-explore-list-screenlist-left {
+      display: flex;
+
+      .task-explore-list-screenlist-left-search {
+        width: 290px;
+        height: 40px;
+        border-radius: 5px;
+        background: var(--nage-main-bg);
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        transition: all 0.5s;
+
+        &:hover {
+          background: var(--naga-loading-bg);
+        }
+
+        input {
+          background: none;
+          border: none;
+          width: 80%;
+          height: 100%;
+          padding-left: 10px;
+        }
+      }
+    }
+
+    .task-explore-list-screenlist-right {
+      width: 120px;
+      height: 40px;
+      background: url('/images/icon/taskborder.png');
+      background-size: 100% 100%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .task-explore-list {
+    .task-explore-list-title {
+      padding-left: 16px;
+    }
+
+    .task-explore-list-topselect {
+      padding-left: 16px;
+
+      .task-explore-list-topselect-item {
+        font-size: 16px;
+        padding-bottom: 16px;
+        margin-right: 26px;
+      }
+    }
+
+    .task-explore-list-screenlist {
+      padding-left: 16px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 20px;
+
+      .task-explore-list-screenlist-left {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .task-list-screen {
+          margin: 0;
+
+          .task-list-screen-drop {
+            padding: 12px;
+          }
+        }
+
+        .task-explore-list-screenlist-left-search {
+          width: 100%;
+          margin-right: 16px;
+        }
+      }
+
+      .task-explore-list-screenlist-right {
+        display: none;
+      }
+    }
+  }
+}

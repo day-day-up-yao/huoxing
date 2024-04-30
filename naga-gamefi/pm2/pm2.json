@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "www.naga.io",
+      "script": "npm",
+      "args": "run start",
+      "log_date_format": "YYYY-MM-DD hh:mm:ss",
+      "log_file": "./logs/www.naga.io.log",
+      "error_file": "./logs/www.naga.io-err.log",
+      "out_file": "./logs/www.naga.io.access.log",
+      "pid_file": "./logs/www.naga.io.pid",
+      "merge_logs": true,
+      "exec_mode": "cluster_mode",
+      "instances": 2,
+      "max_memory_restart": "2G",
+      "cron_restart": "25  4 * * *",
+      "env": {
+        "NODE_ENV": "production",
+        "ENV_CONFIG": "production"
+      }
+    }
+  ]
+}

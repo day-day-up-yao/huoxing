@@ -1,0 +1,76 @@
+.use-input {
+  margin-bottom: 32px;
+  position: relative;
+
+  .use-input-con {
+    display: flex;
+    height: 56px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid var(--nage-gameitem-border);
+
+    &:hover {
+      border: 1px solid var(--naga-font-fourty);
+    }
+
+    &:focus-within {
+      border: 1px solid var(--naga-font-fourty);
+    }
+
+    .rs-input-group.rs-input-group-inside .rs-input-group-addon.rs-input-group-btn {
+      height: 100%;
+    }
+
+    .rs-input-group {
+      border: none;
+    }
+
+    .all-input {
+      border: none;
+
+      &:hover {
+        border: none;
+      }
+    }
+
+    &.error-border {
+      border: 1px solid var(--naga-red-bg);
+    }
+
+    .use-input-send {
+      width: 122px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--naga-red-bg);
+      font-size: 16px;
+      cursor: pointer;
+      color: #fff;
+
+      &.start-time {
+        background: var(--nage-footer-border-top);
+        border-left: 1px solid var(--naga-font-fourty);
+        color: var(--naga-font-hundred);
+      }
+
+      &.emailerror-sendbtn {
+        background: var(--nage-footer-border-top);
+      }
+    }
+  }
+
+  .input-error {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    font-size: 12px;
+    color: var(--naga-red-bg);
+  }
+}
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected {
+  -webkit-text-fill-color: var(--naga-font-hundred);
+  transition: background-color 5000s ease-out 0.5s;
+}

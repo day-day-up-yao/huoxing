@@ -1,0 +1,39 @@
+.campaign-create-item-number-of-winners {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .campaign-create-item-number-of-winners-input {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .campaign-create-item-number-of-winners-switch-box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--naga-font-hundred);
+        margin-left: 36px;
+
+        .campaign-create-item-number-of-winners-switch {
+            margin-left: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .campaign-create-item-number-of-winners {
+        .campaign-create-item-number-of-winners-switch-box {
+            font-size: 12px;
+            margin-left: 16px;
+
+            .campaign-create-item-number-of-winners-switch {
+                margin-left: 8px;
+            }
+        }
+    }
+}

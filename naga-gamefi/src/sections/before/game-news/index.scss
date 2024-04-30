@@ -1,0 +1,37 @@
+.game-news-page {
+  width: 100%;
+  position: relative;
+  margin-bottom: 140px;
+  min-height: 100vh;
+
+  .game-news-content {
+    position: relative;
+    max-width: 1440px;
+    width: -webkit-fill-available;
+    margin: 0 auto;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &.isModule {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .game-news-page {
+    .game-news-content {
+      padding: 0 16px;
+      max-width: 1200px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-news-page {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.task-explore {
+  width: 100%;
+  position: relative;
+  background-image: url('/images/bigimg/tasklistbg.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+  &.task-explore-lighter {
+    background: none;
+  }
+
+  .task-explore-con {
+    .render-center {
+      padding-top: 0;
+    }
+  }
+}

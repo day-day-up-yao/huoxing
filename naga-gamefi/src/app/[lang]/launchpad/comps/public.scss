@@ -1,0 +1,13 @@
+.launchpad-item-card {
+  min-width: 0;
+
+  .launchpad-item-card-cover {
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    .launchpad-item-card-cover {
+      transform: scale(1.06);
+    }
+  }
+}

@@ -1,0 +1,109 @@
+.game-news-detail-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .game-news-detail-header-title {
+    font-size: 36px;
+    color: var(--naga-font-hundred);
+    line-height: 42px;
+    margin-top: 72px;
+  }
+
+  .game-news-detail-header-bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 28px;
+
+    .game-news-detail-header-time {
+      margin-right: 24px;
+      font-size: 16px;
+      color: var(--naga-font-seventy);
+      line-height: 28px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .game-news-detail-header-time-icon {
+        height: 20px;
+        width: 20px;
+        margin-right: 8px;
+        color: var(--naga-font-seventy);
+      }
+    }
+
+    .game-news-detail-header-game-href {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .game-news-detail-header-game-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      margin-right: 8px;
+      overflow: hidden;
+
+      .icon {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 2px;
+      }
+    }
+
+    .game-news-detail-header-game-name {
+      font-size: 16px;
+      color: var(--naga-font-seventy);
+      line-height: 28px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .game-news-detail-header {
+    .game-news-detail-header-bottom {
+      margin-top: 24px;
+
+      .game-news-detail-header-time {
+        font-size: 14px;
+      }
+
+      .game-news-detail-header-game-name {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .game-news-detail-page {
+    margin-top: 0;
+
+    .game-news-detail-header-title {
+      font-size: 26px;
+      line-height: 42px;
+      margin-top: 0;
+    }
+
+    .game-news-detail-header-bottom {
+      .game-news-detail-header-time {
+        font-size: 12px;
+      }
+
+      .game-news-detail-header-game-icon {
+        height: 20px;
+        width: 20px;
+      }
+
+      .game-news-detail-header-game-name {
+        font-size: 12px;
+      }
+    }
+  }
+}

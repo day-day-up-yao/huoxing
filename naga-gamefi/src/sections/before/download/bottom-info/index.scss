@@ -1,0 +1,42 @@
+.download-bottominfo {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    .download-bottominfo-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 150px;
+
+        &.download-bottominfo-itemexchange {
+            flex-direction: row-reverse;
+        }
+
+        .download-bottominfo-item-left {
+            width: 720px;
+
+            h3 {
+                font-size: 45px;
+                font-weight: bold;
+                line-height: 55px;
+            }
+
+            .download-bottominfo-item-left-desc {
+                margin-top: 30px;
+                line-height: 40px;
+                font-size: 26px;
+            }
+        }
+
+        .download-bottominfo-item-right {
+            width: 400px;
+            height: 300px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

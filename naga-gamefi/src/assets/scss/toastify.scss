@@ -1,0 +1,27 @@
+.Toastify__toast-container,
+.Toastify__toast,
+.Toastify__toast-body,
+.Toastify__toast--success,
+.Toastify__toast--info,
+.Toastify__toast--warning,
+.Toastify__toast--error {
+  padding: 0;
+  margin: 0;
+  background: none;
+  box-shadow: none;
+  border: none;
+  text-indent: 0;
+}
+
+body {
+  --toastify-toast-min-height: auto;
+}
+
+.Toastify__close-button,
+.Toastify__toast-icon {
+  display: none;
+}
+
+.Toastify__progress-bar {
+  background: none;
+}

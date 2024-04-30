@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Outfit-Bold;
+  src: url('/fonts/Outfit-Bold.otf');
+}
+
+.task-time-btn {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 11px;
+  border-radius: 6px;
+  background: rgba(244, 188, 44, 0.1);
+  color: var(--naga-task-list-btn-color);
+  font-family: Outfit-Bold, sans-serif;
+
+  &.time-detail {
+    border-radius: 18px;
+    padding: 0 19px;
+    font-family: sans-serif;
+  }
+
+  &.item-progress {
+    background: var(--naga-task-detail-time-bg);
+    color: var(--nage-main-fall);
+  }
+
+  &.time-be-ing {
+    background: var(--naga-task-detail-time-bg);
+    color: var(--nage-main-fall);
+  }
+
+  &.time-be-finish {
+    background: var(--naga-task-list-item-finish-bg);
+    color: var(--naga-font-seventy);
+  }
+
+  &.task-type-nobg {
+    background: none;
+  }
+
+  .detail-time-icon-0 {
+    color: var(--naga-task-list-btn-color);
+  }
+
+  .detail-time-icon-1 {
+    color: var(--nage-main-fall);
+  }
+
+  .detail-time-icon-2 {
+    color: var(--naga-font-seventy);
+  }
+}

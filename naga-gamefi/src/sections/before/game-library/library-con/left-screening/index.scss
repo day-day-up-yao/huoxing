@@ -1,0 +1,309 @@
+@font-face {
+  font-family: Outfit-Medium;
+  src: url('/fonts/Outfit-Medium.otf');
+}
+
+.screening {
+  width: 243px;
+
+  .screening-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+
+    span {
+      font-weight: bold;
+    }
+
+    .screening-item-top-right {
+      font-size: 12px;
+      cursor: pointer;
+
+      img {
+        width: 22px;
+        height: 22px;
+        display: none;
+      }
+    }
+  }
+
+  .screen-line {
+    height: 1px;
+    background: var(--nage-footer-border-top);
+    margin: 28px 0 16px;
+  }
+
+  .screening-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-title {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .header-clear {
+      font-size: 12px;
+    }
+
+    .header-fold {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--naga-red-bg);
+
+      .header-fold-icon {
+        width: 16px;
+        height: 16px;
+
+        &.fold {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  .screening-input {
+    display: flex;
+    align-items: center;
+    background: var(--nage-main-bg);
+    height: 44px;
+    margin-top: 16px;
+    border: none;
+
+    &:hover {
+      border: none;
+    }
+
+    input {
+      height: 100%;
+      background: var(--nage-main-bg);
+      transition: none;
+
+      &:hover {
+        background: var(--naga-loading-bg);
+      }
+
+      &:focus {
+        border: 1px solid var(--naga-font-fourty);
+        outline: none;
+      }
+    }
+  }
+
+  .rs-input-group.rs-input-group-inside .rs-input-group-addon.rs-input-group-btn {
+    height: 100%;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+  .screening-flaglist {
+    margin-top: 5px;
+
+    .flaglist-items {
+      margin-top: 23px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .flaglist-items-left {
+        display: flex;
+        align-items: center;
+        color: var(--naga-font-seventy);
+        font-size: 14px;
+
+        img {
+          width: 16px;
+          height: 16px;
+          margin-right: 8px;
+        }
+
+        span {
+          padding-left: 5px;
+        }
+      }
+
+      .flaglist-items-right {
+        width: 36px;
+        height: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        padding: 0 2px;
+        background: var(--naga-gamelibrary-screen-bg);
+        cursor: pointer;
+
+        .items-right-flag {
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+          background: var(--naga-gamelibrary-screen-font);
+          transition: 100ms ease 0s;
+          transform: translateX(0);
+        }
+
+        &.selected-flag {
+          background: var(--naga-gamelibrary-screen-flag-bg);
+
+          .items-right-flag {
+            background: var(--naga-red-bg);
+            transform: translateX(20px);
+          }
+        }
+      }
+    }
+  }
+
+  .screening-select-list {
+    margin-top: 16px;
+  }
+
+  .select-list-item {
+    padding: 0;
+    margin-left: -14px;
+    border-radius: 4px;
+    width: calc(100% + 24px);
+    cursor: pointer;
+    margin-bottom: 4px;
+
+    .select-list-item-right {
+      color: var(--naga-font-seventy);
+    }
+
+    &:hover {
+      background: var(--nage-main-bg);
+      border-radius: 5px;
+    }
+
+    .select-list-con {
+      display: flex;
+      width: 100%;
+      height: 44px;
+      padding: 0 12px;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      font-size: 14px;
+
+      .select-list-item-left {
+        display: flex;
+        align-items: center;
+
+        .slect-list-check {
+          .slect-list-check-no {
+            width: 14px;
+            height: 14px;
+            background: var(--naga-icon-bg);
+            border-radius: 1px;
+
+            &.single-check-no {
+              border-radius: 7px;
+            }
+          }
+
+          .single-check {
+            width: 6px;
+            height: 6px;
+            border: 4px solid var(--naga-red-bg);
+            border-radius: 50%;
+          }
+
+          img {
+            width: 14px;
+            height: 14px;
+          }
+        }
+
+        .slect-list-left-desc {
+          margin-left: 16px;
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          color: var(--naga-font-seventy);
+
+          img {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+          }
+
+          .item-svg-style {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    &.selected-item {
+      background: var(--nage-main-bg);
+      font-family: Outfit-Medium, sans-serif;
+
+      .select-list-item-right {
+        color: var(--naga-font-hundred);
+      }
+
+      .select-list-con .slect-list-left-desc {
+        color: var(--naga-font-hundred);
+
+        img {
+          &.dark-img {
+            filter: brightness(100%);
+          }
+        }
+      }
+    }
+  }
+
+  .rating-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    align-items: center;
+
+    .rating-con-left {
+      width: 197px;
+    }
+
+    .rating-con-right {
+      width: 38px;
+      height: 42.8px;
+      position: relative;
+
+      .rating-con-right-num {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .left-bottom {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--naga-gamelibrary-screen-btn-bg);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--naga-font-seventy);
+    cursor: pointer;
+    padding: 0 12px;
+    margin-top: 10px;
+  }
+}

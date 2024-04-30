@@ -1,0 +1,61 @@
+.game-detail-live-dom {
+  position: relative;
+  width: 100%;
+
+  .game-detail-live-video-box {
+    width: 100%;
+    margin-top: 24px;
+
+    .video-box {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+  }
+
+  .game-detail-live-list-title {
+    margin: 50px 0 30px;
+    width: 100%;
+
+    .title-text {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  .game-detail-live-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-detail-live-dom {
+    .game-detail-live-video-box {
+      margin-top: 20px;
+
+      .video-box {
+        height: 194px;
+      }
+    }
+
+    .game-detail-live-list-title {
+      margin: 24px 0 16px;
+
+      .title-text {
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+
+    .game-detail-live-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 11px;
+    }
+  }
+}

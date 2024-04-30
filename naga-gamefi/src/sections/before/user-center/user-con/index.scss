@@ -1,0 +1,65 @@
+.usercenter-con {
+  .usecenter-lask-select {
+    overflow: hidden;
+    overflow-x: scroll;
+
+    .usecenter-lask-select-item {
+      padding-bottom: 16px;
+      margin-right: 40px;
+      font-size: 22px;
+      color: var(--naga-font-seventy);
+      cursor: pointer;
+      position: relative;
+
+      &.lask-item-active {
+        color: var(--naga-font-hundred);
+        font-weight: bold;
+      }
+
+      .usecenter-lask-select-item-bottom {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        width: 100%;
+        background: var(--naga-red-bg);
+      }
+    }
+  }
+
+  .usercenter-con-typeselect {
+    margin-top: 24px;
+    display: flex;
+
+    .usercenter-con-typeselect-item {
+      height: 40px;
+      line-height: 40px;
+      padding: 0 16px;
+      border-radius: 5px;
+      background: var(--naga-loading-bg);
+      margin-right: 10px;
+      cursor: pointer;
+      font-size: 14px;
+
+      &.typeselect-item-active {
+        background: var(--naga-red-bg);
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .usercenter-con {
+    .usecenter-lask-select {
+      .usecenter-lask-select-item {
+        font-size: 16px;
+        margin-right: 20px;
+      }
+    }
+
+    .task-explore-center-list {
+      padding: 0;
+    }
+  }
+}

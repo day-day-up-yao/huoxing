@@ -1,0 +1,71 @@
+.home-gameslist {
+  margin-top: 28px;
+  display: flex;
+
+  .home-gamelist-center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .home-gamelist-center-item {
+      width: 18.8%;
+      border-radius: 6px;
+    }
+  }
+
+  .swiper-container {
+    width: 100%;
+  }
+
+  &.home-gameslist-not {
+    justify-content: space-between;
+  }
+
+  .home-gameslist-swiper {
+    width: 100%;
+  }
+}
+
+.change-btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--nage-main-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    z-index: 5;
+    top: -10px;
+    margin: 0;
+
+    &:hover {
+      background: var(--nage-home-banner-swiper-btn-hover);
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .swiper-button-prev {
+    left: auto;
+    right: 50px;
+  }
+
+  .swiper-button-next {
+    right: 0;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  }
+}

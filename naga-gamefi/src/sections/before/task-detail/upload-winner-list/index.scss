@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('/fonts/Roboto-Bold.ttf');
+}
+
+.upload-task-winnerlist {
+  width: 400px;
+  padding: 40px;
+  border-radius: 10px;
+  background: var(--nage-main-bg);
+  position: relative;
+
+  .upload-task-winnerlist-close {
+    position: absolute;
+    top: 38px;
+    right: 40px;
+    cursor: pointer;
+
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .upload-task-winnerlist-title {
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto-Bold, sans-serif;
+  }
+
+  .upload-task-winnerlist-con {
+    margin-top: 50px;
+
+    .upload-task-winnerlist-con-up {
+      width: 100%;
+
+      .rs-uploader-trigger-customize {
+        width: 100%;
+
+        .rs-uploader-trigger-btn {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          height: 54px;
+          align-items: center;
+          border: none;
+          background: var(--naga-red-bg);
+          border-radius: 5px;
+          color: var(--naga-font-hundred);
+          cursor: pointer;
+
+          svg {
+            width: 22px;
+            height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

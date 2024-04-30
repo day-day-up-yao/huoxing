@@ -1,0 +1,96 @@
+.game-news-header {
+  position: relative;
+  width: 100%;
+
+  .game-news-header-page {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .game-news-header-page-tab-box {
+      display: flex;
+
+      .game-news-header-page-tab-item {
+        line-height: 24px;
+        margin-right: 40px;
+        font-size: 20px;
+        color: var(--naga-news-falsh-bg);
+        padding-bottom: 16px;
+        border-bottom: 3px solid var(--naga-body);
+        cursor: pointer;
+
+        &:hover {
+          color: var(--naga-font-hundred);
+        }
+
+        &.active {
+          color: var(--naga-font-hundred);
+          border-bottom: 3px solid var(--naga-red-bg);
+        }
+      }
+    }
+  }
+
+  .game-news-header-module {
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .game-news-header-module-tab-box {
+      display: flex;
+
+      .game-news-header-module-tab-item {
+        height: 32px;
+        margin-right: 16px;
+        background: var(--nage-footer-border-top);
+        border: 1px solid var(--nage-footer-border-top);
+        border-radius: 53px;
+        font-size: 15px;
+        color: var(--naga-news-falsh-bg);
+        line-height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 24px;
+        box-sizing: border-box;
+        cursor: pointer;
+
+        &.active {
+          background: var(--naga-news-newsheader-active);
+          border: 1px solid var(--naga-red-bg);
+          color: var(--naga-red-bg);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-news-header {
+    .game-news-header-page {
+      margin-top: 32px;
+
+      .game-news-header-page-tab-box {
+        display: flex;
+
+        .game-news-header-page-tab-item {
+          line-height: 20px;
+          font-size: 16px;
+          margin-right: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .game-news-header {
+    .game-news-header-page {
+      margin-top: 20px;
+    }
+  }
+}

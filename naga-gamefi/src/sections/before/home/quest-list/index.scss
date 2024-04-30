@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .task-explore-center-list {
+    padding-right: 0;
+    overflow-x: auto;
+
+    .rs-grid-container-fluid {
+      width: 900px;
+    }
+
+    .task-explore-center-list-con {
+      display: flex;
+    }
+
+    .rs-col-xs-6 {
+      width: 25%;
+      margin-right: 12px;
+    }
+  }
+}

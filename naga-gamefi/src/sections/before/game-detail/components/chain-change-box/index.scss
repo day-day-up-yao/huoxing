@@ -1,0 +1,79 @@
+.game-detail-chain-change-box {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .game-detail-chain-change-item {
+        width: 124px;
+        height: 32px;
+        border: 1px solid var(--naga-font-fourty);
+        border-radius: 109px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 14px;
+        box-sizing: border-box;
+
+        &:first-of-type {
+            margin-left: 0;
+        }
+
+        &:hover {
+            background: rgba(208, 47, 37, 0.1);
+            border: 1px solid var(--naga-red-footer-bg);
+
+            .game-detail-chain-change-item-text {
+                color: var(--naga-font-hundred);
+            }
+        }
+
+        &.active {
+            background: rgba(208, 47, 37, 0.1);
+            border: 1px solid var(--naga-red-footer-bg);
+
+            .game-detail-chain-change-item-text {
+                color: var(--naga-font-hundred);
+            }
+        }
+
+        .game-detail-chain-change-item-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 6px;
+        }
+
+        .game-detail-chain-change-item-text {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--naga-font-fourty);
+            line-height: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-detail-chain-change-box {
+        .game-detail-chain-change-item {
+            width: 56px;
+
+            .game-detail-chain-change-item-icon {
+                margin: 0;
+            }
+
+            .game-detail-chain-change-item-text {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .game-detail-chain-change-box {
+        .game-detail-chain-change-item {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

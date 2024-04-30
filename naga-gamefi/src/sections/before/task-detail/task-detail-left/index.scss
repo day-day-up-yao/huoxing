@@ -1,0 +1,175 @@
+@import '~react-quill/dist/quill.snow.css';
+
+.ql-toolbar.ql-snow {
+  display: none;
+}
+
+.ql-container.ql-snow {
+  border: none;
+}
+
+@font-face {
+  font-family: Outfit-Bold;
+  src: url('/fonts/Outfit-Bold.otf');
+}
+
+.taskdetail-left {
+  width: 72%;
+
+  .taskdetail-left-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .taskdetail-left-top-left {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+
+      .detail-time-icon-0 {
+        color: var(--naga-task-list-btn-color);
+      }
+
+      .detail-time-icon-1 {
+        color: var(--nage-main-fall);
+      }
+
+      .detail-time-icon-2 {
+        color: var(--naga-font-seventy);
+      }
+
+      span {
+        padding-left: 5px;
+      }
+    }
+
+    .taskdetail-left-top-right {
+      display: flex;
+
+      .taskdetail-left-top-right-item {
+        display: flex;
+        align-items: center;
+        margin-left: 32px;
+        padding: 11px 20px;
+        border-radius: 5px;
+        background: var(--nage-main-bg);
+        font-size: 14px;
+        cursor: pointer;
+        color: var(--naga-font-hundred);
+
+        img {
+          width: 18px;
+          height: 18px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  .taskdetail-left-imganddesc {
+    margin-top: 32px;
+
+    .taskdetail-left-img {
+      width: 100%;
+      height: 570px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .taskdetail-left-desc {
+      margin-top: 30px;
+      position: relative;
+
+      .ql-editor {
+        padding: 0;
+      }
+
+      .taskdetail-left-desc-con {
+        color: var(--naga-font-seventy);
+        line-height: 34px;
+        max-height: 180px;
+        overflow: hidden;
+
+        .taskdetail-left-desc-con-text {
+          width: 100%;
+          color: var(--naga-font-seventy);
+          font-size: 12px;
+          tab-size: 4;
+          margin-bottom: 100px;
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: var(--naga-font-hundred);
+          }
+
+          h1 {
+            color: var(--naga-font-hundred);
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          h2 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: var(--naga-font-hundred);
+          }
+
+          img {
+            min-width: 110px;
+            display: block;
+            margin: auto;
+            height: auto;
+            margin-bottom: 16px;
+            max-width: 100%;
+            cursor: auto;
+          }
+        }
+      }
+
+      .taskdetail-left-desc-less {
+        width: 100%;
+        height: 54px;
+        align-items: center;
+        justify-content: center;
+        background: var(--nage-main-bg);
+        cursor: pointer;
+        display: none;
+      }
+
+      .taskdetail-left-desc-more {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        background: linear-gradient(
+          180deg,
+          var(--naga-gamelibrary-screen-show-bg) 0%,
+          var(--naga-body) 60%,
+          var(--naga-body) 100%
+        );
+        height: 137px;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+
+        .taskdetail-left-desc-more-btn {
+          width: 100%;
+          height: 54px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: var(--nage-main-bg);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

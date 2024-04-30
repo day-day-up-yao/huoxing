@@ -1,0 +1,18 @@
+.not-data-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .not-data-desc {
+    font-size: 16px;
+    color: var(--naga-font-seventy);
+  }
+}

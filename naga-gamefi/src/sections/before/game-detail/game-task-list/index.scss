@@ -1,0 +1,45 @@
+.game-detail-tasklist {
+  .task-explore-center-list {
+    margin-top: 14px;
+
+    .task-explore-center-list-con-item {
+      .task-explore-center-list-con-item-con {
+        .task-explore-center-list-con-item-con-bottom {
+          .task-explore-center-list-con-item-con-bottom-set-box {
+            flex-direction: row;
+            justify-content: space-between;
+
+            .task-explore-center-list-con-item-con-bottom-set {
+              margin-top: 0;
+
+              .task-list-item-btn {
+                width: auto;
+              }
+            }
+
+            .task-explore-center-list-con-item-con-bottom-title {
+              font-size: 20px;
+              margin: 8px 0;
+            }
+
+            .task-time-btn {
+              justify-content: flex-start;
+              display: inline-flex;
+              height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .task-explore-center-list {
+    padding: 0;
+
+    .task-explore-center-list-con-col {
+      padding: 0 !important;
+    }
+  }
+}

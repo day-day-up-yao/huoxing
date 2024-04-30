@@ -1,0 +1,213 @@
+.game-overview-page {
+    width: 100%;
+    position: relative;
+    margin-bottom: 140px;
+    min-height: 100vh;
+
+    .game-overview-content {
+        position: relative;
+        max-width: 1440px;
+        width: -webkit-fill-available;
+        margin: 0 auto;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .game-overview-title {
+            margin: 40px 0 32px;
+            width: 100%;
+
+            .title-text {
+                font-size: 40px;
+                line-height: 44px;
+            }
+
+            .game-overview-type-btn {
+                height: 40px;
+                color: var(--naga-font-seventy);
+                border: 1px solid var(--naga-font-seventy);
+
+                &:hover {
+                    color: var(--naga-font-hundred);
+                    border: 1px solid var(--naga-font-hundred);
+                    box-shadow: none;
+
+                    svg {
+                        color: var(--naga-font-hundred);
+                    }
+                }
+
+                svg {
+                    color: var(--naga-font-seventy);
+                    height: 14px;
+                }
+            }
+        }
+
+        .game-overview-sub-title {
+            margin: 40px 0 32px;
+            width: 100%;
+
+            .title-text {
+                font-size: 16px;
+                line-height: 18px;
+                color: var(--naga-font-fourty);
+                white-space: pre-wrap;
+                font-weight: 400;
+            }
+
+            .game-overview-data-sources {
+                font-size: 16px;
+                line-height: 18px;
+                color: var(--naga-font-fourty);
+                white-space: pre-wrap;
+                font-weight: 400;
+                padding: 0;
+                border: none;
+
+                &:hover {
+                    background: none;
+                    color: var(--naga-font-fourty) !important;
+                }
+
+                .data-sources-icon {
+                    width: auto;
+                    height: 20px;
+                    margin-left: 4px;
+                }
+            }
+        }
+
+        .game-overview-chart-list {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+
+            .home-box {
+                margin-top: 0;
+                position: relative;
+                width: 100%;
+                background: var(--nage-main-bg);
+                border-radius: 5px;
+                border: 1px solid var(--nage-main-border);
+                padding: 50px 40px 40px;
+                box-sizing: border-box;
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .game-overview-page {
+        .game-overview-content {
+            padding: 0 16px;
+            max-width: 1200px;
+
+            .game-overview-sub-title {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .title-header-right {
+                    margin-top: 12px;
+                }
+            }
+
+            .game-overview-chart-list {
+                display: flex;
+                flex-wrap: wrap;
+
+                .game-overview-active-addresses-chart,
+                .game-overview-transactions-chart,
+                .game-overview-volume-chart,
+                .game-overview-transactions-weekly-chart,
+                .game-overview-weekly-number-of-games-chart,
+                .game-overview-daily-volume-by-chain-game-chart {
+                    width: calc(50% - 6px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-overview-page {
+        margin-top: 50px;
+
+        .game-overview-content {
+            .game-overview-title {
+                margin: 12px 0;
+            }
+
+            .game-overview-chart-list {
+                display: flex;
+                flex-direction: column;
+
+                .game-overview-active-addresses-chart,
+                .game-overview-transactions-chart,
+                .game-overview-volume-chart,
+                .game-overview-transactions-weekly-chart,
+                .game-overview-weekly-number-of-games-chart,
+                .game-overview-daily-volume-by-chain-game-chart {
+                    width: 100%;
+                }
+
+                .game-overview-active-projects-by-chain-chart,
+                .home-box {
+                    grid-column-start: auto;
+                    grid-column-end: auto;
+                }
+
+                .home-box {
+                    padding: 16px 0;
+
+                    .home-rank {
+                        .title-header {
+                            padding: 0 16px;
+                        }
+
+                        .all-game {
+                            .game-list {
+                                .ganem-item {
+                                    min-height: 62px;
+                                    padding: 0 16px;
+                                }
+                            }
+
+                            .game-title {
+                                padding: 0 16px;
+                                font-size: 12px;
+                            }
+
+                            .threeth-column {
+                                display: none;
+                            }
+
+                            .second-column {
+                                width: 50%;
+
+                                .game-icon {
+                                    width: 38px;
+                                    height: 38px;
+                                }
+                            }
+
+                            .others-item {
+                                display: none;
+
+                                &.others-item-fiveth {
+                                    display: flex;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

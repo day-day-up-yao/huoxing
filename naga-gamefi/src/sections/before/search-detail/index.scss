@@ -1,0 +1,35 @@
+.search-detail-page {
+  width: 100%;
+  position: relative;
+  margin-bottom: 120px;
+  min-height: 100vh;
+
+  .search-detail-content {
+    position: relative;
+    max-width: 1440px;
+    width: -webkit-fill-available;
+    margin: 0 auto;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .search-detail-page {
+    .search-detail-content {
+      padding: 0 16px;
+      max-width: 900px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-detail-page {
+    margin-top: 50px;
+    min-height: auto;
+    margin-bottom: 40px;
+  }
+}

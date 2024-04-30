@@ -1,0 +1,36 @@
+.campaign-create-item-network {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .rs-picker-toggle {
+        .rs-picker-toggle-value {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .campaign-create-item-network-render-value {
+        img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.rs-picker-select-menu-item {
+    .campaign-create-item-network-render-menu-item {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+            border-radius: 50%;
+        }
+    }
+}

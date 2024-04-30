@@ -1,0 +1,69 @@
+@font-face {
+  font-family: DIN-Bold;
+  src: url('/fonts/DIN-Bold.otf');
+}
+
+.allquantity {
+  display: flex;
+  justify-content: space-between;
+
+  .quantity-item {
+    width: 262px;
+    height: 124px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-image: linear-gradient(
+        270deg,
+        var(--naga-gamelibrary-quantity-border1),
+        var(--naga-gamelibrary-quantity-border2),
+        var(--naga-gamelibrary-quantity-border3)
+      )
+      2 2;
+    border-bottom: 2px solid;
+    background: linear-gradient(
+      180deg,
+      var(--naga-gamelibrary-quantity-bg1) 0%,
+      var(--naga-gamelibrary-quantity-bg2) 100%
+    );
+
+    .quantity-item-num {
+      font-size: 34px;
+      font-weight: bold;
+      color: var(--naga-font-hundred);
+      line-height: 28px;
+      font-family: DIN-Bold, sans-serif;
+    }
+
+    .quantity-item-name {
+      color: var(--naga-font-gamelibrary-quantity);
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .quantity-item-line {
+      margin-top: 14px;
+      width: 40px;
+      height: 3px;
+      background: var(--naga-red-bg);
+
+      &.blue {
+        background: var(--naga-gamelibrary-quantity-blue);
+      }
+
+      &.orange {
+        background: var(--naga-gamelibrary-quantity-orange);
+      }
+
+      &.pink {
+        background: var(--naga-gamelibrary-quantity-pink);
+      }
+
+      &.green {
+        background: var(--naga-gamelibrary-quantity-green);
+      }
+    }
+  }
+}

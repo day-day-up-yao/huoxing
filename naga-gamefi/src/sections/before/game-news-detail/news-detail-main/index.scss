@@ -1,0 +1,203 @@
+.game-news-detail-main {
+    position: relative;
+    width: 100%;
+    margin-top: 26px;
+
+    .game-news-detail-main-desc {
+        width: 100%;
+        margin-top: 40px;
+        color: var(--naga-font-seventy);
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        padding: 0;
+        tab-size: 4;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        li,
+        ol,
+        dl,
+        dt,
+        dd,
+        input,
+        textarea,
+        button,
+        td,
+        th {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        span,
+        p {
+            margin: 0 0 16px;
+            word-wrap: break-word;
+            white-space: break-spaces !important;
+            // text-align: justify;
+        }
+
+        ul {
+            padding-left: 1.5em;
+        }
+
+        ul > li {
+            list-style-type: none;
+        }
+
+        ul > li:before {
+            content: '\2023';
+        }
+
+        li:before {
+            margin-left: -1.5em;
+            margin-right: 0.3em;
+            text-align: right;
+            display: inline-block;
+            white-space: nowrap;
+            width: 1.2em;
+        }
+
+        img {
+            min-width: 110px;
+            display: block;
+            margin: auto;
+            height: auto;
+            margin-bottom: 16px;
+            max-width: 100%;
+            cursor: auto;
+        }
+    }
+
+    .game-news-detail-flash-desc {
+        width: 100%;
+        margin-top: 40px;
+        color: var(--naga-font-seventy);
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        padding: 0;
+        tab-size: 4;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        li,
+        ol,
+        dl,
+        dt,
+        dd,
+        input,
+        textarea,
+        button,
+        td,
+        th {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        p {
+            margin: 0 0 16px;
+            word-wrap: break-word;
+            white-space: break-spaces !important;
+            // text-align: justify;
+        }
+
+        ul {
+            padding-left: 1.5em;
+        }
+
+        ul > li {
+            list-style-type: none;
+        }
+
+        ul > li:before {
+            content: '\2023';
+        }
+
+        li:before {
+            margin-left: -1.5em;
+            margin-right: 0.3em;
+            text-align: right;
+            display: inline-block;
+            white-space: nowrap;
+            width: 1.2em;
+        }
+
+        img {
+            min-width: 110px;
+            display: block;
+            margin: auto;
+            height: auto;
+            margin-bottom: 16px;
+            max-width: 100%;
+            cursor: auto;
+        }
+    }
+
+    .game-news-detail-flash-img-box {
+        margin-top: 32px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 280px);
+        grid-template-rows: auto;
+        gap: 24px;
+
+        .game-news-detail-flash-img {
+            width: 280px;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .game-news-detail-main {
+        .game-news-detail-main-desc {
+            font-size: 16px;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+
+        .game-news-detail-flash-img-box {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            .game-news-detail-flash-img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .game-news-detail-main {
+        .game-news-detail-flash-img-box {
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+    }
+}

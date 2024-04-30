@@ -1,0 +1,3 @@
+// 不能直接在layoutProvider中引入，
+// 会导致layoutProvider在刷新时，会多加载一次ReactToastify.css的路由，导致通过这个pathname的一些判断有误
+@import 'react-toastify/dist/ReactToastify.css';

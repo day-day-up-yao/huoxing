@@ -1,0 +1,21 @@
+.h5-more-page {
+  padding: 24px 16px;
+  display: none;
+
+  .h5-more-page-con {
+    width: 100%;
+    height: 44px;
+    background: var(--nage-footer-border-top);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 44px;
+    color: var(--naga-font-seventy);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h5-more-page {
+    display: block;
+  }
+}

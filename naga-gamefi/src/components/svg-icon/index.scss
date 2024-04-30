@@ -1,0 +1,68 @@
+.svgstyle {
+  cursor: pointer;
+  transition: all 0.3s;
+  color: var(--naga-font-hundred);
+
+  & > div {
+    width: 100%;
+  }
+
+  &.default {
+    height: 16px;
+
+    svg {
+      height: 16px;
+    }
+  }
+
+  &.color-seventy {
+    color: var(--naga-font-seventy);
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  &:hover {
+    color: var(--naga-font-hundred);
+  }
+
+  &.notmouse-enter {
+    &:hover {
+      color: var(--naga-font-fourty);
+      cursor: default;
+    }
+  }
+
+  &.marginstyle {
+    margin-left: 8px;
+  }
+
+  &.is18px {
+    height: 18px;
+    width: 18px;
+
+    svg: {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  &.is14px {
+    height: 15px;
+    width: 15px;
+  }
+
+  &.select-itemsvg {
+    color: var(--naga-font-hundred);
+  }
+
+  &.color-green {
+    color: var(--nage-main-fall);
+  }
+
+  &.color-red {
+    color: var(--nage-main-rise);
+  }
+}

@@ -1,0 +1,195 @@
+// @import 'swiper/swiper.scss';
+
+.download-topinfo {
+  width: 100%;
+  height: 775px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .download-topinfo-center {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+
+    .download-topinfo-center-left {
+      z-index: 2;
+    }
+
+    .download-topinfo-center-right {
+      margin-left: 90px;
+      position: relative;
+      height: auto;
+
+      .download-topinfo-center-left-btn {
+        display: none;
+
+        a {
+          display: none;
+        }
+      }
+
+      .download-topinfo-center-right-banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        --card-height: 200px;
+        --card-width: 702px;
+
+        .download-topinfo-center-right-banner-con {
+          border-radius: 11px;
+          background: var(--nage-main-bg);
+          padding: 10px;
+          position: relative;
+          width: 852px;
+
+          .download-topinfo-center-right-banner-con-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+          }
+
+          &:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            transform: scale(1);
+            opacity: 0.3;
+            filter: blur(calc(var(--card-height) / 6));
+            background: linear-gradient(var(--rotate), #570df3 23%, #fd9435 53%, #e60000 91%);
+            animation: nft-img-spin 5s linear infinite;
+          }
+        }
+
+        .download-top-bannner {
+          height: 100%;
+          width: 100%;
+        }
+
+        .download-topinfo-center-right-banner-slide {
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .download-topinfo-center-logo {
+      width: 441px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .download-topinfo-center-text {
+      margin-top: 48px;
+      font-size: 26px;
+      font-weight: bold;
+      width: 441px;
+
+      span {
+        color: var(--naga-red-bg);
+      }
+    }
+
+    .download-topinfo-center-btn {
+      width: 432px;
+      height: 80px;
+      border-radius: 7px;
+      background: #3c4254;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      font-size: 22px;
+      margin-top: 76px;
+
+      .download-topinfo-center-btn-text {
+        display: flex;
+        align-items: center;
+        color: #fff;
+
+        .svgstyle {
+          color: #fff;
+          margin-left: 10px;
+
+          svg {
+            width: 26px;
+            height: 26px;
+          }
+        }
+      }
+
+      a {
+        display: none;
+      }
+
+      .download-comingsoon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    .download-support {
+      display: flex;
+      align-items: center;
+      margin-top: 28px;
+      font-size: 18px;
+
+      .download-support-icon {
+        display: flex;
+        align-items: center;
+
+        .svgstyle {
+          color: var(--naga-font-hundred);
+          margin-left: 20px;
+
+          svg {
+            width: 26px;
+            height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes nft-img-spin {
+  0% {
+    --rotate: 0deg;
+  }
+
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+@property --rotate {
+  syntax: '<angle>';
+  initial-value: 132deg;
+  inherits: false;
+}

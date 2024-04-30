@@ -1,0 +1,31 @@
+.home-gameslist {
+  margin-top: 28px;
+  display: flex;
+  gap: 0 24px;
+}
+
+.homenews {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 49px;
+
+  .homenews-item {
+    width: 49%;
+    background: var(--nage-main-bg);
+    border-radius: 5px;
+    padding: 32px 24px;
+
+    .homenews-list {
+      margin-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      a {
+        display: flex;
+        width: 48%;
+      }
+    }
+  }
+}

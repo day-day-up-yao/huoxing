@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Outfit-Bold;
+  src: url('/fonts/Outfit-Bold.otf');
+}
+
+.task-detail-top {
+  font-size: 40px;
+  font-family: Outfit-Bold, sans-serif;
+  display: flex;
+  align-items: center;
+
+  .task-detail-top-v {
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+    line-height: 30px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

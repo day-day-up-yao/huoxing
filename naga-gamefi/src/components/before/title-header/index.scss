@@ -1,0 +1,125 @@
+.title-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title-header-left {
+    display: flex;
+    align-items: center;
+
+    &.isLink {
+      cursor: pointer;
+    }
+
+    .select-time {
+      margin-left: 20px;
+      position: relative;
+
+      .select-time-see {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        border-radius: 8px;
+        width: 78px;
+        background: var(--nage-footer-border-top);
+        color: var(--naga-font-seventy);
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+
+        img {
+          width: 16px;
+          height: 16px;
+          margin-left: 5px;
+        }
+      }
+
+      .time-list {
+        position: absolute;
+        top: 33px;
+        left: 0;
+        width: 100%;
+        background: var(--nage-main-bg);
+        border-radius: 8px;
+
+        .time-list-item {
+          text-align: center;
+          padding: 10px 0;
+          color: var(--naga-font-seventy);
+          font-size: 14px;
+          cursor: pointer;
+
+          &.time-active {
+            background: var(--naga-hover-bg);
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  .title-header-left-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .title-text {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+
+  .text-left-icon {
+    margin-right: 6px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .text-link {
+    margin-left: 6px;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--naga-font-seventy);
+
+    &:hover {
+      background: var(--nage-footer-border-top);
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin-left: 3px;
+    }
+
+    span {
+      color: var(--naga-font-seventy);
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-header {
+    padding-right: 16px;
+
+    .title-header-left {
+      .title-text {
+        font-size: 18px !important;
+      }
+    }
+  }
+}

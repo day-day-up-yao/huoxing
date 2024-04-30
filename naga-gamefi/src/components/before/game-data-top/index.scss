@@ -1,0 +1,91 @@
+.game-data-top {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+
+    .game-data-top-item {
+        height: 200px;
+        width: 100%;
+        background: var(--nage-main-bg);
+        border: 1px solid var(--nage-main-border);
+        border-radius: 5px;
+        padding: 44px 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .game-data-top-item-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            .game-data-top-item-num {
+                font-size: 38px;
+                font-weight: 500;
+                color: var(--naga-font-hundred);
+                line-height: 42px;
+                margin-bottom: 12px;
+            }
+
+            .game-data-top-item-name {
+                font-size: 14px;
+                color: var(--naga-font-hundred);
+                line-height: 16px;
+            }
+        }
+
+        .game-data-top-item-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .game-data-top-item-change {
+                font-size: 14px;
+                line-height: 16px;
+                margin-right: 8px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                &.rise {
+                    color: var(--nage-main-rise);
+
+                    .icon {
+                        color: var(--nage-main-rise);
+                    }
+                }
+
+                &.fall {
+                    color: var(--nage-main-fall);
+
+                    .icon {
+                        color: var(--nage-main-fall);
+                    }
+                }
+
+                .icon {
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                }
+            }
+
+            .game-data-top-item-time {
+                font-size: 14px;
+                color: var(--naga-font-hundred);
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .game-data-top {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

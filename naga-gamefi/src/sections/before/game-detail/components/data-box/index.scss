@@ -1,0 +1,228 @@
+.game-detail-data-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .game-detail-data-box-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--naga-font-hundred);
+    line-height: 24px;
+
+    .game-detail-data-title-select {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: var(--naga-font-seventy);
+      line-height: 20px;
+      cursor: pointer;
+
+      .game-detail-data-title-select-icon {
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .game-detail-data-coin-box {
+    width: 100%;
+    background: linear-gradient(88deg, rgba(183, 199, 253, 0) 0%, rgba(183, 199, 253, 0.12) 100%);
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    .game-detail-data-coin-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 12px 0;
+
+      .game-detail-data-coin-item-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.left {
+          justify-content: flex-start;
+          flex: 4;
+        }
+
+        &.right {
+          justify-content: flex-end;
+          flex: 6;
+        }
+      }
+
+      .game-detail-data-coin-icon {
+        height: 24px;
+        width: 24px;
+        margin-right: 8px;
+      }
+
+      .game-detail-data-coin-text {
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--naga-font-seventy);
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        word-wrap: break-word;
+
+        &.text {
+          color: var(--naga-font-hundred);
+        }
+
+        &.red {
+          color: var(--nage-main-rise);
+          margin-left: 8px;
+        }
+
+        &.green {
+          color: var(--nage-main-fall);
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+
+  .game-detail-data-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    // border-bottom: 1px solid var(--nage-footer-border-top);
+    box-sizing: border-box;
+
+    &:last-of-type {
+      border: none;
+    }
+
+    .game-detail-data-item-title {
+      font-size: 16px;
+      color: var(--naga-font-seventy);
+      line-height: 20px;
+    }
+
+    .game-detail-data-item-content {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .game-detail-data-item-text {
+        font-size: 16px;
+        color: var(--naga-font-hundred);
+        line-height: 20px;
+        margin-left: 8px;
+
+        &.red {
+          color: var(--nage-main-rise);
+        }
+
+        &.green {
+          color: var(--nage-main-fall);
+        }
+      }
+
+      .game-detail-data-item-icon {
+        width: 24px;
+        height: 24px;
+        margin-left: 12px;
+        margin-right: 0 !important;
+
+        &.small {
+          width: 16px;
+          height: 16px;
+        }
+
+        &.chain {
+          width: 18px;
+          height: 18px;
+          margin: 0;
+        }
+
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      .game-detail-data-item-btn {
+        width: 26px;
+        height: 26px;
+        margin-left: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.game-detail-data-item-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  margin-right: 0 !important;
+
+  &:last-child {
+    margin-left: 12px;
+  }
+
+  &.share {
+    -webkit-filter: opacity(0.7);
+    filter: opacity(0.7);
+    margin-right: 0;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+#data-time-type-popover {
+  width: 120px;
+  padding: 0;
+
+  .data-time-type-popover-item {
+    position: relative;
+    padding: 8px 12px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: var(--naga-font-seventy);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid var(--nage-footer-border-top);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--naga-font-hundred);
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-detail-data-box {
+    margin-top: 24px;
+
+    .game-detail-data-box-title {
+      display: none;
+    }
+  }
+}
