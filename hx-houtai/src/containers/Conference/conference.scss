@@ -1,0 +1,53 @@
+.conference-send {
+    width: 550px;
+}
+
+.conference-index {
+    min-width: 960px !important;
+    overflow: auto;
+
+    .btns {
+        p {
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .publish-btn {
+            background: #00a854;
+        }
+    }
+
+    .opt-btn {
+        user-select: none;
+        color: #fff;
+        padding: 2px 7px;
+        border-radius: 4px;
+        opacity: 0.8;
+        transition: all 0.1s;
+
+        &.top-btn {
+            background: #ff4f3e;
+        }
+
+        &.toHead-btn {
+            background: #e59e21;
+        }
+
+        &.recommend-btn {
+            background: #f56a00;
+        }
+
+        &.toMiniApp-btn {
+            background: #1bbb3c;
+        }
+
+        &.disabled {
+            background: #afafaf;
+        }
+
+        &:hover {
+            opacity: 1;
+            box-shadow: 1px 1px 1px #afafaf;
+        }
+    }
+}

@@ -1,0 +1,217 @@
+import React, {Component} from 'react'
+import { connect } from 'react-redux'
+import {hashHistory} from 'react-router'
+import { Modal, Form, Input, message, Icon, Upload, Button, Spin, Radio } from 'antd'
+import {URL, axiosAjax, getSig} from '../../../public/index'
+const FormItem = Form.Item
+
+class PowerGuestEdit extends Component {
+    constructor (props) {
+        super(props)
+        this.state = {
+            previewVisible: false,
+            previewImage: '',
+            fileList: [],
+            imgUrl: '',
+            description: '',
+            brief: '',
+            loading: true,
+            category: '1'
+        }
+    }
+
+    componentWillMount () {
+        const {selectContent} = this.props
+        console.log(selectContent)
+        let img = selectContent.imgUrl
+        this.setState({
+            updateOrNot: true,
+            fileList: [{
+                uid: 0,
+                name: 'xxx.png',
+                status: 'done',
+                url: img
+            }],
+            description: selectContent.description || '',
+            brief: selectContent.brief || '',
+            imgUrl: img,
+            loading: false,
+            category: selectContent.category,
+            guestName: selectContent.guestName
+        })
+    }
+
+    // 上传图片
+    handleCancel = () => this.setState({previewVisible: false})
+
+    handlePreview = (file) => {
+        this.setState({
+            previewImage: file.url || file.thumbUrl,
+            previewVisible: true
+        })
+    }
+
+    handleChange = ({file, fileList}) => {
+        this.setState({
+            fileList: fileList
+        })
+
+        if (file.status === 'removed') {
+            this.setState({
+                imgUrl: ''
+            })
+        }
+
+        if (file.response) {
+            if (file.response.code === 1 && file.status === 'done') {
+                this.setState({
+                    imgUrl: file.response.obj
+                })
+            }
+            if (file.status === 'error') {
+                message.error('网络错误，上传失败！')
+                this.setState({
+                    imgUrl: '',
+                    fileList: []
+                })
+            }
+        }
+    }
+
+    // 提交
+    handleSubmit = (e) => {
+        e.preventDefault()
+        this.props.form.setFieldsValue({
+            imgUrl: this.state.imgUrl
+        })
+        this.props.form.validateFieldsAndScroll((err, values) => {
+            if (!err) {
+                this.setState({
+                    loading: true
+                })
+                values.id = this.props.selectContent.id
+                axiosAjax('post', '/commonGuest/updateGuest', values, (res) => {
+                    if (res.code === 1) {
+                        message.success('修改成功')
+                        hashHistory.push('/activity-powerGuest-list')
+                    } else {
+                        message.error(res.msg)
+                    }
+                })
+            }
+        })
+    }
+
+    render () {
+        const {form, selectContent} = this.props
+        const { getFieldDecorator } = form
+        const formItemLayout = {
+            labelCol: {span: 2},
+            wrapperCol: {span: 15, offset: 1}
+        }
+        const uploadButton = (
+            <div>
+                <Icon type="plus"/>
+                <div className="ant-upload-text">上传图片</div>
+            </div>
+        )
+        return (
+            <Form onSubmit={this.handleSubmit}>
+                <Spin spinning={this.state.loading} size='large'>
+                    <FormItem
+                        {...formItemLayout}
+                        label="姓名">
+                        {getFieldDecorator('guestName', {
+                            initialValue: selectContent.guestName ? selectContent.guestName : '',
+                            rules: [{ required: true, message: '请输入嘉宾名！' }]
+                        })(
+                            <Input />
+                        )}
+                    </FormItem>
+                    <FormItem
+                        {...formItemLayout}
+                        className=""
+                        label="类型"
+                    >
+                        {getFieldDecorator('category', {
+                            initialValue: selectContent.category ? `${selectContent.category}` : '1'
+                        })(
+                            <Radio.Group>
+                                <Radio value="1">个人</Radio>
+                                <Radio value="2">机构</Radio>
+                            </Radio.Group>
+                        )}
+                    </FormItem>
+                    <FormItem
+                        {...formItemLayout}
+                        label="头像"
+                        className='upload-div'
+                    >
+                        <div className="dropbox">
+                            {getFieldDecorator('imgUrl', {
+                                initialValue: (selectContent && selectContent.imgUrl) ? this.state.fileList : '',
+                                rules: [{required: true, message: '请上传嘉宾头像！'}]
+                            })(
+                                <Upload
+                                    headers={{'Sign-Param': getSig()}}
+                                    action={`${URL}/picture/upload`}
+                                    name='uploadFile'
+                                    data={{type: 'news'}}
+                                    listType="picture-card"
+                                    fileList={this.state.fileList}
+                                    onPreview={this.handlePreview}
+                                    onChange={this.handleChange}
+                                >
+                                    {this.state.fileList.length >= 1 ? null : uploadButton}
+                                </Upload>
+                            )}
+                            <Modal visible={this.state.previewVisible} footer={null} onCancel={this.handleCancel}>
+                                <img alt="example" style={{width: '100%'}} src={this.state.previewImage}/>
+                            </Modal>
+                            <span className="cover-img-tip" style={{display: 'inline-block', marginTop: '70px'}}>用于嘉宾头像展示, 长宽比例: <font style={{color: 'red'}}>1 : 1</font></span>
+                        </div>
+                    </FormItem>
+                    <FormItem
+                        {...formItemLayout}
+                        label="嘉宾简介">
+                        {getFieldDecorator('introduction', {
+                            initialValue: (selectContent && selectContent.introduction) ? selectContent.introduction : ''
+                        })(<Input rows={4} type="textarea" />)}
+                    </FormItem>
+                    {/*
+                    <FormItem
+                        {...formItemLayout}
+                        label="排序权重">
+                        {getFieldDecorator('topOrder', {
+                            initialValue: (selectContent && selectContent.topOrder) ? selectContent.topOrder : '0',
+                            rules: [{ required: false, message: '请输入排序权重！' }]
+                        })(
+                            <Input placeholder="权重越大排序越靠前"/>
+                        )}
+                    </FormItem>
+                    */}
+                    <FormItem
+                        wrapperCol={{span: 12, offset: 2}}
+                    >
+                        <Button
+                            type="primary" data-status='1' htmlType="submit"
+                            style={{marginRight: '10px'}}>保存</Button>
+                        <Button
+                            type="primary" className="cancel"
+                            onClick={() => {
+                                hashHistory.goBack()
+                            }}>取消</Button>
+                    </FormItem>
+                </Spin>
+            </Form>
+        )
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        selectContent: state.powerGuestInfo.selectedData
+    }
+}
+
+export default connect(mapStateToProps)(Form.create()(PowerGuestEdit))

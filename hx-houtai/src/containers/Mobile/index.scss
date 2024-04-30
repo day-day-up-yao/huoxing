@@ -1,0 +1,168 @@
+.mobile-index {
+    .flex {
+        display: flex;
+        height: 100%;
+
+        .flex-item {
+            align-items: center;
+        }
+    }
+
+    .center {
+        text-align: center;
+        height: 60px;
+        display: block;
+        width: 100%;
+        clear: both;
+        margin-top: 20%;
+    }
+
+    .logo {
+        float: none;
+        margin: 0 auto;
+    }
+
+    h3 {
+        margin: 10px;
+    }
+
+    button {
+        margin: 1px 20px;
+    }
+}
+
+.header {
+    display: flex;
+
+    .header-item {
+        display: inline-flex;
+
+        button {
+            margin: 15px 10px;
+        }
+    }
+}
+
+.ant-layout-header {
+    padding: 0;
+}
+
+.content-list > div {
+    font-size: 0.8rem;
+    margin: 1.5% 1%;
+    padding: 3% 3%;
+    background-color: #fff;
+    overflow: hidden;
+
+    .title {
+        font-size: 1rem;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .info {
+        margin: 10px 0;
+
+        span {
+            margin-right: 10px;
+        }
+    }
+
+    .options {
+        text-align: right;
+
+        p {
+            display: inline-block;
+        }
+
+        .mr10 {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .opt-btn {
+            user-select: none;
+            color: #fff;
+            padding: 2px 7px;
+            border-radius: 4px;
+            opacity: 0.8;
+            transition: all 0.1s;
+            background-color: #108ee9;
+        }
+    }
+}
+
+.webAdBox {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background: #ececec;
+
+    .filter {
+        background-color: #fff;
+        margin: 1.5% 1%;
+        padding: 5px;
+    }
+}
+
+.pagination {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* edit page */
+.post-send,
+.ad-send {
+    padding: 10px;
+    width: 100%;
+}
+
+.personNum span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.copyAddress {
+    margin-right: 10px;
+}
+
+.gray {
+    color: #d9d9d9;
+}
+
+.chatBox {
+    background: #f2f2f2;
+
+    .title {
+        text-align: center;
+        margin: 0 5px 5px 5px;
+        padding: 10px 0;
+        background: #fff;
+    }
+
+    .chatList-item div {
+        background: #fff;
+        padding: 0.2rem;
+        margin: 5px;
+    }
+
+    .options {
+        text-align: right;
+    }
+}
+
+.recommendItem {
+    margin: 10px;
+
+    span {
+        width: 84px;
+        text-align: right;
+        display: inline-block;
+    }
+
+    em {
+        color: red;
+    }
+}
